@@ -1,0 +1,840 @@
+[
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "Copilot in Excel: Built for the era of Frontier Finance",
+    "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
+    "date": "2026-06-25T13:00:00",
+    "timestamp": 1782392400,
+    "contenu": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft 365 Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "Copilot Cowork is now generally available",
+    "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
+    "date": "2026-06-16T15:00:00",
+    "timestamp": 1781622000,
+    "contenu": "Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we have shipped. The post Copilot Cowork is now generally available appeared first on Microsoft 365 Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "Introducing Microsoft Scout: Your always-on personal agent",
+    "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
+    "date": "2026-06-02T18:00:00",
+    "timestamp": 1780423200,
+    "contenu": "Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work. The post Introducing Microsoft Scout: Your always-on personal agent appeared first on Microsoft 365 Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "Announcing the new Work IQ APIs",
+    "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
+    "date": "2026-06-02T17:00:15",
+    "timestamp": 1780419615,
+    "contenu": "Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your organizations. The post Announcing the new Work IQ APIs appeared first on Microsoft 365 Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
+    "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
+    "date": "2026-05-28T19:00:00",
+    "timestamp": 1779994800,
+    "contenu": "On July 1, we're introducing new Microsoft 365 SKUs with Copilot built-in, designed to fit into the way small businesses already work. The post Introducing Microsoft 365 Business with Copilot: The new standard for small business appeared first on Microsoft 365 Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "Introducing a new design for Microsoft 365 Copilot",
+    "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
+    "date": "2026-05-28T15:00:00",
+    "timestamp": 1779980400,
+    "contenu": "We’ve redesigned the Copilot app and how Copilot shows up across Microsoft 365 apps to better move with it: cleaner, faster, and in the flow of your work. The post Introducing a new design for Microsoft 365 Copilot appeared first on Microsoft 365 Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "New and improved: Computer-using agents, a new workflows experience, and real-time voice experiences",
+    "lien": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/",
+    "date": "2026-05-26T16:00:00",
+    "timestamp": 1779811200,
+    "contenu": "Learn what’s new in Copilot Studio, May 2026: computer-using agents are now generally available, plus redesigned workflows and Work IQ extensibility. The post New and improved: Computer-using agents, a new workflows experience, and real-time voice experiences appeared first on Microsoft 365 Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
+    "lien": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/",
+    "date": "2026-05-11T17:25:12",
+    "timestamp": 1778520312,
+    "contenu": "See what's new in Copilot Studio, April 2026: updates to workflows, increased control over agent operations, and an expanded agent usage estimator. The post New and improved: Agent governance, intelligent workflows, and connected app experiences appeared first on Microsoft 365 Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
+    "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
+    "date": "Tue, 05 May 2026 10:00:00 +0000",
+    "contenu": "Today, we’re announcing additional capabilities in Cowork to expand on what it can make possible for you. The post Copilot Cowork: From conversation to action across skills, integrations, and devices appeared first on Microsoft 365 Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "Microsoft 365 Copilot, human agency, and the opportunity for every organization",
+    "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
+    "date": "Tue, 05 May 2026 10:00:00 +0000",
+    "contenu": "As AI and agents take on more of the execution, people have more agency than ever to unlock their ambition, direct what gets done, and own the outcomes. The post Microsoft 365 Copilot, human agency, and the opportunity for every organization appeared first on Microsoft 365 Blog ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Let’s Learn GitHub Copilot App – Free Virtual Training Event",
+    "lien": "https://devblogs.microsoft.com/blog/lets-learn-github-copilot-app-free-virtual-training-event",
+    "date": "Wed, 08 Jul 2026 17:30:28 +0000",
+    "contenu": "Join us for a free online event series kicking off July 16 to learn how to get started with the GitHub Copilot App! The post Let’s Learn GitHub Copilot App – Free Virtual Training Event appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "The hidden variables in your agent eval",
+    "lien": "https://devblogs.microsoft.com/blog/the-hidden-variables-in-your-agent-eval",
+    "date": "Wed, 08 Jul 2026 12:11:17 +0000",
+    "contenu": "This is the seventh article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate toward better outcomes. You […] The post The hidden variables in your agent eval appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Don’t rewrite your CLI for agents",
+    "lien": "https://devblogs.microsoft.com/blog/dont-rewrite-your-cli-for-agents",
+    "date": "Tue, 07 Jul 2026 13:52:06 +0000",
+    "contenu": "There’s advice making the rounds: replace your CLI args with a single --json payload so agents can use your tool more effectively. The thinking being, that agents already think in structured formats, and nested data maps cleanly to JSON. Flat args on the other hand, force awkward conventions like repeating --service-name to delimit multi-value groups, […] The post Don’t rewrite your CLI for agents appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Not all model upgrades are upgrades",
+    "lien": "https://devblogs.microsoft.com/blog/not-all-model-upgrades-are-upgrades",
+    "date": "Mon, 06 Jul 2026 07:49:44 +0000",
+    "contenu": "A new model drops with lower per-token pricing and better benchmarks. You switch. A week later someone asks why the agent is burning 12x more tokens on the same task while producing worse output. We ran 150 agent tasks across 15 scenarios on two models, Claude Sonnet 4.6 and Claude Sonnet 5, using GitHub Copilot […] The post Not all model upgrades are upgrades appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "What AI benchmarks are not telling you",
+    "lien": "https://devblogs.microsoft.com/blog/what-ai-benchmarks-are-not-telling-you",
+    "date": "Wed, 01 Jul 2026 14:31:55 +0000",
+    "contenu": "This is the sixth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate toward better outcomes. We […] The post What AI benchmarks are not telling you appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Your agent already has a plan",
+    "lien": "https://devblogs.microsoft.com/blog/your-agent-already-has-a-plan",
+    "date": "Fri, 26 Jun 2026 00:00:05 +0000",
+    "contenu": "If an agent isn’t doing the right thing, the obvious move is to make the docs clearer. Add a tip, spell out the correct command, describe the right approach more prominently. You do all of that, and the agent still ignores it. It does what it had already decided to do. The tip wasn’t ignored […] The post Your agent already has a plan appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Learn from Microsoft: Transform software development through an agentic platform",
+    "lien": "https://devblogs.microsoft.com/blog/learn-from-microsoft-transform-software-development-through-an-agentic-platform",
+    "date": "Thu, 25 Jun 2026 18:00:30 +0000",
+    "contenu": "See how Microsoft is transforming software development with agentic workflows, AI-powered automation, and specialized agents across the engineering lifecycle. The post Learn from Microsoft: Transform software development through an agentic platform appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "When the model has never seen your code",
+    "lien": "https://devblogs.microsoft.com/blog/when-the-model-has-never-seen-your-code",
+    "date": "Wed, 24 Jun 2026 14:04:52 +0000",
+    "contenu": "This is the fifth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate toward better outcomes. Everything […] The post When the model has never seen your code appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Models don’t have preferences, they have context",
+    "lien": "https://devblogs.microsoft.com/blog/models-dont-have-preferences-they-have-context",
+    "date": "Mon, 22 Jun 2026 14:53:23 +0000",
+    "contenu": "You open a fresh chat, type “What framework should I use for a web app?”, and the model says “React.” You screenshot it, share it, and write “Claude prefers React.” It gets engagement. People nod along. A few reply with their own results. And now we have a consensus: Claude prefers React. Except it doesn’t. […] The post Models don’t have preferences, they have context appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Stop overloading your skills",
+    "lien": "https://devblogs.microsoft.com/blog/stop-overloading-your-skills",
+    "date": "Thu, 18 Jun 2026 14:25:27 +0000",
+    "contenu": "You built a skill for your technology. API references, authentication flows, SDK patterns, error handling, version info, all packed into one skill. The agent calls it, gets all that context, and generates code. The kicker? You’ve just wasted a lot of tokens. It already knows Models have ingested your documentation, your Stack Overflow answers, your […] The post Stop overloading your skills appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Support for Python-2.7; 3.8 and PowerShell- 7.1; 7.2 will be retired on September 30, 2026",
+    "lien": "https://azure.microsoft.com/updates?id=567556",
+    "date": "Fri, 10 Jul 2026 21:33:34 Z",
+    "contenu": "Starting October 1, 2026, the specified runtime versions Python 2.7, Python 3.8, and PowerShell 7.1 & 7.2. will\nno longer be supported by Automation.  Runbooks\nusing these versions may continue to run but will not receive security updates,\nbug fixes, or o"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Manage Azure Chaos Studio from the Azure CLI",
+    "lien": "https://azure.microsoft.com/updates?id=567225",
+    "date": "Thu, 09 Jul 2026 22:57:33 Z",
+    "contenu": "You can now create and run Azure Chaos Studio resilience Scenarios directly from the Azure CLI with the new az chaos extension — no more hand-assembling REST calls and JSON files. Get started in one step: az chaos setup stands up a workspace, wires up per"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Open AI GPT-5.6 on Azure Databricks",
+    "lien": "https://azure.microsoft.com/updates?id=567431",
+    "date": "Thu, 09 Jul 2026 20:21:12 Z",
+    "contenu": "Open AI GPT-5.6 is now available on Azure Databricks. You can use GPT 5.6 (purchased on Microsoft Foundry) via Model Serving Endpoint in Azure Databricks. Through integrations across Foundry and Azure Databricks, you can securely build, deploy, and manage"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Exceptions in WAF for Azure Application Gateway and Azure Front Door",
+    "lien": "https://azure.microsoft.com/updates?id=567218",
+    "date": "Tue, 07 Jul 2026 17:42:50 Z",
+    "contenu": "Azure Web Application Firewall (WAF) helps protect your web applications from common threats and attacks. In some cases, WAF may block requests that are safe and expected for your application. Existing exclusions help reduce false positives by omitting sp"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Azure Chaos Studio Workspaces and Scenarios",
+    "lien": "https://azure.microsoft.com/updates?id=567184",
+    "date": "Tue, 07 Jul 2026 17:40:32 Z",
+    "contenu": "Azure Chaos Studio now supports Workspaces and Scenarios, a faster, application-centric way to validate how your workloads hold up during real outages.Point a Workspace at your application's scope—a subscription, resource group, or service group—and Chaos"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Export historical data from Log Analytics workspace with Export jobs",
+    "lien": "https://azure.microsoft.com/updates?id=566591",
+    "date": "Tue, 07 Jul 2026 17:37:55 Z",
+    "contenu": "The Log Analytics Export job enables you to export historical data from a Log Analytics workspace to an Azure Storage account based on a specified query and time range. This allows you to extract only the data you need and move it to external systems for"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Network Security Perimeter support for Azure Event Hubs",
+    "lien": "https://azure.microsoft.com/updates?id=567203",
+    "date": "Tue, 07 Jul 2026 17:35:19 Z",
+    "contenu": "Azure Event Hubs now supports Network Security Perimeter (NSP), enabling organizations to define a logical network isolation boundary for PaaS resources and control public network access through perimeter-based access rules.With Network Security Perimeter"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Confidential Computing support for Azure Event Hubs Dedicated",
+    "lien": "https://azure.microsoft.com/updates?id=567212",
+    "date": "Tue, 07 Jul 2026 17:33:53 Z",
+    "contenu": "Azure Event Hubs Dedicated now supports Confidential Computing, enabling organizations to protect streaming data while it is being processed in memory. By leveraging hardware-based trusted execution environments (TEEs), customers can help safeguard sensit"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Red Hat OpenShift in Chile Central",
+    "lien": "https://azure.microsoft.com/updates?id=566732",
+    "date": "Tue, 07 Jul 2026 17:31:55 Z",
+    "contenu": "Azure Red Hat OpenShift (ARO) is now generally available in Azure\nChile Central, expanding regional availability for OpenShift deployments\nacross South America. With the launch of Microsoft’s first Azure region in\nChile, customers can now run fully manage"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Microsoft Entra ID-based access for Azure Blob Storage SFTP",
+    "lien": "https://azure.microsoft.com/updates?id=567085",
+    "date": "Mon, 06 Jul 2026 15:54:08 Z",
+    "contenu": "Microsoft Entra ID-based access for Azure Blob Storage SFTP is now generally available in all regions. You can now use Entra ID identities including guest users via Entra External Identities to securely connect to Azure Blob Storage over SFTP, without pro"
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "The latest in our company transformation",
+    "lien": "https://blogs.microsoft.com/blog/2026/07/06/the-latest-in-our-company-transformation/",
+    "date": "2026-07-06T13:30:28",
+    "timestamp": 1783344628,
+    "contenu": "Amy Coleman, EVP and Chief People Officer, shared the following communication with employees today. When I stepped into this role, I promised to communicate more openly with you and share the “why” behind our decisions. Today we are eliminating around 4,800 roles, about 2.1% of our global workforce, as we focus our people, investments, and... The post The latest in our company transformation appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Microsoft Frontier Company: AI engineering that amplifies and protects your intelligence",
+    "lien": "https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/",
+    "date": "2026-07-02T12:59:05",
+    "timestamp": 1782997145,
+    "contenu": "The pace of AI adoption is moving incredibly fast. Customers have moved well beyond experimentation and understand the importance of adopting AI to transform their business. They are now concentrating on delivering measurable business outcomes and demonstrating a return on their AI investments, while ensuring their intelligence is amplified and their IP is protected. Today... The post Microsoft Frontier Company: AI engineering that amplifies and protects your intelligence appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Inside Microsoft’s two-decade push to cut water intensity while scaling for growth",
+    "lien": "https://blogs.microsoft.com/blog/2026/06/24/inside-microsofts-two-decade-push-to-cut-water-intensity-while-scaling-for-growth/",
+    "date": "2026-06-24T12:01:13",
+    "timestamp": 1782302473,
+    "contenu": "As demand for cloud and AI services continues to grow, datacenters are becoming more essential than ever. Communities also want to better understand how this infrastructure affects local resources, particularly water. At Microsoft, water stewardship has been a priority since our first datacenter builds in the early 2000s and remains a core part of our... The post Inside Microsoft’s two-decade push to cut water intensity while scaling for growth appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Rethinking cloud operations with agentic observability",
+    "lien": "https://blogs.microsoft.com/blog/2026/06/23/rethinking-cloud-operations-with-agentic-observability/",
+    "date": "2026-06-23T15:45:05",
+    "timestamp": 1782229505,
+    "contenu": "Cloud operations are entering a new era as AI-driven and autonomous agents become a larger part of modern software systems. As software becomes increasingly agentic, the challenge is no longer just managing greater scale and complexity. Operators must also contend with systems that evolve faster, act more autonomously and interact across an expanding network of... The post Rethinking cloud operations with agentic observability appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Powering the next wave of AI: Expanding capacity with our new datacenter in Pecos",
+    "lien": "https://blogs.microsoft.com/blog/2026/06/22/powering-the-next-wave-of-ai-expanding-capacity-with-our-new-datacenter-in-pecos/",
+    "date": "2026-06-22T12:06:39",
+    "timestamp": 1782129999,
+    "contenu": "Today, Microsoft is announcing one of the largest single capacity additions in our history. In Pecos, Texas, we will build a new datacenter campus, expanding our global datacenter capacity by approximately 2 gigawatts (GW) to meet strong and sustained customer demand for AI and cloud services across industries and regions. Beyond the technology, this is... The post Powering the next wave of AI: Expanding capacity with our new datacenter in Pecos appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Achieving success with AI",
+    "lien": "https://blogs.microsoft.com/blog/2026/06/16/achieving-success-with-ai/",
+    "date": "Tue, 16 Jun 2026 15:00:02 +0000",
+    "contenu": "The two most important elements in any AI solution are Intelligence + Trust. I first made this statement in November at our Ignite conference and my conviction is strengthened by every conversation I have with customers. Through my travels, three consistent topics are being raised when considering the adoption of AI solutions: Will AI amplify... The post Achieving success with AI appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "AI alone won’t change your business. The system running it will.",
+    "lien": "https://blogs.microsoft.com/blog/2026/06/02/ai-alone-wont-change-your-business-the-system-running-it-will/",
+    "date": "Tue, 02 Jun 2026 19:00:13 +0000",
+    "contenu": "AI has arrived in the enterprise, and the shift is happening all at once. Every function, every role, every workflow is being reshaped. At the same time, a new class of organizations is emerging, one that will look fundamentally different from the companies that defined the last era of business. The winners won’t be those... The post AI alone won’t change your business. The system running it will. appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Microsoft Build 2026: Be yourself at work",
+    "lien": "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/",
+    "date": "Tue, 02 Jun 2026 18:54:13 +0000",
+    "contenu": "Platforms shift when developers build. We explore, choose tools, dream, create. This platform shift comes with more information than ever, ready at your fingertips. This shift, it’s about building fast AND THEN: it’s about building, operating, optimizing and observing. Securing your infrastructure, applications and agents in a seamless way that doesn’t slow you down from... The post Microsoft Build 2026: Be yourself at work appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "From AI pilots to enterprise impact: Why execution is the new differentiator",
+    "lien": "https://blogs.microsoft.com/blog/2026/05/21/from-ai-pilots-to-enterprise-impact-why-execution-is-the-new-differentiator/",
+    "date": "Thu, 21 May 2026 11:02:33 +0000",
+    "contenu": "As the pace of change accelerates, organizations are moving quickly from AI experimentation to enterprise-scale transformation. Leaders are prioritizing measurable outcomes, faster time to value and repeatability across the business. But many are encountering the same reality: the challenge is no longer deciding whether to invest in AI — it’s scaling adoption and delivering consistent,... The post From AI pilots to enterprise impact: Why execution is the new differentiator appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "How Frontier Firms are rebuilding the operating model for the age of AI",
+    "lien": "https://blogs.microsoft.com/blog/2026/05/05/how-frontier-firms-are-rebuilding-the-operating-model-for-the-age-of-ai/",
+    "date": "Tue, 05 May 2026 10:00:01 +0000",
+    "contenu": "Updated May 11, 2026: The post was updated to reflect that third-party plugins will be available starting May 12, 2026. Spend time with any software engineering team right now and you’ll see something worth paying attention to. Over the last few years, the way software gets built has moved through four distinct patterns of human-agent... The post How Frontier Firms are rebuilding the operating model for the age of AI appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Functions support for Python 3.14",
+    "lien": "https://azure.microsoft.com/updates?id=567646",
+    "date": "Fri, 17 Jul 2026 17:47:00 Z",
+    "contenu": "You can now develop functions using Python 3.14 locally and\ndeploy them to Azure Functions plans on Linux. Upgrade your apps to Python 3.14 to take advantage\nof enhanced security, a longer support window, and continued compatibility with\nthe Azure Functio"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Public Preview: Azure Functions Support for PowerShell 7.6",
+    "lien": "https://azure.microsoft.com/updates?id=567651",
+    "date": "Fri, 17 Jul 2026 17:44:00 Z",
+    "contenu": "Azure Functions support for PowerShell 7.6 is now available in preview. You can now develop apps using PowerShell 7.6 locally and deploy them to Azure Functions plans. Learn more:  What's\nnew in PowerShell 7.6 Azure Functions PowerShell versions and their"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Microsoft Defender security assessments for Azure Database for PostgreSQL Flexible Server",
+    "lien": "https://azure.microsoft.com/updates?id=567527",
+    "date": "Fri, 17 Jul 2026 14:55:28 Z",
+    "contenu": "Microsoft Defender Cloud Security Posture Management (CSPM) assessments for Azure Database for PostgreSQL Flexible Server are now generally available. You can use assessments to continuously evaluate the security posture of your Azure PostgreSQL flexible"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Encryption in Transit for Azure Files NFS Shares in Azure Kubernetes Service (AKS)",
+    "lien": "https://azure.microsoft.com/updates?id=567787",
+    "date": "Fri, 17 Jul 2026 14:54:09 Z",
+    "contenu": "Azure Kubernetes Service (AKS) now generally supports Encryption in Transit (EiT) for Azure Files NFS v4.1 volumes through the Azure File CSI driver. With EiT enabled, data transferred between AKS workloads and Azure Files NFS shares is encrypted using TL"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: GitHub Copilot and Claude Code connectors in Microsoft Agent Framework",
+    "lien": "https://azure.microsoft.com/updates?id=563701",
+    "date": "Wed, 15 Jul 2026 18:58:30 Z",
+    "contenu": "Microsoft Agent Framework now ships generally available connectors for GitHub Copilot and Claude Code, so developers can build .NET and Python agents that delegate coding tasks to either system without writing custom adapter code. The connectors plug into"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: Multi-agent orchestration patterns including Magentic in Microsoft Agent Framework",
+    "lien": "https://azure.microsoft.com/updates?id=563571",
+    "date": "Wed, 15 Jul 2026 18:57:24 Z",
+    "contenu": "Microsoft Agent Framework reaches general availability for multi-agent orchestration patterns, including the dynamic Magentic pattern that delivered 38 percent on GAIA and competitive results on AssistantBench and WebArena in published benchmarks. The GA"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: Agent Harness in Microsoft Agent Framework",
+    "lien": "https://azure.microsoft.com/updates?id=563546",
+    "date": "Wed, 15 Jul 2026 18:55:40 Z",
+    "contenu": "Microsoft Agent Framework reaches general availability for Agent Harness, the production runtime for agents built with the framework. Customers running pilots on the preview harness can now move the same agent code into production with backwards compatibi"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: Multi-agent orchestration SDK with the Microsoft Foundry Agent Framework in C# and Python",
+    "lien": "https://azure.microsoft.com/updates?id=564312",
+    "date": "Wed, 15 Jul 2026 18:53:28 Z",
+    "contenu": "Microsoft Foundry is now introducing Agent Framework, a unified multi-agent orchestration SDK for C# and Python. This release consolidates patterns previously spread across AutoGen and Semantic Kernel, giving developers a consistent set of abstractions fo"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: Tracing for Microsoft Agent Framework (Python and .NET)",
+    "lien": "https://azure.microsoft.com/updates?id=564071",
+    "date": "Wed, 15 Jul 2026 18:51:45 Z",
+    "contenu": "In public preview, Microsoft Foundry now offers tracing for the Microsoft Agent Framework in both Python and .NET, helping developers observe how agents reason, call tools, and interact with models during execution. This release is part of the broader hos"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: CodeAct pattern and Hyperlight containers in Microsoft Agent Framework",
+    "lien": "https://azure.microsoft.com/updates?id=563566",
+    "date": "Wed, 15 Jul 2026 18:50:14 Z",
+    "contenu": "Microsoft Agent Framework adds the CodeAct pattern in public preview, which lets agents collapse a multi-step plan into a single executable code block rather than chaining one tool call at a time. In representative workloads, CodeAct cut end-to-end latenc"
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "How to test agent skills without hitting real APIs",
+    "lien": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
+    "date": "2026-07-17T09:27:50",
+    "timestamp": 1784280470,
+    "contenu": "Your agent skill calls an API. The moment you start evaluating it, every run either costs money or mutates production data. Learn how to mock APIs transparently so you can run evals without changing your skill or hitting real endpoints. The post How to test agent skills without hitting real APIs appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Building AX evals that actually work",
+    "lien": "https://devblogs.microsoft.com/blog/building-ax-evals-that-actually-work/",
+    "date": "2026-07-15T12:53:13",
+    "timestamp": 1784119993,
+    "contenu": "This is the eighth and final article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate toward better […] The post Building AX evals that actually work appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Let’s Learn GitHub Copilot App – Free Virtual Training Event",
+    "lien": "https://devblogs.microsoft.com/blog/lets-learn-github-copilot-app-free-virtual-training-event/",
+    "date": "2026-07-08T17:30:28",
+    "timestamp": 1783531828,
+    "contenu": "Join us for a free online event series kicking off July 16 to learn how to get started with the GitHub Copilot App! The post Let’s Learn GitHub Copilot App – Free Virtual Training Event appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "The hidden variables in your agent eval",
+    "lien": "https://devblogs.microsoft.com/blog/the-hidden-variables-in-your-agent-eval/",
+    "date": "2026-07-08T12:11:17",
+    "timestamp": 1783512677,
+    "contenu": "This is the seventh article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate toward better outcomes. You […] The post The hidden variables in your agent eval appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Don’t rewrite your CLI for agents",
+    "lien": "https://devblogs.microsoft.com/blog/dont-rewrite-your-cli-for-agents/",
+    "date": "2026-07-07T13:52:06",
+    "timestamp": 1783432326,
+    "contenu": "There’s advice making the rounds: replace your CLI args with a single --json payload so agents can use your tool more effectively. The thinking being, that agents already think in structured formats, and nested data maps cleanly to JSON. Flat args on the other hand, force awkward conventions like repeating --service-name to delimit multi-value groups, […] The post Don’t rewrite your CLI for agents appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Not all model upgrades are upgrades",
+    "lien": "https://devblogs.microsoft.com/blog/not-all-model-upgrades-are-upgrades/",
+    "date": "2026-07-06T07:49:44",
+    "timestamp": 1783320584,
+    "contenu": "A new model drops with lower per-token pricing and better benchmarks. You switch. A week later someone asks why the agent is burning 12x more tokens on the same task while producing worse output. We ran 150 agent tasks across 15 scenarios on two models, Claude Sonnet 4.6 and Claude Sonnet 5, using GitHub Copilot […] The post Not all model upgrades are upgrades appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "What AI benchmarks are not telling you",
+    "lien": "https://devblogs.microsoft.com/blog/what-ai-benchmarks-are-not-telling-you/",
+    "date": "Wed, 01 Jul 2026 14:31:55 +0000",
+    "contenu": "This is the sixth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate toward better outcomes. We […] The post What AI benchmarks are not telling you appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Your agent already has a plan",
+    "lien": "https://devblogs.microsoft.com/blog/your-agent-already-has-a-plan/",
+    "date": "Fri, 26 Jun 2026 00:00:05 +0000",
+    "contenu": "If an agent isn’t doing the right thing, the obvious move is to make the docs clearer. Add a tip, spell out the correct command, describe the right approach more prominently. You do all of that, and the agent still ignores it. It does what it had already decided to do. The tip wasn’t ignored […] The post Your agent already has a plan appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Learn from Microsoft: Transform software development through an agentic platform",
+    "lien": "https://devblogs.microsoft.com/blog/learn-from-microsoft-transform-software-development-through-an-agentic-platform/",
+    "date": "Thu, 25 Jun 2026 18:00:30 +0000",
+    "contenu": "See how Microsoft is transforming software development with agentic workflows, AI-powered automation, and specialized agents across the engineering lifecycle. The post Learn from Microsoft: Transform software development through an agentic platform appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "When the model has never seen your code",
+    "lien": "https://devblogs.microsoft.com/blog/when-the-model-has-never-seen-your-code/",
+    "date": "Wed, 24 Jun 2026 14:04:52 +0000",
+    "contenu": "This is the fifth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate toward better outcomes. Everything […] The post When the model has never seen your code appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Microsoft expands Azure AI and HPC infrastructure with AMD",
+    "lien": "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd/",
+    "date": "2026-07-20T13:00:02",
+    "timestamp": 1784552402,
+    "contenu": "AI workloads are scaling faster than any single infrastructure approach can support — with more models, new agent-driven workloads and surging compute demand driving the need for greater specialization across the stack. To meet this need, Microsoft continues to evolve Azure’s infrastructure, including expanding its AI fleet with AMD’s most advanced AI and high-performance computing... The post Microsoft expands Azure AI and HPC infrastructure with AMD appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Protect sensitive generative AI telemetry in Application Insights and Microsoft Foundry",
+    "lien": "https://azure.microsoft.com/updates?id=567594",
+    "date": "Mon, 20 Jul 2026 15:09:43 Z",
+    "contenu": "Azure Monitor Application Insights now stores generative AI\ncontent in a dedicated GenAIContent table (AppGenAIContent in Log\nAnalytics), making it possible to apply newly\navailable access controls to sensitive AI telemetry. Because Application\nInsights p"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: IPv6 support for Azure VPN Gateway",
+    "lien": "https://azure.microsoft.com/updates?id=567847",
+    "date": "Mon, 20 Jul 2026 14:59:26 Z",
+    "contenu": "IPv6 support for Azure VPN Gateway enables customers to run IPv6 inner traffic through VPN tunnels in a dual‑stack configuration. IPv6 is supported on all production SKU gateways that use standard public IPs.IPv6 inner traffic can be configured for both n"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Standard service endpoint",
+    "lien": "https://azure.microsoft.com/updates?id=561475",
+    "date": "Wed, 22 Jul 2026 16:57:10 Z",
+    "contenu": "Standard service endpoint is now available in public preview, introducing a scalable and secure way to connect IaaS workloads to Azure PaaS services under the Private Link family. This enhanced capability overcomes the scale and management limitations of"
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "How to test agent experience changes without shipping them",
+    "lien": "https://devblogs.microsoft.com/blog/how-to-test-agent-experience-changes-without-shipping-them/",
+    "date": "2026-07-21T07:15:12",
+    "timestamp": 1784618112,
+    "contenu": "Most changes you think will improve AI agent behavior won't. We tested a dozen hypotheses on a real project upgrade scenario and the majority failed. Learn how to emulate documentation, API, and MCP server changes locally so you can validate what works before shipping anything to production. The post How to test agent experience changes without shipping them appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Powering America’s Genesis Mission: Microsoft’s commitment to scientific discovery",
+    "lien": "https://blogs.microsoft.com/blog/2026/07/22/powering-americas-genesis-mission-microsofts-commitment-to-scientific-discovery/",
+    "date": "2026-07-22T12:00:06",
+    "timestamp": 1784721606,
+    "contenu": "Today, we’re excited to share a long-term commitment to the Department of Energy’s (DOE) Genesis Mission, backed by a $60 million investment designed to accelerate AI for science and the breakthroughs it can deliver for the country. This deepened commitment includes Microsoft’s new Scientific Partnership Advancing Research & Knowledge coordination hub and program office, otherwise... The post Powering America’s Genesis Mission: Microsoft’s commitment to scientific discovery appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "The next measure of AI momentum is work transformed",
+    "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
+    "date": "2026-07-30T13:00:00",
+    "timestamp": 1785416400,
+    "contenu": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first on Microsoft 365 Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: 2.2X IDPS performance optimization in Azure Firewall",
+    "lien": "https://azure.microsoft.com/updates?id=569256",
+    "date": "Tue, 11 Aug 2026 17:26:51 Z",
+    "contenu": "Azure Firewall Premium now delivers up to 22 Gbps\nthroughput with TLS inspection and IDPS in Deny mode, a 120% increase from 10\nGbps, and up to 600 Mbps per TCP connection with IDPS enabled in either Alert\nor Deny mode (doubled from 300 Mbps). Learn\nmore."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: Microsoft Fabric Item Recovery will be enabled by default for tenants without an explicit setting",
+    "lien": "https://azure.microsoft.com/updates?id=569140",
+    "date": "Mon, 10 Aug 2026 17:50:54 Z",
+    "contenu": "Starting August 23, 2026, Microsoft Fabric will enable Item Recovery by default for tenants that have not explicitly configured the setting. Supported item types will have a 3-day recovery window by default. Admins can review or change this setting in the"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Azure ExpressRoute resiliency guard",
+    "lien": "https://azure.microsoft.com/updates?id=568666",
+    "date": "Fri, 07 Aug 2026 15:52:31 Z",
+    "contenu": "Azure ExpressRoute resiliency guard is now available in public preview for ExpressRoute virtual\nnetwork gateways. The new resiliency model property lets you specify whether a\ngateway is intended for a single-homed or multi-homed configuration, helping\nali"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing:  Azure Databricks Genie One and Genie Agents Free Usage extended through January 31, 2027",
+    "lien": "https://azure.microsoft.com/updates?id=568964",
+    "date": "Thu, 06 Aug 2026 19:41:52 Z",
+    "contenu": "Free usage of Genie One and Genie Agents in Azure Databricks is now extended through January 31, 2027, from the previous end date of July 31, 2026. Budget controls do not apply to these products during the promotional period. The promotion covers usage by"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Migrate from AWS FSx for Windows File Server to Azure Files with Azure Storage Mover",
+    "lien": "https://azure.microsoft.com/updates?id=567979",
+    "date": "Thu, 06 Aug 2026 16:40:19 Z",
+    "contenu": "Azure Storage Mover now supports agentless, cloud-to-cloud migration from AWS FSx for Windows File Server (SMB) to Azure Files (SMB), in preview. You can move your Windows file shares off FSx and into Azure Files without deploying or managing a migration"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: SharePoint Connector for Azure Databricks",
+    "lien": "https://azure.microsoft.com/updates?id=568905",
+    "date": "Wed, 05 Aug 2026 22:34:02 Z",
+    "contenu": "The SharePoint connector for Azure Databricks is now generally\navailable. Organizations can use Lakeflow Connect to ingest files from\nSharePoint into Azure Databricks, helping unify enterprise content with data\nand AI workflows on Azure. The connector sup"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Unity AI Gateway on Azure Databricks",
+    "lien": "https://azure.microsoft.com/updates?id=568910",
+    "date": "Wed, 05 Aug 2026 22:32:45 Z",
+    "contenu": "Unity AI Gateway is now generally available on Azure Databricks.\nUnity AI Gateway provides centralized governance for AI models, agents, tools,\nand MCP services, helping organizations monitor usage, manage costs, apply\nguardrails, and enforce access contr"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Explicit proxy in Azure Firewall",
+    "lien": "https://azure.microsoft.com/updates?id=568825",
+    "date": "Wed, 05 Aug 2026 14:54:08 Z",
+    "contenu": "Azure Firewall explicit proxy is now\ngenerally available. Explicit proxy enables customers to configure applications\nand browsers to send HTTP and HTTPS traffic directly to Azure Firewall using\nproxy settings, providing an alternative to route-based traff"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Nested confidential (cc_v5) VMs will be retired on September 1, 2026",
+    "lien": "https://azure.microsoft.com/updates?id=568661",
+    "date": "Wed, 05 Aug 2026 00:22:49 Z",
+    "contenu": "On September 1, 2026,\nthe cc_v5 confidential VM series will be retired and will no longer be\navailable for use or purchase. Any affected VM that has not been resized before\nthat date will deallocated. The impacted VM sizes that will be retired are: DCas_c"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Perimeter link feature in network security perimeter",
+    "lien": "https://azure.microsoft.com/updates?id=568837",
+    "date": "Tue, 04 Aug 2026 18:30:09 Z",
+    "contenu": "Perimeter link (cross-perimeter\nconnectivity) is a network security perimeter capability that allows trusted\nresources in two different network security perimeters to securely communicate\nwith each other using Managed Identity (MSI), without requiring add"
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "The Microsoft 365 Copilot Agent’s Playbook: A Practical Livestream Series for Building Better Agents",
+    "lien": "https://devblogs.microsoft.com/blog/the-microsoft-365-copilot-agents-playbook-a-practical-livestream-series-for-building-better-agents/",
+    "date": "2026-07-23T19:03:53",
+    "timestamp": 1784833433,
+    "contenu": "Building on Microsoft 365 Copilot? Here’s your playbook. Declarative agents are quickly becoming one of the most exciting ways to extend Microsoft 365 Copilot and bring organizational knowledge, workflows, and tools directly into the flow of work. But as agent capabilities grow, so does the need for practical guidance: How do you build agents that […] The post The Microsoft 365 Copilot Agent’s Playbook: A Practical Livestream Series for Building Better Agents appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Looking back on Microsoft’s FY26: From AI experimentation to Frontier Transformation",
+    "lien": "https://blogs.microsoft.com/blog/2026/07/28/looking-back-on-microsofts-fy26-from-ai-experimentation-to-frontier-transformation/",
+    "date": "2026-07-28T16:00:10",
+    "timestamp": 1785254410,
+    "contenu": "Throughout this past fiscal year, customers across every industry and segment moved from AI experimentation to deploying AI for real-world business outcomes. They unlocked innovation and created new opportunities for growth. We saw the emergence of Frontier Firms as they moved beyond efficiency gains to focus on human ambition and embed AI at the core... The post Looking back on Microsoft’s FY26: From AI experimentation to Frontier Transformation appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Rethinking security for the age of AI",
+    "lien": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
+    "date": "2026-07-27T16:30:09",
+    "timestamp": 1785169809,
+    "contenu": "Editor’s note: Updates with additional details on the model’s crash score. Why security needs a new cyber stack — Introducing Project Perception The physics of cybersecurity are changing. Autonomous systems can now reason, adapt and operate continuously. At the same time, the cost of offense is falling, while the volume, velocity and complexity of what... The post Rethinking security for the age of AI appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Support for Node 22 LTS ends on April 30, 2027",
+    "lien": "https://azure.microsoft.com/updates?id=567334",
+    "date": "Mon, 24 Aug 2026 17:30:43 Z",
+    "contenu": "On April 30 2027, support for Node 22 LTS will end. Your apps that are hosted on App\nService will continue to run, but security updates will no longer be available,\nand we’ll no longer provide customer service for Node 22 LTS. Required action: To\navoid po"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Custom block response code and body for Application Gateway WAF",
+    "lien": "https://azure.microsoft.com/updates?id=569504",
+    "date": "Mon, 24 Aug 2026 17:25:03 Z",
+    "contenu": "Announcing the General Availability of custom block response code and body for WAF integrated with Application Gateway Azure WAF integrated with Application Gateway now supports customizable response status codes and bodies for blocked requests, enabling"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Summarized advertised gateway prefixes for route advertisement",
+    "lien": "https://azure.microsoft.com/updates?id=569743",
+    "date": "Thu, 20 Aug 2026 17:02:23 Z",
+    "contenu": "Summarized advertised gateway\nprefixes for route advertisement is now generally available. You can specify\naggregated (summarized) prefixes for an Azure gateway to advertise to your\non-premises networks, rather than having every individual virtual network"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: Azure Copilot introduces direct access to agents",
+    "lien": "https://azure.microsoft.com/updates?id=569685",
+    "date": "Thu, 20 Aug 2026 16:08:02 Z",
+    "contenu": "Starting in August 2026, customers can engage directly with Azure Copilot agents to move more quickly from questions to action.With this update:Choose the right agent for your goal. Customers can select the specific agent best suited to their needs and ge"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Databricks Lakebase in four additional regions",
+    "lien": "https://azure.microsoft.com/updates?id=569684",
+    "date": "Wed, 19 Aug 2026 21:04:18 Z",
+    "contenu": "Lakebase is now generally available in four additional Azure regions: North Central US, France Central, Germany West Central, and East Asia. This expansion provides customers with additional deployment options and broader regional availability for Lakebas"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure SQL updates for mid-August 2026",
+    "lien": "https://azure.microsoft.com/updates?id=569145",
+    "date": "Wed, 19 Aug 2026 21:01:47 Z",
+    "contenu": "In mid-August 2026, the following updates and enhancements were made to Azure SQL: You can customize keyboard shortcuts for Quick Queries, the Results Grid, and the Query Editor directly within Visual Studio Code—without leaving your editor. Shortcut Conf"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: SQL Formatter in MSSQL extension",
+    "lien": "https://azure.microsoft.com/updates?id=569155",
+    "date": "Wed, 19 Aug 2026 21:00:19 Z",
+    "contenu": "With SQL Formatter, you can format SQL scripts directly in your editor for cleaner, more consistent, and readable code. Now in public preview, it includes more customizable formatting options to match your preferred coding style and streamline development"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure SQL Database provisioning in MSSQL extension",
+    "lien": "https://azure.microsoft.com/updates?id=569160",
+    "date": "Wed, 19 Aug 2026 20:59:19 Z",
+    "contenu": "With Azure SQL Database provisioning, you can create and connect to a fully managed cloud database directly from your editor—at no cost. Now generally available, the feature also includes ready-to-use Azure Resource Manager (ARM), Bicep, and Terraform tem"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: vCore Customization: Disable Multithreading and Configurable Constrained Cores",
+    "lien": "https://azure.microsoft.com/updates?id=569051",
+    "date": "Wed, 19 Aug 2026 17:20:42 Z",
+    "contenu": "Today, we are announcing the General Availability of VM vCore Customization for Azure Virtual Machines, introducing two new capabilities: Disable Simultaneous Multi-Threading/Hyper-Threading (SMT/HT) and Configurable Constrained Cores. These features prov"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: BYON (Bring Your Own NIC) in Azure Site Recovery",
+    "lien": "https://azure.microsoft.com/updates?id=569515",
+    "date": "Wed, 19 Aug 2026 16:36:30 Z",
+    "contenu": "Azure Site Recovery now lets you use and attach an existing, pre-provisioned Network Interface Card (NIC) in the target region for test-failover and failover in the Azure-to-Azure scenario. This helps preserve prepared networking configurations, reserve I"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Azure Front Door profile and route level WAF policies",
+    "lien": "https://azure.microsoft.com/updates?id=569804",
+    "date": "2026-09-02T17:00:51",
+    "timestamp": 1788368451,
+    "contenu": "Azure Front\nDoor’s Web Application Firewall (WAF) now supports profile and route level WAF\npolicy associations in public preview. This gives you more flexibility to apply\nbroad baseline protection across an Azure Front Door profile while using\ntargeted po"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In development] Private Preview: Reader Endpoint for Azure Database for MySQL",
+    "lien": "https://azure.microsoft.com/updates?id=569653",
+    "date": "2026-09-02T16:59:15",
+    "timestamp": 1788368355,
+    "contenu": "We’re happy to announce the public preview of reader endpoint support to simplify connection management when using multiple replicas in Azure Database for MySQL - Flexible Server. A reader endpoint enables automatic load balancing of read-only connection"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Microsoft Defender for Cloud support for Azure Container Apps (Serverless Containers Posture)",
+    "lien": "https://azure.microsoft.com/updates?id=570282",
+    "date": "2026-09-01T22:34:43",
+    "timestamp": 1788298483,
+    "contenu": "Customers can now bring Azure Container Apps environments into Microsoft Defender for Cloud’s Serverless Containers Posture experience, helping security teams extend posture management across more of their container estate from a single workflow. This mak"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Windows Server 2025 on AKS",
+    "lien": "https://azure.microsoft.com/updates?id=570090",
+    "date": "2026-09-01T22:31:50",
+    "timestamp": 1788298310,
+    "contenu": "Organizations running Windows-based workloads on Azure Kubernetes Service (AKS) face increasing pressure to modernize as support timelines for older Windows Server versions approach retirement. To help customers prepare, AKS now offers GA support for Wind"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Artifact Streaming on AKS",
+    "lien": "https://azure.microsoft.com/updates?id=570095",
+    "date": "2026-09-01T22:30:59",
+    "timestamp": 1788298259,
+    "contenu": "You can now accelerate your containerized workloads on Azure Kubernetes Service (AKS) using Azure Container Registry (ACR) with Artifact streaming. Artifact streaming will allow you to scale your workloads without having to fully wait for images to be pul"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Confidential VMs for Azure Linux",
+    "lien": "https://azure.microsoft.com/updates?id=570100",
+    "date": "2026-09-01T22:30:18",
+    "timestamp": 1788298218,
+    "contenu": "Confidential Virtual Machines (CVM) offer strong security and confidentiality for tenants. CVM for Azure Linux in AKS is now generally available and enables node pools with CVM to target the migration of highly sensitive container workloads to AKS without"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Purchase order mapping available in Microsoft Marketplace",
+    "lien": "https://azure.microsoft.com/updates?id=569700",
+    "date": "2026-09-01T18:40:59",
+    "timestamp": 1788284459,
+    "contenu": "Align Microsoft Marketplace purchases to your business's accounting needs. Purchase order mapping helps allocate your Microsoft invoice, including Marketplace purchases, making it easier to reconcile your organization's cloud and AI spend. Get supplementa"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Firewall auto-learn SNAT routes",
+    "lien": "https://azure.microsoft.com/updates?id=570474",
+    "date": "2026-09-01T17:10:38",
+    "timestamp": 1788279038,
+    "contenu": "Azure Firewall’s auto-learn SNAT routes is now\ngenerally available, automatically learning registered and private destination\nprefixes periodically and applying them as No-SNAT ranges to preserve original\nsource IPs and simplify SNAT management.Learn more"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Copilot Observability Agent supports Basic and Auxiliary table plans",
+    "lien": "https://azure.microsoft.com/updates?id=570250",
+    "date": "Tue, 01 Sep 2026 16:31:14 Z",
+    "contenu": "Azure Copilot Observability Agent, an\nAI-powered operational companion in Azure Monitor, is now covering Log Analytics data\nin Basic and Auxiliary table plans during interactive analysis\nand deep investigations. Teams can move high-volume telemetry - incl"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Monitor Auxiliary Logs Plan in Azure Government and China regions",
+    "lien": "https://azure.microsoft.com/updates?id=569899",
+    "date": "Tue, 01 Sep 2026 16:29:24 Z",
+    "contenu": "The Auxiliary table plan in Azure Monitor Logs is a cost-effective option for ingesting and retaining high-volume, verbose logs used for compliance and auditing. Auxiliary Logs is now generally available in the sovereign clouds: Azure Government (Fairfax)"
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Start here: Azure SQL Foundations series",
+    "lien": "https://devblogs.microsoft.com/blog/start-here-azure-sql-foundations-series/",
+    "date": "2026-08-25T16:00:18",
+    "timestamp": 1787673618,
+    "contenu": "Most developers I talk to aren’t asking whether Azure SQL Database can handle their next app. They’re asking where to start when it comes to modernization, migration, and AI in the database. If you’re reading this, you’re probably in a similar boat: you’ve got an existing schema or databases, a scaling question you haven’t had […] The post Start here: Azure SQL Foundations series appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Try Azure SRE Agent with no always-on charges",
+    "lien": "https://devblogs.microsoft.com/blog/try-azure-sre-agent-with-no-always-on-charges/",
+    "date": "2026-08-25T15:00:00",
+    "timestamp": 1787670000,
+    "contenu": "We are happy to announce a 30-day trial experience for Azure SRE Agent. New customers can create and configure the SRE Agent at their own pace, with no charges for setup time or keeping agents ready. During the trial, you can connect your agents to telemetry, source code, incident management platforms, and other operational tools, […] The post Try Azure SRE Agent with no always-on charges appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "The yield imperative: Turning AI infrastructure into useful intelligence",
+    "lien": "https://blogs.microsoft.com/blog/2026/09/01/the-yield-imperative-turning-ai-infrastructure-into-useful-intelligence/",
+    "date": "2026-09-02T06:00:02",
+    "timestamp": 1788328802,
+    "contenu": "As we enter the next era, what will be the defining measure of our progress? Every industry has a word that shapes how it thinks. For pilots, it’s safety. For insurers, it’s risk. For the semiconductor industry, it’s yield. Yield does not ask how elegant the solution is, how many years it took or what... The post The yield imperative: Turning AI infrastructure into useful intelligence appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Virtual Network Manager IPAM in additional Azure regions",
+    "lien": "https://azure.microsoft.com/updates?id=570557",
+    "date": "2026-09-03T17:17:08",
+    "timestamp": 1788455828,
+    "contenu": "Azure\nVirtual Network Manager IP address management is now generally available in\nadditional regions: US Gov Virginia, US Gov Texas and US Gov Arizona, and China\nNorth 3 and China East 3. In complex\nnetwork environments, managing IP addresses effectively"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Site Recovery support for Linux Azure VMs with NVMe disk controllers.",
+    "lien": "https://azure.microsoft.com/updates?id=565103",
+    "date": "2026-06-08T17:15:43",
+    "timestamp": 1780938943,
+    "contenu": "Azure Site Recovery\nnow supports replication and disaster recovery for Linux Azure Virtual Machines\nrunning on NVMe-enabled Generation 2 VM families, such as the Da/Ea/Fa\nv6-series and Ebsv5/Ebdsv5 in the Azure-to-Azure scenario. This support is\nlimited t"
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "PPCC 2026: Bringing AI and your business processes together",
+    "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
+    "date": "2026-09-03T15:00:00",
+    "timestamp": 1788447600,
+    "contenu": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes together appeared first on Microsoft 365 Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: TLS/SSL certificate and end-to-end TLS encryption support for Azure Functions Flex Consumption",
+    "lien": "https://azure.microsoft.com/updates?id=570940",
+    "date": "2026-09-10T16:12:49",
+    "timestamp": 1789056769,
+    "contenu": "Azure\nFunctions Flex Consumption support for TLS/SSL certificates is now generally\navailable through a new site-scoped certificate model. Each function app can\nhold up to 3 private (.pfx) and 3 public (.cer) certificates uploaded directly,\nimported from A"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Copilot Troubleshooting Agent",
+    "lien": "https://azure.microsoft.com/updates?id=570980",
+    "date": "2026-09-10T15:25:52",
+    "timestamp": 1789053952,
+    "contenu": "Azure Copilot Troubleshooting Agent is now generally available. Troubleshooting Agent is a unified, built-in Azure Copilot capability that helps customers investigate and resolve operational issues faster. Available through both Azure Copilot and Support"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: User-bound user delegation SAS for Azure Storage",
+    "lien": "https://azure.microsoft.com/updates?id=569241",
+    "date": "2026-09-09T22:30:41",
+    "timestamp": 1788993041,
+    "contenu": "Announcing the addition of enhanced secure authentication in Azure Storage that combines the flexibility of user-delegation shared access signature (SAS) with the user-bound access of Entra ID. User-bound user delegation SAS is now generally available for"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Ephemeral OS Disk with full caching for VM/VMSS",
+    "lien": "https://azure.microsoft.com/updates?id=570551",
+    "date": "2026-09-09T21:24:37",
+    "timestamp": 1788989077,
+    "contenu": "Azure Ephemeral OS Disk with full caching is now generally available for new virtual machines and Virtual Machine Scale Sets. The capability caches the complete OS image on a VM’s local storage, eliminating remote-storage reads after caching finishes. Thi"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Playwright Workspaces in Australia East, Japan East, and Switzerland North",
+    "lien": "https://azure.microsoft.com/updates?id=570919",
+    "date": "2026-09-08T17:35:32",
+    "timestamp": 1788888932,
+    "contenu": "Playwright Workspaces in Azure App Testing is now generally available in Switzerland North, Japan East, and Australia East.Playwright Workspaces provides fully managed cloud-hosted browsers for running end-to-end Playwright tests at scale, with parallel e"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Developer CLI (azd) Extension Framework",
+    "lien": "https://azure.microsoft.com/updates?id=570881",
+    "date": "2026-09-08T17:18:38",
+    "timestamp": 1788887918,
+    "contenu": "The Azure Developer CLI (azd) Extension Framework is now generally available. The framework enables developers, teams, and partners to extend Azure Developer CLI with custom capabilities that support their preferred application development workflows.With"
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Your work might not need the smartest model",
+    "lien": "https://devblogs.microsoft.com/blog/your-work-might-not-need-the-smartest-model/",
+    "date": "2026-09-09T09:14:04",
+    "timestamp": 1788945244,
+    "contenu": "The smartest model can cost five times more and deliver the same result, or even a worse one. See how evaluating your own work helps you get more value from your agent budget. The post Your work might not need the smartest model appeared first on Microsoft for Developers ."
+  }
+]

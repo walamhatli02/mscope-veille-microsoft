@@ -1,0 +1,19 @@
+# Environnement virtuel Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Vectorstore (sera recréé)
+vectorstore/
+
+# Fichiers inutiles
+.git/
+.gitignore
+*.md
+*.png
+*.jpg
+
+# Fichiers Windows
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,118 @@
+INSOMEA — Informations complètes pour l'équipe commerciale
+
+=== QUI EST INSOMEA ? ===
+INSOMEA est un Microsoft Cloud Gold Partner fondé en 2016, basé en Tunisie (Les Berges du Lac II, Tunis).
+INSOMEA opère depuis 6 bureaux en Tunisie et Bahreïn, et couvre la région MEA (Middle East & Africa).
+INSOMEA est Microsoft Cloud Partner depuis 2014.
+INSOMEA a remporté le Prix Partenaire Microsoft de l'Année : 2020 (Bahreïn), 2021, 2022 et 2023 (Tunisie).
+INSOMEA compte plus de 150 certifications Microsoft dans son équipe, dont 15+ Microsoft Certified Trainers (MCTs).
+INSOMEA est également MSSP (Managed Security Service Provider) depuis avril 2022.
+
+=== OFFRES ET SOLUTIONS INSOMEA ===
+
+--- 1. MICROSOFT 365 ---
+INSOMEA aide les entreprises à moderniser leur lieu de travail avec Microsoft 365.
+Licences disponibles :
+- Microsoft 365 Business Basic : email, Teams, SharePoint, OneDrive. Idéal pour les petites structures.
+- Microsoft 365 Business Standard : inclut les apps Office (Word, Excel, PowerPoint) + Teams + OneDrive.
+- Microsoft 365 Business Premium : toutes les fonctionnalités + sécurité avancée (Intune, Azure AD Premium). Idéal pour les PME.
+- Microsoft 365 E3 : pour les grandes entreprises, conformité avancée.
+- Microsoft 365 E5 : niveau entreprise le plus complet, inclut sécurité, conformité et analytique avancés.
+- Microsoft 365 Copilot : IA intégrée dans toutes les apps Microsoft 365 (Word, Excel, Teams, Outlook...).
+
+Quand proposer Microsoft 365 :
+- Client qui veut travailler à distance ou en mode hybride → Microsoft 365 Business Standard ou Premium
+- Client qui a besoin de sécurité avancée → Microsoft 365 Business Premium ou E3/E5
+- Client PME cherchant productivité + collaboration → Microsoft 365 Business Standard
+- Client voulant intégrer l'IA dans son travail → Microsoft 365 Copilot
+
+--- 2. MICROSOFT AZURE ---
+INSOMEA offre des solutions Azure complètes : stratégie, architecture, déploiement, sécurité et optimisation des coûts.
+Services Azure proposés :
+- Migration vers le cloud Azure
+- Hébergement d'applications et de serveurs
+- Bases de données cloud
+- Intelligence artificielle et Machine Learning sur Azure
+- Azure Virtual Desktop (bureau virtuel)
+- Azure DevOps
+
+Quand proposer Azure :
+- Client qui veut migrer son infrastructure vers le cloud → Azure Migration
+- Client développeur ou startup → Azure DevOps + App Services
+- Client qui veut de l'IA → Azure AI / Azure OpenAI
+- Client avec beaucoup de données → Azure Data Factory + Synapse
+
+--- 3. CYBERSÉCURITÉ ---
+INSOMEA est MSSP (Managed Security Service Provider).
+Solutions de sécurité proposées :
+- Microsoft Defender for Business / Endpoint
+- Microsoft Sentinel (SIEM cloud)
+- Azure Active Directory / Microsoft Entra ID
+- Protection des identités et accès (MFA, Zero Trust)
+- Audit et évaluation des risques IT
+
+Quand proposer la cybersécurité :
+- Client qui a subi une cyberattaque → Microsoft Defender + Sentinel
+- Client qui veut sécuriser les accès de ses employés → MFA + Entra ID
+- Client en conformité réglementaire → Microsoft Purview / Compliance
+
+--- 4. DYNAMICS 365 ---
+INSOMEA est revendeur certifié Microsoft Dynamics 365.
+Solutions Dynamics 365 :
+- Dynamics 365 Sales : CRM pour gérer les ventes et les clients
+- Dynamics 365 Customer Service : gestion du service client
+- Dynamics 365 Finance : gestion financière et comptabilité
+- Dynamics 365 Business Central : ERP complet pour PME
+
+Quand proposer Dynamics 365 :
+- Client qui veut gérer ses clients et prospects → Dynamics 365 Sales
+- Client PME cherchant un ERP → Dynamics 365 Business Central
+- Client grande entreprise → Dynamics 365 Finance + Supply Chain
+
+--- 5. POWER PLATFORM ---
+- Power BI : tableaux de bord et rapports analytiques
+- Power Apps : création d'applications métier sans code
+- Power Automate : automatisation des processus
+- Power Virtual Agents : chatbots d'entreprise
+
+Quand proposer Power Platform :
+- Client qui veut des rapports visuels → Power BI
+- Client qui veut automatiser des tâches répétitives → Power Automate
+- Client qui veut une app métier rapide → Power Apps
+
+--- 6. FORMATION MICROSOFT ---
+INSOMEA propose des formations Microsoft certifiées dispensées par des MCTs.
+Formations disponibles :
+- Formations Microsoft 365 (utilisateurs et administrateurs)
+- Formations Azure (AZ-900, AZ-104, AZ-305...)
+- Formations Sécurité (SC-900, SC-200...)
+- Formations Dynamics 365
+- Préparation aux certifications Microsoft
+
+Quand proposer la formation :
+- Client qui vient d'acheter une licence Microsoft → Formation d'adoption
+- Client qui veut certifier ses équipes → Parcours de certification
+
+--- 7. DIGITAL MARKETING ---
+INSOMEA aide les entreprises à développer leur présence digitale.
+Services : SEO, gestion des réseaux sociaux, publicité en ligne, développement web.
+
+=== COMMENT CONSEILLER UN CLIENT ===
+
+Besoin client → Solution INSOMEA recommandée :
+
+"Je veux que mes employés travaillent de partout" → Microsoft 365 Business Standard ou Premium + Teams
+"Je veux sécuriser mon entreprise" → Microsoft 365 Business Premium + Microsoft Defender
+"Je veux migrer vers le cloud" → Microsoft Azure Migration
+"Je veux gérer mes clients" → Dynamics 365 Sales
+"Je veux automatiser mes processus" → Power Automate
+"Je veux analyser mes données" → Power BI
+"Je veux former mes équipes" → Formation Microsoft certifiée INSOMEA
+"Je veux de l'IA dans mon travail" → Microsoft 365 Copilot + Azure OpenAI
+"Je veux un ERP complet" → Dynamics 365 Business Central
+"Je veux un bureau virtuel" → Azure Virtual Desktop
+
+=== CONTACT INSOMEA ===
+Site web : www.insomea.com
+Adresse : 04 Rue Des Îles De Rhodes, Les Berges du Lac II, Tunis, Tunisie
+Téléphone : +216 28 987 762
