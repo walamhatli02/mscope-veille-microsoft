@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "article": {
+      "source": "Microsoft 365 Blog",
+      "titre": "Copilot Cowork is now generally available",
+      "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
+      "date": "2026-06-16T15:00:00",
+      "timestamp": 1781622000,
+      "contenu": "Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we have shipped. The post Copilot Cowork is now generally available appeared first on Microsoft 365 Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 8,
+      "raison": "L'article annonce la disponibilité générale de Copilot Cowork, une fonctionnalité majeure liée à l'IA Microsoft, très vendeur actuellement.",
+      "resume": "Copilot Cowork est désormais disponible en général. C'est la fonctionnalité à la croissance la plus rapide du programme Frontier, avec une très haute satisfaction utilisateur."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft 365 Blog",
+      "titre": "Introducing Microsoft Scout: Your always-on personal agent",
+      "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
+      "date": "2026-06-02T18:00:00",
+      "timestamp": 1780423200,
+      "contenu": "Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work. The post Introducing Microsoft Scout: Your always-on personal agent appeared first on Microsoft 365 Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 8,
+      "raison": "L'article présente une nouvelle fonctionnalité majeure de Microsoft 365 appelée Microsoft Scout, qui est un agent personnel intégré aux applications Microsoft 365.",
+      "resume": "Microsoft Scout est un agent personnel toujours disponible, intégré aux applications Microsoft 365, conçu pour aider les utilisateurs dans leur flux de travail quotidien. Cette nouvelle fonctionnalité vise à améliorer l'expérience utilisateur et la productivité. Elle est susceptible d'intéresser les clients d'INSOMEA qui utilisent Microsoft 365."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft 365 Blog",
+      "titre": "Announcing the new Work IQ APIs",
+      "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
+      "date": "2026-06-02T17:00:15",
+      "timestamp": 1780419615,
+      "contenu": "Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your organizations. The post Announcing the new Work IQ APIs appeared first on Microsoft 365 Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 8,
+      "raison": "L'article introduit Work IQ, une nouvelle couche d'intelligence IA pour Microsoft 365, ce qui constitue une fonctionnalité majeure susceptible d'aider l'équipe à vendre et conseiller les clients.",
+      "resume": "Microsoft annonce les nouvelles API Work IQ, une couche d'intelligence intégrée à Microsoft 365 pour analyser comment le travail est réalisé dans les organisations. Cette fonctionnalité IA offre de nouvelles possibilités d'optimisation et de conseil aux clients."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft 365 Blog",
+      "titre": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
+      "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
+      "date": "2026-05-28T19:00:00",
+      "timestamp": 1779994800,
+      "contenu": "On July 1, we're introducing new Microsoft 365 SKUs with Copilot built-in, designed to fit into the way small businesses already work. The post Introducing Microsoft 365 Business with Copilot: The new standard for small business appeared first on Microsoft 365 Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 8,
+      "raison": "L'article annonce une nouvelle offre de Microsoft 365 avec Copilot intégrée, spécialement conçue pour les petites entreprises, ce qui est très vendeur en ce moment.",
+      "resume": "Microsoft présente une nouvelle offre de Microsoft 365 Business avec Copilot intégrée, destinée aux petites entreprises. Cette offre sera disponible à partir du 1er juillet. Elle vise à améliorer la productivité des petites entreprises en leur fournissant des outils de travail collaboratif et d'IA avancés."
+    }
+  }
+]

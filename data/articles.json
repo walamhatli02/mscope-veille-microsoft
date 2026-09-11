@@ -836,5 +836,13 @@
     "date": "2026-09-09T09:14:04",
     "timestamp": 1788945244,
     "contenu": "The smartest model can cost five times more and deliver the same result, or even a worse one. See how evaluating your own work helps you get more value from your agent budget. The post Your work might not need the smartest model appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Agentless migration of on-premises SMB file shares to Azure Files (SMB)",
+    "lien": "https://azure.microsoft.com/updates?id=570910",
+    "date": "2026-09-11T15:58:56",
+    "timestamp": 1789142336,
+    "contenu": "Azure Storage Mover now supports agentless migration of on-premises SMB file shares to Azure Files (SMB), in public preview. You can move file data from Windows Server or NAS shares into Azure without deploying, registering, or maintaining a migration age"
   }
 ]

@@ -136,6 +136,80 @@ def parse_date_article(date_str):
         return datetime.min
 
 
+# ============================================================
+# QUESTION PREPROCESSING / FALLBACK
+# ============================================================
+def preprocess_question(text: str) -> str:
+    """Normalize user input: lower, strip, remove accents, collapse spaces.
+
+    Additionally apply a lightweight spell-correction using the site's
+    vocabulary (articles) and difflib for close matches. This avoids adding
+    external dependencies while improving robustness to misspellings.
+    """
+    if not text:
+        return ""
+    s = str(text).lower().strip()
+    # remove accents
+    import unicodedata, re, difflib
+    s = unicodedata.normalize('NFD', s)
+    s = ''.join(ch for ch in s if unicodedata.category(ch) != 'Mn')
+    # collapse whitespace
+    s = ' '.join(s.split())
+    # replace repeated punctuation with single
+    s = re.sub(r'[!?]{2,}', '?', s)
+    s = re.sub(r'[\.]{2,}', '.', s)
+
+    # Build or get cached vocabulary from articles
+    @st.cache_resource
+    def _build_vocab():
+        vocab_set = set()
+        try:
+            arts = charger_articles()
+        except Exception:
+            arts = []
+        for a in arts:
+            for field in ("titre", "contenu", "source"):
+                txt = (a.get(field, "") or "").lower()
+                for w in re.findall(r"\w+", txt):
+                    if len(w) >= 3:
+                        vocab_set.add(w)
+        # common domain tokens to help correction
+        for w in ("microsoft", "azure", "insomea", "copilot", "dynamics", "erp", "securite", "security", "cloud", "ia"):
+            vocab_set.add(w)
+        return sorted(vocab_set)
+
+    vocab_list = _build_vocab()
+
+    def _correct_word(word: str, vocab_list, cutoff: float = 0.82) -> str:
+        # Only attempt correction for longer words to avoid noisy fixes
+        if not vocab_list or len(word) < 4:
+            return word
+        matches = difflib.get_close_matches(word, vocab_list, n=1, cutoff=cutoff)
+        return matches[0] if matches else word
+
+    # Tokenize keeping punctuation as separate tokens
+    tokens = re.findall(r"\w+|[^\w\s]", s, re.UNICODE)
+    corrected = []
+    for t in tokens:
+        if re.fullmatch(r"\w+", t):
+            if t not in vocab_list and len(t) >= 4:
+                corrected.append(_correct_word(t, vocab_list))
+            else:
+                corrected.append(t)
+        else:
+            corrected.append(t)
+
+    # Reconstruct text: ensure spacing around words but not before punctuation
+    out = ""
+    for tok in corrected:
+        if re.fullmatch(r"[^\w\s]", tok):
+            out = out.rstrip() + tok + " "
+        else:
+            out += tok + " "
+    out = out.strip()
+    return out
+
+
 def refresh_background():
     """Met à jour les données en arrière-plan sans bloquer l'ouverture du site."""
     try:
@@ -282,8 +356,9 @@ def charger_rag():
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     vs_microsoft = Chroma(persist_directory=VECTORSTORE_PATH, embedding_function=embeddings, collection_name="microsoft_articles")
     vs_insomea = Chroma(persist_directory=VECTORSTORE_PATH, embedding_function=embeddings, collection_name="insomea_info")
-    retriever_microsoft = vs_microsoft.as_retriever(search_kwargs={"k": 1})
-    retriever_insomea = vs_insomea.as_retriever(search_kwargs={"k": 1})
+    # Increase k to return more context and make retrieval robust
+    retriever_microsoft = vs_microsoft.as_retriever(search_kwargs={"k": 4})
+    retriever_insomea = vs_insomea.as_retriever(search_kwargs={"k": 3})
 
     prompt = ChatPromptTemplate.from_template("""Tu es InsoBot, assistant expert Microsoft pour l'équipe commerciale d'INSOMEA en Tunisie.
 Réponds en français, très concisement, en 2 à 4 phrases maximum.
@@ -297,21 +372,39 @@ Réponse courte et utile:""")
     llm = ChatGroq(model=LLM_MODEL, api_key=GROQ_API_KEY, temperature=0.1, max_tokens=180)
 
     def formater(docs):
-        return "\n".join([f"{doc.metadata['titre']}: {doc.page_content[:180]}" for doc in docs[:1]])
+        return "\n".join([f"{doc.metadata['titre']}: {doc.page_content[:180]}" for doc in docs[:3]])
 
     def run_rag(question):
+        # Preprocessed question should be passed in by caller
         docs_microsoft = retriever_microsoft.invoke(question)
         docs_insomea = retriever_insomea.invoke(question)
 
-        if not docs_microsoft and not docs_insomea:
-            yield (
-                "Je n’ai pas trouvé de contexte suffisamment fiable pour répondre avec précision à cette question. "
-                "Veuillez reformuler ou poser une question plus ciblée sur Microsoft 365, Azure, Copilot ou la sécurité.",
-                []
-            )
+        chain = prompt | llm | StrOutputParser()
+
+        # If we found little or no context, fallback to an LLM-driven best-effort answer
+        if (not docs_microsoft or len(docs_microsoft) == 0) and (not docs_insomea or len(docs_insomea) == 0):
+            fallback_payload = {
+                "context_microsoft": "",
+                "context_insomea": "",
+                "question": (
+                    "Réponds en français de façon concise et utile. "
+                    "La question peut être mal formulée, incomplète, ou contenir des fautes. "
+                    "Si possible, déduis la demande et fournis une réponse actionnable orientée Microsoft / INSOMEA. "
+                    "Indique clairement si la réponse est une estimation et propose une reformulation ou une question de clarification.\n\n"
+                    + question
+                )
+            }
+            response = chain.invoke(fallback_payload)
+            if not response:
+                yield ("Je n’ai pas trouvé de contexte fiable et je ne peux pas formuler de réponse pertinente.", [])
+                return
+            # mark as low confidence
+            response = "Estimation (confiance faible) : " + response
+            chunk_size = 20
+            for i in range(0, len(response), chunk_size):
+                yield response[i:i + chunk_size], []
             return
 
-        chain = prompt | llm | StrOutputParser()
         payload = {
             "context_microsoft": formater(docs_microsoft),
             "context_insomea": formater(docs_insomea),
@@ -320,9 +413,7 @@ Réponse courte et utile:""")
 
         response = chain.invoke(payload)
         if not response:
-            yield ("Je n’ai pas trouvé de contexte suffisamment fiable pour répondre avec précision à cette question. "
-                   "Veuillez reformuler ou poser une question plus ciblée sur Microsoft 365, Azure, Copilot ou la sécurité.",
-                   [])
+            yield ("Je n’ai pas trouvé de contexte suffisamment fiable pour répondre avec précision à cette question.", [])
             return
 
         chunk_size = 20
@@ -560,7 +651,8 @@ elif st.session_state.current_tab == "InsoBot":
                 full_response = ""
                 sources_docs = []
                 try:
-                    fast_reply = reponse_rapide(question)
+                    q_clean = preprocess_question(question)
+                    fast_reply = reponse_rapide(q_clean)
                     if fast_reply is not None:
                         full_response, sources_docs = fast_reply
                         status.update(label="InsoBot répond…", state="running")
@@ -569,7 +661,7 @@ elif st.session_state.current_tab == "InsoBot":
                         st.session_state.messages.append({"role": "assistant", "content": full_response})
                     else:
                         run_rag = charger_rag()
-                        for chunk, docs in run_rag(question):
+                        for chunk, docs in run_rag(q_clean):
                             if chunk:
                                 full_response += chunk
                                 message_placeholder.markdown(full_response + "▌")
