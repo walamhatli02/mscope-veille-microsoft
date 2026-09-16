@@ -3,65 +3,39 @@ import json
 import os
 import time
 import threading
+import unicodedata
+import re
+import difflib
 from datetime import datetime
 from dotenv import load_dotenv
-
-load_dotenv()
-
-def initialiser_vectorstore():
-    vectorstore_path = "vectorstore"
-    articles_path = "data/articles.json"
-
-    # Toujours recréer le vectorstore au démarrage sur cloud
-    import shutil
-    if os.path.exists(vectorstore_path):
-        shutil.rmtree(vectorstore_path)
-
-    if not os.path.exists(articles_path):
-        try:
-            from scraper import lancer_collecte
-            lancer_collecte()
-        except Exception as e:
-            print(f"Erreur scraper: {e}")
-    try:
-        from indexer import lancer_indexation
-        lancer_indexation()
-    except Exception as e:
-        print(f"Erreur indexation: {e}")
-
-initialiser_vectorstore()
-
-
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
-from langchain_chroma import Chroma
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
+from langchain_core.documents import Document
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from scraper import lancer_collecte
-from indexer import lancer_indexation
 from agent import lancer_agent
+
+load_dotenv()
 
 def get_groq_model():
     preferred = os.getenv("GROQ_MODEL")
     candidates = []
     if preferred:
         candidates.append(preferred)
-    candidates.extend([
-        "groq/compound",
-        "openai/gpt-oss-20b",
-        "qwen/qwen3.8-27b",
-        "groq/compound-mini",
-    ])
+    candidates.extend(["llama3-8b-8192", "llama3-70b-8192", "mixtral-8x7b-32768"])
     for model in candidates:
         if model:
             return model
-    return "groq/compound"
+    return "llama3-8b-8192"
 
 VECTORSTORE_PATH = "vectorstore"
 LLM_MODEL = get_groq_model()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 RAPPORT_PATH = "data/rapport_agent.json"
 ARTICLES_PATH = "data/articles.json"
+INSOMEA_PATH = "insomea_info.txt"
 
 st.set_page_config(page_title="MsScope — Veille Microsoft", page_icon="🤖", layout="wide")
 
@@ -71,6 +45,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
 if "question_exemple" not in st.session_state:
     st.session_state.question_exemple = None
+
 st.markdown("""
 <style>
   * { font-family: 'Segoe UI', sans-serif; }
@@ -131,7 +106,6 @@ def charger_rapport():
     except Exception:
         return []
 
-
 def parse_date_article(date_str):
     if not date_str:
         return datetime.min
@@ -159,292 +133,173 @@ def parse_date_article(date_str):
     except ValueError:
         return datetime.min
 
-
 # ============================================================
-# QUESTION PREPROCESSING / FALLBACK
+# PREPROCESS QUESTION
 # ============================================================
 def preprocess_question(text: str) -> str:
-    """Normalize user input: lower, strip, remove accents, collapse spaces.
-
-    Additionally apply a lightweight spell-correction using the site's
-    vocabulary (articles) and difflib for close matches. This avoids adding
-    external dependencies while improving robustness to misspellings.
-    """
     if not text:
         return ""
     s = str(text).lower().strip()
-    # remove accents
-    import unicodedata, re, difflib
     s = unicodedata.normalize('NFD', s)
     s = ''.join(ch for ch in s if unicodedata.category(ch) != 'Mn')
-    # collapse whitespace
     s = ' '.join(s.split())
-    # replace repeated punctuation with single
     s = re.sub(r'[!?]{2,}', '?', s)
     s = re.sub(r'[\.]{2,}', '.', s)
-
-    # Build or get cached vocabulary from articles
-    @st.cache_resource
-    def _build_vocab():
-        vocab_set = set()
-        try:
-            arts = charger_articles()
-        except Exception:
-            arts = []
-        for a in arts:
-            for field in ("titre", "contenu", "source"):
-                txt = (a.get(field, "") or "").lower()
-                for w in re.findall(r"\w+", txt):
-                    if len(w) >= 3:
-                        vocab_set.add(w)
-        # common domain tokens to help correction
-        for w in ("microsoft", "azure", "insomea", "copilot", "dynamics", "erp", "securite", "security", "cloud", "ia"):
-            vocab_set.add(w)
-        return sorted(vocab_set)
-
-    vocab_list = _build_vocab()
-
-    def _correct_word(word: str, vocab_list, cutoff: float = 0.82) -> str:
-        # Only attempt correction for longer words to avoid noisy fixes
-        if not vocab_list or len(word) < 4:
-            return word
-        matches = difflib.get_close_matches(word, vocab_list, n=1, cutoff=cutoff)
-        return matches[0] if matches else word
-
-    # Tokenize keeping punctuation as separate tokens
-    tokens = re.findall(r"\w+|[^\w\s]", s, re.UNICODE)
-    corrected = []
-    for t in tokens:
-        if re.fullmatch(r"\w+", t):
-            if t not in vocab_list and len(t) >= 4:
-                corrected.append(_correct_word(t, vocab_list))
-            else:
-                corrected.append(t)
-        else:
-            corrected.append(t)
-
-    # Reconstruct text: ensure spacing around words but not before punctuation
-    out = ""
-    for tok in corrected:
-        if re.fullmatch(r"[^\w\s]", tok):
-            out = out.rstrip() + tok + " "
-        else:
-            out += tok + " "
-    out = out.strip()
-    return out
-
-
-def refresh_background():
-    """Met à jour les données en arrière-plan sans bloquer l'ouverture du site."""
-    try:
-        lancer_collecte()
-        lancer_indexation()
-        lancer_agent()
-    except Exception:
-        pass
-
-
-def mettre_a_jour_automatiquement(force=False):
-    """Démarre un refresh silencieux à chaque ouverture de l'application."""
-    if not os.path.exists(ARTICLES_PATH):
-        return
-
-    try:
-        age_seconds = time.time() - os.path.getmtime(ARTICLES_PATH)
-    except OSError:
-        age_seconds = 999999
-
-    if not force and age_seconds < 60:
-        return
-
-    if "refresh_started" not in st.session_state:
-        st.session_state.refresh_started = False
-
-    if st.session_state.refresh_started:
-        return
-
-    st.session_state.refresh_started = True
-    thread = threading.Thread(target=refresh_background, daemon=True)
-    thread.start()
-
-
-def demarrer_refresh_periodique(interval_seconds=3600):
-    """Démarre un thread de fond qui lance périodiquement la collecte/indexation/agent.
-
-    Le thread est idempotent (ne démarre qu'une fois par session Streamlit).
-    """
-    if "periodic_refresh_started" in st.session_state and st.session_state.periodic_refresh_started:
-        return
-
-    st.session_state.periodic_refresh_started = True
-
-    def boucle_periodique():
-        while True:
-            try:
-                # On lance systématiquement la routine (elle est idempotente côté collecte)
-                refresh_background()
-            except Exception:
-                pass
-            time.sleep(interval_seconds)
-
-    th = threading.Thread(target=boucle_periodique, daemon=True)
-    th.start()
-
-
-def lancer_rapport_si_besoin():
-    """Génère systématiquement un rapport agent au démarrage de l'application."""
-    if "rapport_agent_started" not in st.session_state:
-        st.session_state.rapport_agent_started = False
-
-    if st.session_state.rapport_agent_started:
-        return
-
-    st.session_state.rapport_agent_started = True
-    thread = threading.Thread(target=lambda: lancer_agent(force=True), daemon=True)
-    thread.start()
-
-
-def assurer_rapport_genere():
-    """Retourne un rapport non vide : le régénère si le fichier est vide."""
-    rapport = charger_rapport()
-    if rapport:
-        return rapport
-    try:
-        lancer_agent(force=True)
-        rapport = charger_rapport()
-    except Exception:
-        pass
-    return rapport
-
-
-if "auto_refresh_done" not in st.session_state:
-    st.session_state.auto_refresh_done = False
-
-if not st.session_state.auto_refresh_done:
-    # Ne pas bloquer le rendu de la page : démarrer un refresh périodique en arrière-plan.
-    # Intervalle par défaut : 10 minutes (600s). Ajuster si besoin.
-    demarrer_refresh_periodique(interval_seconds=600)
-    st.session_state.auto_refresh_done = True
-
-# Lancement non bloquant du rapport si nécessaire.
-if not st.session_state.get("rapport_agent_started", False):
-    lancer_rapport_si_besoin()
-
-articles_bruts = charger_articles()
-articles = sorted(articles_bruts, key=lambda x: parse_date_article(x.get("date", "")), reverse=True)
-rapport = charger_rapport()
+    return s
 
 # ============================================================
-# FAST ANSWERS FOR COMMON QUESTIONS
-# ============================================================
-def reponse_rapide(question):
-    q = (question or "").lower()
-
-    if ("travail" in q or "teletravail" in q or "distance" in q or "hybride" in q) and ("distance" in q or "hybride" in q or "travail" in q or "teletravail" in q):
-        return (
-            "Pour les clients qui souhaitent travailler à distance ou en mode hybride, je recommande Microsoft 365 Business Standard ou Premium selon leurs besoins. Ce choix apporte collaboration, sécurité et productivité dans un environnement flexible.",
-            []
-        )
-
-    if ("azure" in q or "microsoft azure" in q) and ("nouveaut" in q or "actualit" in q or "nouveautés" in q):
-        return (
-            "Les nouveautés Azure récentes portent surtout sur la sécurité, l’IA et l’automatisation. Les clients peuvent profiter de Microsoft Defender pour le cloud, des services d’IA Azure et de solutions de modernisation applicative.",
-            []
-        )
-
-    if "sécur" in q or "secur" in q or "cyber" in q:
-        return (
-            "Pour sécuriser l’entreprise, je recommande de commencer par Microsoft Defender XDR, Microsoft Entra ID Protection, la protection des endpoints et un plan de conformité avec Microsoft Purview.",
-            []
-        )
-
-    if "erp" in q or "dynamics" in q or "gestion" in q or "finance" in q:
-        return (
-            "Pour un client PME, une solution ERP moderne basée sur Microsoft Dynamics 365 Business Central ou Power Platform est souvent le bon choix. Elle centralise les ventes, la finance, les opérations et la gestion des processus.",
-            []
-        )
-
-    if "copilot" in q or "ia" in q:
-        return (
-            "Copilot pour Microsoft 365 aide à gagner du temps dans la rédaction, le résumé, la recherche et l’automatisation des tâches. C’est particulièrement pertinent pour les équipes qui manipulent beaucoup de documents, d’e-mails et de données.",
-            []
-        )
-
-    return None
-
-# ============================================================
-# RAG SETUP
+# RAG EN MEMOIRE (compatible cloud)
 # ============================================================
 @st.cache_resource
 def charger_rag():
+    import chromadb
+    from langchain_chroma import Chroma
+
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-    vs_microsoft = Chroma(persist_directory=VECTORSTORE_PATH, embedding_function=embeddings, collection_name="microsoft_articles")
-    vs_insomea = Chroma(persist_directory=VECTORSTORE_PATH, embedding_function=embeddings, collection_name="insomea_info")
-    # Increase k to return more context and make retrieval robust
+    client = chromadb.EphemeralClient()
+
+    vs_microsoft = Chroma(client=client, collection_name="microsoft_articles", embedding_function=embeddings)
+    vs_insomea = Chroma(client=client, collection_name="insomea_info", embedding_function=embeddings)
+
+    splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
+
+    # Indexer les articles Microsoft
+    if os.path.exists(ARTICLES_PATH):
+        with open(ARTICLES_PATH, "r", encoding="utf-8") as f:
+            articles = json.load(f)
+        docs = []
+        for article in articles:
+            chunks = splitter.split_text(f"{article['titre']}\n\n{article.get('contenu', '')}")
+            for i, chunk in enumerate(chunks):
+                docs.append(Document(page_content=chunk, metadata={
+                    "source": article.get("source", ""),
+                    "titre": article.get("titre", ""),
+                    "lien": article.get("lien", ""),
+                    "date": article.get("date", ""),
+                    "chunk": i
+                }))
+        if docs:
+            vs_microsoft.add_documents(docs)
+
+    # Indexer les infos INSOMEA
+    if os.path.exists(INSOMEA_PATH):
+        with open(INSOMEA_PATH, "r", encoding="utf-8") as f:
+            contenu = f.read()
+        chunks = splitter.split_text(contenu)
+        docs_ins = [Document(page_content=chunk, metadata={
+            "source": "INSOMEA",
+            "titre": "Informations et offres INSOMEA",
+            "lien": "https://insomea.com",
+            "date": "2026-01-01",
+            "chunk": i
+        }) for i, chunk in enumerate(chunks)]
+        if docs_ins:
+            vs_insomea.add_documents(docs_ins)
+
     retriever_microsoft = vs_microsoft.as_retriever(search_kwargs={"k": 4})
     retriever_insomea = vs_insomea.as_retriever(search_kwargs={"k": 3})
 
-    prompt = ChatPromptTemplate.from_template("""Tu es InsoBot, assistant expert Microsoft pour l'équipe commerciale d'INSOMEA en Tunisie.
-Réponds en français, très concisement, en 2 à 4 phrases maximum.
-Utilise uniquement le contexte fourni.
-Si tu ne sais pas, dis-le clairement sans inventer.
-Informations INSOMEA: {context_insomea}
-Actualités Microsoft: {context_microsoft}
-Question: {question}
-Réponse courte et utile:""")
+    prompt = ChatPromptTemplate.from_template("""Tu es InsoBot, assistant expert Microsoft et technologie pour l'équipe commerciale d'INSOMEA en Tunisie.
 
-    llm = ChatGroq(model=LLM_MODEL, api_key=GROQ_API_KEY, temperature=0.1, max_tokens=180)
+Tu dois répondre à TOUTES les questions liées à :
+- Microsoft (365, Azure, Copilot, Teams, Dynamics, Power Platform, Windows, etc.)
+- Les nouvelles technologies IT et cloud
+- Les offres et services INSOMEA
+- Les besoins des clients d'INSOMEA
+
+RÈGLES IMPORTANTES :
+- Réponds TOUJOURS en français, même si la question est mal formulée ou contient des fautes
+- Si la question est mal écrite, déduis l'intention et réponds quand même
+- Si tu n'as pas l'info exacte dans le contexte, utilise tes connaissances générales Microsoft
+- Réponds de façon claire, utile et concise (2 à 5 phrases)
+- Ne dis JAMAIS "je ne peux pas répondre" si la question concerne Microsoft ou la technologie
+
+Informations INSOMEA disponibles:
+{context_insomea}
+
+Actualités Microsoft récentes:
+{context_microsoft}
+
+Question de l'utilisateur: {question}
+
+Réponse utile en français:""")
+
+    llm = ChatGroq(model=LLM_MODEL, api_key=GROQ_API_KEY, temperature=0.2, max_tokens=300)
 
     def formater(docs):
-        return "\n".join([f"{doc.metadata['titre']}: {doc.page_content[:180]}" for doc in docs[:3]])
+        return "\n".join([f"{doc.metadata.get('titre','')}: {doc.page_content[:200]}" for doc in docs[:3]])
 
     def run_rag(question):
-        # Preprocessed question should be passed in by caller
-        docs_microsoft = retriever_microsoft.invoke(question)
-        docs_insomea = retriever_insomea.invoke(question)
-
-        chain = prompt | llm | StrOutputParser()
-
-        # If we found little or no context, fallback to an LLM-driven best-effort answer
-        if (not docs_microsoft or len(docs_microsoft) == 0) and (not docs_insomea or len(docs_insomea) == 0):
-            fallback_payload = {
-                "context_microsoft": "",
-                "context_insomea": "",
-                "question": (
-                    "Réponds en français de façon concise et utile. "
-                    "La question peut être mal formulée, incomplète, ou contenir des fautes. "
-                    "Si possible, déduis la demande et fournis une réponse actionnable orientée Microsoft / INSOMEA. "
-                    "Indique clairement si la réponse est une estimation et propose une reformulation ou une question de clarification.\n\n"
-                    + question
-                )
-            }
-            response = chain.invoke(fallback_payload)
-            if not response:
-                yield ("Je n’ai pas trouvé de contexte fiable et je ne peux pas formuler de réponse pertinente.", [])
-                return
-            # mark as low confidence
-            response = "Estimation (confiance faible) : " + response
-            chunk_size = 20
-            for i in range(0, len(response), chunk_size):
-                yield response[i:i + chunk_size], []
-            return
+        try:
+            docs_microsoft = retriever_microsoft.invoke(question)
+            docs_insomea = retriever_insomea.invoke(question)
+        except Exception:
+            docs_microsoft = []
+            docs_insomea = []
 
         payload = {
-            "context_microsoft": formater(docs_microsoft),
-            "context_insomea": formater(docs_insomea),
+            "context_microsoft": formater(docs_microsoft) if docs_microsoft else "Pas d'actualités spécifiques disponibles.",
+            "context_insomea": formater(docs_insomea) if docs_insomea else "Pas d'infos INSOMEA spécifiques.",
             "question": question
         }
 
+        chain = prompt | llm | StrOutputParser()
         response = chain.invoke(payload)
+
         if not response:
-            yield ("Je n’ai pas trouvé de contexte suffisamment fiable pour répondre avec précision à cette question.", [])
-            return
+            response = "Je n'ai pas pu générer une réponse. Veuillez reformuler votre question."
 
         chunk_size = 20
         for i in range(0, len(response), chunk_size):
             yield response[i:i + chunk_size], docs_microsoft
 
     return run_rag
+
+# ============================================================
+# BACKGROUND TASKS
+# ============================================================
+def refresh_background():
+    try:
+        lancer_collecte()
+        lancer_agent()
+    except Exception:
+        pass
+
+def demarrer_refresh_periodique(interval_seconds=3600):
+    if "periodic_refresh_started" in st.session_state and st.session_state.periodic_refresh_started:
+        return
+    st.session_state.periodic_refresh_started = True
+    def boucle_periodique():
+        while True:
+            try:
+                refresh_background()
+            except Exception:
+                pass
+            time.sleep(interval_seconds)
+    th = threading.Thread(target=boucle_periodique, daemon=True)
+    th.start()
+
+def lancer_rapport_si_besoin():
+    if "rapport_agent_started" not in st.session_state:
+        st.session_state.rapport_agent_started = False
+    if st.session_state.rapport_agent_started:
+        return
+    st.session_state.rapport_agent_started = True
+    thread = threading.Thread(target=lambda: lancer_agent(force=True), daemon=True)
+    thread.start()
+
+if "auto_refresh_done" not in st.session_state:
+    st.session_state.auto_refresh_done = False
+if not st.session_state.auto_refresh_done:
+    demarrer_refresh_periodique(interval_seconds=600)
+    st.session_state.auto_refresh_done = True
+
+if not st.session_state.get("rapport_agent_started", False):
+    lancer_rapport_si_besoin()
+
+articles_bruts = charger_articles()
+articles = sorted(articles_bruts, key=lambda x: parse_date_article(x.get("date", "")), reverse=True)
+rapport = charger_rapport()
 
 # ============================================================
 # TOPBAR
@@ -464,7 +319,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ============================================================
-# HERO (Accueil seulement)
+# HERO
 # ============================================================
 if st.session_state.current_tab == "Accueil":
     now = datetime.now()
@@ -513,7 +368,7 @@ with col3:
 with col4:
     if st.button("  Rapport Agent", key="nav_rapport", type="secondary"):
         st.session_state.current_tab = "Rapport Agent"
-        st.rerun() 
+        st.rerun()
 
 active_key = {"Accueil": "nav_accueil", "Articles": "nav_articles", "InsoBot": "nav_insobot", "Rapport Agent": "nav_rapport"}
 st.markdown(f"""
@@ -530,7 +385,6 @@ st.markdown(f"""
 # ACCUEIL
 # ============================================================
 if st.session_state.current_tab == "Accueil":
-
     if articles:
         article_une = articles[0]
         extrait = article_une.get("contenu", "")[:220] + "..." if len(article_une.get("contenu", "")) > 220 else article_une.get("contenu", "")
@@ -592,7 +446,6 @@ if st.session_state.current_tab == "Accueil":
                   <a href="{article['lien']}" target="_blank" style="font-size:12px;color:#0078D4;text-decoration:none;font-weight:500;">Lire l'article →</a>
                 </div>
                 """, unsafe_allow_html=True)
-
 
 # ============================================================
 # ARTICLES
@@ -676,30 +529,23 @@ elif st.session_state.current_tab == "InsoBot":
                 sources_docs = []
                 try:
                     q_clean = preprocess_question(question)
-                    fast_reply = reponse_rapide(q_clean)
-                    if fast_reply is not None:
-                        full_response, sources_docs = fast_reply
-                        status.update(label="InsoBot répond…", state="running")
-                        message_placeholder.markdown(full_response)
-                        status.update(label="Réponse prête", state="complete")
-                        st.session_state.messages.append({"role": "assistant", "content": full_response})
-                    else:
-                        run_rag = charger_rag()
-                        for chunk, docs in run_rag(q_clean):
-                            if chunk:
-                                full_response += chunk
-                                message_placeholder.markdown(full_response + "▌")
-                                status.update(label="InsoBot répond…", state="running")
-                            sources_docs = docs
-                        message_placeholder.markdown(full_response)
-                        status.update(label="Réponse prête", state="complete")
+                    run_rag = charger_rag()
+                    for chunk, docs in run_rag(q_clean):
+                        if chunk:
+                            full_response += chunk
+                            message_placeholder.markdown(full_response + "▌")
+                            status.update(label="InsoBot répond…", state="running")
+                        sources_docs = docs
+                    message_placeholder.markdown(full_response)
+                    status.update(label="Réponse prête", state="complete")
+                    if sources_docs:
                         with st.expander("📎 Sources utilisées"):
                             for i, doc in enumerate(sources_docs):
-                                st.markdown(f"**{doc.metadata['source']}** — {doc.metadata['titre']}")
-                                st.markdown(f"🔗 [Lire l'article]({doc.metadata['lien']})")
+                                st.markdown(f"**{doc.metadata.get('source','')}** — {doc.metadata.get('titre','')}")
+                                st.markdown(f"🔗 [Lire l'article]({doc.metadata.get('lien','')})")
                                 if i < len(sources_docs) - 1:
                                     st.divider()
-                        st.session_state.messages.append({"role": "assistant", "content": full_response})
+                    st.session_state.messages.append({"role": "assistant", "content": full_response})
                 except Exception as e:
                     status.update(label="Erreur de génération", state="error")
                     st.error(f"Erreur : {e}")
@@ -716,17 +562,15 @@ elif st.session_state.current_tab == "InsoBot":
 # ============================================================
 elif st.session_state.current_tab == "Rapport Agent":
     st.markdown("<div style='padding:20px 32px;'>", unsafe_allow_html=True)
-
     rapport = charger_rapport()
     if not rapport:
-        # Le rapport vide est une situation valide : aucun article important n'a été retenu.
         if not st.session_state.get("rapport_agent_started", False):
             lancer_rapport_si_besoin()
         st.markdown("""
         <div style="background:white;border:1px solid #e1dfdd;border-left:4px solid #ffb900;border-radius:8px;padding:24px 20px;margin:10px 0 18px;box-shadow:0 1px 3px rgba(0,0,0,0.04);">
           <div style="font-size:12px;font-weight:700;color:#605e5c;text-transform:uppercase;letter-spacing:0.7px;margin-bottom:8px;">Rapport Agent</div>
           <div style="font-size:28px;font-weight:600;color:#323130;margin-bottom:8px;">Aucun article important</div>
-          <div style="font-size:14px;color:#605e5c;line-height:1.6;">Aucun article ne répond actuellement aux critères d’importance commerciale pour INSOMEA. Le système peut relancer l’analyse automatiquement si de nouveaux contenus Microsoft sont publiés.</div>
+          <div style="font-size:14px;color:#605e5c;line-height:1.6;">Aucun article ne répond actuellement aux critères d'importance commerciale pour INSOMEA.</div>
         </div>
         """, unsafe_allow_html=True)
     else:
@@ -753,5 +597,4 @@ elif st.session_state.current_tab == "Rapport Agent":
                   <a href="{article['lien']}" target="_blank" style="font-size:12px;color:#0078D4;text-decoration:none;font-weight:500;">Lire l'article →</a>
                 </div>
                 """, unsafe_allow_html=True)
-
     st.markdown("</div>", unsafe_allow_html=True)
