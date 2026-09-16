@@ -8,6 +8,31 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+def initialiser_vectorstore():
+    vectorstore_path = "vectorstore"
+    articles_path = "data/articles.json"
+
+    vectorstore_vide = (
+        not os.path.exists(vectorstore_path) or
+        not os.listdir(vectorstore_path)
+    )
+
+    if vectorstore_vide:
+        if not os.path.exists(articles_path):
+            try:
+                from scraper import lancer_collecte
+                lancer_collecte()
+            except Exception as e:
+                print(f"Erreur scraper: {e}")
+        try:
+            from indexer import lancer_indexation
+            lancer_indexation()
+        except Exception as e:
+            print(f"Erreur indexation: {e}")
+
+initialiser_vectorstore()
+
+
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
 from langchain_chroma import Chroma
