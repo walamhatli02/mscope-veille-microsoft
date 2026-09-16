@@ -22,19 +22,17 @@ def get_groq_model():
     if preferred:
         candidates.append(preferred)
     candidates.extend([
-        "groq/compound",
         "openai/gpt-oss-20b",
-        "qwen/qwen3.8-27b",
-        "groq/compound-mini",
+        "openai/gpt-oss-120b",
+        "llama-3.1-8b-instant",
     ])
     for model in candidates:
         if model:
             return model
-    return "groq/compound"
+    return "openai/gpt-oss-20b"
 
 LLM_MODEL = get_groq_model()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 ARTICLES_PATH = "data/articles.json"
 ARTICLES_ENVOYES_PATH = "data/articles_envoyes.json"
 RAPPORT_PATH = "data/rapport_agent.json"
