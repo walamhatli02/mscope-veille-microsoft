@@ -5,7 +5,6 @@ import time
 import threading
 import unicodedata
 import re
-import difflib
 from datetime import datetime
 from dotenv import load_dotenv
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -25,14 +24,14 @@ def get_groq_model():
     if preferred:
         candidates.append(preferred)
     candidates.extend([
+        "llama-3.1-8b-instant",
         "openai/gpt-oss-20b",
         "openai/gpt-oss-120b",
-        "llama-3.1-8b-instant",
     ])
     for model in candidates:
         if model:
             return model
-    return "openai/gpt-oss-20b"
+    return "llama-3.1-8b-instant"
 
 VECTORSTORE_PATH = "vectorstore"
 LLM_MODEL = get_groq_model()
@@ -137,9 +136,6 @@ def parse_date_article(date_str):
     except ValueError:
         return datetime.min
 
-# ============================================================
-# PREPROCESS QUESTION
-# ============================================================
 def preprocess_question(text: str) -> str:
     if not text:
         return ""
@@ -152,7 +148,7 @@ def preprocess_question(text: str) -> str:
     return s
 
 # ============================================================
-# RAG EN MEMOIRE (compatible cloud)
+# RAG EN MEMOIRE
 # ============================================================
 @st.cache_resource
 def charger_rag():
@@ -167,7 +163,6 @@ def charger_rag():
 
     splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
 
-    # Indexer les articles Microsoft
     if os.path.exists(ARTICLES_PATH):
         with open(ARTICLES_PATH, "r", encoding="utf-8") as f:
             articles = json.load(f)
@@ -185,7 +180,6 @@ def charger_rag():
         if docs:
             vs_microsoft.add_documents(docs)
 
-    # Indexer les infos INSOMEA
     if os.path.exists(INSOMEA_PATH):
         with open(INSOMEA_PATH, "r", encoding="utf-8") as f:
             contenu = f.read()
@@ -248,10 +242,20 @@ Réponse utile en français:""")
         }
 
         chain = prompt | llm | StrOutputParser()
-        response = chain.invoke(payload)
+
+        response = None
+        for attempt in range(3):
+            try:
+                response = chain.invoke(payload)
+                break
+            except Exception as e:
+                if "rate_limit" in str(e).lower() or "429" in str(e):
+                    time.sleep((attempt + 1) * 5)
+                else:
+                    raise e
 
         if not response:
-            response = "Je n'ai pas pu générer une réponse. Veuillez reformuler votre question."
+            response = "Limite de requêtes atteinte. Veuillez réessayer dans quelques secondes."
 
         chunk_size = 20
         for i in range(0, len(response), chunk_size):
