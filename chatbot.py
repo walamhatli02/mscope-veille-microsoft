@@ -24,13 +24,13 @@ def get_groq_model():
     if preferred:
         candidates.append(preferred)
     candidates.extend([
-        "llama-3.3-70b-versatile",
-        "llama-3.1-8b-instant",
+        "openai/gpt-oss-20b",
+        "openai/gpt-oss-120b",
     ])
     for model in candidates:
         if model:
             return model
-    return "llama-3.3-70b-versatile"
+    return "openai/gpt-oss-20b"
 
 VECTORSTORE_PATH = "vectorstore"
 LLM_MODEL = get_groq_model()
@@ -208,10 +208,10 @@ Actualités Microsoft: {context_microsoft}
 Question: {question}
 Réponse en français:""")
 
-    llm = ChatGroq(model=LLM_MODEL, api_key=GROQ_API_KEY, temperature=0.2, max_tokens=300)
-
+    llm = ChatGroq(model=LLM_MODEL, api_key=GROQ_API_KEY, temperature=0.2, max_tokens=200)
+    
     def formater(docs):
-        return "\n".join([f"{doc.metadata.get('titre','')}: {doc.page_content[:200]}" for doc in docs[:3]])
+      return "\n".join([f"{doc.metadata.get('titre','')}: {doc.page_content[:100]}" for doc in docs[:2]])
 
     def run_rag(question):
         try:
