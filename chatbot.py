@@ -153,6 +153,7 @@ def preprocess_question(text: str) -> str:
 @st.cache_resource
 def charger_rag():
     import chromadb
+    import time
     from langchain_chroma import Chroma
 
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
@@ -197,30 +198,16 @@ def charger_rag():
     retriever_microsoft = vs_microsoft.as_retriever(search_kwargs={"k": 4})
     retriever_insomea = vs_insomea.as_retriever(search_kwargs={"k": 3})
 
-    prompt = ChatPromptTemplate.from_template("""Tu es InsoBot, assistant expert Microsoft et technologie pour l'équipe commerciale d'INSOMEA en Tunisie.
+    prompt = ChatPromptTemplate.from_template("""Tu es InsoBot, assistant expert Microsoft pour l'équipe commerciale d'INSOMEA en Tunisie.
+Tu dois répondre à TOUTES les questions liées à Microsoft, cloud, technologie et INSOMEA.
+Réponds TOUJOURS en français, même si la question est mal formulée.
+Si tu n'as pas l'info exacte, utilise tes connaissances générales Microsoft.
+Réponds de façon claire et concise (2 à 5 phrases).
 
-Tu dois répondre à TOUTES les questions liées à :
-- Microsoft (365, Azure, Copilot, Teams, Dynamics, Power Platform, Windows, etc.)
-- Les nouvelles technologies IT et cloud
-- Les offres et services INSOMEA
-- Les besoins des clients d'INSOMEA
-
-RÈGLES IMPORTANTES :
-- Réponds TOUJOURS en français, même si la question est mal formulée ou contient des fautes
-- Si la question est mal écrite, déduis l'intention et réponds quand même
-- Si tu n'as pas l'info exacte dans le contexte, utilise tes connaissances générales Microsoft
-- Réponds de façon claire, utile et concise (2 à 5 phrases)
-- Ne dis JAMAIS "je ne peux pas répondre" si la question concerne Microsoft ou la technologie
-
-Informations INSOMEA disponibles:
-{context_insomea}
-
-Actualités Microsoft récentes:
-{context_microsoft}
-
-Question de l'utilisateur: {question}
-
-Réponse utile en français:""")
+Informations INSOMEA: {context_insomea}
+Actualités Microsoft: {context_microsoft}
+Question: {question}
+Réponse en français:""")
 
     llm = ChatGroq(model=LLM_MODEL, api_key=GROQ_API_KEY, temperature=0.2, max_tokens=300)
 
@@ -236,8 +223,8 @@ Réponse utile en français:""")
             docs_insomea = []
 
         payload = {
-            "context_microsoft": formater(docs_microsoft) if docs_microsoft else "Pas d'actualités spécifiques disponibles.",
-            "context_insomea": formater(docs_insomea) if docs_insomea else "Pas d'infos INSOMEA spécifiques.",
+            "context_microsoft": formater(docs_microsoft) if docs_microsoft else "Pas d'actualités disponibles.",
+            "context_insomea": formater(docs_insomea) if docs_insomea else "Pas d'infos INSOMEA.",
             "question": question
         }
 
