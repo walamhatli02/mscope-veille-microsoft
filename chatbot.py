@@ -24,14 +24,13 @@ def get_groq_model():
     if preferred:
         candidates.append(preferred)
     candidates.extend([
+        "llama-3.3-70b-versatile",
         "llama-3.1-8b-instant",
-        "openai/gpt-oss-20b",
-        "openai/gpt-oss-120b",
     ])
     for model in candidates:
         if model:
             return model
-    return "llama-3.1-8b-instant"
+    return "llama-3.3-70b-versatile"
 
 VECTORSTORE_PATH = "vectorstore"
 LLM_MODEL = get_groq_model()

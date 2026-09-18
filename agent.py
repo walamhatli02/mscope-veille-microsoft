@@ -22,15 +22,13 @@ def get_groq_model():
     if preferred:
         candidates.append(preferred)
     candidates.extend([
-        "openai/gpt-oss-20b",
-        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
         "llama-3.1-8b-instant",
     ])
     for model in candidates:
         if model:
             return model
-    return "openai/gpt-oss-20b"
-
+    return "llama-3.3-70b-versatile"
 LLM_MODEL = get_groq_model()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 ARTICLES_PATH = "data/articles.json"
