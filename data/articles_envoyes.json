@@ -1100,5 +1100,355 @@
     "date": "2026-09-17T14:00:05",
     "timestamp": 1789650005,
     "contenu": "AI is reshaping work faster than any organization has fully mastered. Across industries, the conversation has shifted from what AI can do to how companies can use AI to create business value and expand what people are able to achieve. At Microsoft, we believe the organizations that succeed will be what we call Frontier Firms:... The post What we’ve learned from Microsoft’s own AI transformation appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "From guidance to action: Security fundamentals that materially reduce risk",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/17/from-guidance-to-action-security-fundamentals-that-materially-reduce-risk/",
+    "date": "Thu, 17 Sep 2026 17:00:00 +0000",
+    "contenu": "AI has made fundamental changes to the operating environment for cybersecurity. Explore exposure management guidance on recommended controls and take action and stay ahead of cyberthreats. The post From guidance to action: Security fundamentals that materially reduce risk appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Improving email security outcomes with real-world Microsoft Defender insights",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/17/improving-email-security-outcomes-with-real-world-microsoft-defender-insights/",
+    "date": "Thu, 17 Sep 2026 16:00:00 +0000",
+    "contenu": "The latest email security benchmarking reports show strong Microsoft Defender performance across pre-delivery and post-delivery scenarios and reveal where threats and defenses continue to evolve. The post Improving email security outcomes with real-world Microsoft Defender insights appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Protecting organizations from AI-assisted executive impersonation and invoice fraud",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/",
+    "date": "Thu, 10 Sep 2026 17:23:05 +0000",
+    "contenu": "Microsoft examines an AI-assisted business email compromise campaign that used executive impersonation and fake invoices to target finance teams with ACH payment fraud. The post Protecting organizations from AI-assisted executive impersonation and invoice fraud appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Detect and disrupt AI-themed attacks with Microsoft Defender",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/10/detect-and-disrupt-ai-themed-attacks-with-microsoft-defender/",
+    "date": "Thu, 10 Sep 2026 16:00:00 +0000",
+    "contenu": "See how Microsoft Defender detects and disrupts AI-themed phishing, malware, and multi-stage attacks across the attack chain. The post Detect and disrupt AI-themed attacks with Microsoft Defender appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Threat matrix: Mapping threats across cloud web applications",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/09/threat-matrix-mapping-threats-across-cloud-web-applications/",
+    "date": "Wed, 09 Sep 2026 21:30:00 +0000",
+    "contenu": "Microsoft introduces the Cloud Web Applications Threat Matrix, a MITRE ATT&CK-aligned framework that helps defenders understand, prioritize, and mitigate threats to cloud-hosted web apps and serverless platforms. The post Threat matrix: Mapping threats across cloud web applications appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Passkey-themed social engineering leads to identity and cloud compromise",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/",
+    "date": "Wed, 09 Sep 2026 17:41:18 +0000",
+    "contenu": "Passkey-themed social engineering is being used to compromise identities and enable broader cloud attacks. Learn how threat actors establish MFA persistence, abuse Microsoft Graph for reconnaissance, and access SharePoint, OneDrive, and email data, along with key detection and mitigation guidance. The post Passkey-themed social engineering leads to identity and cloud compromise appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "How to secure edge AI in customer-owned environments",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/04/secure-edge-ai-customer-owned-environments/",
+    "date": "Fri, 04 Sep 2026 19:10:10 +0000",
+    "contenu": "As AI moves into customer-owned environments, organizations need new ways to verify the systems, software, and AI assets they trust before releasing sensitive data, credentials, and models. The post How to secure edge AI in customer-owned environments appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "ASCII smuggling crosses over from AI prompt injection to phishing evasion",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
+    "date": "Thu, 03 Sep 2026 16:00:00 +0000",
+    "contenu": "Invisible Unicode characters popularized for hiding instructions from AI models are now being used to obfuscate words before email filters parse them. The post ASCII smuggling crosses over from AI prompt injection to phishing evasion appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Impersonating IT support: how threat actors turn a remote session into enterprise-wide access",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/02/impersonating-it-support-threat-actors-turn-remote-session-into-enterprise-wide-access/",
+    "date": "Wed, 02 Sep 2026 22:51:18 +0000",
+    "contenu": "Microsoft Threat Intelligence observed a human-operated intrusion campaign that abuses Microsoft Teams external collaboration to impersonate IT support, gain remote access, and deploy a Node.js-based implant. Learn how attackers move from social engineering to lateral movement using legitimate tools, and how Microsoft Defender helps detect and disrupt the activity. The post Impersonating IT support: how threat actors turn a remote session into enterprise-wide access appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Counterfeit installers to system compromise: Tracking a deceptive software download campaign",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/01/counterfeit-installers-system-compromise-tracking-deceptive-software-download-campaign/",
+    "date": "Tue, 01 Sep 2026 22:48:28 +0000",
+    "contenu": "An active campaign is impersonating legitimate software vendors to deliver malware through look-alike download pages and regenerated installer archives. Microsoft Defender Experts shares observed attack techniques, Defender XDR detections, indicators of compromise, and practical mitigations to help organizations identify, block, and respond to this threat. The post Counterfeit installers to system compromise: Tracking a deceptive software download campaign appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Power Platform Blog",
+    "titre": "Enhanced Data Model Migration Utility Now Generally Available, with Dynamics 365 Portal Templates Support",
+    "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/enhanced-data-model-migration-utility-now-generally-available-with-dynamics-365-portal-templates-support/",
+    "date": "Mon, 07 Sep 2026 08:06:44 +0000",
+    "contenu": "We’re excited to announce that the Standard Data Model (SDM) to Enhanced Data Model (EDM) migration utility in Microsoft Power Platform CLI is now generally available (GA) and it now also supports four key Dynamics 365 portal templates: New sites using these templates could be provisioned on EDM since June this year. The post Enhanced Data Model Migration Utility Now Generally Available, with Dynamics 365 Portal Templates Support appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "Microsoft Power Platform Blog",
+    "titre": "Turbocharge your canvas development with the canvas authoring agent plugin – now generally available!",
+    "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/turbocharge-your-canvas-development-with-the-canvas-authoring-agent-plugin-now-generally-available/",
+    "date": "Tue, 01 Sep 2026 15:00:00 +0000",
+    "contenu": "Canvas apps agentic coauthoring is now generally available Today we’re excited to announce a major milestone for makers: canvas apps coauthoring with agents is now generally available. The post Turbocharge your canvas development with the canvas authoring agent plugin – now generally available! appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "Microsoft Power Platform Blog",
+    "titre": "One always-on roadmap: Dynamics 365, Power Platform, and Dataverse join the AI at Work roadmap",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/08/25/one-always-on-roadmap-dynamics-365-power-platform-and-dataverse-join-the-ai-at-work-roadmap/",
+    "date": "Tue, 25 Aug 2026 15:00:00 +0000",
+    "contenu": "Learn how the transition from release waves to the AI at Work roadmap creates a single destination to discover, track, and plan your innovations. The post One always-on roadmap: Dynamics 365, Power Platform, and Dataverse join the AI at Work roadmap appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "Microsoft Power Platform Blog",
+    "titre": "Register now for PPCC 2026: Come for the learning, stay for the community",
+    "lien": "https://www.microsoft.com/en-us/power-platform/blog/2026/08/13/register-now-for-ppcc-2026-come-for-the-learning-stay-for-the-community/",
+    "date": "Thu, 13 Aug 2026 15:00:00 +0000",
+    "contenu": "Whether you’re exploring AI in your business, building with low code, developing professional solutions, or leading enterprise-wide transformation, PPCC is your best opportunity to return to work on Monday ready to make an impact. The post Register now for PPCC 2026: Come for the learning, stay for the community appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "Microsoft Power Platform Blog",
+    "titre": "Extend Liquid with Server Logic in Power Pages",
+    "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/extend-liquid-with-server-logic-in-power-pages/",
+    "date": "Tue, 11 Aug 2026 18:59:27 +0000",
+    "contenu": "Since introducing Server Logic in Power Pages, our focus has remained consistent: help you bring business logic closer to the experiences you build, while keeping it secure, reusable, and easy to manage at scale. In the past, developers working with Liquid in Power Pages were limited to a predefined set of platform-provided objects. The post Extend Liquid with Server Logic in Power Pages appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "Microsoft Power Platform Blog",
+    "titre": "Your Company Is Racing to Deploy AI. Is Your Data Ready?",
+    "lien": "https://www.microsoft.com/en-us/power-platform/blog/2026/08/11/your-company-is-racing-to-deploy-ai-is-your-data-ready/",
+    "date": "Tue, 11 Aug 2026 14:00:00 +0000",
+    "contenu": "AI increases the volume, value, and use of business data. Dataverse gives administrators practical controls for capacity, retention, security, auditing, and recovery. AI changes how business data is used Consider a manufacturer using AI in procurement, finance, and supply chain operations. The post Your Company Is Racing to Deploy AI. Is Your Data Ready? appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "Microsoft Power Platform Blog",
+    "titre": "What’s new in Power Platform: July/August 2026 feature update",
+    "lien": "https://www.microsoft.com/en-us/power-platform/blog/2026/08/06/whats-new-in-power-platform-july-august-2026-feature-update/",
+    "date": "Thu, 06 Aug 2026 15:00:00 +0000",
+    "contenu": "Building modern apps Generally available: the data grid modern control — a fluent UI grid with search, sorting, selection, and rich column types The data grid modern control is now generally available for canvas apps. Built on fluent UI, data grid gives makers a high-performance, data-dense view of tabular data with a built-in search experience. The post What’s new in Power Platform: July/August 2026 feature update appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "Microsoft Power Platform Blog",
+    "titre": "Secured and Governed your AI Agents: Microsoft Entra Agent ID for Dataverse",
+    "lien": "https://www.microsoft.com/en-us/power-platform/blog/2026/08/06/microsoft-entra-agent-id-for-dataverse/",
+    "date": "Thu, 06 Aug 2026 14:00:00 +0000",
+    "contenu": "Microsoft Entra Agent ID and Dataverse agent users offer a new identity foundation. Together, they help organizations give each agent a dedicated identity for accessing Dataverse, assign appropriate security roles, and maintain visibility into the agent’s activity. The post Secured and Governed your AI Agents: Microsoft Entra Agent ID for Dataverse appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "Microsoft Power Platform Blog",
+    "titre": "Prompt Columns in GA: Turning Business Apps Data into Persisted AI Insights",
+    "lien": "https://www.microsoft.com/en-us/power-platform/blog/2026/07/29/prompt-columns-july2026/",
+    "date": "Wed, 29 Jul 2026 15:00:00 +0000",
+    "contenu": "Prompt Columns allows organizations to embed AI directly into business tables, without writing a single line of code. With Prompt Columns, you define natural language prompts once, and AI automatically generates insights, classifications, summaries, and recommendations that are persisted directly in your data. The post Prompt Columns in GA: Turning Business Apps Data into Persisted AI Insights appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "Accelerate your move to agentic business applications with Dynamics 365 Activate",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/09/09/accelerate-your-move-to-agentic-business-applications-with-dynamics-365-activate/",
+    "date": "Wed, 09 Sep 2026 18:00:00 +0000",
+    "contenu": "Don’t let legacy applications hold back your adoption of innovation Organizations around the world are exploring how AI and agents could redesign and transform their critical business processes. The post Accelerate your move to agentic business applications with Dynamics 365 Activate appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "Workforce management meets AI: WEM MCP tools for Dynamics 365 Service Agent",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/09/03/dynamics-365-workforce-engagement-management-mcp-tools/",
+    "date": "Thu, 03 Sep 2026 19:55:42 +0000",
+    "contenu": "Workforce Engagement Management (WEM) MCP tools for Dynamics 365 Service Agent bring workforce actions into Copilot, Microsoft Teams, and Outlook. Supervisors and customer service representatives can manage time-off requests, shift swaps, and shift bids using natural language, with future capabilities planned for schedule visibility, leave balances, and clock in/out experiences. The post Workforce management meets AI: WEM MCP tools for Dynamics 365 Service Agent appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "One always-on roadmap: Dynamics 365, Power Platform, and Dataverse join the AI at Work roadmap",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/08/25/one-always-on-roadmap-dynamics-365-power-platform-and-dataverse-join-the-ai-at-work-roadmap/",
+    "date": "Tue, 25 Aug 2026 15:00:00 +0000",
+    "contenu": "Learn how the move from release wave announcements to the AI at Work roadmap creates a single destination to discover, track, and plan innovations. The post One always-on roadmap: Dynamics 365, Power Platform, and Dataverse join the AI at Work roadmap appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "Build a connected foundation for Supplier Engagement and agentic AI with Microsoft Dynamics 365 Supply Chain Management",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/08/20/supplier-engagement-dynamics-365-supply-chain-management/",
+    "date": "Thu, 20 Aug 2026 15:30:00 +0000",
+    "contenu": "Supplier Engagement in Dynamics 365 Supply Chain Management helps organizations connect supplier experiences, procurement operations, and business data while creating a stronger foundation for AI and agentic business processes. The post Build a connected foundation for Supplier Engagement and agentic AI with Microsoft Dynamics 365 Supply Chain Management appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "Breaking the Company Boundary: Cross-Legal-Entity Fulfillment and Advanced Warehouse Support in DOM",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/08/19/cross-legal-entity-fulfillment-dynamics-365/",
+    "date": "Wed, 19 Aug 2026 15:30:00 +0000",
+    "contenu": "Cross-Legal-Entity Fulfillment Optimization in Dynamics 365 enables organizations to source inventory across participating legal entities, automate intercompany transactions, and improve fulfillment decisions with Distributed Order Management. The post Breaking the Company Boundary: Cross-Legal-Entity Fulfillment and Advanced Warehouse Support in DOM appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "Announcing Shift Rotation Policies: automated shift rotations at scale",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/08/14/shift-rotation-policies-workforce-management/",
+    "date": "Fri, 14 Aug 2026 15:30:00 +0000",
+    "contenu": "Introducing Shift Rotation Policies in Dynamics 365 Workforce Management, a new capability that automates rotating schedules, improves operational consistency, and reduces manual scheduling effort The post Announcing Shift Rotation Policies: automated shift rotations at scale appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for CRM Sales Platforms for the sixteenth consecutive year",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/08/11/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-crm-sales-platforms-for-the-sixteenth-consecutive-year/",
+    "date": "Tue, 11 Aug 2026 16:30:00 +0000",
+    "contenu": "Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for CRM Sales Platforms. Learn how AI-powered capabilities in Dynamics 365 are helping sales teams move from systems of record to systems of action. The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for CRM Sales Platforms for the sixteenth consecutive year appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "Microsoft enhances the Implementation Portal for Dynamics 365 with business process visualization",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/08/11/dynamics-365-implementation-portal-business-process-visualization/",
+    "date": "Tue, 11 Aug 2026 15:30:00 +0000",
+    "contenu": "Access Microsoft Business Process Catalog diagrams directly in the Dynamics 365 Implementation Portal to align stakeholders and improve implementation planning. The post Microsoft enhances the Implementation Portal for Dynamics 365 with business process visualization appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "Supplier Engagement in Dynamics 365 Supply Chain Management is now available in public preview",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/08/06/supplier-engagement-supply-chain-management/",
+    "date": "Thu, 06 Aug 2026 15:21:22 +0000",
+    "contenu": "Supplier Engagement, now in public preview for Dynamics 365 Supply Chain Management, helps organizations streamline supplier onboarding, lifecycle management, and collaboration from a centralized workspace. Built on Microsoft Power Platform, it provides trusted supplier data, global vendor management, and self-service supplier experiences while keeping transactions connected to ERP processes. The post Supplier Engagement in Dynamics 365 Supply Chain Management is now available in public preview appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "Governance in the Quality Management agent is now generally available",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/08/05/governance-customer-service/",
+    "date": "Wed, 05 Aug 2026 18:04:55 +0000",
+    "contenu": "Governance in Dynamics 365 Customer Service helps organizations evaluate outbound emails and attachments against business-defined policies before delivery, reducing risk and ensuring compliant customer communications. The post Governance in the Quality Management agent is now generally available appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Should you read the code, is RAG dead, and did Skills kill MCP?",
+    "lien": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
+    "date": "Fri, 18 Sep 2026 15:00:00 +0000",
+    "contenu": "We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast. The post Should you read the code, is RAG dead, and did Skills kill MCP? appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+    "lien": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+    "date": "Thu, 17 Sep 2026 00:26:43 +0000",
+    "contenu": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took. The post Migrating the GitHub Copilot runtime to Rust, using Copilot appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+    "lien": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
+    "date": "Fri, 11 Sep 2026 18:26:10 +0000",
+    "contenu": "If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team. The post Marketing ops as code: Automating events from planning to follow-up on GitHub appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+    "lien": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+    "date": "Thu, 10 Sep 2026 21:31:19 +0000",
+    "contenu": "Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app. The post GitHub Copilot app for Beginners: Using the diff, terminal, and browser appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "GitHub availability report: August 2026",
+    "lien": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
+    "date": "Thu, 10 Sep 2026 02:05:17 +0000",
+    "contenu": "In August, we experienced five incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: August 2026 appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Project HydraFusion: Frontier quality via multi-model orchestration",
+    "lien": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+    "date": "Fri, 04 Sep 2026 16:04:14 +0000",
+    "contenu": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost. Now available as a research preview in GitHub Copilot. The post Project HydraFusion: Frontier quality via multi-model orchestration appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "GitHub Copilot app for Beginners: Run several agents at once",
+    "lien": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
+    "date": "Thu, 03 Sep 2026 16:00:00 +0000",
+    "contenu": "Learn how to run parallel agents in the GitHub Copilot app, and experience the moment it stops feeling scary and starts feeling powerful. The post GitHub Copilot app for Beginners: Run several agents at once appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
+    "lien": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
+    "date": "Wed, 02 Sep 2026 21:00:00 +0000",
+    "contenu": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations. The post Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my! appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "How we make AI coding more cost efficient without sacrificing task quality",
+    "lien": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+    "date": "Wed, 02 Sep 2026 18:00:00 +0000",
+    "contenu": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task. The post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "OpenClaw went viral. Meet the maintainers building and securing it.",
+    "lien": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
+    "date": "Thu, 27 Aug 2026 16:00:00 +0000",
+    "contenu": "OpenClaw is the fastest-growing project in GitHub history. Peter Steinberger and several maintainers share what they learned in the project's first six months. The post OpenClaw went viral. Meet the maintainers building and securing it. appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing new builds for 18 September 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/09/18/announcing-new-builds-for-18-september-2026/",
+    "date": "Fri, 18 Sep 2026 17:02:07 +0000",
+    "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels. New builds this week Select your channel below to view its release notes: Beta: Announcing new builds for 18 September 2026 appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Build anywhere, stay in flow: How Windows 365 is redefining the developer experience",
+    "lien": "https://blogs.windows.com/windowsdeveloper/2026/09/14/build-anywhere-stay-in-flow-with-windows-365/",
+    "date": "Mon, 14 Sep 2026 17:00:49 +0000",
+    "contenu": "Development teams are under increasing pressure to ship software faster, even as the environments they rely on grow more complex. However, modern development has only become harder to provision and maintain with AI-assisted The post Build anywhere, stay in flow: How Windows 365 is redefining the developer experience appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "More choice and possibility with Windows PCs at IFA",
+    "lien": "https://blogs.windows.com/devices/2026/09/14/more-choice-and-possibility-with-windows-pcs-at-ifa/",
+    "date": "Mon, 14 Sep 2026 17:00:39 +0000",
+    "contenu": "This year at IFA, I saw the Windows ecosystem doing what it does best: bringing innovation to life through products and experiences for every person, purpose, and price point. Our partners intr The post More choice and possibility with Windows PCs at IFA appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing new builds for 11 September 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/09/11/announcing-new-builds-for-11-september-2026/",
+    "date": "Fri, 11 Sep 2026 17:11:03 +0000",
+    "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta, Experimental, and Release Preview channels. New builds this week Select your channel below to view its release notes: B The post Announcing new builds for 11 September 2026 appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing Windows 11 Release Preview Builds 26100.9539/26200.9539",
+    "lien": "https://blogs.windows.com/windows-insider/2026/09/10/announcing-windows-11-release-preview-builds-26100-9539-26200-9539/",
+    "date": "Thu, 10 Sep 2026 17:11:27 +0000",
+    "contenu": "Hello Windows Insiders, Today we’re releasing build Builds 26100.9539/26200.9539 for Release Preview for Windows 11, version 24H2/25H2. Release notes can be found over in the Announcing Windows 11 Release Preview Builds 26100.9539/26200.9539 appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing new builds for 8 September 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/09/08/announcing-new-builds-for-8-september-2026/",
+    "date": "Tue, 08 Sep 2026 17:05:10 +0000",
+    "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels. New builds this week Select your channel below to view its release notes: Beta: Announcing new builds for 8 September 2026 appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Listening to families. Improving Microsoft Family.",
+    "lien": "https://blogs.windows.com/windowsexperience/2026/09/08/listening-to-families-improving-microsoft-family/",
+    "date": "Tue, 08 Sep 2026 17:00:08 +0000",
+    "contenu": "The latest Windows Family Safety improvements are part of a broader effort to create safer, age-appropriate digital experiences for kids and families. As we’ve Listening to families. Improving Microsoft Family. appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Helping families and educators support safer experiences and healthier habits on Windows",
+    "lien": "https://blogs.windows.com/windowsexperience/2026/09/08/helping-families-and-educators-support-safer-experiences-and-healthier-habits-on-windows/",
+    "date": "Tue, 08 Sep 2026 17:00:07 +0000",
+    "contenu": "Our children and teens are growing up in a digital world where apps, games, and AI-powered tools are part of how they learn, play, create, and connect. For parents and educators, that brings both opportunity and responsibil The post Helping families and educators support safer experiences and healthier habits on Windows appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Faster reviews and quality recognition for Microsoft Edge extensions",
+    "lien": "https://blogs.windows.com/msedgedev/2026/09/08/faster-reviews-and-quality-recognition-for-microsoft-edge-extensions/",
+    "date": "Tue, 08 Sep 2026 16:02:17 +0000",
+    "contenu": "Building an extension has never been easier. Rapid adoption of AI-assisted coding is enabling developers to build extensions faster than ever. We have seen that momentum on the Edge Add-ons site< The post Faster reviews and quality recognition for Microsoft Edge extensions appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing Project Zenith: The ready-to-code Windows experience on developer-class devices",
+    "lien": "https://blogs.windows.com/windowsdeveloper/2026/09/04/announcing-project-zenith-the-ready-to-code-windows-experience/",
+    "date": "Fri, 04 Sep 2026 10:00:29 +0000",
+    "contenu": "Breakthroughs in computing become real through the experiences developers create. Our goal is to have Windows be the best platform for developers. That means pairing the latest in hardware innovation with software optimized for development. At The post Announcing Project Zenith: The ready-to-code Windows experience on developer-class devices appeared first on Windows Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "Build custom commerce experiences with Dynamics 365 Commerce",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/09/15/dynamics-365-commerce-composable-architecture/",
+    "date": "Tue, 15 Sep 2026 15:30:00 +0000",
+    "contenu": "Microsoft Dynamics 365 Commerce provides a composable, API-first architecture that separates the experience layer from the commerce engine. New licensing offers customers more flexibility to use Dynamics 365 Commerce to build custom applications, connect third-party experiences, and support new commerce scenarios. Organizations can create experiences for their specific business requirements while using Dynamics 365 Commerce capabilities for pricing, promotions, inventory, loyalty, orders, fulfillment, and other commerce processes. The post Build custom commerce experiences with Dynamics 365 Commerce appeared first on Microsoft Dynamics 365 Blog ."
   }
 ]

@@ -1443,5 +1443,12 @@
     "lien": "https://blogs.windows.com/windowsdeveloper/2026/09/04/announcing-project-zenith-the-ready-to-code-windows-experience/",
     "date": "Fri, 04 Sep 2026 10:00:29 +0000",
     "contenu": "Breakthroughs in computing become real through the experiences developers create. Our goal is to have Windows be the best platform for developers. That means pairing the latest in hardware innovation with software optimized for development. At The post Announcing Project Zenith: The ready-to-code Windows experience on developer-class devices appeared first on Windows Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "Build custom commerce experiences with Dynamics 365 Commerce",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/09/15/dynamics-365-commerce-composable-architecture/",
+    "date": "Tue, 15 Sep 2026 15:30:00 +0000",
+    "contenu": "Microsoft Dynamics 365 Commerce provides a composable, API-first architecture that separates the experience layer from the commerce engine. New licensing offers customers more flexibility to use Dynamics 365 Commerce to build custom applications, connect third-party experiences, and support new commerce scenarios. Organizations can create experiences for their specific business requirements while using Dynamics 365 Commerce capabilities for pricing, promotions, inventory, loyalty, orders, fulfillment, and other commerce processes. The post Build custom commerce experiences with Dynamics 365 Commerce appeared first on Microsoft Dynamics 365 Blog ."
   }
 ]
