@@ -209,7 +209,7 @@ Question: {question}
 Réponse en français:""")
 
     llm = ChatGroq(model=LLM_MODEL, api_key=GROQ_API_KEY, temperature=0.2, max_tokens=200)
-    
+
     def formater(docs):
       return "\n".join([f"{doc.metadata.get('titre','')}: {doc.page_content[:100]}" for doc in docs[:2]])
 
@@ -332,7 +332,7 @@ if st.session_state.current_tab == "Accueil":
           <div style="font-size:11px;color:rgba(255,255,255,0.7);margin-top:2px;">Articles importants</div>
         </div>
         <div style="background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.2);border-radius:8px;padding:12px 20px;text-align:center;">
-          <div style="font-size:24px;font-weight:600;color:white;">4</div>
+          <div style="font-size:24px;font-weight:600;color:white;">12</div>
           <div style="font-size:11px;color:rgba(255,255,255,0.7);margin-top:2px;">Sources actives</div>
         </div>
         <div style="background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.2);border-radius:8px;padding:12px 20px;text-align:center;">
