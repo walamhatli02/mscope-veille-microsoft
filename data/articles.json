@@ -1018,7 +1018,7 @@
     "titre": "[In preview] Public Preview: Foundry Routines in Foundry Agent Service",
     "lien": "https://azure.microsoft.com/updates?id=563536",
     "date": "2026-09-18T19:10:53",
-    "timestamp": 1789755053,
+    "timestamp": 1789758653,
     "contenu": "In public preview, Foundry Agent Service adds Foundry Routines, a native trigger primitive for running published agents automatically. Production agents often need to run on a schedule or when a business event occurs, and today that means assembling exter"
   },
   {
@@ -1026,7 +1026,7 @@
     "titre": "[In preview] Public Preview: Mdsv4 and Msv4 Series Virtual Machines for SAP",
     "lien": "https://azure.microsoft.com/updates?id=571530",
     "date": "2026-09-18T17:29:29",
-    "timestamp": 1789748969,
+    "timestamp": 1789752569,
     "contenu": "The Mdsv4\nand Msv4 Series are memory-optimized virtual machine series built on 6th\nGeneration Intel® Xeon® Scalable processors and enhanced with advanced security\ncapabilities and the latest Azure Boost technologies. Designed for\ndemanding memory-intensiv"
   },
   {
@@ -1034,7 +1034,7 @@
     "titre": "[Launched] Generally Available: Enable and disable controls for Microsoft Foundry agents in Agent 365",
     "lien": "https://azure.microsoft.com/updates?id=571826",
     "date": "2026-09-18T17:24:02",
-    "timestamp": 1789748642,
+    "timestamp": 1789752242,
     "contenu": "Microsoft Foundry now exposes enable and disable actions for Foundry agent objects within the Agent 365 governance surface in Microsoft Admin Center, generally available. Administrators can control whether a Foundry agent is available for use across their"
   },
   {
@@ -1042,7 +1042,7 @@
     "titre": "[In preview] Public Preview: Network egress controls for hosted agents in Microsoft Foundry",
     "lien": "https://azure.microsoft.com/updates?id=571821",
     "date": "2026-09-18T17:23:21",
-    "timestamp": 1789748601,
+    "timestamp": 1789752201,
     "contenu": "In public preview, Microsoft Foundry now lets customers govern the outbound connections a hosted agent can make. Customers author ordered rules matched on destination host, including FQDN with wildcards such as *.contoso.com, with actions to allow, deny,"
   },
   {
@@ -1050,7 +1050,7 @@
     "titre": "[Launched] Generally Available: Publishing Microsoft Foundry agents to Microsoft 365 Copilot and Teams",
     "lien": "https://azure.microsoft.com/updates?id=571816",
     "date": "2026-09-18T17:21:06",
-    "timestamp": 1789748466,
+    "timestamp": 1789752066,
     "contenu": "Publishing Microsoft Foundry agents to Microsoft 365 Copilot and Teams is now generally available. An agent only delivers value once it reaches the people who need it, and Foundry developers previously had no native path to make their agents operational a"
   },
   {
@@ -1058,7 +1058,7 @@
     "titre": "[Launched] Generally Available: Logical replication slot sync status metric for Azure PostgreSQL Flexible Server",
     "lien": "https://azure.microsoft.com/updates?id=568414",
     "date": "2026-09-18T16:44:11",
-    "timestamp": 1789746251,
+    "timestamp": 1789749851,
     "contenu": "You can now monitor the synchronization status of your logical replication slots in Azure Database for PostgreSQL – Flexible Server using the new logical_replication_slot_sync_status metric. This Azure Monitor metric shows whether each logical replication"
   },
   {
@@ -1066,7 +1066,7 @@
     "titre": "[Launched] Generally Available: New and improved troubleshooting guides for Azure Database for PostgreSQL",
     "lien": "https://azure.microsoft.com/updates?id=571042",
     "date": "2026-09-18T15:51:06",
-    "timestamp": 1789743066,
+    "timestamp": 1789746666,
     "contenu": "Updated troubleshooting guidance is now available for Azure Database for PostgreSQL flexible server. You can use the expanded documentation to diagnose high CPU, memory, IOPS, temporary file usage, and autovacuum issues, helping you identify root causes a"
   },
   {
@@ -1074,7 +1074,7 @@
     "titre": "[Launched] Generally Available: PG18 support for Azure Database for PostgreSQL elastic clusters",
     "lien": "https://azure.microsoft.com/updates?id=571047",
     "date": "2026-09-18T15:49:46",
-    "timestamp": 1789742986,
+    "timestamp": 1789746586,
     "contenu": "Azure Database for PostgreSQL elastic clusters now support PostgreSQL 18, bringing the latest PostgreSQL capabilities to distributed, cloud-scale workloads. You can build new applications or modernize existing ones with the performance, reliability, and d"
   },
   {
@@ -1082,7 +1082,7 @@
     "titre": "[In preview] Public Preview: Azure Payments HSM v2",
     "lien": "https://azure.microsoft.com/updates?id=570509",
     "date": "2026-09-17T18:36:44",
-    "timestamp": 1789666604,
+    "timestamp": 1789670204,
     "contenu": "Azure Payments HSM v2 is a highly available,\nsingle-tenant Payment HSM service for payment processing, credential issuance,\nPIN processing, key management, and authentication data protection. Customers\nretain exclusive administrative control of an isolate"
   },
   {
@@ -1090,7 +1090,7 @@
     "titre": "[Launched] Generally Available: High-scale mesh in Azure Virtual Network Manager",
     "lien": "https://azure.microsoft.com/updates?id=571572",
     "date": "2026-09-17T17:40:33",
-    "timestamp": 1789663233,
+    "timestamp": 1789666833,
     "contenu": "High-scale mesh using connected\ngroup in Azure Virtual Network\nManager is now in general availability. In available regions, customers may connect\nup to 3,000 virtual networks in a single mesh connectivity configuration by\ndefault and higher scale IP conn"
   },
   {
@@ -1098,7 +1098,7 @@
     "titre": "What we’ve learned from Microsoft’s own AI transformation",
     "lien": "https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation/",
     "date": "2026-09-17T14:00:05",
-    "timestamp": 1789650005,
+    "timestamp": 1789653605,
     "contenu": "AI is reshaping work faster than any organization has fully mastered. Across industries, the conversation has shifted from what AI can do to how companies can use AI to create business value and expand what people are able to achieve. At Microsoft, we believe the organizations that succeed will be what we call Frontier Firms:... The post What we’ve learned from Microsoft’s own AI transformation appeared first on The Official Microsoft Blog ."
   }
 ]
