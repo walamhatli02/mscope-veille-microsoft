@@ -1,0 +1,40 @@
+name: Update Microsoft Articles
+
+on:
+  schedule:
+    # Tous les jours à 7h00 UTC (8h00 heure de Tunis)
+    - cron: '0 7 * * *'
+  workflow_dispatch:  # Permet de lancer manuellement
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install feedparser beautifulsoup4 requests python-dotenv langchain-groq langchain-core
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Run agent
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python agent.py
+
+      - name: Commit and push new articles
+        run: |
+          git config --global user.name "MsScope Bot"
+          git config --global user.email "mscope@insomea.com"
+          git add data/articles.json data/rapport_agent.json data/articles_envoyes.json
+          git diff --staged --quiet || git commit -m "Auto-update articles $(date +'%Y-%m-%d')"
+          git push

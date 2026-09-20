@@ -7,8 +7,7 @@ __pycache__/
 # Fichiers sensibles
 .env
 
-# Vectorstore (sera recréé)
-vectorstore/
+
 
 # Données (optionnel - tu peux les inclure)
 # data/
