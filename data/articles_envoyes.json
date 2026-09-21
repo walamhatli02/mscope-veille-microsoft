@@ -1450,5 +1450,12 @@
     "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/09/15/dynamics-365-commerce-composable-architecture/",
     "date": "Tue, 15 Sep 2026 15:30:00 +0000",
     "contenu": "Microsoft Dynamics 365 Commerce provides a composable, API-first architecture that separates the experience layer from the commerce engine. New licensing offers customers more flexibility to use Dynamics 365 Commerce to build custom applications, connect third-party experiences, and support new commerce scenarios. Organizations can create experiences for their specific business requirements while using Dynamics 365 Commerce capabilities for pricing, promotions, inventory, loyalty, orders, fulfillment, and other commerce processes. The post Build custom commerce experiences with Dynamics 365 Commerce appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Knowledge cutoff is a poor proxy for model capability",
+    "lien": "https://devblogs.microsoft.com/blog/knowledge-cutoff-is-a-poor-proxy-for-model-capability/",
+    "date": "Mon, 21 Sep 2026 07:51:46 +0000",
+    "contenu": "A model can fail on features released before its knowledge cutoff, then succeed on ones released after it. We tested hundreds of product changes and found that the date tells you far less than the work does. The post Knowledge cutoff is a poor proxy for model capability appeared first on Microsoft for Developers ."
   }
 ]
