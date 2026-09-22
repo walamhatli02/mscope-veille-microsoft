@@ -1457,5 +1457,61 @@
     "lien": "https://devblogs.microsoft.com/blog/knowledge-cutoff-is-a-poor-proxy-for-model-capability/",
     "date": "Mon, 21 Sep 2026 07:51:46 +0000",
     "contenu": "A model can fail on features released before its knowledge cutoff, then succeed on ones released after it. We tested hundreds of product changes and found that the date tells you far less than the work does. The post Knowledge cutoff is a poor proxy for model capability appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Sphere OS version 26.09 is now available",
+    "lien": "https://azure.microsoft.com/updates?id=572579",
+    "date": "Mon, 21 Sep 2026 18:44:49 Z",
+    "contenu": "Azure Sphere OS version 26.09 is now available in the Retail feed. This release includes updates to the Azure Sphere OS only, with no update to the SDK. If your devices are connected to the internet, they will receive the updated OS from the cloud.The 26."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Introducing a Guided Copilot Experience for Building Azure Apps in VS Code",
+    "lien": "https://azure.microsoft.com/updates?id=572214",
+    "date": "Mon, 21 Sep 2026 16:58:19 Z",
+    "contenu": "Today we're previewing a new way to build cloud apps with GitHub Copilot in VS Code: a guided Copilot experience that takes you from idea to a deployed Azure app through a structured, predictable workflow instead of a free-form chat session that may or ma"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Functions support for PowerShell 7.6",
+    "lien": "https://azure.microsoft.com/updates?id=572219",
+    "date": "Mon, 21 Sep 2026 16:55:34 Z",
+    "contenu": "Azure Functions support for PowerShell 7.6 is\nnow generally available.  You can now develop apps using PowerShell 7.6 locally and\ndeploy them to Azure Functions plans.   Learn more: Updating\nyour app to PowerShell 7.6  What's\nnew in PowerShell 7.6?  Azure"
+  },
+  {
+    "source": "Microsoft Power Platform Blog",
+    "titre": "Extend Server Logic with Power Automate Cloud Flows in Power Pages",
+    "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/extend-server-logic-with-power-automate-cloud-flows-in-power-pages/",
+    "date": "Fri, 18 Sep 2026 14:44:18 +0000",
+    "contenu": "Server Logic enables makers and developers to execute business logic securely on the server. However, connected business applications often need website experiences to participate in processes that extend beyond the site. We are introducing support for invoking Power Automate cloud flows from Server Logic in Power Pages. The post Extend Server Logic with Power Automate Cloud Flows in Power Pages appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "Microsoft Power Platform Blog",
+    "titre": "What’s new in Power Platform: September 2026 feature update",
+    "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/whats-new-in-power-platform-september-2026-feature-update/",
+    "date": "Thu, 17 Sep 2026 15:00:00 +0000",
+    "contenu": "Power Platform Build hands-on Power Platform and AI expertise with Power Series Developed by the Power CAT team, Power Series is now available with 20 hands-on labs that help customers, partners, and field teams build practical Power Platform and AI skills at their own pace. The post What’s new in Power Platform: September 2026 feature update appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "Microsoft Power Platform Blog",
+    "titre": "Microsoft-Managed SSL/TLS Certificates for Custom Domains Now Available in Power Pages",
+    "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/microsoft-managed-ssl-tls-certificates-for-custom-domains-now-available-in-power-pages/",
+    "date": "Wed, 16 Sep 2026 14:43:20 +0000",
+    "contenu": "We’re excited to announce that Microsoft-managed SSL/TLS certificates are now available for custom domains in Power Pages. When you connect a custom domain, you can now choose an SSL/TLS certificate that Microsoft provisions, configures, and renews for you. The post Microsoft-Managed SSL/TLS Certificates for Custom Domains Now Available in Power Pages appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Beyond the Build – September 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/09/21/beyond-the-build-september-2026/",
+    "date": "Mon, 21 Sep 2026 22:36:41 +0000",
+    "contenu": "Beyond the Build is a monthly update from Marcus Ash, CVP Design and Research across Windows & Devices, on what’s happening across the Windows Insider Program. Plus, read on to see how you can register to attend our next Windows Insider eve The post Beyond the Build – September 2026 appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "New in Edge for developers – Create better components and make your site agent-ready",
+    "lien": "https://blogs.windows.com/msedgedev/2026/09/21/new-in-edge-for-developers-create-better-components-and-make-your-site-agent-ready/",
+    "date": "Mon, 21 Sep 2026 16:58:01 +0000",
+    "contenu": "Welcome back to New in Edge for developers , our recurring roundup of recent web platform updates in Microsoft Edge. In this edition, we'll look more closely at some of the newest additions to Microsoft Edge and the Chromium project, such as The post New in Edge for developers – Create better components and make your site agent-ready appeared first on Windows Blog ."
   }
 ]
