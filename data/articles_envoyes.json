@@ -1513,5 +1513,26 @@
     "lien": "https://blogs.windows.com/msedgedev/2026/09/21/new-in-edge-for-developers-create-better-components-and-make-your-site-agent-ready/",
     "date": "Mon, 21 Sep 2026 16:58:01 +0000",
     "contenu": "Welcome back to New in Edge for developers , our recurring roundup of recent web platform updates in Microsoft Edge. In this edition, we'll look more closely at some of the newest additions to Microsoft Edge and the Chromium project, such as The post New in Edge for developers – Create better components and make your site agent-ready appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Support for Node.js 22 ends on April 30, 2027",
+    "lien": "https://azure.microsoft.com/updates?id=572771",
+    "date": "Tue, 22 Sep 2026 19:22:34 Z",
+    "contenu": "Support for Node.js 22 will end on April 30, 2027, please transition to Node.js 24 by that date. Your Azure Function apps will continue to run, but security patches and updates will no longer be provided and customer support for Node.js 22 will be discont"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Flex Nodes for AKS",
+    "lien": "https://azure.microsoft.com/updates?id=571919",
+    "date": "Tue, 22 Sep 2026 18:51:48 Z",
+    "contenu": "Flex Nodes for AKS is a deployment option for application and platform teams to use hybrid and edge infrastructure as connected worker nodes to an AKS control plane in Azure. Flex Nodes provide a consistent Kubernetes control plane while enabling teams to"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Unmasking EvilTokens: Getting to the root of device code phishing",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
+    "date": "Tue, 22 Sep 2026 15:00:00 +0000",
+    "contenu": "EvilTokens has quickly become one of the top PhaaS platforms, enabling device code phishing attacks through AI-assisted lures, automated infrastructure, and token theft. In collaboration with partners, Microsoft Digital Crimes Unit (DCU) facilitated a disruption of EvilTokens infrastructure and operations. The post Unmasking EvilTokens: Getting to the root of device code phishing appeared first on Microsoft Security Blog ."
   }
 ]
