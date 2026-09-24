@@ -1534,5 +1534,61 @@
     "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
     "date": "Tue, 22 Sep 2026 15:00:00 +0000",
     "contenu": "EvilTokens has quickly become one of the top PhaaS platforms, enabling device code phishing attacks through AI-assisted lures, automated infrastructure, and token theft. In collaboration with partners, Microsoft Digital Crimes Unit (DCU) facilitated a disruption of EvilTokens infrastructure and operations. The post Unmasking EvilTokens: Getting to the root of device code phishing appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Container Apps Sandboxes",
+    "lien": "https://azure.microsoft.com/updates?id=561262",
+    "date": "Tue, 02 Jun 2026 19:00:47 Z",
+    "contenu": "Teams building agentic applications, multi-tenant platforms,\ndevelopment environments, and CI/CD systems have often had to stitch together\ncustom infrastructure to run untrusted code safely, preserve state across\nsessions, and handle bursty demand without"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Container Apps Express",
+    "lien": "https://azure.microsoft.com/updates?id=559242",
+    "date": "Wed, 13 May 2026 17:30:20 Z",
+    "contenu": "Azure Container Apps Express is now generally available. It is the simplest and fastest way to launch and scale powerful applications on Azure, from zero to hyperscale, without infrastructure decisions. It represents the first Azure compute platform purpo"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Support for PowerShell 7.4 ends on November 10, 2026",
+    "lien": "https://azure.microsoft.com/updates?id=572770",
+    "date": "Wed, 23 Sep 2026 16:50:05 Z",
+    "contenu": "Support for PowerShell 7.4 will\nend on November 10, 2026, please transition to PowerShell 7.6. Your Azure Function apps will continue to run, but security patches and updates will no\nlonger be provided and customer support for\nPowerShell 7.4 will be disco"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Support for .NET 8 and .NET 9 ends on November 10, 2026—upgrade your apps to .NET 10",
+    "lien": "https://azure.microsoft.com/updates?id=572838",
+    "date": "Wed, 23 Sep 2026 16:46:49 Z",
+    "contenu": "Support for .NET\n8 and .NET 9 will end on November\n10, 2026. Please transition to .NET\n10 by that date. Your\nAzure Function Apps will continue to operate,\nbut security updates will no longer be provided, and support for .NET 8 and\n.NET 9 on Azure Function"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Reimagining the SOC for the agentic era in Microsoft Defender",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender/",
+    "date": "Wed, 23 Sep 2026 16:00:00 +0000",
+    "contenu": "We are announcing ISOC in Microsoft Defender: a foundation built for agentic security that brings leading solutions for SIEM and threat protection together. The post Reimagining the SOC for the agentic era in Microsoft Defender appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Rendering huge pull requests in the GitHub Copilot app",
+    "lien": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
+    "date": "Wed, 23 Sep 2026 18:29:49 +0000",
+    "contenu": "How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments. The post Rendering huge pull requests in the GitHub Copilot app appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Developers want more efficient software. Here’s what over 1000 GitHub users told us they need.",
+    "lien": "https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need/",
+    "date": "Wed, 23 Sep 2026 13:00:00 +0000",
+    "contenu": "New research from GitHub and Yale Program on Climate Change Communication finds strong demand for tools, measurement, and practical guidance that can help developers reduce wasted compute. The post Developers want more efficient software. Here’s what over 1000 GitHub users told us they need. appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Introducing the next Surface Pro 12-inch and Surface Laptop 13-inch with Snapdragon X2 Plus: Greater performance that travels light",
+    "lien": "https://blogs.windows.com/devices/2026/09/23/introducing-surface-pro-12-inch-and-surface-laptop-13-inch-with-snapdragon-x2/",
+    "date": "Wed, 23 Sep 2026 20:30:27 +0000",
+    "contenu": "Today at Snapdragon Summit, we introduced the next Surface Pro 12-inch and Surface Laptop 13-inch, built on The post Introducing the next Surface Pro 12-inch and Surface Laptop 13-inch with Snapdragon X2 Plus: Greater performance that travels light appeared first on Windows Blog ."
   }
 ]
