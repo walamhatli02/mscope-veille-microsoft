@@ -1590,5 +1590,54 @@
     "lien": "https://blogs.windows.com/devices/2026/09/23/introducing-surface-pro-12-inch-and-surface-laptop-13-inch-with-snapdragon-x2/",
     "date": "Wed, 23 Sep 2026 20:30:27 +0000",
     "contenu": "Today at Snapdragon Summit, we introduced the next Surface Pro 12-inch and Surface Laptop 13-inch, built on The post Introducing the next Surface Pro 12-inch and Surface Laptop 13-inch with Snapdragon X2 Plus: Greater performance that travels light appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Azure Communication Services (ACS) standalone services will be retired on September 30, 2028",
+    "lien": "https://azure.microsoft.com/updates?id=557117",
+    "date": "Thu, 24 Sep 2026 17:51:23 Z",
+    "contenu": "Microsoft will retire several standalone Azure Communication\nServices (ACS) offerings on September 30, 2028. After this date, the affected\nservices will no longer be available.  Details\nBeginning September 30, 2028, the following ACS services will be reti"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Instant Access for VM restore points",
+    "lien": "https://azure.microsoft.com/updates?id=572573",
+    "date": "Thu, 24 Sep 2026 16:04:16 Z",
+    "contenu": "Instant Access for application-consistent restore points on virtual machines (that have Premium v2 or Ultra disks as data disks) is now generally available. With Instant Access, you can begin restoring a disk from a restore point as soon as the snapshot i"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
+    "date": "Thu, 24 Sep 2026 16:00:00 +0000",
+    "contenu": "Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity before ransomware deployment. The post Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "​​​​​​​​What’s new in Microsoft Security: September 2026​​",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/24/whats-new-in-microsoft-security-september-2026/",
+    "date": "Thu, 24 Sep 2026 16:00:00 +0000",
+    "contenu": "This month's updates help you discover and control local AI agents, extend Zero Trust to agent traffic, and strengthen SOC foundations. The post ​​​​​​​​What’s new in Microsoft Security: September 2026​​ appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Introducing the new Copilot with Home, Code and Autopilot",
+    "lien": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+    "date": "Fri, 25 Sep 2026 12:03:50 +0000",
+    "contenu": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. Today we’re introducing the new Copilot to connect the tools people rely on with the next generation of capabilities they’ll need to build, customize and scale AI... The post Introducing the new Copilot with Home, Code and Autopilot appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "When chat is the wrong UI",
+    "lien": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+    "date": "Thu, 24 Sep 2026 20:00:00 +0000",
+    "contenu": "What is a developer to do when they need something more tangible than a chat box? Enter canvases. The post When chat is the wrong UI appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+    "lien": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+    "date": "Thu, 24 Sep 2026 18:26:12 +0000",
+    "contenu": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog ."
   }
 ]
