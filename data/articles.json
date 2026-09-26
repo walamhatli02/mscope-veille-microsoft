@@ -1639,5 +1639,61 @@
     "lien": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
     "date": "Thu, 24 Sep 2026 18:26:12 +0000",
     "contenu": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework. The post AI-powered fuzzing with the GitHub Security Lab Taskflow Agent appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "Building the system for AI at work",
+    "lien": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
+    "date": "Wed, 23 Sep 2026 15:00:00 +0000",
+    "contenu": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft 365 Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Azure HorizonDB supports PostgreSQL 18",
+    "lien": "https://azure.microsoft.com/updates?id=573048",
+    "date": "Fri, 25 Sep 2026 18:07:26 Z",
+    "contenu": "Azure HorizonDB is a fully managed, PostgreSQL-compatible, cloud-native database service designed for scalable, high-performance workloads.Azure HorizonDB, now in public preview, includes PostgreSQL 18 support.Learn more."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Storm-3168: Agentic-driven cloud attacks using compromised service principals",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/",
+    "date": "Fri, 25 Sep 2026 15:35:08 +0000",
+    "contenu": "Microsoft details JADEPUFFER-linked Azure reconnaissance, resource deletion, and credential access using compromised service principals, identifying the activity as associated with Storm-3168 and providing guidance for defenders. The post Storm-3168: Agentic-driven cloud attacks using compromised service principals appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Power Platform Blog",
+    "titre": "Modern List in Power Pages is now generally available",
+    "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/modern-list-in-power-pages-is-now-generally-available/",
+    "date": "Wed, 23 Sep 2026 06:50:12 +0000",
+    "contenu": "Today, we’re announcing the general availability of Modern List in Power Pages, a refreshed data presentation experience that helps makers showcase Dataverse data with modern Fluent UI components, seamless infinite scrolling, inline filtering, shimmer loading, flexible low-code customization and custom JavaScript support. The post Modern List in Power Pages is now generally available appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "Build the future of agentic ERP with new Microsoft Dynamics 365 capabilities",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/09/23/build-the-future-of-agentic-erp-with-new-microsoft-dynamics-365-capabilities/",
+    "date": "Wed, 23 Sep 2026 16:00:00 +0000",
+    "contenu": "Discover what’s next for Microsoft Dynamics 365 ERP, from new capabilities across Finance, Supply Chain Management, Commerce, and more to the foundation for agentic ERP. Explore how AI, agents, and connected business processes are helping organizations prepare for the next generation of ERP. The post Build the future of agentic ERP with new Microsoft Dynamics 365 capabilities appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+    "lien": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+    "date": "Fri, 25 Sep 2026 18:00:00 +0000",
+    "contenu": "Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done. The post GitHub Copilot app for Beginners: How to build custom workflows with canvases appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Improving site performance by shipping more CSS",
+    "lien": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+    "date": "Fri, 25 Sep 2026 15:00:00 +0000",
+    "contenu": "How we fully migrated github.com away from CSS-in-JS. The post Improving site performance by shipping more CSS appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing new builds for 25 September 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/09/25/announcing-new-builds-for-25-september-2026/",
+    "date": "Fri, 25 Sep 2026 17:02:08 +0000",
+    "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels. New builds this week Select your channel below to view its release notes: Beta: Announcing new builds for 25 September 2026 appeared first on Windows Blog ."
   }
 ]
