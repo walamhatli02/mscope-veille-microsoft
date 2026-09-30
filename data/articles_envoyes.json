@@ -1772,5 +1772,131 @@
     "lien": "https://github.blog/open-source/git/highlights-from-git-2-56/",
     "date": "Mon, 28 Sep 2026 17:23:33 +0000",
     "contenu": "The open source Git project just released Git 2.56. Here is GitHub's look at some of the most interesting features and changes introduced since last time. The post Highlights from Git 2.56 appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Azure Functions v1 hosting model on Azure Container Apps",
+    "lien": "https://azure.microsoft.com/updates?id=570800",
+    "date": "Tue, 29 Sep 2026 19:41:09 Z",
+    "contenu": "The Azure Functions v1 hosting model on Azure Container Apps\nwill be retired on September 29, 2027. After this date, existing Functions v1\napps on Azure Container Apps will stop running and will no longer process\nrequests or event-driven triggers. This re"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Storage optimized Lasv5 and Laosv5 Azure VM series",
+    "lien": "https://azure.microsoft.com/updates?id=572630",
+    "date": "Tue, 29 Sep 2026 19:27:09 Z",
+    "contenu": "The Laosv5 series and Lasv5 storage optimized VMs, based on the 5th Gen AMD EPYC™ processor (Turin), are now generally available.Lasv5 and Laosv5 VMs have sizes ranging from 2-160 vCPUs, with 8GiB of memory and 720GB of local NVMe disk capacity per vCPU."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Automatic Zone Placement for Virtual Machine Scale Sets",
+    "lien": "https://azure.microsoft.com/updates?id=571075",
+    "date": "Tue, 29 Sep 2026 19:17:59 Z",
+    "contenu": "Automatic Zone Placement for VM Scale Sets (Public Preview) enables Azure to automatically select the best availability zones for your scale set based on SKU availability, capacity, and placement requirements. Instead of manually maintaining zone lists fo"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Arc-enabled SQL Server in Germany West Central",
+    "lien": "https://azure.microsoft.com/updates?id=570696",
+    "date": "Tue, 29 Sep 2026 19:07:44 Z",
+    "contenu": "Azure Arc-enabled SQL Server is now\navailable in Germany West Central, enabling you to connect SQL Server\ninstances to Azure Arc and take advantage of Azure-based inventory, governance,\nsecurity, assessment, and license management capabilities. Learn more"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Arc-enabled SQL Server Available in Italy North",
+    "lien": "https://azure.microsoft.com/updates?id=570763",
+    "date": "Tue, 29 Sep 2026 19:06:50 Z",
+    "contenu": "Azure Arc-enabled SQL Server is now available in Italy\nNorth, enabling you to connect SQL Server instances to Azure Arc and\ntake advantage of Azure-based inventory, governance, security, assessment, and\nlicense management capabilities.Learn more."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Azure Database for PostgreSQL Ultra Disk",
+    "lien": "https://azure.microsoft.com/updates?id=571909",
+    "date": "Tue, 29 Sep 2026 18:14:46 Z",
+    "contenu": "Ultra Disk support is now available in public preview for Azure Database for PostgreSQL flexible server. You can use Azure’s highest-performance managed disk option for I/O-intensive and transaction-heavy PostgreSQL workloads that require consistently low"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: SQL Performance Monitoring for Azure SQL Database",
+    "lien": "https://azure.microsoft.com/updates?id=571867",
+    "date": "Tue, 29 Sep 2026 18:13:31 Z",
+    "contenu": "The public preview of Microsoft-managed performance monitoring for Azure SQL Database is now available.  You can now monitor Azure SQL Database without building custom collection scripts or correlating telemetry across disconnected tools. Built-in data co"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Performance monitoring for Azure Arc–enabled SQL Server",
+    "lien": "https://azure.microsoft.com/updates?id=571904",
+    "date": "Tue, 29 Sep 2026 18:11:15 Z",
+    "contenu": "The preview of performance monitoring for SQL Server enabled by Azure Arc is expanding with more flexible ways to explore and visualize your performance data. You can query Microsoft-managed monitoring data directly through a telemetry endpoint. The built"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure SQL updates for late-September 2026",
+    "lien": "https://azure.microsoft.com/updates?id=571643",
+    "date": "Tue, 29 Sep 2026 18:05:11 Z",
+    "contenu": "The following updates and enhancements were made to Azure\nSQL:   \n Scale\n     larger workloads on Azure SQL Database Hyperscale Premium series with new\n     160-vCore and 192-vCore options, delivering up to 50% greater compute\n     capacity than the previ"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Database for PostgreSQL Flexible Server supports cross-tenant customer-managed keys (CMK)",
+    "lien": "https://azure.microsoft.com/updates?id=571783",
+    "date": "Tue, 29 Sep 2026 17:57:36 Z",
+    "contenu": "Azure Database for PostgreSQL Flexible Server now supports cross-tenant customer-managed keys (CMK). You can encrypt your data using keys stored in an Azure Key Vault or Azure Managed HSM that resides in a different Microsoft Entra tenant than your Postgr"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Phishing Abuses RMM Tools for Persistent Access",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/",
+    "date": "Tue, 29 Sep 2026 21:39:27 +0000",
+    "contenu": "Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity The post Phishing Abuses RMM Tools for Persistent Access appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "​​Beyond source code: A path to the keys to the kingdom",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
+    "date": "Tue, 29 Sep 2026 16:00:00 +0000",
+    "contenu": "Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure. The post ​​Beyond source code: A path to the keys to the kingdom appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
+    "date": "Tue, 29 Sep 2026 15:00:00 +0000",
+    "contenu": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”. The post Star Blizzard refines phishing and malware delivery with the RedFlick technique appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Build with Azure Canvases: a shared workspace for agents",
+    "lien": "https://devblogs.microsoft.com/blog/azure-canvases/",
+    "date": "Tue, 29 Sep 2026 18:30:00 +0000",
+    "contenu": "See how Azure Canvases bring plans, code, previews, and deployment feedback together in a collaborative workspace for agent-assisted development. The post Build with Azure Canvases: a shared workspace for agents appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Enabling Consistent AI-Assisted Engineering with GitHub Copilot Plugins",
+    "lien": "https://devblogs.microsoft.com/blog/enabling-consistent-ai-assisted-engineering-with-github-copilot-plugins/",
+    "date": "Tue, 29 Sep 2026 16:30:35 +0000",
+    "contenu": "When an engineer or team creates useful agentic artifacts for their daily work (e.g., instructions, skills, and MCP configurations), others naturally want to adopt them when they see how those artifacts could help with their own work. Sharing the files is straightforward, but keeping those consumers supplied with fixes, updated guidance, and compatible tool configurations […] The post Enabling Consistent AI-Assisted Engineering with GitHub Copilot Plugins appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Developer policy update: Transparency, state policy, and what’s ahead",
+    "lien": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead/",
+    "date": "Tue, 29 Sep 2026 15:00:00 +0000",
+    "contenu": "Explore GitHub’s latest transparency data and learn more about policy updates affecting developers and open source. The post Developer policy update: Transparency, state policy, and what’s ahead appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "WSL containers is now generally available",
+    "lien": "https://blogs.windows.com/windowsdeveloper/2026/09/29/wsl-containers-now-generally-available/",
+    "date": "Tue, 29 Sep 2026 17:00:52 +0000",
+    "contenu": "WSL is central to our commitment to making Windows the best place to build, run and manage Linux workloads. As AI, cloud-native development, containers, and open-source ecosystems continue to converge on Linux, more developers are choosing to perform The post WSL containers is now generally available appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "How to get the Windows 11 2026 Update",
+    "lien": "https://blogs.windows.com/windowsexperience/2026/09/29/how-to-get-windows-11-2026-update/",
+    "date": "Tue, 29 Sep 2026 17:00:38 +0000",
+    "contenu": "Windows powers how people around the world work, learn, create, and connect every day. Today, we're announcing the availability of the Windows 11 2026 Update, also known as Windows 11, version 26H2. Built on the same servicing foundation as recent Wi The post How to get the Windows 11 2026 Update appeared first on Windows Blog ."
   }
 ]
