@@ -1968,5 +1968,47 @@
     "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/transfer-power-pages-site-ownership-with-self-service/",
     "date": "Sun, 27 Sep 2026 19:08:30 +0000",
     "contenu": "Every Power Pages site starts with an owner. Over time, however, organizations evolve – employees change roles, teams reorganize, projects move between departments, and responsibilities shift. While the people behind a site may change, the site itself often continues serving customers, partners, employees, citizens or other users for years. The post Simplify Site Governance with Self-Service Ownership Transfer in Power Pages appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: DCsv3 and DCdsv3-series Azure Virtual Machines will be retired on October 31, 2029",
+    "lien": "https://azure.microsoft.com/updates?id=569592",
+    "date": "Thu, 01 Oct 2026 17:02:55 Z",
+    "contenu": "On October 31, 2029, DCsv3 and DCdsv3-series\nAzure Linux, Windows and Dedicated Host virtual\nmachines will be retired. After that date, they will no longer be\navailable for use or purchase.  Before October 31, 2029, migrate your workloads to one of\nthe fo"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Preparing governments for an era of interconnected cyber risk",
+    "lien": "https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk/",
+    "date": "Thu, 01 Oct 2026 14:00:00 +0000",
+    "contenu": "According to this year’s Microsoft Digital Defense Report, government agencies and services were the sector most impacted by cyber threats in 2026, accounting for 27% of observed activity, up from 17% in 2025. The post Preparing governments for an era of interconnected cyber risk appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Insights from the 2026 Microsoft Digital Defense Report",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report/",
+    "date": "Thu, 01 Oct 2026 14:00:00 +0000",
+    "contenu": "Read highlights from the 2026 Microsoft Digital Defense Report, which reflects a security environment that continues to grow more interconnected. The post Insights from the 2026 Microsoft Digital Defense Report appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "Adapt Dynamics 365 Commerce faster with AI-assisted extensibility",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/09/30/adapt-dynamics-365-commerce-faster-with-ai-assisted-extensibility/",
+    "date": "Wed, 30 Sep 2026 18:34:49 +0000",
+    "contenu": "Dynamics 365 Commerce 10.0.49 introduces AI-powered extension skills that help developers translate business requirements into working commerce extensions faster. These skills bring first-party Commerce architecture knowledge into AI coding assistants, reducing the effort required to identify extension points, apply patterns, and generate implementation guidance across multiple Commerce components. By accelerating development while maintaining governance, security, and compliance guardrails, organizations can respond more quickly to changing business demands and reduce their application backlog. The post Adapt Dynamics 365 Commerce faster with AI-assisted extensibility appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Microsoft 365 and LinkedIn leadership update",
+    "lien": "https://blogs.microsoft.com/blog/2026/10/01/microsoft-365-and-linkedin-leadership-update/",
+    "date": "Thu, 01 Oct 2026 15:03:27 +0000",
+    "contenu": "Satya Nadella, Chairman and CEO, and Ryan Roslansky, Executive Vice President of LinkedIn and Microsoft 365, shared the below communications with Microsoft and LinkedIn employees this morning. SATYA NADELLA MESSAGE After nearly 18 years at LinkedIn and Microsoft, Ryan Roslansky has decided to leave Microsoft and embark on his next chapter. As Ryan and I... The post Microsoft 365 and LinkedIn leadership update appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "10 technical talks I’m excited about at GitHub Universe 2026",
+    "lien": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
+    "date": "Thu, 01 Oct 2026 15:07:16 +0000",
+    "contenu": "From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around. The post 10 technical talks I’m excited about at GitHub Universe 2026 appeared first on The GitHub Blog ."
   }
 ]
