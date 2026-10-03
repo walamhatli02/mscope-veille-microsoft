@@ -2010,5 +2010,40 @@
     "lien": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
     "date": "Thu, 01 Oct 2026 15:07:16 +0000",
     "contenu": "From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around. The post 10 technical talks I’m excited about at GitHub Universe 2026 appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview:  Major version upgrades (MVU) for Azure Database for PostgreSQL elastic clusters",
+    "lien": "https://azure.microsoft.com/updates?id=571504",
+    "date": "Fri, 02 Oct 2026 17:35:21 Z",
+    "contenu": "MVUs are now available for elastic clusters in Azure Database for PostgreSQL. You can upgrade an existing elastic cluster to a supported newer PostgreSQL version in place without provisioning a replacement cluster, migrating distributed data, or changing"
+  },
+  {
+    "source": "Microsoft Power Platform Blog",
+    "titre": "Your AI transformation starts with what you’ve already built",
+    "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/your-ai-transformation-starts-with-what-youve-already-built/",
+    "date": "Thu, 01 Oct 2026 15:00:00 +0000",
+    "contenu": "See how Power Apps, Power Platform, and Copilot Studio are helping teams transform ideas into AI-powered business solutions at PPCC 2026. The post Your AI transformation starts with what you’ve already built appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "From live streaming to real-time action: Real-time streaming analytics in Microsoft Dynamics 365 Contact Center",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/10/02/real-time-streaming-analytics-in-dynamics-365-contact-cente/",
+    "date": "Fri, 02 Oct 2026 15:21:54 +0000",
+    "contenu": "What if supervisors could act on operational issues before customers feel the impact? New real-time streaming analytics in Dynamics 365 Contact Center provide live insights into queues, conversations, and workforce performance, helping teams move from monitoring to action faster than ever. The post From live streaming to real-time action: Real-time streaming analytics in Microsoft Dynamics 365 Contact Center appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "AI is changing developer work. Here are three skills to strengthen.",
+    "lien": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+    "date": "Fri, 02 Oct 2026 15:00:00 +0000",
+    "contenu": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow. The post AI is changing developer work. Here are three skills to strengthen. appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing new builds for 2 October 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/10/02/announcing-new-builds-for-2-october-2026/",
+    "date": "Fri, 02 Oct 2026 17:04:36 +0000",
+    "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels. New builds this week Select your channel below to view its release notes: Beta: Announcing new builds for 2 October 2026 appeared first on Windows Blog ."
   }
 ]
