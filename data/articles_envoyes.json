@@ -2094,5 +2094,61 @@
     "lien": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
     "date": "Mon, 05 Oct 2026 15:59:40 +0000",
     "contenu": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics. The post ReviewBench: An open benchmark for AI code review appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Pod name dimension in AKS pod platform metrics",
+    "lien": "https://azure.microsoft.com/updates?id=570232",
+    "date": "Tue, 06 Oct 2026 22:37:54 Z",
+    "contenu": "Beginning September 30, 2027, support for the pod name dimension on the following Azure\nMonitor platform metrics is retiring, and these metrics are transitioning to aggregate pod counters:Number of pods by phase (kube_pod_status_phase)Number of pods in Re"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Azure App Service on Azure Stack Hub",
+    "lien": "https://azure.microsoft.com/updates?id=568178",
+    "date": "Tue, 06 Oct 2026 18:24:43 Z",
+    "contenu": "Azure App Service on Azure Stack Hub will be retired on September\n30, 2029. Starting September 30, 2026, new installations will\nno longer be supported, and no new product releases, features, or enhancements\nwill be made available. Existing supported deplo"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Support for Java 8, 11 and 17 will end on September 1, 2027",
+    "lien": "https://azure.microsoft.com/updates?id=568585",
+    "date": "Tue, 06 Oct 2026 18:21:59 Z",
+    "contenu": "On September 1, 2027 support for Java 8, 11 and 17 will end. Your\napps that are hosted on App Service will continue to run, but security updates\nwill no longer be available, and we’ll no longer provide customer service for Java\n8, 11 and 17.Required actio"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Always Encrypted with Intel SGX Enclaves",
+    "lien": "https://azure.microsoft.com/updates?id=569236",
+    "date": "Tue, 06 Oct 2026 16:42:33 Z",
+    "contenu": "Always Encrypted with Intel SGX enclaves in Azure SQL Database will retire on October 31, 2027 as support for SGX-enabled DC-series hardware is phased out. Customers should transition to Virtualization-Based Security (VBS) enclaves, a hardware-independent"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: AKS on bare metal now on Ubuntu",
+    "lien": "https://azure.microsoft.com/updates?id=573782",
+    "date": "Tue, 06 Oct 2026 15:44:06 Z",
+    "contenu": "Running Kubernetes on-premises often means adding a\nvirtualization layer, adapting to unfamiliar infrastructure, or giving up\ncontrol over the hardware and software your applications depend on. For AI\nworkloads, these tradeoffs can limit access to local d"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "CISO perspectives on managing vulnerability risks in the age of AI",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/06/ciso-perspectives-on-managing-vulnerability-risks-in-the-age-of-ai/",
+    "date": "Tue, 06 Oct 2026 16:00:00 +0000",
+    "contenu": "Learn how CISOs can mitigate cybersecurity risks and increase resilience in the age of AI-powered vulnerability management. The post CISO perspectives on managing vulnerability risks in the age of AI appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Build Azure canvases with the Canvas authoring plugin",
+    "lien": "https://devblogs.microsoft.com/blog/build-azure-canvases-with-canvas-authoring/",
+    "date": "Tue, 06 Oct 2026 18:30:00 +0000",
+    "contenu": "Learn how the Canvas authoring plugin helps you build Azure canvases with Microsoft Canvas Toolkit, from a read-only starter to a working app you can inspect, test, and adapt. The post Build Azure canvases with the Canvas authoring plugin appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Building Git infrastructure for agent-scale development",
+    "lien": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
+    "date": "Tue, 06 Oct 2026 20:57:56 +0000",
+    "contenu": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development. The post Building Git infrastructure for agent-scale development appeared first on The GitHub Blog ."
   }
 ]
