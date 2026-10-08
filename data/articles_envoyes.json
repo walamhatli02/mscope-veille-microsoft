@@ -2150,5 +2150,75 @@
     "lien": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
     "date": "Tue, 06 Oct 2026 20:57:56 +0000",
     "contenu": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development. The post Building Git infrastructure for agent-scale development appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Anyscale on Azure",
+    "lien": "https://azure.microsoft.com/updates?id=573744",
+    "date": "Wed, 07 Oct 2026 17:06:00 Z",
+    "contenu": "Anyscale on Azure is now Generally Available. Anyscale on Azure is a managed platform for running distributed Python workloads on Ray. It deploys directly onto your Azure Kubernetes Service (AKS) cluster and integrates with the Azure services your team al"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Enabling the Bulk admin role for SQL Server on Linux",
+    "lien": "https://azure.microsoft.com/updates?id=573443",
+    "date": "Wed, 07 Oct 2026 16:57:04 Z",
+    "contenu": "Starting with SQL Server 2025 CU9 and SQL Server 2022 CU27, SQL Server on Linux supports the bulkadmin fixed server role and the ADMINISTER BULK OPERATIONS permission for performing bulk data import operations without requiring users to be members of the"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "3 lessons from frontier AI vulnerability research",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+    "date": "Wed, 07 Oct 2026 16:00:00 +0000",
+    "contenu": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel. The post 3 lessons from frontier AI vulnerability research appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "From Spec-First to Enterprise-Ready: Extending GitHub Spec Kit",
+    "lien": "https://devblogs.microsoft.com/blog/from-spec-first-to-enterprise-ready-extending-github-spec-kit/",
+    "date": "Wed, 07 Oct 2026 15:00:26 +0000",
+    "contenu": "How presets, extensions, bundles, workflows, and governed catalogs make Spec-Driven Development adaptable at scale This article continues Spec-Driven Development: A Spec-First Approach to AI-Native Engineering, which introduced the principles and lifecycle of SDD. Here, we focus on the next challenge: adapting that workflow to the standards, domains, tools, and governance needs of a large engineering […] The post From Spec-First to Enterprise-Ready: Extending GitHub Spec Kit appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Secret protection must scale with software",
+    "lien": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
+    "date": "Wed, 07 Oct 2026 17:45:34 +0000",
+    "contenu": "Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it. The post Secret protection must scale with software appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing new builds for 7 October 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/10/07/announcing-new-builds-for-7-october-2026/",
+    "date": "Wed, 07 Oct 2026 18:10:17 +0000",
+    "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels! Coming straight off the back of our Windows + Surface event, we have some exciting new features entering the Windows Inside The post Announcing new builds for 7 October 2026 appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Pre-order our most powerful Surface devices ever",
+    "lien": "https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/",
+    "date": "Wed, 07 Oct 2026 18:00:35 +0000",
+    "contenu": "For more than a decade, Surface has been shaped by the people pushing technology further. Creators rendering complex scenes. Developers building what doesn't exist yet. Designers moving between ideas, models, code, and content. Makers whose work dem The post Pre-order our most powerful Surface devices ever appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Microsoft Execution Containers: Policy-driven containment for AI agents",
+    "lien": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+    "date": "Wed, 07 Oct 2026 18:00:28 +0000",
+    "contenu": "Agents are unlocking enormous productivity gains for customers, but their ability to work across files, networks, and applications can introduce new security risks. This can leave customers feeling like they only have two choices: give agents unrestr The post Microsoft Execution Containers: Policy-driven containment for AI agents appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Building Windows for hybrid intelligence",
+    "lien": "https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/",
+    "date": "Wed, 07 Oct 2026 18:00:22 +0000",
+    "contenu": "Agents are creating a foundational shift in how people get things done, unlocking new levels of productivity and capability on the PC. As agents become part of everyday work, they also raise the bar for compute, security, a The post Building Windows for hybrid intelligence appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "From searching to doing: Building a faster, more streamlined Windows Search",
+    "lien": "https://blogs.windows.com/windows-insider/2026/10/07/from-searching-to-doing-building-a-faster-more-streamlined-windows-search/",
+    "date": "Wed, 07 Oct 2026 18:00:05 +0000",
+    "contenu": "Hello Windows Insiders, Search is one of the most familiar ways to get around a Windows PC. It is how you may open an app, find a file, change a setting, or simply look for information. As Insiders, you have also been clear about what you expect fro The post From searching to doing: Building a faster, more streamlined Windows Search appeared first on Windows Blog ."
   }
 ]
