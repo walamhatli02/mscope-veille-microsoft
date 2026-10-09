@@ -2220,5 +2220,89 @@
     "lien": "https://blogs.windows.com/windows-insider/2026/10/07/from-searching-to-doing-building-a-faster-more-streamlined-windows-search/",
     "date": "Wed, 07 Oct 2026 18:00:05 +0000",
     "contenu": "Hello Windows Insiders, Search is one of the most familiar ways to get around a Windows PC. It is how you may open an app, find a file, change a setting, or simply look for information. As Insiders, you have also been clear about what you expect fro The post From searching to doing: Building a faster, more streamlined Windows Search appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Managed StandardV2 NAT Gateway for AKS",
+    "lien": "https://azure.microsoft.com/updates?id=574430",
+    "date": "Thu, 08 Oct 2026 22:51:01 Z",
+    "contenu": "AKS will now provision and manage a StandardV2 NAT Gateway\nfor clusters using an AKS-managed virtual network.StandardV2 is now the default managed NAT Gateway SKU for\nnew clusters in supported regions when using the managedNATGateway outbound\ntype. Standa"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Database for PostgreSQL flexible server in East US 3",
+    "lien": "https://azure.microsoft.com/updates?id=573691",
+    "date": "Thu, 08 Oct 2026 19:56:31 Z",
+    "contenu": "Now you can deploy Azure Database for PostgreSQL flexible server in the East US 3 Azure region.  Learn more."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Microsoft Dev Box will be retired on September 18, 2028",
+    "lien": "https://azure.microsoft.com/updates?id=567933",
+    "date": "Thu, 08 Oct 2026 18:23:25 Z",
+    "contenu": "Microsoft Dev Box will\nretire on September 18, 2028. Beginning on September 14, 2026,\nMicrosoft Dev Box will begin the closing-down process. After retirement,\nMicrosoft Dev Box will no longer be available. Microsoft Dev Box is currently in maintenance mod"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Azure Deployment Environments will be retired on February 22, 2027",
+    "lien": "https://azure.microsoft.com/updates?id=567934",
+    "date": "Thu, 08 Oct 2026 18:20:34 Z",
+    "contenu": "Azure Deployment\nEnvironments will retire on February 22, 2027. Beginning on September\n14, 2026, Azure Deployment Environments will begin the closing-down\nprocess. After retirement, the service will no longer be available. To help avoid disruption, we rec"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Exceptions in WAF for Azure Application Gateway and Azure Front Door",
+    "lien": "https://azure.microsoft.com/updates?id=574343",
+    "date": "Thu, 08 Oct 2026 17:29:30 Z",
+    "contenu": "Announcing the general availability of exceptions\nfor Web Application Firewall on Azure Application Gateway and Azure Front Door.Azure Web\nApplication Firewall (WAF) helps protect your web applications from common\nthreats and attacks. In some cases, WAF m"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Microsoft Agent 365 integration with Azure API Management",
+    "lien": "https://azure.microsoft.com/updates?id=574204",
+    "date": "Thu, 08 Oct 2026 17:24:34 Z",
+    "contenu": "The integration between Microsoft Agent 365 and Azure API Management is now available in public preview, helping organizations connect centralized governance with runtime enforcement for MCP servers and tools.With this integration, organizations can:Disco"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Hong Kong",
+    "lien": "https://azure.microsoft.com/updates?id=571831",
+    "date": "Thu, 08 Oct 2026 14:17:44 Z",
+    "contenu": "Multiparty private offers give Microsoft partners a way to procure third-party cloud and AI solutions for customers through Marketplace. Software companies can expand into new markets by working with partners that bring established customer relationships,"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
+    "date": "Thu, 08 Oct 2026 20:44:28 +0000",
+    "contenu": "Prepare for post-quantum authentication by testing certificate ecosystems now. Learn how Microsoft’s PQC TLS Pilot Program helps advance future readiness. The post Post-quantum authentication: Why organizations should start testing certificate ecosystems now appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "Bringing CRM into the flow of work and agents into business process for sales and service teams",
+    "lien": "https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/",
+    "date": "Thu, 08 Oct 2026 15:10:00 +0000",
+    "contenu": "Explore new Dynamics 365 CRM skills and agentic capabilities that bring customer context and actions into the flow of work for sales and service teams. The post Bringing CRM into the flow of work and agents into business process for sales and service teams appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "Bring Microsoft Dynamics 365 into the flow of work with 30 new CRM skills",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/10/08/bring-microsoft-dynamics-365-into-the-flow-of-work-with-30-new-crm-skills/",
+    "date": "Thu, 08 Oct 2026 15:00:00 +0000",
+    "contenu": "Bring Dynamics 365 customer context, expertise, and actions into the flow of work with 30 new CRM skills for Microsoft Copilot and custom agents. The post Bring Microsoft Dynamics 365 into the flow of work with 30 new CRM skills appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Introducing the Agent Experience (AX) Practitioner Playbook",
+    "lien": "https://devblogs.microsoft.com/blog/introducing-the-agent-experience-ax-practitioner-playbook/",
+    "date": "Fri, 09 Oct 2026 09:44:25 +0000",
+    "contenu": "AI coding agents now pick the SDK, the version, and the pattern for your developers. The AX Practitioner Playbook is our method for finding out whether they get your technology right, and for fixing the sources they rely on when they don't. The post Introducing the Agent Experience (AX) Practitioner Playbook appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "How one bug bounty researcher chooses the features they investigate",
+    "lien": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
+    "date": "Thu, 08 Oct 2026 17:02:52 +0000",
+    "contenu": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. The post How one bug bounty researcher chooses the features they investigate appeared first on The GitHub Blog ."
   }
 ]
