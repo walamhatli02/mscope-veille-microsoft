@@ -2325,5 +2325,12 @@
     "lien": "https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build/",
     "date": "Fri, 09 Oct 2026 16:00:00 +0000",
     "contenu": "The barriers to building software have collapsed. Today, anyone can build. Hackathons are a great place to start learning. The post Hack the World: Why hackathons are still the best place to learn to build appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
+    "lien": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+    "date": "Mon, 12 Oct 2026 13:01:29 +0000",
+    "contenu": "Azure Maia 200 now in production; Azure Maia 300 coming in 2027 As we move into the era of Super Intelligence, Microsoft is entering a new phase of infrastructure. We will scale our Azure Maia family to multi-gigawatt deployments starting in 2027, making Maia the primary inference system for Microsoft products and services. The multigenerational... The post Microsoft to expand Azure Maia system to multi-gigawatt deployments appeared first on The Official Microsoft Blog ."
   }
 ]
