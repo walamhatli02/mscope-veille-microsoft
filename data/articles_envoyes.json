@@ -2332,5 +2332,12 @@
     "lien": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
     "date": "Mon, 12 Oct 2026 13:01:29 +0000",
     "contenu": "Azure Maia 200 now in production; Azure Maia 300 coming in 2027 As we move into the era of Super Intelligence, Microsoft is entering a new phase of infrastructure. We will scale our Azure Maia family to multi-gigawatt deployments starting in 2027, making Maia the primary inference system for Microsoft products and services. The multigenerational... The post Microsoft to expand Azure Maia system to multi-gigawatt deployments appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+    "lien": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+    "date": "Mon, 12 Oct 2026 17:43:59 +0000",
+    "contenu": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog ."
   }
 ]
