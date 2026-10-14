@@ -2339,5 +2339,19 @@
     "lien": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
     "date": "Mon, 12 Oct 2026 17:43:59 +0000",
     "contenu": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Microsoft Power Platform Blog",
+    "titre": "Create Power Pages sites in minutes with SPA templates",
+    "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/create-power-pages-sites-in-minutes-with-spa-templates/",
+    "date": "Tue, 13 Oct 2026 17:25:20 +0000",
+    "contenu": "We’re thrilled to share SPA template support in the Power Pages plugin for GitHub Copilot CLI and Claude Code. The /create-site skill can now create your site from a ready-made single-page application (SPA) template, instead of generating every page and component from scratch. The post Create Power Pages sites in minutes with SPA templates appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "GitHub’s model for secret detection: Finding more secrets with less noise",
+    "lien": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+    "date": "Tue, 13 Oct 2026 17:56:33 +0000",
+    "contenu": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog ."
   }
 ]
