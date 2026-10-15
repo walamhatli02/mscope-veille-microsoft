@@ -2353,5 +2353,54 @@
     "lien": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
     "date": "Tue, 13 Oct 2026 17:56:33 +0000",
     "contenu": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Cloud HSM hardware audit logging",
+    "lien": "https://azure.microsoft.com/updates?id=576377",
+    "date": "Wed, 14 Oct 2026 19:17:47 Z",
+    "contenu": "Hardware Audit Logging for Azure Cloud HSM provides hardware-generated audit records for supported HSM management operations, helping organizations strengthen security monitoring, compliance reporting, governance, and forensic investigations. Customers ca"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Site Recovery Support for Azure ARC-enabled Windows VMWare/Physical servers",
+    "lien": "https://azure.microsoft.com/updates?id=576214",
+    "date": "Wed, 14 Oct 2026 19:13:31 Z",
+    "contenu": "Azure Site Recovery (ASR) now supports disaster recovery for Azure ARC-enabled Windows VMWare virtual machines and on-premise physical servers. Customers can protect ARC-managed machines with ASR while continuing to use Azure ARC for governance, inventory"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
+    "date": "Wed, 14 Oct 2026 13:00:00 +0000",
+    "contenu": "Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law enforcement agencies and other partners worldwide, Microsoft’s Digital Crimes Unit (DCU) facilitated a disruption of the ecosystem. The post The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Power Platform Blog",
+    "titre": "Go multilingual with the Power Pages plugin",
+    "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/go-multilingual-with-the-power-pages-plugin/",
+    "date": "Wed, 14 Oct 2026 08:25:25 +0000",
+    "contenu": "We’re thrilled to bring localization support to the Power Pages plugin for GitHub Copilot CLI and Claude Code. The new /add-localization skill makes it easy to create multilingual Power Pages SPA sites in 43+ languages, including experiences in right-to-left languages such as Arabic and Hebrew. The post Go multilingual with the Power Pages plugin appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "GitHub availability report: September 2026",
+    "lien": "https://github.blog/news-insights/company-news/github-availability-report-september-2026/",
+    "date": "Wed, 14 Oct 2026 20:01:35 +0000",
+    "contenu": "In September, we experienced two incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: September 2026 appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
+    "lien": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
+    "date": "Wed, 14 Oct 2026 19:11:33 +0000",
+    "contenu": "Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made. The post From 2,500 requests to 24: Rebuilding star history without the stargazers appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Python 3.15 delivers a native-by-default experience on Windows on Arm",
+    "lien": "https://blogs.windows.com/windowsdeveloper/2026/10/14/python-3-15-delivers-native-by-default-experience-on-windows-arm/",
+    "date": "Wed, 14 Oct 2026 17:00:05 +0000",
+    "contenu": "Windows on Arm has been ready for Python development for some time. With Python 3.15 , the broader ecosystem has matured significantly, with more package maintainers publishing native Arm64 wheels, allow The post Python 3.15 delivers a native-by-default experience on Windows on Arm appeared first on Windows Blog ."
   }
 ]
