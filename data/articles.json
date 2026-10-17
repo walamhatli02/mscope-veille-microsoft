@@ -2472,5 +2472,33 @@
     "lien": "https://blogs.windows.com/windowsexperience/2026/10/15/incredible-deals-and-more-to-love-in-a-new-windows-pc-this-holiday/",
     "date": "Thu, 15 Oct 2026 13:00:11 +0000",
     "contenu": "A new PC is a meaningful purchase. Whether you are upgrading a family laptop, shopping for a student, or someone who loves to create or game, you want your money to go further. The right PC should deliver value when you buy The post Incredible deals and more to love in a new Windows PC this holiday appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Azure Databricks Private network gateway",
+    "lien": "https://azure.microsoft.com/updates?id=576556",
+    "date": "Fri, 16 Oct 2026 16:59:02 Z",
+    "contenu": "Private network gateway for Azure Databricks is\nnow in Public Preview, enabling serverless compute to connect to resources in\nyour virtual network (VNet) and transitively connected networks through a\nsingle managed gateway. Customers can use the gateway t"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: External key management for Azure Key Vault Managed HSM",
+    "lien": "https://azure.microsoft.com/updates?id=574296",
+    "date": "Fri, 16 Oct 2026 16:50:27 Z",
+    "contenu": "External key management for Azure Key Vault Managed HSM is now generally available in all Azure public regions. For organizations with regulatory or sovereignty requirements to retain physical control of key-encryption keys, it lets Azure services that su"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Managing open-weight model risk in enterprise deployments",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
+    "date": "Fri, 16 Oct 2026 16:00:00 +0000",
+    "contenu": "New whitepaper from Microsoft and NVIDIA helps enterprises manage open-weight AI model risks with a shared taxonomy, evaluations, and controls. The post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing new builds for 16 October 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/10/16/announcing-new-builds-for-16-october-2026/",
+    "date": "Fri, 16 Oct 2026 17:04:32 +0000",
+    "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta, Experimental, and Release Preview channels. New builds this week Select your channel below to view its release notes: B The post Announcing new builds for 16 October 2026 appeared first on Windows Blog ."
   }
 ]
