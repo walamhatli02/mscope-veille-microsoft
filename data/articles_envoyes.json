@@ -2514,5 +2514,33 @@
     "lien": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
     "date": "Mon, 19 Oct 2026 13:00:02 +0000",
     "contenu": "In the last few months, concerns have arisen about AI safety as a growing number of incidents were publicly disclosed. These incidents exposed how powerful models have become and how they represent a significant threat if not handled well. And with the global race on innovation, the challenge will compound as models become even more... The post Securing the agentic insider appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Metrics usage insights for Azure Monitor workspace",
+    "lien": "https://azure.microsoft.com/updates?id=577165",
+    "date": "Mon, 19 Oct 2026 20:23:15 Z",
+    "contenu": "Metrics usage insights is now generally available, giving you greater visibility into what’s driving metrics usage across your Azure Monitor workspace. Monitor workspace utilization, identify unused metrics, understand usage trends, and investigate change"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure DNS enables DNS-based load balancing through Traffic Manager linked records",
+    "lien": "https://azure.microsoft.com/updates?id=573917",
+    "date": "Mon, 19 Oct 2026 17:55:40 Z",
+    "contenu": "Azure DNS now provides DNS based load balancing by seamless\nintegration with Azure Traffic Manager. Customers can directly associate an\nAzure DNS record set with a Traffic Manager profile, eliminating the need to\ncreate a CNAME record pointing to the traf"
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Advancing digital sovereignty with greater control and choice",
+    "lien": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
+    "date": "Tue, 20 Oct 2026 08:20:02 +0000",
+    "contenu": "Across my conversations with leaders in government, critical infrastructure and regulated industries, one priority consistently rises to the top: putting technology to work on their most important systems while maintaining the control those systems require. This challenge is becoming more important as advanced cloud and AI capabilities move into public services, regulated processes and essential... The post Advancing digital sovereignty with greater control and choice appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "How to continue a GitHub Copilot app session in VS Code",
+    "lien": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
+    "date": "Mon, 19 Oct 2026 18:47:22 +0000",
+    "contenu": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog ."
   }
 ]
