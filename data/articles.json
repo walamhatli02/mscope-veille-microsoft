@@ -2542,5 +2542,54 @@
     "lien": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
     "date": "Mon, 19 Oct 2026 18:47:22 +0000",
     "contenu": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Disable VNet peering route",
+    "lien": "https://azure.microsoft.com/updates?id=576242",
+    "date": "Tue, 20 Oct 2026 18:55:47 Z",
+    "contenu": "Announcing\nthe public preview of disable VNet peering route, a route-table capability that\ngives you more control over traffic between peered virtual networks. DPR\nsuppresses system-generated peering routes on subnets associated with the route\ntable while"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Service tag match condition for Azure Front Door Premium WAF",
+    "lien": "https://azure.microsoft.com/updates?id=577156",
+    "date": "Tue, 20 Oct 2026 16:57:35 Z",
+    "contenu": "Announcing the general availability of the service tag match\ncondition for Azure Web Application Firewall (WAF) custom rules on Azure Front\nDoor Premium. Service tags represent groups of IP address prefixes used by\nAzure services, and Microsoft updates th"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Keyless TLS on Application Gateway with Azure Key Vault Managed HSM",
+    "lien": "https://azure.microsoft.com/updates?id=577130",
+    "date": "Tue, 20 Oct 2026 16:55:59 Z",
+    "contenu": "Azure Application Gateway now supports keyless TLS\ntermination using certificates whose private keys stay in Azure Key Vault\nManaged HSM. Each TLS handshake signature is performed inside the HSM, and the\nprivate key is never exported to the gateway. This"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Advanced platform metrics for Azure Monitor",
+    "lien": "https://azure.microsoft.com/updates?id=575329",
+    "date": "Tue, 20 Oct 2026 16:54:24 Z",
+    "contenu": "Advanced platform metrics for Azure Monitor are now generally available. Advanced platform metrics provide finer-grained signals that help customers more quickly and accurately identify changes and trends within their resources.With this release, customer"
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "From quick schedule fixes to automated planning with Scheduling Operations Agent",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/10/20/scheduling-operations-agent-field-service-planning/",
+    "date": "Tue, 20 Oct 2026 15:06:25 +0000",
+    "contenu": "Learn how Scheduling Operations Agent helps Dynamics 365 Field Service teams optimize resources, automate scheduling plans, and run recurring optimizations. The post From quick schedule fixes to automated planning with Scheduling Operations Agent appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Can a local git remote replace GitHub in your agent eval?",
+    "lien": "https://devblogs.microsoft.com/blog/can-a-local-git-remote-replace-github-in-your-agent-eval/",
+    "date": "Tue, 20 Oct 2026 14:53:27 +0000",
+    "contenu": "We swapped GitHub for a local git remote in our agent evals. Rebasing and pushing on request were unaffected, but the agent pushed on its own 11 points less often. Here's when a local remote is a safe shortcut, and when it isn't. The post Can a local git remote replace GitHub in your agent eval? appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+    "lien": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+    "date": "Tue, 20 Oct 2026 16:05:03 +0000",
+    "contenu": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog ."
   }
 ]
