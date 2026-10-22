@@ -2591,5 +2591,33 @@
     "lien": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
     "date": "Tue, 20 Oct 2026 16:05:03 +0000",
     "contenu": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: Choose Your Own Telephony (CYOT) for Microsoft Entra",
+    "lien": "https://azure.microsoft.com/updates?id=577273",
+    "date": "Wed, 21 Oct 2026 17:38:32 Z",
+    "contenu": "What and whyStarting October 30, 2026, Microsoft Entra ID will make the Choose Your Own Telephony Provider experience available. This feature enables organizations to use a supported third-party telecommunications provider for SMS and voice authentication"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Cosmos DB Safe Key Rotation",
+    "lien": "https://azure.microsoft.com/updates?id=576716",
+    "date": "Wed, 21 Oct 2026 17:13:16 Z",
+    "contenu": "Safe Key Rotation for Azure Cosmos DB is now generally available. You can view timestamp metadata showing when each account key was last used, helping you identify active keys before rotating or retiring credentials.This visibility helps reduce the risk o"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+    "date": "Wed, 21 Oct 2026 18:23:55 +0000",
+    "contenu": "Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments. The post AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "The bridge to agent-scale Git infrastructure",
+    "lien": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+    "date": "Wed, 21 Oct 2026 16:00:00 +0000",
+    "contenu": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog ."
   }
 ]
