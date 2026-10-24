@@ -2633,5 +2633,26 @@
     "lien": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
     "date": "Thu, 22 Oct 2026 17:21:30 +0000",
     "contenu": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Item Level Recovery for Azure VMs with Premium SSDv2 and Ultra Disks in Azure Backup",
+    "lien": "https://azure.microsoft.com/updates?id=577963",
+    "date": "Fri, 23 Oct 2026 19:21:07 Z",
+    "contenu": "Azure Backup now supports Item-Level Recovery (ILR) for Azure virtual machines using Premium SSD v2 and Ultra disks with both 512 byte and 4KB logical sector sizes. You can now recover individual files and folders from your Azure VMs with Premium SSDv2 an"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
+    "date": "Fri, 23 Oct 2026 18:12:19 +0000",
+    "contenu": "Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, including Python startup hooks, credential theft, remote code loading, detections, and mitigations. The post Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing new builds for 23 October 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/10/23/announcing-new-builds-for-23-october-2026/",
+    "date": "Fri, 23 Oct 2026 17:05:25 +0000",
+    "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels. New builds this week Select your channel below to view its release notes: Beta: Announcing new builds for 23 October 2026 appeared first on Windows Blog ."
   }
 ]
