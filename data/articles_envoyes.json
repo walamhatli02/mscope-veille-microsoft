@@ -2654,5 +2654,26 @@
     "lien": "https://blogs.windows.com/windows-insider/2026/10/23/announcing-new-builds-for-23-october-2026/",
     "date": "Fri, 23 Oct 2026 17:05:25 +0000",
     "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels. New builds this week Select your channel below to view its release notes: Beta: Announcing new builds for 23 October 2026 appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Network Watcher VNet flow logs filtering",
+    "lien": "https://azure.microsoft.com/updates?id=577782",
+    "date": "Mon, 26 Oct 2026 16:02:05 Z",
+    "contenu": "Azure Network Watcher VNet flow logs filtering is now generally available, enabling you to control which\nnetwork traffic flows are logged based on specific criteria such as IP\naddresses, ports, protocols, encryption state, flow state, and traffic directio"
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "PostgreSQL Like A Pro: Build, query, and troubleshoot without leaving VS Code",
+    "lien": "https://devblogs.microsoft.com/blog/postgresql-like-a-pro-vscode/",
+    "date": "Mon, 26 Oct 2026 15:05:12 +0000",
+    "contenu": "Build, query, and troubleshoot without leaving VS Code. The post PostgreSQL Like A Pro: Build, query, and troubleshoot without leaving VS Code appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Introducing a Voluntary Exit Offer",
+    "lien": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/",
+    "date": "Mon, 26 Oct 2026 15:33:56 +0000",
+    "contenu": "Amy Coleman, Executive Vice President and Chief People Officer, shared the below communication with Microsoft employees today. Today, we’re introducing a new Voluntary Exit Offer (VEO) to eligible employees within participating organizations. This offer gives eligible employees who may be considering a future outside the company a new choice to make that transition now with... The post Introducing a Voluntary Exit Offer appeared first on The Official Microsoft Blog ."
   }
 ]
