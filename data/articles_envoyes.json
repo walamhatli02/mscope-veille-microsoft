@@ -2675,5 +2675,33 @@
     "lien": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/",
     "date": "Mon, 26 Oct 2026 15:33:56 +0000",
     "contenu": "Amy Coleman, Executive Vice President and Chief People Officer, shared the below communication with Microsoft employees today. Today, we’re introducing a new Voluntary Exit Offer (VEO) to eligible employees within participating organizations. This offer gives eligible employees who may be considering a future outside the company a new choice to make that transition now with... The post Introducing a Voluntary Exit Offer appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
+    "lien": "https://azure.microsoft.com/updates?id=578358",
+    "date": "Tue, 27 Oct 2026 21:16:52 Z",
+    "contenu": "Higher Azure Storage account resource quotas are now generally available, supporting up to 1,000 storage accounts with standard endpoints per region, per subscription, up from the default of 250. Manage more accounts in a single subscription, reducing the"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Cost management and tagging for Claude models in Microsoft Foundry",
+    "lien": "https://azure.microsoft.com/updates?id=577260",
+    "date": "Tue, 27 Oct 2026 17:19:43 Z",
+    "contenu": "Microsoft Foundry now brings Claude models into Azure Cost Management alongside the rest of your Foundry spend, generally available. Until now, Claude charges appeared under SaaS rather than under the Foundry resource used to deploy them, and Claude deplo"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Front Door profile and route level WAF policies",
+    "lien": "https://azure.microsoft.com/updates?id=578153",
+    "date": "Tue, 27 Oct 2026 16:58:04 Z",
+    "contenu": "Announcing the general availability of profile and route\nlevel policies for Azure Web Application Firewall (WAF) on Azure Front Door\nPremium. WAF policies are no longer limited to individual domains: you can now\napply broad baseline protection across an e"
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "The platform approach to becoming Frontier",
+    "lien": "https://blogs.microsoft.com/blog/2026/10/27/the-platform-approach-to-becoming-frontier/",
+    "date": "Tue, 27 Oct 2026 16:01:38 +0000",
+    "contenu": "Last year at Ignite, we introduced the concept of Frontier Transformation and how it is different from any technology-led pursuit, because it requires us to focus on business outcomes first. It starts with a simple idea: technology was invented to serve humanity, not the other way around. There is no path where this notion of... The post The platform approach to becoming Frontier appeared first on The Official Microsoft Blog ."
   }
 ]
