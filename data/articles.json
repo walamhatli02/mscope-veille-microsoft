@@ -2703,5 +2703,68 @@
     "lien": "https://blogs.microsoft.com/blog/2026/10/27/the-platform-approach-to-becoming-frontier/",
     "date": "Tue, 27 Oct 2026 16:01:38 +0000",
     "contenu": "Last year at Ignite, we introduced the concept of Frontier Transformation and how it is different from any technology-led pursuit, because it requires us to focus on business outcomes first. It starts with a simple idea: technology was invented to serve humanity, not the other way around. There is no path where this notion of... The post The platform approach to becoming Frontier appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "The AI advantage your company can keep",
+    "lien": "https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/",
+    "date": "Tue, 27 Oct 2026 16:00:00 +0000",
+    "contenu": "New research across more than 200 enterprises looks at how shared knowledge can help companies coordinate their agents—and turn lessons from their work into an operational edge. The post The AI advantage your company can keep appeared first on Microsoft Copilot Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+    "lien": "https://www.microsoft.com/en-us/microsoft-cloud/blog/us-government/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+    "date": "Tue, 15 Sep 2026 15:00:00 +0000",
+    "contenu": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely. The post Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead appeared first on Microsoft Copilot Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
+    "lien": "https://azure.microsoft.com/updates?id=577689",
+    "date": "Wed, 28 Oct 2026 17:52:51 Z",
+    "contenu": "The Log Analytics logging destination for Azure Container Apps is now a legacy logging option. Existing environments configured with the Log Analytics logging destination will continue to function normally. However, we recommend planning a migration to th"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Cross Tenant Restore with Azure Backup",
+    "lien": "https://azure.microsoft.com/updates?id=577117",
+    "date": "Wed, 28 Oct 2026 17:09:30 Z",
+    "contenu": "Cross-Tenant Restore (CTR) helps organizations establish an independent recovery path by enabling Azure VM backups to be restored into a separate Azure tenant. It strengthens cyber resilience while using the existing backup copy, without requiring custome"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Marketplace private offer enhancements",
+    "lien": "https://azure.microsoft.com/updates?id=576547",
+    "date": "Wed, 28 Oct 2026 16:23:43 Z",
+    "contenu": "Private offers through Microsoft Marketplace help you optimize your spending power with pricing and terms aligned to your organization’s needs, including flexible billing, custom contract lengths, and more. For eligible private offers, we are simplifying"
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Publish Visual Studio Marketplace extensions securely with Trusted Publishing",
+    "lien": "https://devblogs.microsoft.com/blog/trusted-publishing-visual-studio-marketplace/",
+    "date": "Wed, 28 Oct 2026 16:59:00 +0000",
+    "contenu": "Publish Visual Studio Code and Visual Studio extensions from GitHub Actions or Azure Pipelines without storing a long-lived personal access token. The post Publish Visual Studio Marketplace extensions securely with Trusted Publishing appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work",
+    "lien": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+    "date": "Wed, 28 Oct 2026 16:51:35 +0000",
+    "contenu": "If you want to compete, you need to be multi-model. And if you want to take advantage of everything that different AI models have to offer, you need a great harness. But building one that works seamlessly across multiple models and surfaces is incredibly hard. You need to solve for performance, quality, and cost. And... The post Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "GitHub Universe 2026: Evolving every layer of the stack",
+    "lien": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+    "date": "Wed, 28 Oct 2026 16:09:28 +0000",
+    "contenu": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+    "lien": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+    "date": "Wed, 28 Oct 2026 16:07:40 +0000",
+    "contenu": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog ."
   }
 ]
