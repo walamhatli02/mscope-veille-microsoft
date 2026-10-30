@@ -2766,5 +2766,61 @@
     "lien": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
     "date": "Wed, 28 Oct 2026 16:07:40 +0000",
     "contenu": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
+    "lien": "https://azure.microsoft.com/updates?id=578850",
+    "date": "Thu, 29 Oct 2026 21:19:52 Z",
+    "contenu": "Large OS Disk Encryption (LOSDE) is now generally available for Azure Confidential VM migration scenarios. Organizations can move larger, production-scale workloads into confidential computing with the OS disk fully protected, instead of being held back b"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
+    "lien": "https://azure.microsoft.com/updates?id=578681",
+    "date": "Thu, 29 Oct 2026 17:09:49 Z",
+    "contenu": "Announcing the general\navailability of the HTTP DDoS ruleset for Azure Web Application Firewall (WAF)\non Azure Front Door Premium. HTTP-layer DDoS attacks remain a leading cause of\napplication downtime, and static controls such as IP filters and fixed rat"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure MCP Server 3.0",
+    "lien": "https://azure.microsoft.com/updates?id=578662",
+    "date": "Thu, 29 Oct 2026 17:04:58 Z",
+    "contenu": "Azure MCP Server 3.0 is now generally available, expanding how AI agents and developer tools interact with Azure through the open Model Context Protocol (MCP).This release introduces new and expanded capabilities:Infrastructure as code: Azure Terraform to"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Tracking AI adoption in North Korean threat actor tradecraft",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
+    "date": "Thu, 29 Oct 2026 16:00:00 +0000",
+    "contenu": "As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we’ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks down how North Korean threat actors are utilizing AI across their operations, reflecting a broader trend of threat actors incorporating AI into their attack chains. The post Tracking AI adoption in North Korean threat actor tradecraft appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/",
+    "date": "Thu, 29 Oct 2026 16:00:00 +0000",
+    "contenu": "IDC has named Microsoft a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises. The post IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "The CISO’s evolving role: Protecting and defending in the agentic era",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
+    "date": "Wed, 28 Oct 2026 16:00:00 +0000",
+    "contenu": "As AI and agents reshape the enterprise, CISOs face two critical priorities: enabling innovation with the right identity and data guardrails, and modernizing defense to keep pace with AI-powered threats. Aarti Borkar shares how security leaders can approach both. The post The CISO’s evolving role: Protecting and defending in the agentic era appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Does ‘eval’ in the workspace path change what your agent does?",
+    "lien": "https://devblogs.microsoft.com/blog/does-eval-in-the-workspace-path-change-what-your-agent-does/",
+    "date": "Fri, 30 Oct 2026 12:49:14 +0000",
+    "contenu": "Your eval might be telling the agent it’s a test before the agent reads a single instruction. Eval tools need a fresh folder for every run, and the easiest way to get one is a temp directory with a random name like /tmp/eval-7f3a2c. The agent sees that path on every turn, in the system prompt […] The post Does ‘eval’ in the workspace path change what your agent does? appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Edge is faster on Windows with Accelerated App Launches",
+    "lien": "https://blogs.windows.com/msedgedev/2026/10/29/edge-is-faster-on-windows-with-accelerated-app-launches/",
+    "date": "Thu, 29 Oct 2026 15:56:55 +0000",
+    "contenu": "We're excited to announce that Edge is the first browser to support accelerated app launches on Windows, delivering a faster and more consistent browser launch experience. With accelerated app launch, most Windows users will see a 15% launch The post Edge is faster on Windows with Accelerated App Launches appeared first on Windows Blog ."
   }
 ]
