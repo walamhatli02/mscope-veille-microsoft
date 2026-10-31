@@ -2822,5 +2822,33 @@
     "lien": "https://blogs.windows.com/msedgedev/2026/10/29/edge-is-faster-on-windows-with-accelerated-app-launches/",
     "date": "Thu, 29 Oct 2026 15:56:55 +0000",
     "contenu": "We're excited to announce that Edge is the first browser to support accelerated app launches on Windows, delivering a faster and more consistent browser launch experience. With accelerated app launch, most Windows users will see a 15% launch The post Edge is faster on Windows with Accelerated App Launches appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Support database-level managed identity (including FIC) in Create Database Scoped Credential T-SQL",
+    "lien": "https://azure.microsoft.com/updates?id=577491",
+    "date": "Fri, 30 Oct 2026 17:16:27 Z",
+    "contenu": "With database-level managed identity in Azure SQL Database, you can use a user-assigned managed identity for each database to query files in Azure Blob Storage and Azure Data Lake Storage Gen2 through external tables and OPENROWSET. You can authenticate t"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+    "date": "Sat, 31 Oct 2026 01:02:57 +0000",
+    "contenu": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
+    "date": "Fri, 30 Oct 2026 16:11:44 +0000",
+    "contenu": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos. The post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing new builds for 30 October 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/10/30/announcing-new-builds-for-30-october-2026/",
+    "date": "Fri, 30 Oct 2026 17:05:33 +0000",
+    "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels, as well as introducing a new commercial Feedback Hub policy for commercial customers. New builds this week The post Announcing new builds for 30 October 2026 appeared first on Windows Blog ."
   }
 ]
