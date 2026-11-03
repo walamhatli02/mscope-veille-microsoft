@@ -2857,5 +2857,75 @@
     "lien": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
     "date": "Sun, 01 Nov 2026 21:36:00 +0000",
     "contenu": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: On-prem NAS share discovery and assessment are now available using Azure Migrate",
+    "lien": "https://azure.microsoft.com/updates?id=577975",
+    "date": "Mon, 02 Nov 2026 19:37:11 Z",
+    "contenu": "Azure\nMigrate now supports discovery and assessment for network-attached storage,\nallowing customers and partners to plan migrations of Dell PowerScale (OneFS)\nand NetApp ONTAP storage to Azure. The Azure Migrate appliance connects\ndirectly to your NAS cl"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: OT security in Microsoft Defender for IoT",
+    "lien": "https://azure.microsoft.com/updates?id=576255",
+    "date": "Mon, 02 Nov 2026 19:22:28 Z",
+    "contenu": "This is the formal notice that Microsoft plans to deprecate the operational technology (OT) security component of Microsoft Defender for IoT. The service will be fully deprecated in October 2029, following a three-year transition period.This change applie"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Change from virtual network integration to a private endpoint capable network configuration in Azure Database for PostgreSQL flexible server",
+    "lien": "https://azure.microsoft.com/updates?id=574541",
+    "date": "Mon, 02 Nov 2026 19:20:33 Z",
+    "contenu": "You now have greater flexibility in network design for Azure Database for PostgreSQL Flexible Server workloads. Now you can change existing VNet-integrated servers from delegated-subnet networking to a private endpoint-capable configuration, enabling secu"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Azure Fluid Relay",
+    "lien": "https://azure.microsoft.com/updates?id=570498",
+    "date": "Mon, 02 Nov 2026 19:01:41 Z",
+    "contenu": "On February 2, 2027, we will retire Azure Fluid Relay. After this date, Azure Fluid Relay will reach end of availability, and workloads that continue to depend on the service may experience disruption.The Fluid Framework remains available as an open-sourc"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Storage Actions adds automatic task updates, execution controls, and case-sensitive matching",
+    "lien": "https://azure.microsoft.com/updates?id=578628",
+    "date": "Mon, 02 Nov 2026 18:34:01 Z",
+    "contenu": "Azure Storage Actions is introducing three enhancements to simplify task management and give you more control over automated data operations across Azure Blob and Data Lake Storage:Automatic propagation of task definition updates: When you update a storag"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Restart databases in Azure SQL DB via the Azure portal",
+    "lien": "https://azure.microsoft.com/updates?id=577992",
+    "date": "Mon, 02 Nov 2026 18:02:48 Z",
+    "contenu": "You can now restart or fail over databases directly from the Azure portal, including single databases, Hyperscale databases, and databases in elastic pools, without writing scripts against the Rest API or contacting support.  Learn more."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Geo-Replication on partitioned namespaces for Azure Service Bus Premium",
+    "lien": "https://azure.microsoft.com/updates?id=579021",
+    "date": "Mon, 02 Nov 2026 18:00:51 Z",
+    "contenu": "Geo-Replication on partitioned namespaces for\nAzure Service Bus Premium is now generally available. You can now combine the\nthroughput benefits of partitioning with the reliability of replicating your\nmessages and metadata to a secondary Azure region. Par"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Site Recovery for Azure Local",
+    "lien": "https://azure.microsoft.com/updates?id=579111",
+    "date": "Mon, 02 Nov 2026 17:49:48 Z",
+    "contenu": "Azure Site Recovery support for Azure Local is now generally available, making enterprise-grade disaster recovery simpler, accessible, easier to setup and secure than ever before. Customers can protect supported Windows and Linux virtual machines by repli"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
+    "date": "Mon, 02 Nov 2026 20:20:59 +0000",
+    "contenu": "Real-world exploitation concentrates in a small, high-impact subset of CVEs. Learn how defenders can prioritize vulnerabilities based on exploitation likelihood, exposure, and potential blast radius. The post What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Client-side threat detection: how Scareware blocker uncovered malicious notification abuse",
+    "lien": "https://blogs.windows.com/msedgedev/2026/11/02/client-side-threat-detection-how-scareware-blocker-uncovered-malicious-notification-abuse/",
+    "date": "Mon, 02 Nov 2026 22:05:53 +0000",
+    "contenu": "Website notifications were designed to help us stay informed. They can alert you to a new message, remind you of an upcoming event, or share an important update from a service you trust. But scammers are turning this useful browser feature into a pe The post Client-side threat detection: how Scareware blocker uncovered malicious notification abuse appeared first on Windows Blog ."
   }
 ]
