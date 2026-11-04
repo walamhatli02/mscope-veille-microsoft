@@ -2927,5 +2927,75 @@
     "lien": "https://blogs.windows.com/msedgedev/2026/11/02/client-side-threat-detection-how-scareware-blocker-uncovered-malicious-notification-abuse/",
     "date": "Mon, 02 Nov 2026 22:05:53 +0000",
     "contenu": "Website notifications were designed to help us stay informed. They can alert you to a new message, remind you of an upcoming event, or share an important update from a service you trust. But scammers are turning this useful browser feature into a pe The post Client-side threat detection: how Scareware blocker uncovered malicious notification abuse appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: JWT validation for Application Gateway for Containers",
+    "lien": "https://azure.microsoft.com/updates?id=576382",
+    "date": "Tue, 03 Nov 2026 21:17:08 Z",
+    "contenu": "Application Gateway for Containers now supports centralized\nJSON Web Token validation through the AuthPolicy custom resource. Teams can\nvalidate a token signature, issuer, lifetime, and configured audience by using\nsigning keys retrieved from a trusted HT"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: MCP gateway for Application Gateway for Containers",
+    "lien": "https://azure.microsoft.com/updates?id=576388",
+    "date": "Tue, 03 Nov 2026 21:16:36 Z",
+    "contenu": "Application Gateway for Containers now supports Model\nContext Protocol routing through the new MCPRoute custom resource. Platform\nteams can publish MCP servers behind a stable hostname and path while\ncentralizing TLS, JWT validation, Web Application Firew"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Private ingress for Application Gateway for Containers",
+    "lien": "https://azure.microsoft.com/updates?id=576393",
+    "date": "Tue, 03 Nov 2026 21:15:46 Z",
+    "contenu": "Application\nGateway for Containers now supports private frontends that are reachable only\nthrough approved Azure Private Link private endpoints. This enables\norganizations to keep internal applications, shared services, and cross-cluster\ntraffic on privat"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Advanced capacity insights are now available in Azure Storage Discovery",
+    "lien": "https://azure.microsoft.com/updates?id=578655",
+    "date": "Tue, 03 Nov 2026 20:20:29 Z",
+    "contenu": "Advanced capacity insights are now available for preview in Azure Storage Discovery. Storage Discovery now provides greater visibility into storage usage through insights such as access patterns, data age, storage tiers, object size distribution, retentio"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Extend immutability for PITR backups for Azure SQL Database and Azure SQL Managed Instance",
+    "lien": "https://azure.microsoft.com/updates?id=579305",
+    "date": "Tue, 03 Nov 2026 18:36:12 Z",
+    "contenu": "With this enhancement, you have the ability to lock your retention to the configured PITR retention, beyond the default 7 days of immutable backups that are already available. This is especially useful for financial customers who typically have 35 days of"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Enhanced Azure Site Recovery support for VMSS Flex",
+    "lien": "https://azure.microsoft.com/updates?id=578926",
+    "date": "Tue, 03 Nov 2026 18:32:01 Z",
+    "contenu": "Azure Site Recovery now offers an enhanced disaster recovery experience for virtual machines in Virtual Machine Scale Sets with flexible orchestration. The update improves target configuration and end-to-end recovery workflows, including failover, reprote"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
+    "date": "Tue, 03 Nov 2026 17:32:47 +0000",
+    "contenu": "Microsoft Threat Intelligence tracks a fake-download campaign that uses trojanized Inno installers to deliver multiple monetization offers and provides detection and investigation guidance across the complete installer session. The post Fake-download campaign uses trojanized installers to deliver monetization payloads appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI Agent Management Platforms",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-agent-management-platforms/",
+    "date": "Tue, 03 Nov 2026 17:00:00 +0000",
+    "contenu": "Read why Gartner named Microsoft a Leader in the inaugural 2026 Magic Quadrant for AI Agent Management Platforms. The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI Agent Management Platforms appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Arnis turns any place on Earth into a Minecraft world",
+    "lien": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
+    "date": "Tue, 03 Nov 2026 16:00:00 +0000",
+    "contenu": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone. The post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Raising the bar for 8 GB Windows 11 PCs: what’s improved and how to get it",
+    "lien": "https://blogs.windows.com/windowsexperience/2026/11/03/raising-the-bar-for-8-gb-windows-11-pcs-whats-improved-and-how-to-get-it/",
+    "date": "Tue, 03 Nov 2026 17:00:48 +0000",
+    "contenu": "A great Windows experience starts with a simple expectation: your PC should respond when you need it to. You open Start. You launch an app. You switch back to the document or browser tab you left an hour ago and pick up whe The post Raising the bar for 8 GB Windows 11 PCs: what’s improved and how to get it appeared first on Windows Blog ."
   }
 ]
