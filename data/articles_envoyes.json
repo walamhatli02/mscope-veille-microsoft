@@ -2997,5 +2997,40 @@
     "lien": "https://blogs.windows.com/windowsexperience/2026/11/03/raising-the-bar-for-8-gb-windows-11-pcs-whats-improved-and-how-to-get-it/",
     "date": "Tue, 03 Nov 2026 17:00:48 +0000",
     "contenu": "A great Windows experience starts with a simple expectation: your PC should respond when you need it to. You open Start. You launch an app. You switch back to the document or browser tab you left an hour ago and pick up whe The post Raising the bar for 8 GB Windows 11 PCs: what’s improved and how to get it appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Database for PostgreSQL stable REST API version 2026-10-01",
+    "lien": "https://azure.microsoft.com/updates?id=579300",
+    "date": "Wed, 04 Nov 2026 18:42:12 Z",
+    "contenu": "The Azure Database for PostgreSQL Flexible Server REST API version 2026-10-01 is now generally available. This stable API release introduces expanded capabilities for maintenance management, immutable backups, multi-tenant encryption (cross-tenant custome"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Generally Available: Route maps for Azure Route Server",
+    "lien": "https://azure.microsoft.com/updates?id=578966",
+    "date": "Wed, 04 Nov 2026 18:39:41 Z",
+    "contenu": "Route maps for Azure Route Server are now generally available in the Azure public cloud. Route maps provide fine-grained control over inbound and outbound routing across hybrid connections. Customers can manage routes advertised to and from Azure Route Se"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Azure Firewall IPv6 now supports application rules",
+    "lien": "https://azure.microsoft.com/updates?id=579507",
+    "date": "Wed, 04 Nov 2026 18:09:43 Z",
+    "contenu": "Azure Firewall now supports application rules in IPv6\nPublic Preview, enabling layer 7 filtering for IPv6 HTTP and HTTPS traffic. The\nenhancement extends application-level controls to IPv6 and dual-stack\ndeployments, helping customers maintain consistent"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Transition to Entra ID (formerly known as Azure AD) to query data from Azure Monitor application insights by March 31, 2027",
+    "lien": "https://azure.microsoft.com/updates?id=transition-to-azure-ad-to-query-data-from-azure-monitor-application-insights-by-31-march-2026",
+    "date": "Mon, 15 May 2023 19:51:58 Z",
+    "contenu": "*Note: We have extended the retirement date to March 31, 2027.On March 31, 2027 API keys used query application\ninsights will be retired. You'll need to transition to\nMicrosoft Entra ID (formerly known as Azure AD) which provides all the\nfunctionality of"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Multi-disk crash-consistent VM restore points for Premium SSD v2 and Ultra Disks on VMs with SCSI disk controller",
+    "lien": "https://azure.microsoft.com/updates?id=579162",
+    "date": "Wed, 04 Nov 2026 17:13:51 Z",
+    "contenu": "Multi-disk crash-consistent restore points for Azure virtual machines with Premium SSD v2 and Ultra data disks are now available in public preview on VMs with SCSI disk controllers. You can use this to capture the agent-less crash consistent restore point"
   }
 ]
