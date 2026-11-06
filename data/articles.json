@@ -3032,5 +3032,82 @@
     "lien": "https://azure.microsoft.com/updates?id=579162",
     "date": "Wed, 04 Nov 2026 17:13:51 Z",
     "contenu": "Multi-disk crash-consistent restore points for Azure virtual machines with Premium SSD v2 and Ultra data disks are now available in public preview on VMs with SCSI disk controllers. You can use this to capture the agent-less crash consistent restore point"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Front Door TLS key exchange policy with post-quantum support",
+    "lien": "https://azure.microsoft.com/updates?id=577668",
+    "date": "Thu, 05 Nov 2026 23:19:48 Z",
+    "contenu": "Azure Front Door now supports configurable TLS key exchange\npolicies, including hybrid post-quantum key exchange, to help you prepare for\nevolving cryptographic threats while meeting your security and client\ncompatibility requirements. Choose a predefined"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: WAF Insights for Azure Application Gateway",
+    "lien": "https://azure.microsoft.com/updates?id=579280",
+    "date": "Thu, 05 Nov 2026 17:11:31 Z",
+    "contenu": "WAF Insights for Azure Application Gateway Web Application Firewall (WAF) is now generally available. WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together in interactive dashboards, so you can investigate block"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+    "date": "Thu, 05 Nov 2026 23:46:50 +0000",
+    "contenu": "Microsoft Threat Intelligence has observed threat actors using the agentic offensive security framework ARTEX to search GitHub for OAuth application secrets, which can be used to compromise the associated OAuth application and perform authenticated actions in the application’s tenant. Agents operating on behalf of threat actors then used the compromised OAuth applications to perform a variety of subsequent actions within compromised organizations. The post Threat actors use agentic AI tooling to find and abuse exposed secrets appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "New investments to reduce on-premises security risk",
+    "lien": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-investments-to-reduce-on-premises-security-risk/4570381",
+    "date": "Thu, 05 Nov 2026 17:10:14 +0000",
+    "contenu": "We’re announcing a new on-premises security initiative, bringing together guidance, migration, and product investments. The post New investments to reduce on-premises security risk appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "​​​​What’s new in Microsoft Security: November 2026",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
+    "date": "Thu, 05 Nov 2026 17:00:00 +0000",
+    "contenu": "Microsoft Security’s November 2026 updates strengthen AI agent security, least privilege, threat protection, and exposure management. The post ​​​​What’s new in Microsoft Security: November 2026 appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Email threat landscape: Q3 2026 trends and insights",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/",
+    "date": "Thu, 05 Nov 2026 16:00:00 +0000",
+    "contenu": "Microsoft Threat Intelligence observed a sharp rise in email-based phishing activity at the end of Q3 2026 (July – September), even as QR code phishing declined, CAPTCHA-gated phishing recovered, and malicious messages spoofing familiar business-service sender domains exposed risks associated with security overrides. The post Email threat landscape: Q3 2026 trends and insights appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Your best AX fixes are hiding in agent trajectories",
+    "lien": "https://devblogs.microsoft.com/blog/your-best-ax-fixes-are-hiding-in-agent-trajectories/",
+    "date": "Thu, 05 Nov 2026 15:40:49 +0000",
+    "contenu": "All five agent runs produced a working script, and nothing in the eval score looked wrong. The trajectories told a different story. Every run read a DLL as raw bytes to find plugin names, and three scripts would quietly reroute a CI runner's network traffic. Here are the patterns to look for in your own agents' trajectories, and what to change in your product when you find them. The post Your best AX fixes are hiding in agent trajectories appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Inside GitHub’s new Git storage architecture",
+    "lien": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+    "date": "Thu, 05 Nov 2026 20:23:21 +0000",
+    "contenu": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub’s new Git storage architecture appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Accessibility statements now have a home on GitHub",
+    "lien": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+    "date": "Thu, 05 Nov 2026 16:00:00 +0000",
+    "contenu": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes. The post Accessibility statements now have a home on GitHub appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "A new standard for vulnerability management in the AI era",
+    "lien": "https://blogs.windows.com/windowsexperience/2026/11/05/a-new-standard-for-vulnerability-management-in-the-ai-era/",
+    "date": "Thu, 05 Nov 2026 17:00:49 +0000",
+    "contenu": "Windows is evolving vulnerability management as advances in AI make it possible to discover and analyze security vulnerabilities faster and at greater scale. AI is accelerating vulnerability discovery on both sides. It can help defenders find and fi The post A new standard for vulnerability management in the AI era appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Discover more of what matters, every time you open a new tab in Microsoft Edge",
+    "lien": "https://blogs.windows.com/msedgedev/2026/11/05/discover-more-of-what-matters-every-time-you-open-a-new-tab-in-microsoft-edge/",
+    "date": "Thu, 05 Nov 2026 16:56:07 +0000",
+    "contenu": "A new browser tab is full of possibilities. It can be the start of something you set out to do—or a chance to discover something you didn't know. As the amount of content online has grown, Edge users have told us they want more help cutting through The post Discover more of what matters, every time you open a new tab in Microsoft Edge appeared first on Windows Blog ."
   }
 ]
