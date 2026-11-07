@@ -3109,5 +3109,26 @@
     "lien": "https://blogs.windows.com/msedgedev/2026/11/05/discover-more-of-what-matters-every-time-you-open-a-new-tab-in-microsoft-edge/",
     "date": "Thu, 05 Nov 2026 16:56:07 +0000",
     "contenu": "A new browser tab is full of possibilities. It can be the start of something you set out to do—or a chance to discover something you didn't know. As the amount of content online has grown, Edge users have told us they want more help cutting through The post Discover more of what matters, every time you open a new tab in Microsoft Edge appeared first on Windows Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "ARTEX abuse expands as cybercriminals target financial sector",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+    "date": "Sat, 07 Nov 2026 02:44:34 +0000",
+    "contenu": "In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX. The post ARTEX abuse expands as cybercriminals target financial sector appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Beyond code generation: A developer’s guide to agentic engineering",
+    "lien": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+    "date": "Fri, 06 Nov 2026 22:15:59 +0000",
+    "contenu": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing new builds for 6 November 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/11/06/announcing-new-builds-for-6-november-2026/",
+    "date": "Fri, 06 Nov 2026 18:05:11 +0000",
+    "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels. New builds this week Select your channel below to view its release notes: Beta: Announcing new builds for 6 November 2026 appeared first on Windows Blog ."
   }
 ]
