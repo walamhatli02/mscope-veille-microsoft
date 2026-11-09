@@ -3130,5 +3130,19 @@
     "lien": "https://blogs.windows.com/windows-insider/2026/11/06/announcing-new-builds-for-6-november-2026/",
     "date": "Fri, 06 Nov 2026 18:05:11 +0000",
     "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels. New builds this week Select your channel below to view its release notes: Beta: Announcing new builds for 6 November 2026 appeared first on Windows Blog ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Do AI coding agents care about SemVer?",
+    "lien": "https://devblogs.microsoft.com/blog/do-ai-coding-agents-care-about-semver/",
+    "date": "Mon, 09 Nov 2026 16:01:03 +0000",
+    "contenu": "We gave AI coding agents the same breaking upgrade twice. Labeled 2.0.0, Claude Sonnet 5.5 checked it in all 10 runs. Labeled 1.4.3, it checked in two and often left the app broken. Nearly 1,000 runs show which agents still read your version numbers, and what a patch label talks them out of. The post Do AI coding agents care about SemVer? appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Shop faster and save money with built-in tools in Microsoft Edge",
+    "lien": "https://blogs.windows.com/blog/2026/11/09/shop-faster-and-save-money-with-built-in-tools-in-microsoft-edge/",
+    "date": "Mon, 09 Nov 2026 16:55:05 +0000",
+    "contenu": "The post Shop faster and save money with built-in tools in Microsoft Edge appeared first on Windows Blog ."
   }
 ]
