@@ -3144,5 +3144,33 @@
     "lien": "https://blogs.windows.com/blog/2026/11/09/shop-faster-and-save-money-with-built-in-tools-in-microsoft-edge/",
     "date": "Mon, 09 Nov 2026 16:55:05 +0000",
     "contenu": "The post Shop faster and save money with built-in tools in Microsoft Edge appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Support for .NET 8 and .NET 9 on Static Web Apps is ending November 10, 2026",
+    "lien": "https://azure.microsoft.com/updates?id=575106",
+    "date": "Mon, 09 Nov 2026 22:50:01 Z",
+    "contenu": "Support for .NET\n8 and .NET 9 will end on November 10, 2026. Please transition your managed Functions APIs to .NET 10 by that date. Your apps will continue to operate, but security updates\nwill no longer be provided and support for .NET 8 and .NET 9 on Az"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Modernize Arc-enabled Windows Servers with Azure File Sync",
+    "lien": "https://azure.microsoft.com/updates?id=579854",
+    "date": "Mon, 09 Nov 2026 17:20:57 Z",
+    "contenu": "Azure File Sync provides hybrid access or seamless migration of data from Windows Server to Azure Files while preserving the familiar local file server experience for users and applications. Now in preview, users have a guided Azure portal experience to s"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/",
+    "date": "Mon, 09 Nov 2026 20:17:31 +0000",
+    "contenu": "Microsoft FORGE Lab researchers found memory-safety bugs in Rust's core and std libraries, including cases where safe Rust code can trigger undefined behavior. Using Hyenas, FORGE's frontier research version of codename MDASH, the team investigated three patterns of misplaced trust in unsafe code and what they reveal about Rust's safety guarantees. The post FORGE Lab uses agentic tools to identify memory safety issues in Rust appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Shop faster and save money with built-in tools in Microsoft Edge",
+    "lien": "https://blogs.windows.com/msedgedev/2026/11/09/shop-faster-and-save-money-with-built-in-tools-in-microsoft-edge/",
+    "date": "Mon, 09 Nov 2026 16:55:05 +0000",
+    "contenu": "It's 11 p.m. Fifteen tabs are open, the reviews don't agree, and you've checked the price three times. Then, just when you think you're done, a promo code box appears with a code you don't have. So, you keep shopping, long past the point you wanted t The post Shop faster and save money with built-in tools in Microsoft Edge appeared first on Windows Blog ."
   }
 ]
