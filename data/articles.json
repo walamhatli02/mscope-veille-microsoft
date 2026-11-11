@@ -3172,5 +3172,54 @@
     "lien": "https://blogs.windows.com/msedgedev/2026/11/09/shop-faster-and-save-money-with-built-in-tools-in-microsoft-edge/",
     "date": "Mon, 09 Nov 2026 16:55:05 +0000",
     "contenu": "It's 11 p.m. Fifteen tabs are open, the reviews don't agree, and you've checked the price three times. Then, just when you think you're done, a promo code box appears with a code you don't have. So, you keep shopping, long past the point you wanted t The post Shop faster and save money with built-in tools in Microsoft Edge appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Distributed accelerator for cloud storage on AKS",
+    "lien": "https://azure.microsoft.com/updates?id=578454",
+    "date": "Tue, 10 Nov 2026 20:08:32 Z",
+    "contenu": "Distributed accelerator for cloud storage (DACS) is now in public preview for AI workloads running on Azure Kubernetes Service (AKS). DACS is a distributed read-through cache that runs within your AKS cluster and uses local NVMe disks across nodes to keep"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Functions support for .NET 11",
+    "lien": "https://azure.microsoft.com/updates?id=578773",
+    "date": "Tue, 10 Nov 2026 20:07:45 Z",
+    "contenu": "Azure Functions support for .NET 11 is now generally available.You can now\nbuild Azure Functions apps targeting .NET 11 using the isolated worker model,\nwhile continuing to use the Azure Functions programming model and host\nintegration. Your\nserverless ap"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Azure Front Door adds native gRPC support",
+    "lien": "https://azure.microsoft.com/updates?id=579383",
+    "date": "Tue, 10 Nov 2026 18:55:53 Z",
+    "contenu": "Announcing the public preview of gRPC support in Azure Front\nDoor. Build and deliver gRPC applications through\nAzure Front Door Standard and Premium. Now in preview, gRPC support lets you\nroute calls to specific services and methods, distribute traffic ac"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Front Door edge actions",
+    "lien": "https://azure.microsoft.com/updates?id=579310",
+    "date": "Tue, 10 Nov 2026 18:55:09 Z",
+    "contenu": "Announcing the general availability of Azure Front Door edge\nactions (serverless compute at the edge). With edge actions, customers can execute lightweight\nJavaScript functions during Azure Front Door client request/response processing\nto make real-time d"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Public Preview: Azure Route Server dual-stack IPv4/IPv6 support",
+    "lien": "https://azure.microsoft.com/updates?id=579746",
+    "date": "Tue, 10 Nov 2026 18:21:41 Z",
+    "contenu": "Azure Route Server now supports IPv4/IPv6 dual-stack mode in public preview, enabling route exchange for both address families across supported hybrid networking connections. Existing IPv4 connections remain unchanged, so organizations can adopt IPv6 rout"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Detecting sleeper agents hiding in AI model neurons",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
+    "date": "Tue, 10 Nov 2026 23:00:00 +0000",
+    "contenu": "Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which can identify anomalous weight edits. The post Detecting sleeper agents hiding in AI model neurons appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Git security vulnerabilities announced",
+    "lien": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+    "date": "Tue, 10 Nov 2026 18:00:00 +0000",
+    "contenu": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog ."
   }
 ]
