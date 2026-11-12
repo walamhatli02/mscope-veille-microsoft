@@ -3221,5 +3221,26 @@
     "lien": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
     "date": "Tue, 10 Nov 2026 18:00:00 +0000",
     "contenu": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Rate limit grouping for Azure Front Door Premium WAF",
+    "lien": "https://azure.microsoft.com/updates?id=580155",
+    "date": "Wed, 11 Nov 2026 18:18:27 Z",
+    "contenu": "Announcing the public preview\nof rate limit grouping for Azure Web Application Firewall (WAF) on Azure Front\nDoor Premium. By default, a rate limit rule counts requests separately for\neach client IP address. Distributed attacks get around this by spreadin"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/11/global-socket-how-threat-actors-weaponizing-gsocket-stealthy-c2/",
+    "date": "Wed, 11 Nov 2026 19:49:57 +0000",
+    "contenu": "Threat actors are deploying GSocket on compromised Linux servers to keep encrypted remote access after the original vulnerability is patched. Learn how to detect, investigate, and remediate this activity. The post The global socket: how threat actors are weaponizing GSocket for stealthy C2 appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Lessons from 59 Linux Kernel Bug Reports",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
+    "date": "Wed, 11 Nov 2026 16:55:00 +0000",
+    "contenu": "Microsoft FORGE Lab researchers used codename MDASH to investigate Linux kernel vulnerabilities, resulting in 59 upstream bug reports, 33 assigned CVEs, and 38 merged fixes. The research includes eight demonstrated local root privilege-escalation exploits and examines the challenges of turning AI-generated findings into validated vulnerabilities and upstream fixes. The post Lessons from 59 Linux Kernel Bug Reports appeared first on Microsoft Security Blog ."
   }
 ]
