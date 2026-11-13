@@ -3242,5 +3242,68 @@
     "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
     "date": "Wed, 11 Nov 2026 16:55:00 +0000",
     "contenu": "Microsoft FORGE Lab researchers used codename MDASH to investigate Linux kernel vulnerabilities, resulting in 59 upstream bug reports, 33 assigned CVEs, and 38 merged fixes. The research includes eight demonstrated local root privilege-escalation exploits and examines the challenges of turning AI-generated findings into validated vulnerabilities and upstream fixes. The post Lessons from 59 Linux Kernel Bug Reports appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: JWT validation with Azure Front Door Auth Policy",
+    "lien": "https://azure.microsoft.com/updates?id=577673",
+    "date": "Thu, 12 Nov 2026 22:36:37 Z",
+    "contenu": "JSON Web Token (JWT) validation through Azure Front Door Auth Policy is now in public preview on Azure Front Door Premium. Validate bearer tokens issued by Microsoft Entra ID at the edge before requests reach your APIs or web applications, helping you cen"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Front Door mutual TLS authentication",
+    "lien": "https://azure.microsoft.com/updates?id=577678",
+    "date": "Thu, 12 Nov 2026 22:27:35 Z",
+    "contenu": "Mutual TLS (mTLS), also known as client certificate\nauthentication, is now generally available on Azure Front Door Premium. Use\nX.509 client certificates to help protect sensitive applications and APIs in\nbusiness-to-business, Internet of Things, financia"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Auto scaling of ingestion limits in Azure Monitor workspace",
+    "lien": "https://azure.microsoft.com/updates?id=578207",
+    "date": "Thu, 12 Nov 2026 18:23:52 Z",
+    "contenu": "Auto scaling introduces a\nper-workspace capability in Azure Monitor Workspace (AMW) to automatically\nscale ingestion limits based on observed usage patterns. When enabled, the\nsystem dynamically adjusts ingestion limits (quota ceiling) to maintain healthy"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: SQL performance monitoring for Azure SQL Managed Instance",
+    "lien": "https://azure.microsoft.com/updates?id=574158",
+    "date": "Thu, 12 Nov 2026 16:59:40 Z",
+    "contenu": "The public preview of Microsoft-managed performance\nmonitoring for Azure SQL Managed Instance is now available. Customers monitoring business-critical SQL Managed Instance\nworkloads often rely on custom scripts and disconnected monitoring tools. This\nrequ"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Trained to betray: How post-training supply chain attacks hijack coding agents",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
+    "date": "Thu, 12 Nov 2026 17:00:00 +0000",
+    "contenu": "Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities. The post Trained to betray: How post-training supply chain attacks hijack coding agents appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "From AI ambition to business impact",
+    "lien": "https://blogs.microsoft.com/blog/2026/11/12/from-ai-ambition-to-business-impact/",
+    "date": "Thu, 12 Nov 2026 17:00:03 +0000",
+    "contenu": "Most business leaders I meet no longer need to be convinced that AI works. They’ve seen the pilots, the demos and the copilots. The question I hear in boardrooms now is different: How do we move from AI that impresses to AI that changes how the business actually runs? That is the question Microsoft Frontier... The post From AI ambition to business impact appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Scaling AI value without losing control: Lessons from Frontier Firms",
+    "lien": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/",
+    "date": "Thu, 12 Nov 2026 16:00:02 +0000",
+    "contenu": "Results are widespread. Value at scale is not, and that gap is what this year’s research from IDC, commissioned by Microsoft, set out to explain. In our fourth year commissioning IDC, more than 5,200 senior IT and business leaders across 28 industries shared what it takes to maximize value as AI scales. The clearest lessons... The post Scaling AI value without losing control: Lessons from Frontier Firms appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "GitHub availability report: October 2026",
+    "lien": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+    "date": "Fri, 13 Nov 2026 00:20:16 +0000",
+    "contenu": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Build once, run on any agent: A practical guide to agent skills",
+    "lien": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+    "date": "Thu, 12 Nov 2026 22:54:52 +0000",
+    "contenu": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog ."
   }
 ]
