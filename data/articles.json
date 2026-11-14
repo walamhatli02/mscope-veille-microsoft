@@ -3305,5 +3305,26 @@
     "lien": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
     "date": "Thu, 12 Nov 2026 22:54:52 +0000",
     "contenu": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Azure Data Share will be retired on November 12, 2029",
+    "lien": "https://azure.microsoft.com/updates?id=578818",
+    "date": "Fri, 13 Nov 2026 19:54:45 Z",
+    "contenu": "Azure Data Share will retire on November 12, 2029. Before that date, transition your data sharing workloads to Microsoft Fabric, which offers External data sharing, Cross tenant delegated shortcuts and IQ share or an appropriate data-source-specific shari"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/",
+    "date": "Fri, 13 Nov 2026 21:31:44 +0000",
+    "contenu": "SCKit abuses ScreenConnect to deploy unauthorized remote access and target technicians. Explore the attack chain, mitigations, and Microsoft Defender XDR hunting. The post SCKit abuses ScreenConnect to deploy remote access and target technician sessions appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing new builds for 13 November 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/11/13/announcing-new-builds-for-13-november-2026/",
+    "date": "Fri, 13 Nov 2026 18:05:09 +0000",
+    "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta (26H1), Experimental (26H1) and Experimental (Future Platforms) channels only. We will provide updates on the regular Beta and Experimental channels n The post Announcing new builds for 13 November 2026 appeared first on Windows Blog ."
   }
 ]
