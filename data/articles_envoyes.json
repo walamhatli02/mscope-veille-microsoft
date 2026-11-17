@@ -3326,5 +3326,26 @@
     "lien": "https://blogs.windows.com/windows-insider/2026/11/13/announcing-new-builds-for-13-november-2026/",
     "date": "Fri, 13 Nov 2026 18:05:09 +0000",
     "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta (26H1), Experimental (26H1) and Experimental (Future Platforms) channels only. We will provide updates on the regular Beta and Experimental channels n The post Announcing new builds for 13 November 2026 appeared first on Windows Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "The risks of device code authentication for AI coding agents",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/",
+    "date": "Tue, 17 Nov 2026 15:00:00 +0000",
+    "contenu": "Lab research shows how device code phishing, a technique that applies to any device-flow client, can extend to AI coding agents, using GitHub Copilot CLI as an illustrative example. The post The risks of device code authentication for AI coding agents appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+    "date": "Tue, 17 Nov 2026 00:08:41 +0000",
+    "contenu": "Microsoft Threat Intelligence observed a high-volume phishing campaign using Microsoft 365 outage-themed lures to target organizations across multiple sectors worldwide. The post High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing new builds for 16 November 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/11/16/announcing-new-builds-for-16-november-2026/",
+    "date": "Mon, 16 Nov 2026 22:05:37 +0000",
+    "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels. New builds this week Select your channel below to view its release notes: Beta: Announcing new builds for 16 November 2026 appeared first on Windows Blog ."
   }
 ]
