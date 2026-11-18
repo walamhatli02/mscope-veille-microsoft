@@ -3347,5 +3347,131 @@
     "lien": "https://blogs.windows.com/windows-insider/2026/11/16/announcing-new-builds-for-16-november-2026/",
     "date": "Mon, 16 Nov 2026 22:05:37 +0000",
     "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels. New builds this week Select your channel below to view its release notes: Beta: Announcing new builds for 16 November 2026 appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Immutable snapshots for Azure Disk Storage",
+    "lien": "https://azure.microsoft.com/updates?id=581503",
+    "date": "Wed, 18 Nov 2026 00:00:09 Z",
+    "contenu": "Immutable snapshots for Azure Disk Storage are now available in public preview. Immutable snapshots complement Azure Backup immutable vaults. Use vaults for cost-efficient long-term retention, and immutable snapshots for short-term backups that need faste"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: Azure Boost observability for NVMe disks",
+    "lien": "https://azure.microsoft.com/updates?id=581227",
+    "date": "Wed, 18 Nov 2026 00:00:09 Z",
+    "contenu": "Azure Boost observability for NVMe disks is an open-source command-line tool that you run inside compatible Azure VMs. Backed by Azure Boost, the tool provides remote disk I/O and latency metrics and maps each disk inside your VM to the corresponding disk"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Generally Available: Cobalt 200 Arm-based Dplsv7, Dpsv7, Epsv7, Mpsv4, and Lpsv5-series Virtual Machines",
+    "lien": "https://azure.microsoft.com/updates?id=581298",
+    "date": "Tue, 17 Nov 2026 23:55:53 Z",
+    "contenu": "The general purpose Dpsv7 and Dplsv7, memory-optimized Epsv7, high-memory Mpsv4, and dense storage Lpsv5 VMs are now generally available. These virtual machines deliver significant enhancements over the previous generation Cobalt 100 VMs, offering improve"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Intel and AMD v6 with temp disk for Azure Database for PostgreSQL",
+    "lien": "https://azure.microsoft.com/updates?id=579590",
+    "date": "Tue, 17 Nov 2026 23:52:49 Z",
+    "contenu": "Azure Database for PostgreSQL Flexible Server is announcing the general availability of Intel and AMD v6 compute tiers with local temporary disk. The new v6 generation expands the Flexible Server compute portfolio with higher performance, larger scale, an"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Intel and AMD v5 diskless tier for Azure Database for PostgreSQL",
+    "lien": "https://azure.microsoft.com/updates?id=579595",
+    "date": "Tue, 17 Nov 2026 23:51:44 Z",
+    "contenu": "Azure Database for PostgreSQL Flexible Server is announcing the general availability of Intel and AMD V5 diskless compute. These new options expand the v5 compute portfolio with General Purpose and Memory Optimized SKUs that do not include local temporary"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Cobalt 200 compute for Azure Database for PostgreSQL",
+    "lien": "https://azure.microsoft.com/updates?id=579585",
+    "date": "Tue, 17 Nov 2026 23:50:40 Z",
+    "contenu": "Azure Database for PostgreSQL Flexible Server is announcing the general availability of Cobalt 200 ARM-based compute. Cobalt 200 expands the Flexible Server compute portfolio with Microsoft-designed ARM64-based compute, giving you an additional architectu"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Geo-redundant backup and restore for Azure HorizonDB",
+    "lien": "https://azure.microsoft.com/updates?id=574168",
+    "date": "Tue, 17 Nov 2026 23:47:55 Z",
+    "contenu": "Geo-redundant backup and restore for Azure HorizonDB is now available. You can use geo-redundant backups to strengthen data protection and restore your HorizonDB deployment in another Azure region when needed.  With this capability, you have an additional"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Generally Available: Customize backup retention from 1 to 35 days in Azure HorizonDB",
+    "lien": "https://azure.microsoft.com/updates?id=574163",
+    "date": "Tue, 17 Nov 2026 23:46:26 Z",
+    "contenu": "You can now configure backup retention for your Azure HorizonDB deployments from 1 to 35 days, giving you greater flexibility to align backup retention with your application and data protection requirements.  Choose the retention period that best fits you"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Throughput buckets in Azure Cosmos DB",
+    "lien": "https://azure.microsoft.com/updates?id=571488",
+    "date": "Tue, 17 Nov 2026 23:44:26 Z",
+    "contenu": "We're excited to announce the general availability of throughput buckets in Azure Cosmos DB. You can manage the resource consumption of multiple workloads using the same container by limiting the maximum throughput a workload can consume. You may need to"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Limited Preview: AI model management in Azure HorizonDB",
+    "lien": "https://azure.microsoft.com/updates?id=563097",
+    "date": "Tue, 17 Nov 2026 23:42:10 Z",
+    "contenu": "AI model management in Azure HorizonDB is now in limited preview, designed to simplify how you bring AI into your database. With just a single step, you can provision fully managed AI models for embeddings, semantic ranking, and generation through Microso"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Security for the agentic era, powered by Microsoft Perception",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
+    "date": "Tue, 17 Nov 2026 18:14:00 +0000",
+    "contenu": "Read about updates to Microsoft Perception and the new Microsoft Security cyber stack to defend against threats, secure agents, and protect your digital estate. The post Security for the agentic era, powered by Microsoft Perception appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Ignite 2026: Building the frontier ecosystem",
+    "lien": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/",
+    "date": "Tue, 17 Nov 2026 18:36:03 +0000",
+    "contenu": "Satya Nadella, Microsoft Chairman and CEO, delivered the opening keynote at Ignite in San Francisco this morning. Here is an edited version of his remarks. This week is about two things: First is how we capitalize on new capabilities that are growing exponentially. And second is how do we build the capability to deal with... The post Ignite 2026: Building the frontier ecosystem appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Maintainers don’t need more AI bug reports. They need fixes.",
+    "lien": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+    "date": "Tue, 17 Nov 2026 18:29:29 +0000",
+    "contenu": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don’t need more AI bug reports. They need fixes. appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Building the Agent Host Protocol for sessions that continue across devices",
+    "lien": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+    "date": "Tue, 17 Nov 2026 18:20:40 +0000",
+    "contenu": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud. The post Building the Agent Host Protocol for sessions that continue across devices appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Edge for Business becomes the most used enterprise browser and unveils Ignite 2026 innovations",
+    "lien": "https://blogs.windows.com/msedgedev/2026/11/17/edge-for-business-ignite-2026-innovations/",
+    "date": "Tue, 17 Nov 2026 18:40:43 +0000",
+    "contenu": "https://www.youtube.com/watch?v=eK7msluMltY Summary: Edge for Business is the most used enterprise browser in the world. At Microsoft Ignite 2026, we're introducing new ways for users and agents to get more done. Deeper integrat The post Edge for Business becomes the most used enterprise browser and unveils Ignite 2026 innovations appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Microsoft Ignite 2026: Building Windows for the next era of work",
+    "lien": "https://blogs.windows.com/windowsexperience/2026/11/17/microsoft-ignite-2026-building-windows-for-the-next-era-of-work/",
+    "date": "Tue, 17 Nov 2026 18:20:56 +0000",
+    "contenu": "Every major shift in computing has changed what people can do at work, and Microsoft Ignite 2026: Building Windows for the next era of work appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Windows security at Ignite 2026: Start secure, protect what matters, prepare for AI",
+    "lien": "https://blogs.windows.com/windowsexperience/2026/11/17/windows-security-at-ignite-2026-start-secure-protect-what-matters-prepare-for-ai/",
+    "date": "Tue, 17 Nov 2026 18:15:58 +0000",
+    "contenu": "AI is changing the threat landscape as fast as it is changing the way we work. Attackers are using AI to find vulnerabilities, build exploits and scale their campaigns faster than ever, shrinking the time between a weakness being dis The post Windows security at Ignite 2026: Start secure, protect what matters, prepare for AI appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Enterprise Deployment of Governed Agents on Windows",
+    "lien": "https://blogs.windows.com/windowsdeveloper/2026/11/17/enterprise-deployment-of-governed-agents-on-windows/",
+    "date": "Tue, 17 Nov 2026 18:15:01 +0000",
+    "contenu": "As AI agents become more capable, they promise substantial productivity gains across enterprise workflows. At the same time, they can collapse familiar execution boundaries and introduce new risk paths—from agent to human, agent to agent, agent to The post Enterprise Deployment of Governed Agents on Windows appeared first on Windows Blog ."
   }
 ]
