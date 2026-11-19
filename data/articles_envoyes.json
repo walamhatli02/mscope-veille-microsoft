@@ -3473,5 +3473,40 @@
     "lien": "https://blogs.windows.com/windowsdeveloper/2026/11/17/enterprise-deployment-of-governed-agents-on-windows/",
     "date": "Tue, 17 Nov 2026 18:15:01 +0000",
     "contenu": "As AI agents become more capable, they promise substantial productivity gains across enterprise workflows. At the same time, they can collapse familiar execution boundaries and introduce new risk paths—from agent to human, agent to agent, agent to The post Enterprise Deployment of Governed Agents on Windows appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: AI bot ruleset for Azure Front Door Premium WAF",
+    "lien": "https://azure.microsoft.com/updates?id=581604",
+    "date": "Wed, 18 Nov 2026 18:27:29 Z",
+    "contenu": "Announcing the public preview\nof the AI bot ruleset for Azure Web Application Firewall (WAF) on Azure Front\nDoor Premium. AI crawlers and agents visit your site for different reasons,\nand you may want to allow some but not others. Robots.txt only works wh"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: The new Azure Databricks on Azure Government is now in Beta",
+    "lien": "https://azure.microsoft.com/updates?id=581645",
+    "date": "Wed, 18 Nov 2026 18:01:03 Z",
+    "contenu": "A new Azure Databricks environment is now available in Beta on\nMicrosoft Azure Government. It brings the modern data and AI platform from\nglobal Azure to U.S. public sector agencies and their partners, delivered as a\nfirst-party Azure service. The Beta in"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Cross-subscription backup for Azure Virtual Machines in Azure Backup",
+    "lien": "https://azure.microsoft.com/updates?id=581048",
+    "date": "Wed, 18 Nov 2026 18:00:04 Z",
+    "contenu": "Azure Backup now supports cross-subscription backup for Azure Virtual Machines, enabling customers to protect VMs using a Recovery Services vault located in a different Azure subscription within the same tenant.This capability allows organizations to cent"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: AI-powered application and database modernization with Modernize CLI",
+    "lien": "https://azure.microsoft.com/updates?id=579943",
+    "date": "Wed, 18 Nov 2026 17:58:45 Z",
+    "contenu": "Modernize CLI brings application and database modernization\ntogether as one connected, agentic journey. It assesses application\narchitecture, dependencies, and cloud readiness while discovering the databases\nthe application relies on and invoking speciali"
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "The best things in open source are built together",
+    "lien": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/",
+    "date": "Thu, 19 Nov 2026 16:00:00 +0000",
+    "contenu": "Introducing Replica and the Open Source Accessibility Framework, new open source projects for collaboration and inclusion. The post The best things in open source are built together appeared first on The GitHub Blog ."
   }
 ]
