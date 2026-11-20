@@ -3508,5 +3508,47 @@
     "lien": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/",
     "date": "Thu, 19 Nov 2026 16:00:00 +0000",
     "contenu": "Introducing Replica and the Open Source Accessibility Framework, new open source projects for collaboration and inclusion. The post The best things in open source are built together appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Malaysia and Saudi Arabia",
+    "lien": "https://azure.microsoft.com/updates?id=580700",
+    "date": "Fri, 20 Nov 2026 00:00:14 Z",
+    "contenu": "Multiparty private offers give Microsoft partners a way to procure third-party cloud and AI solutions for customers through Marketplace. Software companies can expand into new markets by working with partners that bring established customer relationships,"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Soft delete in Azure Compute Gallery",
+    "lien": "https://azure.microsoft.com/updates?id=581907",
+    "date": "Thu, 19 Nov 2026 23:47:55 Z",
+    "contenu": "Soft delete in Azure Compute Gallery is now generally available, so you can recover image versions that were deleted by accident. You can set a retention period of 7 to 365 days. During retention, you can still deploy from soft-deleted images (API version"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: PostgreSQL 19 on Azure Database for PostgreSQL",
+    "lien": "https://azure.microsoft.com/updates?id=574587",
+    "date": "Thu, 19 Nov 2026 23:25:49 Z",
+    "contenu": "You can now try PostgreSQL 19 in public preview on Azure Database for PostgreSQL – Flexible Server in the East Asia region. With this preview, you can provision new PostgreSQL 19 servers through the Azure portal and Azure CLI, enabling you to test major v"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Zone resilience for Azure VMs",
+    "lien": "https://azure.microsoft.com/updates?id=581254",
+    "date": "Thu, 19 Nov 2026 20:34:19 Z",
+    "contenu": "Zone resilience for Azure VMs, now in public preview, lets you recover an eligible zonal VM in another availability zone in the same region, retaining the existing VM resource and configuration.ZRS managed disks replicate data synchronously across zones b"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Database Agent for Azure Database for PostgreSQL",
+    "lien": "https://azure.microsoft.com/updates?id=579579",
+    "date": "Thu, 19 Nov 2026 17:25:28 Z",
+    "contenu": "Database Agent helps you detect, understand, and respond to database health and performance issues more quickly in Azure Database for PostgreSQL. It proactively monitors database health to identify issues, brings together database metrics, configuration,"
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Hybrid intelligence on the Web: Introducing Aion Instruct and Prompt API in Microsoft Edge",
+    "lien": "https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/",
+    "date": "Thu, 19 Nov 2026 23:08:46 +0000",
+    "contenu": "Rapidly evolving AI capabilities are redefining what sites can do for users on the web. With on-device AI in Microsoft The post Hybrid intelligence on the Web: Introducing Aion Instruct and Prompt API in Microsoft Edge appeared first on Windows Blog ."
   }
 ]
