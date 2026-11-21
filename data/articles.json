@@ -3550,5 +3550,68 @@
     "lien": "https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/",
     "date": "Thu, 19 Nov 2026 23:08:46 +0000",
     "contenu": "Rapidly evolving AI capabilities are redefining what sites can do for users on the web. With on-device AI in Microsoft The post Hybrid intelligence on the Web: Introducing Aion Instruct and Prompt API in Microsoft Edge appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Governance policy guidance in Foundry Canvas and VS Code",
+    "lien": "https://azure.microsoft.com/updates?id=581463",
+    "date": "Sat, 21 Nov 2026 00:45:13 Z",
+    "contenu": "Microsoft Foundry governance guidance is now available in Foundry Canvas and the Foundry Toolkit for Visual Studio Code. As developers build agents, both experiences surface relevant policies for agent types, models, toolboxes, and guardrails, with warnin"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Microsoft Copilot harness support in Foundry Toolkit for VS Code",
+    "lien": "https://azure.microsoft.com/updates?id=581468",
+    "date": "Sat, 21 Nov 2026 00:43:13 Z",
+    "contenu": "Agent Builder in Microsoft Foundry Toolkit for Visual Studio Code supports prompt agents that use the Microsoft Copilot harness in public preview. Developers can configure tools and skills, edit local YAML definitions, deploy changes to Foundry, and run d"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Support for Azure Functions OpenAI Extension ends on April 20, 2027",
+    "lien": "https://azure.microsoft.com/updates?id=579952",
+    "date": "Fri, 20 Nov 2026 23:16:31 Z",
+    "contenu": "Support for Azure Functions OpenAI extension will end on April 20, 2027. Please migrate to OpenAI, Microsoft Foundry, or Azure AI Search SDKs directly, depending on your scenario, by that date.   Until you migrate to the appropriate scenario SDK, .NET app"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Programmed Training in Microsoft Foundry",
+    "lien": "https://azure.microsoft.com/updates?id=581713",
+    "date": "Fri, 20 Nov 2026 22:58:28 Z",
+    "contenu": "Programmed Training, an API for building your own post-training loop over open-weight models, is available in public preview in Microsoft Foundry. Access is available by request through the preview sign-up form.Managed training jobs work well when you onl"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Multi-turn evaluation in Microsoft Foundry",
+    "lien": "https://azure.microsoft.com/updates?id=581746",
+    "date": "Fri, 20 Nov 2026 22:56:51 Z",
+    "contenu": "Multi-turn evaluation is now in public preview in Microsoft Foundry. You can assess complete agent conversations against your quality standards, not only individual responses.A response can look correct on its own and still be part of a conversation that"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Azure Firewall for Containers",
+    "lien": "https://azure.microsoft.com/updates?id=581963",
+    "date": "Fri, 20 Nov 2026 20:05:17 Z",
+    "contenu": "Azure Firewall for Containers\nextends Azure Firewall protection to containerized workloads, providing a\ncentralized approach to securing network traffic for container environments.\nCustomers can use Azure Firewall capabilities as part of their container n"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Cobalt 200 Arm-based Dpsv7, Dplsv7, Epsv7, Mpsv4, and Lpsv5-series Virtual Machines",
+    "lien": "https://azure.microsoft.com/updates?id=564451",
+    "date": "Tue, 02 Jun 2026 21:00:30 Z",
+    "contenu": "The general purpose Dpsv7 and Dplsv7, memory-optimized Epsv7, high-memory Mpsv4, and dense storage Lpsv5 VMs are now generally available. These virtual machines deliver significant enhancements over the previous generation Cobalt 100 VMs, offering improve"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/20/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
+    "date": "Fri, 20 Nov 2026 17:00:00 +0000",
+    "contenu": "We're honored that Microsoft has once again been recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Security Information and Event Management (SIEM). The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing new builds for 20 November 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/11/20/announcing-new-builds-for-20-november-2026/",
+    "date": "Fri, 20 Nov 2026 18:05:27 +0000",
+    "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels. New builds this week Select your channel below to view its release notes: Beta: Announcing new builds for 20 November 2026 appeared first on Windows Blog ."
   }
 ]
