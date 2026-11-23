@@ -3613,5 +3613,26 @@
     "lien": "https://blogs.windows.com/windows-insider/2026/11/20/announcing-new-builds-for-20-november-2026/",
     "date": "Fri, 20 Nov 2026 18:05:27 +0000",
     "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels. New builds this week Select your channel below to view its release notes: Beta: Announcing new builds for 20 November 2026 appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Azure Database for PostgreSQL enhanced Burstable tier (Basv2)",
+    "lien": "https://azure.microsoft.com/updates?id=574535",
+    "date": "Mon, 23 Nov 2026 18:09:39 Z",
+    "contenu": "Enhanced Burstable tier (Basv2) builds on the existing burstable model with improved performance predictability and more efficient burst utilization, delivering a better cost-performance balance. Now you can run steady workloads more economically while au"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: WAF Insights for Azure Front Door",
+    "lien": "https://azure.microsoft.com/updates?id=579285",
+    "date": "Mon, 23 Nov 2026 18:01:19 Z",
+    "contenu": "WAF Insights is now generally available for Azure Front Door Web Application Firewall (WAF). WAF Insights is a built-in experience in the WAF policy that brings WAF logs and metrics together in interactive dashboards, so you can investigate blocked reques"
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Do AI coding agents struggle with non-REST APIs?",
+    "lien": "https://devblogs.microsoft.com/blog/do-ai-coding-agents-struggle-with-non-rest-apis/",
+    "date": "Mon, 23 Nov 2026 10:25:28 +0000",
+    "contenu": "Should your next API be REST, or something else? And which one will AI coding agents handle best? We tested REST, POST-only and RPC-style APIs with six models across 1,356 runs, and what decided whether agents succeeded had nothing to do with API style. The post Do AI coding agents struggle with non-REST APIs? appeared first on Microsoft for Developers ."
   }
 ]
