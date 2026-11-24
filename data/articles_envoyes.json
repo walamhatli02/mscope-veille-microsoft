@@ -3634,5 +3634,89 @@
     "lien": "https://devblogs.microsoft.com/blog/do-ai-coding-agents-struggle-with-non-rest-apis/",
     "date": "Mon, 23 Nov 2026 10:25:28 +0000",
     "contenu": "Should your next API be REST, or something else? And which one will AI coding agents handle best? We tested REST, POST-only and RPC-style APIs with six models across 1,356 runs, and what decided whether agents succeeded had nothing to do with API style. The post Do AI coding agents struggle with non-REST APIs? appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Site Recovery support for zonal disaster recovery for Ultra disks",
+    "lien": "https://azure.microsoft.com/updates?id=582171",
+    "date": "Tue, 24 Nov 2026 17:48:22 Z",
+    "contenu": "Azure Site Recovery now supports Zone-to-Zone Disaster\nRecovery (Zonal DR) for Azure Ultra disks. Customers can protect\nperformance-intensive virtual machines across Availability Zones against zonal\ndisruptions by replication and recovering them to anothe"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Optimize agents from insights in Foundry Agent Service",
+    "lien": "https://azure.microsoft.com/updates?id=581483",
+    "date": "Tue, 24 Nov 2026 16:52:07 Z",
+    "contenu": "Optimization from insights is in public preview in Foundry Agent Service. In the Foundry portal, start from an eligible insight in a prompt-agent trace to generate and evaluate candidate changes to the agent's instructions and function-calling tool descri"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Govern MCP tools with your own gateway in Microsoft Foundry Agent Service",
+    "lien": "https://azure.microsoft.com/updates?id=581498",
+    "date": "Tue, 24 Nov 2026 16:50:47 Z",
+    "contenu": "In public preview, Microsoft Foundry Agent Service lets you route MCP tool traffic through existing AI Gateway or Azure API Management endpoints that your organization manages. Configure the MCP route in the gateway first, then enter the gateway-routed en"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Use Azure Storage permissions in Azure AI Search and Foundry IQ",
+    "lien": "https://azure.microsoft.com/updates?id=581303",
+    "date": "Tue, 24 Nov 2026 16:49:39 Z",
+    "contenu": "Azure AI Search and Foundry IQ in Microsoft Foundry can use supported Azure Storage permissions to control access to search results.Once configured, search applications and AI agents return content based on each user's access. This reduces the need to cre"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Native A2A passthrough for hosted agents in Foundry Agent Service",
+    "lien": "https://azure.microsoft.com/updates?id=581313",
+    "date": "Tue, 24 Nov 2026 16:48:25 Z",
+    "contenu": "Bring your existing Agent2Agent (A2A) agents to Agent Service without a protocol conversion layer.Previously, Agent Service converted incoming A2A requests to the Responses protocol. With A2A passthrough, Agent Service forwards native A2A requests directl"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Azure Developer CLI extension for Azure Document Intelligence and Content Understanding in Foundry Tools",
+    "lien": "https://azure.microsoft.com/updates?id=581318",
+    "date": "Tue, 24 Nov 2026 16:45:59 Z",
+    "contenu": "Within Microsoft Foundry, use azd ai cu commands to analyze documents with Azure Document Intelligence and Content Understanding in Foundry Tools. The extension for Azure Developer CLI (azd) can save analysis results as Markdown or JSON.You can start with"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Cost controls for model and agent spending in Microsoft Foundry",
+    "lien": "https://azure.microsoft.com/updates?id=581323",
+    "date": "Tue, 24 Nov 2026 16:43:40 Z",
+    "contenu": "Within Microsoft Foundry, cost controls set a spending or token budget for a Foundry resource or project. When usage reaches a threshold that you set, a cost control sends an alert through Azure Event Grid or blocks new requests.You can apply a budget to"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Central governance of hosted-agent outbound domains in Foundry Agent Service",
+    "lien": "https://azure.microsoft.com/updates?id=581328",
+    "date": "Tue, 24 Nov 2026 16:42:20 Z",
+    "contenu": "Administrators can use Azure Policy to govern outbound destinations for hosted agents in Foundry Agent Service. Agent authors configure and attach a compliant egress policy before creating an agent version. The egress policy then controls outbound request"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Enterprise Knowledge Graph in Foundry IQ",
+    "lien": "https://azure.microsoft.com/updates?id=581333",
+    "date": "Mon, 23 Nov 2026 21:16:32 Z",
+    "contenu": "Foundry IQ adds Enterprise Knowledge Graph as a knowledge source for questions that depend on relationships across your content.During indexing, it extracts entities and relationships from unstructured content, guided by an ontology you provide. Agents ca"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Updated Guardrails experience in Microsoft Foundry",
+    "lien": "https://azure.microsoft.com/updates?id=581338",
+    "date": "Mon, 23 Nov 2026 21:15:04 Z",
+    "contenu": "In Microsoft Foundry, Guardrails helps developers configure runtime safety controls for agents, including classifiers, deterministic rules, and LLM-based judges.When an administrator policy requires controls for a project, Guardrails surfaces those requir"
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Is “sort by impact” just vibes?",
+    "lien": "https://devblogs.microsoft.com/blog/is-sort-by-impact-just-vibes/",
+    "date": "Tue, 24 Nov 2026 15:23:13 +0000",
+    "contenu": "You ask an agent for your top five, sorted by impact, and it hands you a confident list. But you never said what impact means, so what did the agent actually sort by? We ran four models through the same lists 1,500 times to find out, and what we found should change how you ask for a ranking. The post Is “sort by impact” just vibes? appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "These are the gifts developers will actually want",
+    "lien": "https://github.blog/news-insights/company-news/these-are-the-gifts-developers-will-actually-want/",
+    "date": "Tue, 24 Nov 2026 16:00:00 +0000",
+    "contenu": "The developer you're shopping for hasn’t shared their holiday wish list with you yet? Check out these gifts, plus our Black Friday discount all week long. The post These are the gifts developers will actually want appeared first on The GitHub Blog ."
   }
 ]
