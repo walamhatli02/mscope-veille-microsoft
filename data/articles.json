@@ -3718,5 +3718,26 @@
     "lien": "https://github.blog/news-insights/company-news/these-are-the-gifts-developers-will-actually-want/",
     "date": "Tue, 24 Nov 2026 16:00:00 +0000",
     "contenu": "The developer you're shopping for hasn’t shared their holiday wish list with you yet? Check out these gifts, plus our Black Friday discount all week long. The post These are the gifts developers will actually want appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/25/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-email-security/",
+    "date": "Wed, 25 Nov 2026 17:15:00 +0000",
+    "contenu": "We're honored to share that Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security, for the second consecutive year. The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Do inconsistent docs hurt AI coding agents?",
+    "lien": "https://devblogs.microsoft.com/blog/do-inconsistent-docs-hurt-ai-coding-agents/",
+    "date": "Wed, 25 Nov 2026 11:46:06 +0000",
+    "contenu": "Somewhere in your docs, two pages disagree. Coding agents often notice, follow the wrong page anyway, and pay for it in extra tokens or a broken build. The post Do inconsistent docs hurt AI coding agents? appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Art of play in the age of AI",
+    "lien": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
+    "date": "Wed, 25 Nov 2026 16:00:00 +0000",
+    "contenu": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog ."
   }
 ]
