@@ -3739,5 +3739,68 @@
     "lien": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
     "date": "Wed, 25 Nov 2026 16:00:00 +0000",
     "contenu": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "Copilot at Microsoft Ignite: Expanding what’s possible with intelligence built for work",
+    "lien": "https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work/",
+    "date": "Tue, 17 Nov 2026 18:05:00 +0000",
+    "contenu": "Explore new Microsoft Copilot experiences and capabilities announced at Microsoft Ignite 2026, including Home, Autopilot, Workspaces, and Code. The post Copilot at Microsoft Ignite: Expanding what’s possible with intelligence built for work appeared first on Microsoft Copilot Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "What AI at work really costs",
+    "lien": "https://www.microsoft.com/en-us/copilot/blog/2026/11/16/what-ai-at-work-really-costs/",
+    "date": "Mon, 16 Nov 2026 16:00:00 +0000",
+    "contenu": "What does AI at work really cost? New research compares the total cost of leading enterprise AI options and explores the factors that can shape the cost of everyday and advanced AI work. The post What AI at work really costs appeared first on Microsoft Copilot Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "Bringing Claude models in Microsoft Copilot into the EU Data Boundary",
+    "lien": "https://www.microsoft.com/en-us/copilot/blog/2026/11/05/bringing-claude-models-in-microsoft-copilot-into-the-eu-data-boundary/",
+    "date": "Thu, 05 Nov 2026 16:00:00 +0000",
+    "contenu": "Greater model choice, consistent protection. Claude models are coming to the EU Data Boundary in Microsoft Copilot. The post Bringing Claude models in Microsoft Copilot into the EU Data Boundary appeared first on Microsoft Copilot Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "Microsoft Copilot for finance: Purpose-built for the way finance teams work",
+    "lien": "https://www.microsoft.com/en-us/copilot/blog/2026/10/29/microsoft-copilot-for-finance-purpose-built-for-the-way-finance-teams-work/",
+    "date": "Thu, 29 Oct 2026 15:00:00 +0000",
+    "contenu": "Discover Microsoft Copilot for finance, purpose-built skills for accounting, capital markets, and broader finance work. The post Microsoft Copilot for finance: Purpose-built for the way finance teams work appeared first on Microsoft Copilot Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "Introducing Microsoft Copilot for legal",
+    "lien": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/introducing-microsoft-copilot-for-legal/4564246",
+    "date": "Fri, 23 Oct 2026 15:00:00 +0000",
+    "contenu": "In legal work, the answer rarely sits neatly in one place. It may depend on precedent, organizational standards, or a regulatory consideration that changes the whole analysis. The post Introducing Microsoft Copilot for legal appeared first on Microsoft Copilot Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: ECMP Nexthop",
+    "lien": "https://azure.microsoft.com/updates?id=582326",
+    "date": "Wed, 25 Nov 2026 23:14:20 Z",
+    "contenu": "Equal-Cost Multi-Path (ECMP)\nrouting for Azure Virtual Network is now available in public preview, enabling\ncustomers to distribute traffic across multiple network appliances using a\nsingle user-defined route (UDR). \nCustomers can configure 2 to 16 next-h"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Support for Java 8, 11 and 17 in Azure Functions ends on September 1, 2027",
+    "lien": "https://azure.microsoft.com/updates?id=568586",
+    "date": "Wed, 25 Nov 2026 21:53:30 Z",
+    "contenu": "Support for Java 8, 11 and 17 on Azure Functions is ending on September\n1, 2027. Your apps that are hosted on Azure Functions will continue to run, but\nsecurity updates will no longer be available, and we’ll no longer provide\ncustomer service for Java 8,"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+    "date": "Wed, 25 Nov 2026 18:09:06 +0000",
+    "contenu": "The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related to network reconnaissance, credential attacks, and web application exploitation. The post What defenders need to know about ARTEX, the agentic AI framework threat actors abuse appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "How to choose the next safe step in application modernization",
+    "lien": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+    "date": "Wed, 25 Nov 2026 15:00:00 +0000",
+    "contenu": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill. The post How to choose the next safe step in application modernization appeared first on The GitHub Blog ."
   }
 ]
