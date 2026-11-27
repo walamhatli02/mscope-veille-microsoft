@@ -153,7 +153,7 @@ def preprocess_question(text: str) -> str:
 # ============================================================
 # RAG EN MEMOIRE
 # ============================================================
-@st.cache_resource
+@st.cache_resource(show_spinner=False)
 def selecteur_chat():
     # Partagé entre sessions : un modèle en 404 n'est essayé qu'une fois.
     return SelecteurModele("GROQ_MODEL_CHAT", max_tokens=1024)
@@ -164,7 +164,7 @@ def date_modif(chemin):
 def id_chunk(*parties):
     return hashlib.md5("|".join(str(p) for p in parties).encode("utf-8")).hexdigest()
 
-@st.cache_resource(max_entries=1)
+@st.cache_resource(max_entries=1, show_spinner="Préparation de la base d'articles (première question uniquement)…")
 def charger_rag(_version_articles):
     """Réindexe quand articles.json change ; les ids fixes évitent les doublons."""
     import chromadb
