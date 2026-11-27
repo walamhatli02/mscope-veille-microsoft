@@ -81,6 +81,22 @@
   {
     "article": {
       "source": "Microsoft 365 Blog",
+      "titre": "Build apps in Copilot Cowork and Copilot Studio",
+      "lien": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
+      "date": "2026-09-10T15:00:00",
+      "timestamp": 1789052400,
+      "contenu": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft 365 Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 8,
+      "raison": "L'article concerne Copilot et la création d'applications métier, ce qui est très vendeur en ce moment et directement lié aux produits Microsoft",
+      "resume": "Microsoft annonce la possibilité de créer des applications métier complètes dans Copilot Cowork et Copilot Studio. Cela permet de créer des applications basées sur les données de l'entreprise via des conversations. Cette fonctionnalité est intégrée à Microsoft 365."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft 365 Blog",
       "titre": "Introducing a new design for Microsoft 365 Copilot",
       "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
       "date": "2026-05-28T15:00:00",
@@ -756,6 +772,143 @@
       "score": 7,
       "raison": "Nouvelle fonctionnalité majeure d'Azure Site Recovery qui étend la protection aux serveurs Windows VMWare/physiques gérés par Azure ARC, utile pour conseiller les clients sur la continuité d'activité.",
       "resume": "Azure Site Recovery (ASR) est désormais disponible pour la récupération de désastre des machines virtuelles Windows VMWare et des serveurs physiques gérés par Azure ARC. Les clients peuvent protéger ces machines tout en continuant à utiliser Azure ARC pour la gouvernance et l'inventaire."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft 365 Blog",
+      "titre": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
+      "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
+      "date": "2026-09-10T16:00:00",
+      "timestamp": 1789056000,
+      "contenu": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft 365 Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "L'article annonce un événement majeur autour de Microsoft 365 et Copilot, offrant des opportunités de vente et de conseil pour l'équipe commerciale.",
+      "resume": "L'ESPC 2026 se tiendra à Amsterdam et rassemblera Microsoft et la communauté pour présenter les dernières innovations en Microsoft 365, Copilot, agents et IA, ce qui peut aider l'équipe à mieux vendre et conseiller les clients."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft 365 Blog",
+      "titre": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
+      "lien": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
+      "date": "2026-09-10T16:00:00",
+      "timestamp": 1789056000,
+      "contenu": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft 365 Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "L'article annonce un événement important pour la communauté Microsoft, ESPC 2026, qui présentera les dernières innovations de Microsoft 365, Copilot et l'IA.",
+      "resume": "L'événement ESPC 2026 se tiendra à Amsterdam et réunira Microsoft et la communauté pour explorer les dernières innovations en matière de Microsoft 365, Copilot, agents et IA. Cet événement est une opportunité pour l'équipe commerciale d'INSOMEA de se tenir informée des dernières tendances et technologies Microsoft."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft Power Platform Blog",
+      "titre": "Microsoft-Managed SSL/TLS Certificates for Custom Domains Now Available in Power Pages",
+      "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/microsoft-managed-ssl-tls-certificates-for-custom-domains-now-available-in-power-pages/",
+      "date": "Wed, 16 Sep 2026 14:43:20 +0000",
+      "contenu": "We’re excited to announce that Microsoft-managed SSL/TLS certificates are now available for custom domains in Power Pages. When you connect a custom domain, you can now choose an SSL/TLS certificate that Microsoft provisions, configures, and renews for you. The post Microsoft-Managed SSL/TLS Certificates for Custom Domains Now Available in Power Pages appeared first on Microsoft Power Platform Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "Nouvelle fonctionnalité majeure de Power Platform (Power Pages) qui simplifie la gestion SSL/TLS pour les domaines personnalisés, utile pour conseiller les clients.",
+      "resume": "Microsoft annonce que les certificats SSL/TLS gérés par Microsoft sont désormais disponibles pour les domaines personnalisés dans Power Pages. Lorsqu'un client connecte un domaine personnalisé, il peut choisir un certificat fourni, configuré et renouvelé automatiquement par Microsoft, simplifiant ainsi la sécurité et la maintenance."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[Launched] Generally Available: Azure SQL Managed Instance updates for late-September 2026",
+      "lien": "https://azure.microsoft.com/updates?id=571632",
+      "date": "Mon, 28 Sep 2026 18:52:10 Z",
+      "contenu": "In\nlate September 2026, the following updates and\nenhancements were made to Azure SQL Managed Instance:  \n Use\n     the flexible memory feature in Azure SQL Managed Instance to change the\n     amount of memory allocated to your SQL managed instance withou"
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "mise à jour majeure d'Azure SQL Managed Instance avec une nouvelle fonctionnalité de mémoire flexible, utile pour conseiller les clients sur l'optimisation des coûts et des performances.",
+      "resume": "En septembre 2026, Azure SQL Managed Instance introduit la fonction de mémoire flexible, permettant aux clients d'ajuster dynamiquement la mémoire allouée à leur instance SQL sans interruption. Cette amélioration offre une meilleure optimisation des coûts et des performances, ce qui peut être un argument de vente pour les solutions Azure SQL."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[Launched] Generally Available: Storage optimized Lasv5 and Laosv5 Azure VM series",
+      "lien": "https://azure.microsoft.com/updates?id=572630",
+      "date": "Tue, 29 Sep 2026 19:27:09 Z",
+      "contenu": "The Laosv5 series and Lasv5 storage optimized VMs, based on the 5th Gen AMD EPYC™ processor (Turin), are now generally available.Lasv5 and Laosv5 VMs have sizes ranging from 2-160 vCPUs, with 8GiB of memory and 720GB of local NVMe disk capacity per vCPU."
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "Nouvelle série de VM Azure disponible, utile pour conseiller les clients sur les options de calcul et de stockage.",
+      "resume": "Azure a rendu disponibles les séries de machines virtuelles Laosv5 et Lasv5, optimisées pour le stockage et basées sur le processeur AMD EPYC 5th Gen. Elles offrent des tailles allant de 2 à 160 vCPU, avec 8 GiB de RAM et 720 GB de disque NVMe local par vCPU, permettant aux clients de choisir des configurations adaptées à leurs besoins de performance et de stockage."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[In preview] Public Preview: SQL performance monitoring for SQL Server on Azure Virtual Machines",
+      "lien": "https://azure.microsoft.com/updates?id=571894",
+      "date": "Wed, 30 Sep 2026 21:13:13 Z",
+      "contenu": "The public preview of Microsoft-managed performance monitoring for SQL Server on Azure Virtual Machines is now available. You can now monitor SQL Server on Azure Virtual Machines without building custom collection scripts or correlating telemetry across d"
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "Nouvelle fonctionnalité de monitoring de performance SQL Server sur Azure VM, utile pour conseiller les clients.",
+      "resume": "Microsoft lance en prévisualisation un service de surveillance de performance géré pour SQL Server sur les machines virtuelles Azure. Les utilisateurs peuvent désormais suivre les métriques de SQL Server sans créer de scripts personnalisés, simplifiant ainsi la gestion et la visibilité des performances."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "Retirement: NVv4-series Azure Virtual Machines",
+      "lien": "https://azure.microsoft.com/updates?id=573415",
+      "date": "Wed, 30 Sep 2026 18:24:01 Z",
+      "contenu": "On September 30, 2026, Microsoft Azure retired the Standard_NV4as_v4, Standard_NV4ahs_v4, Standard_NV8as_v4, Standard_NV8ahs_v4, Standard_NV16as_v4, Standard_NV16ahs_v4, Standard_NV32as_v4, and Standard_NV32ahs_v4 virtual machines (VMs) in the NVv4-series"
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "La retraite d’une série de machines virtuelles Azure affecte directement les clients utilisant ces ressources, ce qui nécessite une mise à jour des conseils de vente et de migration.",
+      "resume": "Microsoft Azure a retiré la série NVv4 de machines virtuelles le 30 septembre 2026. Les modèles Standard_NV4as_v4, Standard_NV4ahs_v4, Standard_NV8as_v4, Standard_NV8ahs_v4, Standard_NV16as_v4, Standard_NV16ahs_v4, Standard_NV32as_v4 et Standard_NV32ahs_v4 ne seront plus disponibles, obligeant les clients à migrer vers d’autres options Azure."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "Retirement: Dv3, Dsv3, Ev3, and Esv3 Azure VMs",
+      "lien": "https://azure.microsoft.com/updates?id=572346",
+      "date": "Wed, 30 Sep 2026 17:07:30 Z",
+      "contenu": "As part of the Microsoft Azure VM lifecycle\npolicy, Microsoft is announcing the retirement of the Dv3, Dsv3, Ev3,\nand Esv3 Azure VM series in public cloud Azure regions. These VMs will\nenter the End-of-Life lifecycle stage and retire on November 15, 2029."
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "La retraite des séries Dv3, Dsv3, Ev3 et Esv3 affecte directement les clients utilisant ces VM, ce qui permet à l’équipe commerciale de conseiller des migrations ou des alternatives, améliorant ainsi le service client et les ventes.",
+      "resume": "Microsoft annonce la mise hors service des séries Dv3, Dsv3, Ev3 et Esv3 de machines virtuelles Azure à partir du 15 novembre 2029. Les clients devront migrer vers d’autres séries ou services pour éviter les interruptions. L’équipe doit informer les clients concernés et proposer des solutions de migration."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft Power Platform Blog",
+      "titre": "Simplify Site Governance with Self-Service Ownership Transfer in Power Pages",
+      "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/transfer-power-pages-site-ownership-with-self-service/",
+      "date": "Sun, 27 Sep 2026 19:08:30 +0000",
+      "contenu": "Every Power Pages site starts with an owner. Over time, however, organizations evolve – employees change roles, teams reorganize, projects move between departments, and responsibilities shift. While the people behind a site may change, the site itself often continues serving customers, partners, employees, citizens or other users for years. The post Simplify Site Governance with Self-Service Ownership Transfer in Power Pages appeared first on Microsoft Power Platform Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "Nouvelle fonctionnalité majeure de Power Platform (Power Pages) qui facilite la gouvernance et la gestion des sites, utile pour conseiller les clients sur la maintenance et la transition des sites.",
+      "resume": "Microsoft introduit la possibilité de transférer la propriété d’un site Power Pages en mode self‑service. Cette amélioration simplifie la gouvernance des sites, permettant aux organisations de réaffecter rapidement la responsabilité d’un site lorsque les équipes ou les rôles changent, sans intervention manuelle."
     }
   }
 ]

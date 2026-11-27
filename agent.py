@@ -16,7 +16,7 @@ ARTICLES_PATH = "data/articles.json"
 ARTICLES_ENVOYES_PATH = "data/articles_envoyes.json"
 RAPPORT_PATH = "data/rapport_agent.json"
 SEUIL_SCORE = 6
-MAX_RAPPORT = 50          # nombre max d'articles gardés dans le rapport cumulé
+MAX_RAPPORT = None        # pas de plafond : tous les articles importants restent dans le rapport
 PAUSE_ENTRE_APPELS = 8    # secondes ; limite gratuite observée : 8000 tokens/min sur gpt-oss-20b
 
 # ============================================================
