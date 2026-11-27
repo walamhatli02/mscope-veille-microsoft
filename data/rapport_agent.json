@@ -17,6 +17,21 @@
   },
   {
     "article": {
+      "source": "Microsoft Corporate Blog",
+      "titre": "Introducing the new Copilot with Home, Code and Autopilot",
+      "lien": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "date": "Fri, 25 Sep 2026 12:03:50 +0000",
+      "contenu": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. Today we’re introducing the new Copilot to connect the tools people rely on with the next generation of capabilities they’ll need to build, customize and scale AI... The post Introducing the new Copilot with Home, Code and Autopilot appeared first on The Official Microsoft Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 9,
+      "raison": "L’article annonce une nouvelle version majeure de Copilot, une IA très vendeuse, offrant des fonctionnalités de Home, Code et Autopilot, ce qui est directement pertinent pour la vente de licences Microsoft.",
+      "resume": "Microsoft présente une nouvelle version de Copilot intégrant des capacités Home, Code et Autopilot, permettant aux utilisateurs de connecter leurs outils habituels à des fonctionnalités avancées d’IA pour construire, personnaliser et scaler des solutions. Cette évolution renforce l’offre Copilot, un atout majeur pour conseiller et vendre les licences Microsoft 365 et Azure."
+    }
+  },
+  {
+    "article": {
       "source": "Microsoft 365 Blog",
       "titre": "Copilot Cowork is now generally available",
       "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
@@ -159,6 +174,81 @@
   },
   {
     "article": {
+      "source": "Azure Updates",
+      "titre": "[In preview] Public Preview: Introducing a Guided Copilot Experience for Building Azure Apps in VS Code",
+      "lien": "https://azure.microsoft.com/updates?id=572214",
+      "date": "Mon, 21 Sep 2026 16:58:19 Z",
+      "contenu": "Today we're previewing a new way to build cloud apps with GitHub Copilot in VS Code: a guided Copilot experience that takes you from idea to a deployed Azure app through a structured, predictable workflow instead of a free-form chat session that may or ma"
+    },
+    "decision": {
+      "important": true,
+      "score": 8,
+      "raison": "Nouvelle fonctionnalité Copilot pour Azure, très vendeur et aide à conseiller les clients sur l'utilisation d'Azure et GitHub Copilot.",
+      "resume": "Microsoft lance une prévisualisation d'une expérience guidée Copilot dans VS Code qui permet de créer, déployer et gérer des applications Azure via un flux de travail structuré. Cette fonctionnalité simplifie le développement cloud et met en avant l'IA Copilot comme outil de productivité."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[Launched] Generally Available: Azure Container Apps Sandboxes",
+      "lien": "https://azure.microsoft.com/updates?id=561262",
+      "date": "Tue, 02 Jun 2026 19:00:47 Z",
+      "contenu": "Teams building agentic applications, multi-tenant platforms,\ndevelopment environments, and CI/CD systems have often had to stitch together\ncustom infrastructure to run untrusted code safely, preserve state across\nsessions, and handle bursty demand without"
+    },
+    "decision": {
+      "important": true,
+      "score": 8,
+      "raison": "Nouvelle fonctionnalité Azure Container Apps Sandboxes, utile pour conseiller clients sur des environnements sécurisés et scalables.",
+      "resume": "Azure a lancé les Azure Container Apps Sandboxes, un environnement isolé pour exécuter du code non fiable en toute sécurité. Cela permet aux équipes de développement de créer des applications multi-tenant, des pipelines CI/CD et de gérer la montée en charge sans construire d’infrastructure personnalisée."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft Security Blog",
+      "titre": "Reimagining the SOC for the agentic era in Microsoft Defender",
+      "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/23/reimagining-the-soc-for-the-agentic-era-in-microsoft-defender/",
+      "date": "Wed, 23 Sep 2026 16:00:00 +0000",
+      "contenu": "We are announcing ISOC in Microsoft Defender: a foundation built for agentic security that brings leading solutions for SIEM and threat protection together. The post Reimagining the SOC for the agentic era in Microsoft Defender appeared first on Microsoft Security Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 8,
+      "raison": "Annonce d’une nouvelle fonctionnalité majeure (ISOC) dans Microsoft Defender, utile pour conseiller les clients sur la sécurité et la gestion SOC.",
+      "resume": "Microsoft introduit ISOC (Intelligent Security Operations Center) dans Defender, une plateforme unifiée qui combine SIEM et protection contre les menaces pour une approche agentique de la sécurité. Cette évolution permet aux organisations de centraliser la surveillance, l’analyse et la réponse aux incidents avec une intelligence accrue, renforçant ainsi la posture de sécurité globale."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft Dynamics 365 Blog",
+      "titre": "Build the future of agentic ERP with new Microsoft Dynamics 365 capabilities",
+      "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/09/23/build-the-future-of-agentic-erp-with-new-microsoft-dynamics-365-capabilities/",
+      "date": "Wed, 23 Sep 2026 16:00:00 +0000",
+      "contenu": "Discover what’s next for Microsoft Dynamics 365 ERP, from new capabilities across Finance, Supply Chain Management, Commerce, and more to the foundation for agentic ERP. Explore how AI, agents, and connected business processes are helping organizations prepare for the next generation of ERP. The post Build the future of agentic ERP with new Microsoft Dynamics 365 capabilities appeared first on Microsoft Dynamics 365 Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 8,
+      "raison": "L’article présente de nouvelles fonctionnalités majeures d’agentic ERP dans Dynamics 365, incluant l’IA et les agents, ce qui est directement pertinent pour la vente et le conseil aux clients.",
+      "resume": "Microsoft Dynamics 365 introduit des capacités avancées d’agentic ERP, couvrant Finance, Supply Chain, Commerce et d’autres modules. Ces nouveautés intègrent l’IA et les agents pour automatiser les processus métier et offrir une expérience plus connectée. L’équipe commerciale peut utiliser ces fonctionnalités pour démontrer la valeur ajoutée et différencier les offres auprès des prospects."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft Dynamics 365 Blog",
+      "titre": "Work IQ: Business and workplace intelligence in the flow of work",
+      "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/09/25/work-iq-business-and-workplace-intelligence-in-the-flow-of-work/",
+      "date": "Fri, 25 Sep 2026 12:00:00 +0000",
+      "contenu": "Work IQ now grounds Microsoft Copilot and agents in your core business data from Microsoft Dynamics 365 and Microsoft Power Platform. The post Work IQ: Business and workplace intelligence in the flow of work appeared first on Microsoft Dynamics 365 Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 8,
+      "raison": "L’article présente une nouvelle fonctionnalité majeure liée à Copilot et l’IA, ce qui est très vendeur et pertinent pour l’équipe commerciale.",
+      "resume": "Work IQ intègre Microsoft Copilot et des agents dans les données métier de Dynamics 365 et Power Platform, offrant une intelligence contextuelle directement dans le flux de travail. Cette évolution permet aux utilisateurs d’accéder à des insights et automatisations plus pertinentes basées sur leurs propres données d’entreprise."
+    }
+  },
+  {
+    "article": {
       "source": "Microsoft 365 Blog",
       "titre": "Introducing Microsoft Scout: Your always-on personal agent",
       "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
@@ -171,6 +261,186 @@
       "score": 7,
       "raison": "Nouvelle fonctionnalité majeure de Microsoft 365 (agent personnel intégré)",
       "resume": "Microsoft présente Scout, un agent personnel toujours actif intégré aux applications Microsoft 365. Cette fonctionnalité vise à assister les utilisateurs dans leur flux de travail quotidien, offrant ainsi un argument de vente supplémentaire pour les licences M365."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft Power Platform Blog",
+      "titre": "Extend Server Logic with Power Automate Cloud Flows in Power Pages",
+      "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/extend-server-logic-with-power-automate-cloud-flows-in-power-pages/",
+      "date": "Fri, 18 Sep 2026 14:44:18 +0000",
+      "contenu": "Server Logic enables makers and developers to execute business logic securely on the server. However, connected business applications often need website experiences to participate in processes that extend beyond the site. We are introducing support for invoking Power Automate cloud flows from Server Logic in Power Pages. The post Extend Server Logic with Power Automate Cloud Flows in Power Pages appeared first on Microsoft Power Platform Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Nouvelle fonctionnalité majeure de Power Platform qui permet d’intégrer les flux Power Automate dans Power Pages, utile pour conseiller les clients sur des solutions plus complètes.",
+      "resume": "Microsoft introduit la possibilité d’appeler des flux Power Automate cloud depuis le Server Logic de Power Pages. Cela permet aux développeurs de créer des expériences web plus riches en intégrant directement des processus automatisés dans leurs sites. Cette amélioration ouvre de nouvelles opportunités de vente pour les solutions Power Platform."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft Power Platform Blog",
+      "titre": "What’s new in Power Platform: September 2026 feature update",
+      "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/whats-new-in-power-platform-september-2026-feature-update/",
+      "date": "Thu, 17 Sep 2026 15:00:00 +0000",
+      "contenu": "Power Platform Build hands-on Power Platform and AI expertise with Power Series Developed by the Power CAT team, Power Series is now available with 20 hands-on labs that help customers, partners, and field teams build practical Power Platform and AI skills at their own pace. The post What’s new in Power Platform: September 2026 feature update appeared first on Microsoft Power Platform Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Nouvelle offre de formation Power Series avec 20 laboratoires pratiques sur Power Platform et IA, ce qui constitue une fonctionnalité majeure pouvant aider l’équipe à mieux conseiller et vendre.",
+      "resume": "Microsoft a lancé Power Series, une série de 20 laboratoires pratiques pour Power Platform et l’IA, permettant aux clients, partenaires et équipes commerciales de développer des compétences concrètes à leur propre rythme."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[Launched] Generally Available: Azure Container Apps Express",
+      "lien": "https://azure.microsoft.com/updates?id=559242",
+      "date": "Wed, 13 May 2026 17:30:20 Z",
+      "contenu": "Azure Container Apps Express is now generally available. It is the simplest and fastest way to launch and scale powerful applications on Azure, from zero to hyperscale, without infrastructure decisions. It represents the first Azure compute platform purpo"
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Nouvelle plateforme Azure disponible, utile pour conseiller les clients sur le déploiement d’applications sans gestion d’infrastructure.",
+      "resume": "Azure Container Apps Express est désormais disponible en général. Il permet de lancer et d’évoluer rapidement des applications sur Azure sans prendre de décisions d’infrastructure, simplifiant ainsi le déploiement et la gestion des workloads."
+    }
+  },
+  {
+    "article": {
+      "source": "Windows Blog",
+      "titre": "Introducing the next Surface Pro 12-inch and Surface Laptop 13-inch with Snapdragon X2 Plus: Greater performance that travels light",
+      "lien": "https://blogs.windows.com/devices/2026/09/23/introducing-surface-pro-12-inch-and-surface-laptop-13-inch-with-snapdragon-x2/",
+      "date": "Wed, 23 Sep 2026 20:30:27 +0000",
+      "contenu": "Today at Snapdragon Summit, we introduced the next Surface Pro 12-inch and Surface Laptop 13-inch, built on The post Introducing the next Surface Pro 12-inch and Surface Laptop 13-inch with Snapdragon X2 Plus: Greater performance that travels light appeared first on Windows Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Annonce d’un nouveau produit Surface, utile pour conseiller les clients et augmenter les ventes.",
+      "resume": "Microsoft a lancé le Surface Pro 12 pouces et le Surface Laptop 13 pouces équipés du processeur Snapdragon X2 Plus, offrant de meilleures performances tout en restant léger. Ces nouveaux modèles ciblent les professionnels mobiles et les utilisateurs recherchant une expérience portable sans compromis sur la puissance."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[Launched] Generally Available: Instant Access for VM restore points",
+      "lien": "https://azure.microsoft.com/updates?id=572573",
+      "date": "Thu, 24 Sep 2026 16:04:16 Z",
+      "contenu": "Instant Access for application-consistent restore points on virtual machines (that have Premium v2 or Ultra disks as data disks) is now generally available. With Instant Access, you can begin restoring a disk from a restore point as soon as the snapshot i"
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Nouvelle fonctionnalité Azure qui améliore la restauration des VM, utile pour conseiller les clients sur la résilience et la continuité.",
+      "resume": "Azure rend désormais disponible l'accès instantané aux points de restauration cohérents pour les disques Premium v2 ou Ultra. Cela permet de commencer la restauration d'un disque dès que le snapshot est créé, accélérant la récupération des données et améliorant la disponibilité des services."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft 365 Blog",
+      "titre": "Building the system for AI at work",
+      "lien": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
+      "date": "Wed, 23 Sep 2026 15:00:00 +0000",
+      "contenu": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft 365 Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "L’article traite de la mise en place d’une architecture d’IA au sein de Microsoft 365, ce qui inclut des avancées majeures sur Copilot et l’IA Microsoft, éléments très vendeurs pour l’équipe commerciale.",
+      "resume": "L’article décrit comment Microsoft construit l’infrastructure pour intégrer l’IA dans les applications de travail, en mettant l’accent sur la sécurité, la conformité et l’expérience utilisateur. Il présente les nouvelles capacités de Copilot et les améliorations de l’IA dans Microsoft 365, offrant aux clients des solutions plus intelligentes et personnalisées."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft Power Platform Blog",
+      "titre": "Modern List in Power Pages is now generally available",
+      "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/modern-list-in-power-pages-is-now-generally-available/",
+      "date": "Wed, 23 Sep 2026 06:50:12 +0000",
+      "contenu": "Today, we’re announcing the general availability of Modern List in Power Pages, a refreshed data presentation experience that helps makers showcase Dataverse data with modern Fluent UI components, seamless infinite scrolling, inline filtering, shimmer loading, flexible low-code customization and custom JavaScript support. The post Modern List in Power Pages is now generally available appeared first on Microsoft Power Platform Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Nouvelle fonctionnalité majeure de Power Platform (Power Pages) qui peut être utilisée pour améliorer la présentation des données Dataverse, un argument de vente pertinent pour les clients.",
+      "resume": "Microsoft a rendu disponible en général la Modern List pour Power Pages, offrant une expérience de présentation de données moderne avec des composants Fluent UI, le défilement infini, le filtrage en ligne, le chargement shimmer, une personnalisation low‑code flexible et le support JavaScript personnalisé. Cette amélioration permet aux créateurs de pages d’afficher les données Dataverse de façon plus fluide et interactive."
+    }
+  },
+  {
+    "article": {
+      "source": "GitHub Blog",
+      "titre": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+      "lien": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+      "date": "Fri, 25 Sep 2026 18:00:00 +0000",
+      "contenu": "Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done. The post GitHub Copilot app for Beginners: How to build custom workflows with canvases appeared first on The GitHub Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "L’article présente une nouvelle fonctionnalité de GitHub Copilot, un produit Microsoft, et montre comment l’utiliser pour créer des flux de travail personnalisés, ce qui peut aider l’équipe commerciale à conseiller les clients sur l’IA et la productivité.",
+      "resume": "GitHub Copilot propose une nouvelle application pour débutants qui permet de créer des flux de travail personnalisés via des interfaces simples. En décrivant l’interface en langage naturel, l’agent construit un surface interactive que les utilisateurs peuvent modifier en temps réel, réduisant ainsi le temps d’adaptation aux outils et augmentant la productivité."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[Launched] Generally Available: Vector search and vector indexes in Azure SQL",
+      "lien": "https://azure.microsoft.com/updates?id=571800",
+      "date": "Mon, 28 Sep 2026 22:07:19 Z",
+      "contenu": "Vector search and vector indexes are now generally available in Azure SQL Database. Using the CREATE VECTOR INDEX and VECTOR_SEARCH T-SQL capabilities, you can perform efficient approximate nearest neighbor (ANN) searches for AI scenarios such as semantic"
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Nouvelle fonctionnalité majeure d’Azure SQL (index et recherche vectorielle) qui ouvre des possibilités AI et peut être utilisée pour conseiller les clients sur des scénarios d’IA.",
+      "resume": "Azure SQL Database propose désormais la création d’index vectoriels et la recherche vectorielle via T‑SQL, permettant des recherches approximatives de plus proches voisins (ANN) pour des scénarios d’IA, notamment la recherche sémantique. Cette amélioration rend Azure SQL plus compétitif pour les workloads d’IA et peut être mise en avant auprès des clients intéressés par des solutions d’IA intégrées."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[Launched] Generally Available: Luxembourg - Azure Extended Zones",
+      "lien": "https://azure.microsoft.com/updates?id=572968",
+      "date": "Mon, 28 Sep 2026 17:08:48 Z",
+      "contenu": "We are announcing the general availability of the Luxembourg Azure Extended Zone. Azure Extended Zones are small-footprint extensions of Azure placed in metro areas, industry centers, or specific jurisdictions, to serve low latency and data residency work"
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Nouvelle zone Azure disponible, utile pour conseiller clients sur la localisation et la latence.",
+      "resume": "Azure annonce la disponibilité générale de la zone étendue Luxembourg, une extension à faible empreinte d'Azure située dans des zones métropolitaines pour offrir une faible latence et une résidence des données locale. Cette zone permet aux clients de déployer des services Azure plus proches de leurs utilisateurs finaux tout en respectant les exigences de localisation des données."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft Power Platform Blog",
+      "titre": "Microsoft-Managed SSL/TLS Certificates for Custom Domains Now Available in Power Pages",
+      "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/microsoft-managed-ssl-tls-certificates-for-custom-domains-now-available-in-power-pages/",
+      "date": "Wed, 16 Sep 2026 14:43:20 +0000",
+      "contenu": "We’re excited to announce that Microsoft-managed SSL/TLS certificates are now available for custom domains in Power Pages. When you connect a custom domain, you can now choose an SSL/TLS certificate that Microsoft provisions, configures, and renews for you. The post Microsoft-Managed SSL/TLS Certificates for Custom Domains Now Available in Power Pages appeared first on Microsoft Power Platform Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "Nouvelle fonctionnalité majeure de Power Platform (Power Pages) qui simplifie la gestion SSL/TLS pour les domaines personnalisés, utile pour conseiller les clients.",
+      "resume": "Microsoft annonce que les certificats SSL/TLS gérés par Microsoft sont désormais disponibles pour les domaines personnalisés dans Power Pages. Lorsqu'un client connecte un domaine personnalisé, il peut choisir un certificat fourni, configuré et renouvelé automatiquement par Microsoft, simplifiant ainsi la sécurité et la maintenance."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[Launched] Generally Available: Azure SQL Managed Instance updates for late-September 2026",
+      "lien": "https://azure.microsoft.com/updates?id=571632",
+      "date": "Mon, 28 Sep 2026 18:52:10 Z",
+      "contenu": "In\nlate September 2026, the following updates and\nenhancements were made to Azure SQL Managed Instance:  \n Use\n     the flexible memory feature in Azure SQL Managed Instance to change the\n     amount of memory allocated to your SQL managed instance withou"
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "mise à jour majeure d'Azure SQL Managed Instance avec une nouvelle fonctionnalité de mémoire flexible, utile pour conseiller les clients sur l'optimisation des coûts et des performances.",
+      "resume": "En septembre 2026, Azure SQL Managed Instance introduit la fonction de mémoire flexible, permettant aux clients d'ajuster dynamiquement la mémoire allouée à leur instance SQL sans interruption. Cette amélioration offre une meilleure optimisation des coûts et des performances, ce qui peut être un argument de vente pour les solutions Azure SQL."
     }
   }
 ]
