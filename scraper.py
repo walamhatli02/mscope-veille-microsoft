@@ -29,7 +29,7 @@ SOURCES = [
     },
     {
         "nom": "Azure AI Blog",
-        "url": "https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?board=AzureAIBlog"
+        "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=azure-ai-foundry-blog"
     },
     # Sécurité
     {
@@ -49,7 +49,7 @@ SOURCES = [
     # Teams
     {
         "nom": "Microsoft Teams Blog",
-        "url": "https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?board=MicrosoftTeamsBlog"
+        "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog"
     },
     # Developer
     {
@@ -74,7 +74,7 @@ SOURCES = [
     # Copilot / AI
     {
         "nom": "Microsoft AI Blog",
-        "url": "https://blogs.microsoft.com/ai/feed/"
+        "url": "https://news.microsoft.com/source/topics/ai/feed/"
     },
 ]
 
