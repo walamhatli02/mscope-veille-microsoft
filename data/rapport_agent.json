@@ -324,6 +324,21 @@
   },
   {
     "article": {
+      "source": "Microsoft Dynamics 365 Blog",
+      "titre": "From quick schedule fixes to automated planning with Scheduling Operations Agent",
+      "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/10/20/scheduling-operations-agent-field-service-planning/",
+      "date": "Tue, 20 Oct 2026 15:06:25 +0000",
+      "contenu": "Learn how Scheduling Operations Agent helps Dynamics 365 Field Service teams optimize resources, automate scheduling plans, and run recurring optimizations. The post From quick schedule fixes to automated planning with Scheduling Operations Agent appeared first on Microsoft Dynamics 365 Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 8,
+      "raison": "Nouvelle fonctionnalité majeure de Dynamics 365 Field Service qui optimise la planification et l’allocation des ressources, utile pour conseiller les clients.",
+      "resume": "L’article présente le Scheduling Operations Agent, un outil qui permet aux équipes Field Service de Dynamics 365 d’automatiser la planification, d’optimiser les ressources et de lancer des optimisations récurrentes, améliorant ainsi l’efficacité opérationnelle."
+    }
+  },
+  {
+    "article": {
       "source": "Microsoft 365 Blog",
       "titre": "Introducing Microsoft Scout: Your always-on personal agent",
       "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
@@ -685,77 +700,62 @@
   },
   {
     "article": {
+      "source": "GitHub Blog",
+      "titre": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "lien": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+      "date": "Mon, 12 Oct 2026 17:43:59 +0000",
+      "contenu": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "L’article traite de GitHub Copilot, une IA Microsoft très vendeur, et fournit des instructions pratiques pour l’intégrer dans un codebase, ce qui peut aider l’équipe à conseiller les clients sur l’utilisation de Copilot.",
+      "resume": "L’article explique comment ajouter des instructions personnalisées et des compétences à un dépôt GitHub pour entraîner Copilot à mieux comprendre votre code. Il détaille l’utilisation d’agents personnalisés et la connexion à des serveurs MCP comme Playwright, offrant ainsi une approche concrète pour exploiter Copilot dans des projets réels."
+    }
+  },
+  {
+    "article": {
       "source": "Microsoft Power Platform Blog",
-      "titre": "Microsoft-Managed SSL/TLS Certificates for Custom Domains Now Available in Power Pages",
-      "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/microsoft-managed-ssl-tls-certificates-for-custom-domains-now-available-in-power-pages/",
-      "date": "Wed, 16 Sep 2026 14:43:20 +0000",
-      "contenu": "We’re excited to announce that Microsoft-managed SSL/TLS certificates are now available for custom domains in Power Pages. When you connect a custom domain, you can now choose an SSL/TLS certificate that Microsoft provisions, configures, and renews for you. The post Microsoft-Managed SSL/TLS Certificates for Custom Domains Now Available in Power Pages appeared first on Microsoft Power Platform Blog ."
+      "titre": "Create Power Pages sites in minutes with SPA templates",
+      "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/create-power-pages-sites-in-minutes-with-spa-templates/",
+      "date": "Tue, 13 Oct 2026 17:25:20 +0000",
+      "contenu": "We’re thrilled to share SPA template support in the Power Pages plugin for GitHub Copilot CLI and Claude Code. The /create-site skill can now create your site from a ready-made single-page application (SPA) template, instead of generating every page and component from scratch. The post Create Power Pages sites in minutes with SPA templates appeared first on Microsoft Power Platform Blog ."
     },
     "decision": {
       "important": true,
-      "score": 6,
-      "raison": "Nouvelle fonctionnalité majeure de Power Platform (Power Pages) qui simplifie la gestion SSL/TLS pour les domaines personnalisés, utile pour conseiller les clients.",
-      "resume": "Microsoft annonce que les certificats SSL/TLS gérés par Microsoft sont désormais disponibles pour les domaines personnalisés dans Power Pages. Lorsqu'un client connecte un domaine personnalisé, il peut choisir un certificat fourni, configuré et renouvelé automatiquement par Microsoft, simplifiant ainsi la sécurité et la maintenance."
+      "score": 7,
+      "raison": "Nouvelle fonctionnalité majeure de Power Platform (Power Pages) qui facilite la création de sites, utile pour conseiller les clients.",
+      "resume": "Microsoft a ajouté le support des templates SPA dans Power Pages via GitHub Copilot CLI et Claude Code. La compétence /create-site peut désormais créer un site à partir d’un template SPA préconçu, accélérant la mise en place de sites web sans générer chaque page manuellement."
     }
   },
   {
     "article": {
       "source": "Azure Updates",
-      "titre": "[Launched] Generally Available: Azure SQL Managed Instance updates for late-September 2026",
-      "lien": "https://azure.microsoft.com/updates?id=571632",
-      "date": "Mon, 28 Sep 2026 18:52:10 Z",
-      "contenu": "In\nlate September 2026, the following updates and\nenhancements were made to Azure SQL Managed Instance:  \n Use\n     the flexible memory feature in Azure SQL Managed Instance to change the\n     amount of memory allocated to your SQL managed instance withou"
+      "titre": "[Launched] Generally Available: Azure Cloud HSM hardware audit logging",
+      "lien": "https://azure.microsoft.com/updates?id=576377",
+      "date": "Wed, 14 Oct 2026 19:17:47 Z",
+      "contenu": "Hardware Audit Logging for Azure Cloud HSM provides hardware-generated audit records for supported HSM management operations, helping organizations strengthen security monitoring, compliance reporting, governance, and forensic investigations. Customers ca"
     },
     "decision": {
       "important": true,
-      "score": 6,
-      "raison": "mise à jour majeure d'Azure SQL Managed Instance avec une nouvelle fonctionnalité de mémoire flexible, utile pour conseiller les clients sur l'optimisation des coûts et des performances.",
-      "resume": "En septembre 2026, Azure SQL Managed Instance introduit la fonction de mémoire flexible, permettant aux clients d'ajuster dynamiquement la mémoire allouée à leur instance SQL sans interruption. Cette amélioration offre une meilleure optimisation des coûts et des performances, ce qui peut être un argument de vente pour les solutions Azure SQL."
+      "score": 7,
+      "raison": "Nouvelle fonctionnalité de sécurité pour Azure Cloud HSM, utile pour conseiller les clients sur la conformité et la gouvernance.",
+      "resume": "Azure a lancé la journalisation d’audit matériel pour Azure Cloud HSM, permettant aux organisations d’obtenir des enregistrements générés par le matériel pour les opérations de gestion HSM. Cette amélioration renforce la surveillance de la sécurité, les rapports de conformité et les investigations forensiques."
     }
   },
   {
     "article": {
       "source": "Azure Updates",
-      "titre": "[Launched] Generally Available: Storage optimized Lasv5 and Laosv5 Azure VM series",
-      "lien": "https://azure.microsoft.com/updates?id=572630",
-      "date": "Tue, 29 Sep 2026 19:27:09 Z",
-      "contenu": "The Laosv5 series and Lasv5 storage optimized VMs, based on the 5th Gen AMD EPYC™ processor (Turin), are now generally available.Lasv5 and Laosv5 VMs have sizes ranging from 2-160 vCPUs, with 8GiB of memory and 720GB of local NVMe disk capacity per vCPU."
+      "titre": "[Launched] Generally Available: Azure Site Recovery Support for Azure ARC-enabled Windows VMWare/Physical servers",
+      "lien": "https://azure.microsoft.com/updates?id=576214",
+      "date": "Wed, 14 Oct 2026 19:13:31 Z",
+      "contenu": "Azure Site Recovery (ASR) now supports disaster recovery for Azure ARC-enabled Windows VMWare virtual machines and on-premise physical servers. Customers can protect ARC-managed machines with ASR while continuing to use Azure ARC for governance, inventory"
     },
     "decision": {
       "important": true,
-      "score": 6,
-      "raison": "Nouvelle série de VM Azure disponible, utile pour conseiller les clients sur les options de calcul et de stockage.",
-      "resume": "Azure a rendu disponibles les séries de machines virtuelles Laosv5 et Lasv5, optimisées pour le stockage et basées sur le processeur AMD EPYC 5th Gen. Elles offrent des tailles allant de 2 à 160 vCPU, avec 8 GiB de RAM et 720 GB de disque NVMe local par vCPU, permettant aux clients de choisir des configurations adaptées à leurs besoins de performance et de stockage."
-    }
-  },
-  {
-    "article": {
-      "source": "Azure Updates",
-      "titre": "[In preview] Public Preview: SQL performance monitoring for SQL Server on Azure Virtual Machines",
-      "lien": "https://azure.microsoft.com/updates?id=571894",
-      "date": "Wed, 30 Sep 2026 21:13:13 Z",
-      "contenu": "The public preview of Microsoft-managed performance monitoring for SQL Server on Azure Virtual Machines is now available. You can now monitor SQL Server on Azure Virtual Machines without building custom collection scripts or correlating telemetry across d"
-    },
-    "decision": {
-      "important": true,
-      "score": 6,
-      "raison": "Nouvelle fonctionnalité de monitoring de performance SQL Server sur Azure VM, utile pour conseiller les clients.",
-      "resume": "Microsoft lance en prévisualisation un service de surveillance de performance géré pour SQL Server sur les machines virtuelles Azure. Les utilisateurs peuvent désormais suivre les métriques de SQL Server sans créer de scripts personnalisés, simplifiant ainsi la gestion et la visibilité des performances."
-    }
-  },
-  {
-    "article": {
-      "source": "Azure Updates",
-      "titre": "Retirement: NVv4-series Azure Virtual Machines",
-      "lien": "https://azure.microsoft.com/updates?id=573415",
-      "date": "Wed, 30 Sep 2026 18:24:01 Z",
-      "contenu": "On September 30, 2026, Microsoft Azure retired the Standard_NV4as_v4, Standard_NV4ahs_v4, Standard_NV8as_v4, Standard_NV8ahs_v4, Standard_NV16as_v4, Standard_NV16ahs_v4, Standard_NV32as_v4, and Standard_NV32ahs_v4 virtual machines (VMs) in the NVv4-series"
-    },
-    "decision": {
-      "important": true,
-      "score": 6,
-      "raison": "La retraite d’une série de machines virtuelles Azure affecte directement les clients utilisant ces ressources, ce qui nécessite une mise à jour des conseils de vente et de migration.",
-      "resume": "Microsoft Azure a retiré la série NVv4 de machines virtuelles le 30 septembre 2026. Les modèles Standard_NV4as_v4, Standard_NV4ahs_v4, Standard_NV8as_v4, Standard_NV8ahs_v4, Standard_NV16as_v4, Standard_NV16ahs_v4, Standard_NV32as_v4 et Standard_NV32ahs_v4 ne seront plus disponibles, obligeant les clients à migrer vers d’autres options Azure."
+      "score": 7,
+      "raison": "Nouvelle fonctionnalité majeure d'Azure Site Recovery qui étend la protection aux serveurs Windows VMWare/physiques gérés par Azure ARC, utile pour conseiller les clients sur la continuité d'activité.",
+      "resume": "Azure Site Recovery (ASR) est désormais disponible pour la récupération de désastre des machines virtuelles Windows VMWare et des serveurs physiques gérés par Azure ARC. Les clients peuvent protéger ces machines tout en continuant à utiliser Azure ARC pour la gouvernance et l'inventaire."
     }
   }
 ]
