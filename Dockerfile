@@ -7,6 +7,9 @@ WORKDIR /app
 # Copier les dépendances d'abord (cache Docker)
 COPY requirements.txt .
 
+# PyTorch en version CPU d'abord (~200 Mo au lieu de ~2 Go avec CUDA)
+RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
+
 # Installer les dépendances
 RUN pip install --no-cache-dir -r requirements.txt
 
@@ -14,7 +17,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Créer les dossiers nécessaires
-RUN mkdir -p data vectorstore
+RUN mkdir -p data
 
 # Port Streamlit
 EXPOSE 8501

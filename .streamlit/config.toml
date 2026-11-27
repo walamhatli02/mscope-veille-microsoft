@@ -3,3 +3,7 @@ primaryColor = "#0078D4"
 backgroundColor = "#F3F2F1"
 secondaryBackgroundColor = "#F3F2F1"
 textColor = "#201F1E"
+
+[server]
+# evite les erreurs "torchvision" du surveilleur de fichiers (relancer Streamlit apres une modification)
+fileWatcherType = "none"

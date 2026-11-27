@@ -1,3 +1,7 @@
+# Secrets : jamais dans l'image
+.env
+.env.*
+
 # Environnement virtuel Python
 venv/
 __pycache__/
