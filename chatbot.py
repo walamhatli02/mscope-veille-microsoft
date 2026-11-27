@@ -5,6 +5,7 @@ import time
 import threading
 import unicodedata
 import re
+import hashlib
 from datetime import datetime
 from dotenv import load_dotenv
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -13,8 +14,13 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+from groq_utils import SelecteurModele, erreur_modele, erreur_quota
 
 load_dotenv()
+
+# Score de pertinence minimal d'un extrait (0 = filtre seulement les extraits sans rapport).
+# A CALIBRER avec les scores affichés dans « Sources utilisées ».
+SEUIL_PERTINENCE = float(os.getenv("SEUIL_PERTINENCE", "0.0"))
 
 def get_groq_model():
     preferred = os.getenv("GROQ_MODEL")
@@ -148,9 +154,20 @@ def preprocess_question(text: str) -> str:
 # RAG EN MEMOIRE
 # ============================================================
 @st.cache_resource
-def charger_rag():
+def selecteur_chat():
+    # Partagé entre sessions : un modèle en 404 n'est essayé qu'une fois.
+    return SelecteurModele("GROQ_MODEL_CHAT", max_tokens=1024)
+
+def date_modif(chemin):
+    return os.path.getmtime(chemin) if os.path.exists(chemin) else 0
+
+def id_chunk(*parties):
+    return hashlib.md5("|".join(str(p) for p in parties).encode("utf-8")).hexdigest()
+
+@st.cache_resource(max_entries=1)
+def charger_rag(_version_articles):
+    """Réindexe quand articles.json change ; les ids fixes évitent les doublons."""
     import chromadb
-    import time
     from langchain_chroma import Chroma
 
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
@@ -164,8 +181,12 @@ def charger_rag():
     if os.path.exists(ARTICLES_PATH):
         with open(ARTICLES_PATH, "r", encoding="utf-8") as f:
             articles = json.load(f)
-        docs = []
+        docs, ids, vus = [], [], set()
         for article in articles:
+            lien = article.get("lien", "")
+            if lien in vus:
+                continue   # même article publié par deux sources
+            vus.add(lien)
             chunks = splitter.split_text(f"{article['titre']}\n\n{article.get('contenu', '')}")
             for i, chunk in enumerate(chunks):
                 docs.append(Document(page_content=chunk, metadata={
@@ -175,8 +196,9 @@ def charger_rag():
                     "date": article.get("date", ""),
                     "chunk": i
                 }))
+                ids.append(id_chunk(article.get("lien", ""), i))
         if docs:
-            vs_microsoft.add_documents(docs)
+            vs_microsoft.add_documents(docs, ids=ids)
 
     if os.path.exists(INSOMEA_PATH):
         with open(INSOMEA_PATH, "r", encoding="utf-8") as f:
@@ -190,15 +212,20 @@ def charger_rag():
             "chunk": i
         }) for i, chunk in enumerate(chunks)]
         if docs_ins:
-            vs_insomea.add_documents(docs_ins)
+            vs_insomea.add_documents(docs_ins, ids=[f"insomea-{i}" for i in range(len(docs_ins))])
 
-    retriever_microsoft = vs_microsoft.as_retriever(search_kwargs={"k": 4})
-    retriever_insomea = vs_insomea.as_retriever(search_kwargs={"k": 3})
+    def chercher(vs, question, k):
+        gardes = []
+        for doc, score in vs.similarity_search_with_relevance_scores(question, k=k):
+            if score >= SEUIL_PERTINENCE:
+                doc.metadata["score"] = round(score, 2)
+                gardes.append(doc)
+        return gardes
 
-    prompt = ChatPromptTemplate.from_template("""Tu es InsoBot, assistant expert Microsoft pour l'équipe commerciale d'INSOMEA en Tunisie.
-Tu dois répondre à TOUTES les questions liées à Microsoft, cloud, technologie et INSOMEA.
+    prompt = ChatPromptTemplate.from_template("""Tu es InsoBot, assistant Microsoft pour l'équipe commerciale d'INSOMEA en Tunisie.
 Réponds TOUJOURS en français, même si la question est mal formulée.
-Si tu n'as pas l'info exacte, utilise tes connaissances générales Microsoft.
+Appuie-toi UNIQUEMENT sur les informations INSOMEA et les actualités Microsoft ci-dessous.
+Si elles ne permettent pas de répondre, dis clairement « Je n'ai pas trouvé cette information dans la veille MsScope. » au lieu d'inventer.
 Réponds de façon claire et concise (2 à 5 phrases).
 
 Informations INSOMEA: {context_insomea}
@@ -206,15 +233,14 @@ Actualités Microsoft: {context_microsoft}
 Question: {question}
 Réponse en français:""")
 
-    llm = ChatGroq(model=LLM_MODEL, api_key=GROQ_API_KEY, temperature=0.2, max_tokens=200)
-
     def formater(docs):
-      return "\n".join([f"{doc.metadata.get('titre','')}: {doc.page_content[:100]}" for doc in docs[:2]])
+        return "\n\n".join(f"[{doc.metadata.get('titre','')}]\n{doc.page_content}" for doc in docs)
 
     def run_rag(question):
+        selecteur = selecteur_chat()
         try:
-            docs_microsoft = retriever_microsoft.invoke(question)
-            docs_insomea = retriever_insomea.invoke(question)
+            docs_microsoft = chercher(vs_microsoft, question, k=4)
+            docs_insomea = chercher(vs_insomea, question, k=3)
         except Exception:
             docs_microsoft = []
             docs_insomea = []
@@ -225,25 +251,24 @@ Réponse en français:""")
             "question": question
         }
 
-        chain = prompt | llm | StrOutputParser()
-
-        response = None
-        for attempt in range(3):
+        sources = docs_insomea + docs_microsoft   # exactement ce que le modèle a reçu
+        # Vrai streaming ; repli de modèle seulement tant qu'aucun mot n'a été affiché.
+        while True:
+            chain = prompt | selecteur.llm(streaming=True) | StrOutputParser()
+            deja_envoye = False
             try:
-                response = chain.invoke(payload)
-                break
-            except Exception as e:
-                if "rate_limit" in str(e).lower() or "429" in str(e):
-                    time.sleep((attempt + 1) * 5)
-                else:
-                    raise e
-
-        if not response:
-            response = "Limite de requêtes atteinte. Veuillez réessayer dans quelques secondes."
-
-        chunk_size = 20
-        for i in range(0, len(response), chunk_size):
-            yield response[i:i + chunk_size], docs_microsoft
+                for morceau in chain.stream(payload):
+                    deja_envoye = True
+                    yield morceau, sources
+                return
+            except Exception as exc:
+                if not deja_envoye and erreur_modele(exc):
+                    selecteur.index += 1
+                    continue
+                if not deja_envoye and erreur_quota(exc):
+                    yield "Limite de requêtes Groq atteinte. Réessayez dans une minute.", sources
+                    return
+                raise
 
     return run_rag
 
@@ -479,7 +504,7 @@ elif st.session_state.current_tab == "InsoBot":
                 sources_docs = []
                 try:
                     q_clean = preprocess_question(question)
-                    run_rag = charger_rag()
+                    run_rag = charger_rag(date_modif(ARTICLES_PATH))
                     for chunk, docs in run_rag(q_clean):
                         if chunk:
                             full_response += chunk
@@ -491,7 +516,7 @@ elif st.session_state.current_tab == "InsoBot":
                     if sources_docs:
                         with st.expander("📎 Sources utilisées"):
                             for i, doc in enumerate(sources_docs):
-                                st.markdown(f"**{doc.metadata.get('source','')}** — {doc.metadata.get('titre','')}")
+                                st.markdown(f"**{doc.metadata.get('source','')}** — {doc.metadata.get('titre','')} (pertinence {doc.metadata.get('score','?')})")
                                 st.markdown(f"🔗 [Lire l'article]({doc.metadata.get('lien','')})")
                                 if i < len(sources_docs) - 1:
                                     st.divider()
