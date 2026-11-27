@@ -249,6 +249,51 @@
   },
   {
     "article": {
+      "source": "Microsoft Developer Blog",
+      "titre": "Enabling Consistent AI-Assisted Engineering with GitHub Copilot Plugins",
+      "lien": "https://devblogs.microsoft.com/blog/enabling-consistent-ai-assisted-engineering-with-github-copilot-plugins/",
+      "date": "Tue, 29 Sep 2026 16:30:35 +0000",
+      "contenu": "When an engineer or team creates useful agentic artifacts for their daily work (e.g., instructions, skills, and MCP configurations), others naturally want to adopt them when they see how those artifacts could help with their own work. Sharing the files is straightforward, but keeping those consumers supplied with fixes, updated guidance, and compatible tool configurations […] The post Enabling Consistent AI-Assisted Engineering with GitHub Copilot Plugins appeared first on Microsoft for Developers ."
+    },
+    "decision": {
+      "important": true,
+      "score": 8,
+      "raison": "L'article traite de GitHub Copilot Plugins, une extension de Copilot, ce qui est directement lié à l'IA Microsoft et peut aider l'équipe à conseiller les clients sur l'utilisation de Copilot pour améliorer la productivité.",
+      "resume": "L'article explique comment les plugins GitHub Copilot permettent de créer et partager des artefacts d'ingénierie assistée par IA, assurant une mise à jour et une compatibilité constantes pour les équipes. Il montre comment ces plugins facilitent l'adoption et l'amélioration continue des outils d'automatisation, offrant ainsi une valeur ajoutée aux clients qui cherchent à optimiser leurs processus de développement."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "Announcing: Azure canvases for GitHub Copilot",
+      "lien": "https://azure.microsoft.com/updates?id=573385",
+      "date": "Wed, 30 Sep 2026 17:09:51 Z",
+      "contenu": "Discover Azure canvases for GitHub Copilot, interactive shared workspaces that bring Azure tools, dashboards, and guided workflows directly alongside your Copilot conversations. Explore Azure resources, analyze costs, and build hosted skills while keeping"
+    },
+    "decision": {
+      "important": true,
+      "score": 8,
+      "raison": "Nouvelle fonctionnalité majeure intégrant Copilot et Azure, très vendeur pour les clients intéressés par l’IA et l’automatisation.",
+      "resume": "Azure a lancé les \"Azure canvases\" pour GitHub Copilot, des espaces de travail partagés qui intègrent directement les outils Azure, les tableaux de bord et les flux de travail guidés dans les conversations Copilot. Cela permet aux utilisateurs d’explorer les ressources Azure, d’analyser les coûts et de développer des compétences hébergées sans quitter l’environnement Copilot."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft Power Platform Blog",
+      "titre": "Your AI transformation starts with what you’ve already built",
+      "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/your-ai-transformation-starts-with-what-youve-already-built/",
+      "date": "Thu, 01 Oct 2026 15:00:00 +0000",
+      "contenu": "See how Power Apps, Power Platform, and Copilot Studio are helping teams transform ideas into AI-powered business solutions at PPCC 2026. The post Your AI transformation starts with what you’ve already built appeared first on Microsoft Power Platform Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 8,
+      "raison": "L’article présente Copilot Studio, une nouvelle fonctionnalité majeure de Power Platform liée à l’IA, ce qui est très vendeur pour l’équipe commerciale.",
+      "resume": "Microsoft présente Copilot Studio, un outil qui permet aux équipes de transformer rapidement leurs idées en solutions d’affaires alimentées par l’IA, en s’appuyant sur les applications déjà existantes dans Power Apps et Power Platform. Cette innovation facilite la création de solutions personnalisées et accélère la mise en œuvre de l’IA dans les entreprises."
+    }
+  },
+  {
+    "article": {
       "source": "Microsoft 365 Blog",
       "titre": "Introducing Microsoft Scout: Your always-on personal agent",
       "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
@@ -415,6 +460,126 @@
   },
   {
     "article": {
+      "source": "Microsoft Developer Blog",
+      "titre": "Get started with the GitHub Copilot app: a free, hands-on course",
+      "lien": "https://devblogs.microsoft.com/blog/github-copilot-app-for-beginners/",
+      "date": "Mon, 28 Sep 2026 18:05:00 +0000",
+      "contenu": "Learn to direct AI coding agents, review their work, and build reliable development workflows with this free GitHub Copilot app course. The post Get started with the GitHub Copilot app: a free, hands-on course appeared first on Microsoft for Developers ."
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "L’article traite de GitHub Copilot, une IA Microsoft très vendeuse, et propose un cours gratuit pour apprendre à l’utiliser, ce qui peut aider l’équipe à conseiller les clients sur l’intégration de Copilot dans leurs workflows.",
+      "resume": "Microsoft propose un cours gratuit pour apprendre à utiliser l’application GitHub Copilot, un agent d’IA de codage. Le contenu couvre la direction des agents, l’examen de leur travail et la création de workflows de développement fiables, offrant aux développeurs une ressource pratique pour intégrer Copilot dans leurs projets."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[In preview] Public Preview: Azure Database for PostgreSQL Ultra Disk",
+      "lien": "https://azure.microsoft.com/updates?id=571909",
+      "date": "Tue, 29 Sep 2026 18:14:46 Z",
+      "contenu": "Ultra Disk support is now available in public preview for Azure Database for PostgreSQL flexible server. You can use Azure’s highest-performance managed disk option for I/O-intensive and transaction-heavy PostgreSQL workloads that require consistently low"
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Nouvelle fonctionnalité majeure pour Azure Database for PostgreSQL, utile pour conseiller les clients sur les performances, donc vendeur.",
+      "resume": "Azure propose en prévisualisation le support Ultra Disk pour Azure Database for PostgreSQL flexible server, offrant le disque géré le plus performant pour les charges de travail intensives en I/O et transactionnelles. Cette amélioration permet aux clients d'obtenir des performances plus élevées et une latence plus faible pour leurs bases PostgreSQL hébergées sur Azure."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[In preview] Public Preview: SQL Performance Monitoring for Azure SQL Database",
+      "lien": "https://azure.microsoft.com/updates?id=571867",
+      "date": "Tue, 29 Sep 2026 18:13:31 Z",
+      "contenu": "The public preview of Microsoft-managed performance monitoring for Azure SQL Database is now available.  You can now monitor Azure SQL Database without building custom collection scripts or correlating telemetry across disconnected tools. Built-in data co"
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Nouvelle fonctionnalité majeure pour Azure SQL Database, utile pour conseiller les clients sur la performance.",
+      "resume": "Microsoft lance en aperçu public un outil de surveillance de performance géré pour Azure SQL Database, permettant aux utilisateurs de suivre les performances sans scripts personnalisés ni outils multiples. Cette amélioration simplifie la gestion et l’optimisation des bases de données Azure, offrant un argument de vente supplémentaire pour les solutions Azure."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[Launched] Generally Available: Azure SQL updates for late-September 2026",
+      "lien": "https://azure.microsoft.com/updates?id=571643",
+      "date": "Tue, 29 Sep 2026 18:05:11 Z",
+      "contenu": "The following updates and enhancements were made to Azure\nSQL:   \n Scale\n     larger workloads on Azure SQL Database Hyperscale Premium series with new\n     160-vCore and 192-vCore options, delivering up to 50% greater compute\n     capacity than the previ"
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Nouvelle capacité de calcul pour Azure SQL, utile pour conseiller les clients sur l'optimisation des charges de travail.",
+      "resume": "Azure SQL a introduit de nouvelles options de 160‑vCore et 192‑vCore dans la série Hyperscale Premium, offrant jusqu’à 50 % de capacité de calcul supplémentaire par rapport aux versions précédentes. Ces mises à jour permettent aux clients de gérer des charges de travail plus lourdes et de bénéficier d’une meilleure performance globale."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "Retirement: NVv3-series Azure Virtual Machines",
+      "lien": "https://azure.microsoft.com/updates?id=573414",
+      "date": "Wed, 30 Sep 2026 18:26:47 Z",
+      "contenu": "On September 30, 2026, Microsoft Azure retired the Standard_NV12s_v3, Standard_NV12hs_v3, Standard_NV24s_v3, Standard_NV24ms_v3, Standard_NV32ms_v3, and Standard_NV48s_v3 virtual machines (VMs) in the NVv3-series VMs.Any remaining NVv3-series VMs will be"
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Retrait d’une série de VMs Azure impacte les options de vente et nécessite des conseils aux clients pour migrer vers d’autres séries.",
+      "resume": "Microsoft Azure retire la série NVv3 (Standard_NV12s_v3, NV12hs_v3, NV24s_v3, NV24ms_v3, NV32ms_v3, NV48s_v3) le 30 septembre 2026. Les clients utilisant ces VMs devront migrer vers d’autres séries ou services compatibles."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft Security Blog",
+      "titre": "​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026",
+      "lien": "https://www.microsoft.com/en-us/security/blog/2026/09/30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-2026/",
+      "date": "Wed, 30 Sep 2026 19:31:00 +0000",
+      "contenu": "This year at Microsoft Ignite, we spotlight our AI-first, end-to-end security platform designed to protect identities, devices, data, applications, clouds, infrastructure, and the AI agents now working alongside your teams. The post ​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026 appeared first on Microsoft Security Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Annonce d’une nouvelle plateforme de sécurité AI-first, un produit majeur pouvant être vendu ou recommandé aux clients, et pertinent pour les offres de sécurité d’INSOMEA.",
+      "resume": "Microsoft présente à Ignite 2026 une plateforme de sécurité intégrée, centrée sur l’IA, qui protège identités, appareils, données, applications, clouds et l’infrastructure, ainsi que les agents IA travaillant aux côtés des équipes. Cette solution vise à offrir une protection complète et automatisée à travers l’ensemble de l’environnement Microsoft."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft Dynamics 365 Blog",
+      "titre": "Adapt Dynamics 365 Commerce faster with AI-assisted extensibility",
+      "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/09/30/adapt-dynamics-365-commerce-faster-with-ai-assisted-extensibility/",
+      "date": "Wed, 30 Sep 2026 18:34:49 +0000",
+      "contenu": "Dynamics 365 Commerce 10.0.49 introduces AI-powered extension skills that help developers translate business requirements into working commerce extensions faster. These skills bring first-party Commerce architecture knowledge into AI coding assistants, reducing the effort required to identify extension points, apply patterns, and generate implementation guidance across multiple Commerce components. By accelerating development while maintaining governance, security, and compliance guardrails, organizations can respond more quickly to changing business demands and reduce their application backlog. The post Adapt Dynamics 365 Commerce faster with AI-assisted extensibility appeared first on Microsoft Dynamics 365 Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Nouvelle fonctionnalité AI pour Dynamics 365 Commerce, utile pour conseiller les clients sur l’extensibilité et la rapidité de mise en œuvre.",
+      "resume": "Dynamics 365 Commerce 10.0.49 introduit des compétences d’extension assistées par IA qui accélèrent le développement d’extensions commerciales. Ces compétences intègrent la connaissance de l’architecture Commerce pour guider les développeurs dans l’identification des points d’extension, l’application de modèles et la génération de conseils d’implémentation, tout en respectant la gouvernance, la sécurité et la conformité."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[In preview] Public Preview:  Major version upgrades (MVU) for Azure Database for PostgreSQL elastic clusters",
+      "lien": "https://azure.microsoft.com/updates?id=571504",
+      "date": "Fri, 02 Oct 2026 17:35:21 Z",
+      "contenu": "MVUs are now available for elastic clusters in Azure Database for PostgreSQL. You can upgrade an existing elastic cluster to a supported newer PostgreSQL version in place without provisioning a replacement cluster, migrating distributed data, or changing"
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Nouvelle fonctionnalité majeure pour Azure Database for PostgreSQL qui permet des mises à jour en place, utile pour conseiller les clients.",
+      "resume": "Les Major Version Upgrades (MVU) sont désormais disponibles pour les clusters elastiques Azure Database for PostgreSQL. Cela permet aux clients de mettre à jour leur cluster vers une version PostgreSQL plus récente sans provisionner un nouveau cluster, migrer les données ou modifier la configuration."
+    }
+  },
+  {
+    "article": {
       "source": "Microsoft Power Platform Blog",
       "titre": "Microsoft-Managed SSL/TLS Certificates for Custom Domains Now Available in Power Pages",
       "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/microsoft-managed-ssl-tls-certificates-for-custom-domains-now-available-in-power-pages/",
@@ -441,6 +606,81 @@
       "score": 6,
       "raison": "mise à jour majeure d'Azure SQL Managed Instance avec une nouvelle fonctionnalité de mémoire flexible, utile pour conseiller les clients sur l'optimisation des coûts et des performances.",
       "resume": "En septembre 2026, Azure SQL Managed Instance introduit la fonction de mémoire flexible, permettant aux clients d'ajuster dynamiquement la mémoire allouée à leur instance SQL sans interruption. Cette amélioration offre une meilleure optimisation des coûts et des performances, ce qui peut être un argument de vente pour les solutions Azure SQL."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[Launched] Generally Available: Storage optimized Lasv5 and Laosv5 Azure VM series",
+      "lien": "https://azure.microsoft.com/updates?id=572630",
+      "date": "Tue, 29 Sep 2026 19:27:09 Z",
+      "contenu": "The Laosv5 series and Lasv5 storage optimized VMs, based on the 5th Gen AMD EPYC™ processor (Turin), are now generally available.Lasv5 and Laosv5 VMs have sizes ranging from 2-160 vCPUs, with 8GiB of memory and 720GB of local NVMe disk capacity per vCPU."
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "Nouvelle série de VM Azure disponible, utile pour conseiller les clients sur les options de calcul et de stockage.",
+      "resume": "Azure a rendu disponibles les séries de machines virtuelles Laosv5 et Lasv5, optimisées pour le stockage et basées sur le processeur AMD EPYC 5th Gen. Elles offrent des tailles allant de 2 à 160 vCPU, avec 8 GiB de RAM et 720 GB de disque NVMe local par vCPU, permettant aux clients de choisir des configurations adaptées à leurs besoins de performance et de stockage."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[In preview] Public Preview: SQL performance monitoring for SQL Server on Azure Virtual Machines",
+      "lien": "https://azure.microsoft.com/updates?id=571894",
+      "date": "Wed, 30 Sep 2026 21:13:13 Z",
+      "contenu": "The public preview of Microsoft-managed performance monitoring for SQL Server on Azure Virtual Machines is now available. You can now monitor SQL Server on Azure Virtual Machines without building custom collection scripts or correlating telemetry across d"
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "Nouvelle fonctionnalité de monitoring de performance SQL Server sur Azure VM, utile pour conseiller les clients.",
+      "resume": "Microsoft lance en prévisualisation un service de surveillance de performance géré pour SQL Server sur les machines virtuelles Azure. Les utilisateurs peuvent désormais suivre les métriques de SQL Server sans créer de scripts personnalisés, simplifiant ainsi la gestion et la visibilité des performances."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "Retirement: NVv4-series Azure Virtual Machines",
+      "lien": "https://azure.microsoft.com/updates?id=573415",
+      "date": "Wed, 30 Sep 2026 18:24:01 Z",
+      "contenu": "On September 30, 2026, Microsoft Azure retired the Standard_NV4as_v4, Standard_NV4ahs_v4, Standard_NV8as_v4, Standard_NV8ahs_v4, Standard_NV16as_v4, Standard_NV16ahs_v4, Standard_NV32as_v4, and Standard_NV32ahs_v4 virtual machines (VMs) in the NVv4-series"
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "La retraite d’une série de machines virtuelles Azure affecte directement les clients utilisant ces ressources, ce qui nécessite une mise à jour des conseils de vente et de migration.",
+      "resume": "Microsoft Azure a retiré la série NVv4 de machines virtuelles le 30 septembre 2026. Les modèles Standard_NV4as_v4, Standard_NV4ahs_v4, Standard_NV8as_v4, Standard_NV8ahs_v4, Standard_NV16as_v4, Standard_NV16ahs_v4, Standard_NV32as_v4 et Standard_NV32ahs_v4 ne seront plus disponibles, obligeant les clients à migrer vers d’autres options Azure."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "Retirement: Dv3, Dsv3, Ev3, and Esv3 Azure VMs",
+      "lien": "https://azure.microsoft.com/updates?id=572346",
+      "date": "Wed, 30 Sep 2026 17:07:30 Z",
+      "contenu": "As part of the Microsoft Azure VM lifecycle\npolicy, Microsoft is announcing the retirement of the Dv3, Dsv3, Ev3,\nand Esv3 Azure VM series in public cloud Azure regions. These VMs will\nenter the End-of-Life lifecycle stage and retire on November 15, 2029."
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "La retraite des séries Dv3, Dsv3, Ev3 et Esv3 affecte directement les clients utilisant ces VM, ce qui permet à l’équipe commerciale de conseiller des migrations ou des alternatives, améliorant ainsi le service client et les ventes.",
+      "resume": "Microsoft annonce la mise hors service des séries Dv3, Dsv3, Ev3 et Esv3 de machines virtuelles Azure à partir du 15 novembre 2029. Les clients devront migrer vers d’autres séries ou services pour éviter les interruptions. L’équipe doit informer les clients concernés et proposer des solutions de migration."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft Power Platform Blog",
+      "titre": "Simplify Site Governance with Self-Service Ownership Transfer in Power Pages",
+      "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-pages/transfer-power-pages-site-ownership-with-self-service/",
+      "date": "Sun, 27 Sep 2026 19:08:30 +0000",
+      "contenu": "Every Power Pages site starts with an owner. Over time, however, organizations evolve – employees change roles, teams reorganize, projects move between departments, and responsibilities shift. While the people behind a site may change, the site itself often continues serving customers, partners, employees, citizens or other users for years. The post Simplify Site Governance with Self-Service Ownership Transfer in Power Pages appeared first on Microsoft Power Platform Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "Nouvelle fonctionnalité majeure de Power Platform (Power Pages) qui facilite la gouvernance et la gestion des sites, utile pour conseiller les clients sur la maintenance et la transition des sites.",
+      "resume": "Microsoft introduit la possibilité de transférer la propriété d’un site Power Pages en mode self‑service. Cette amélioration simplifie la gouvernance des sites, permettant aux organisations de réaffecter rapidement la responsabilité d’un site lorsque les équipes ou les rôles changent, sans intervention manuelle."
     }
   }
 ]
