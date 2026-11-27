@@ -2017,5 +2017,285 @@
     "lien": "https://www.microsoft.com/en-us/power-platform/blog/power-apps/your-ai-transformation-starts-with-what-youve-already-built/",
     "date": "Thu, 01 Oct 2026 15:00:00 +0000",
     "contenu": "See how Power Apps, Power Platform, and Copilot Studio are helping teams transform ideas into AI-powered business solutions at PPCC 2026. The post Your AI transformation starts with what you’ve already built appeared first on Microsoft Power Platform Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "From live streaming to real-time action: Real-time streaming analytics in Microsoft Dynamics 365 Contact Center",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/10/02/real-time-streaming-analytics-in-dynamics-365-contact-cente/",
+    "date": "Fri, 02 Oct 2026 15:21:54 +0000",
+    "contenu": "What if supervisors could act on operational issues before customers feel the impact? New real-time streaming analytics in Dynamics 365 Contact Center provide live insights into queues, conversations, and workforce performance, helping teams move from monitoring to action faster than ever. The post From live streaming to real-time action: Real-time streaming analytics in Microsoft Dynamics 365 Contact Center appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "AI is changing developer work. Here are three skills to strengthen.",
+    "lien": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+    "date": "Fri, 02 Oct 2026 15:00:00 +0000",
+    "contenu": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow. The post AI is changing developer work. Here are three skills to strengthen. appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing new builds for 2 October 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/10/02/announcing-new-builds-for-2-october-2026/",
+    "date": "Fri, 02 Oct 2026 17:04:36 +0000",
+    "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels. New builds this week Select your channel below to view its release notes: Beta: Announcing new builds for 2 October 2026 appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Azure HorizonDB expands to additional regions",
+    "lien": "https://azure.microsoft.com/updates?id=572940",
+    "date": "Mon, 05 Oct 2026 18:51:57 Z",
+    "contenu": "Azure HorizonDB is expanding to additional Azure regions, giving you greater flexibility to deploy PostgreSQL workloads closer to your applications and users.With expanded regional availability, you have more options when choosing where to deploy Azure Ho"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: SQL Server on Azure Virtual Machines in Azure Bleu",
+    "lien": "https://azure.microsoft.com/updates?id=571499",
+    "date": "Mon, 05 Oct 2026 18:12:09 Z",
+    "contenu": "SQL Server on Azure Virtual Machines is now available in Azure Bleu, enabling you to deploy and manage SQL Server workloads in France's sovereign cloud environment while meeting data residency and sovereignty requirements.  Learn more."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: Table discovery in OneLake Catalog search",
+    "lien": "https://azure.microsoft.com/updates?id=573875",
+    "date": "Mon, 05 Oct 2026 17:55:23 Z",
+    "contenu": "Starting October 15, 2026, Search in Microsoft Fabric will return tables from semantic models, lakehouses, and mirrored databases as individual results. Users can search by table name or description, or find a table by an exact column-name match.  More ob"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Azure Backup for PostgreSQL flexible server and elastic cluster (v2)",
+    "lien": "https://azure.microsoft.com/updates?id=573425",
+    "date": "Mon, 05 Oct 2026 17:44:31 Z",
+    "contenu": "Azure Backup for PostgreSQL flexible server and elastic cluster (v2) preview brings enterprise-grade long-term retention to PostgreSQL. Backups are taken as physical backups from managed disk snapshots and vaulted in an Azure Backup vault, so protection n"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: IPv6 Support for Application Gateway WAF",
+    "lien": "https://azure.microsoft.com/updates?id=573861",
+    "date": "Mon, 05 Oct 2026 17:41:41 Z",
+    "contenu": "Announcing the Public Preview of IPv6 support for Application Gateway WAF.Application Gateway Web Application Firewall (WAF) now supports inspection and enforcement for IPv6 traffic in Public Preview, marking a major step forward in modernizing the platfo"
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "What is Agent Experience (AX)?",
+    "lien": "https://devblogs.microsoft.com/blog/what-is-agent-experience-ax/",
+    "date": "Tue, 06 Oct 2026 09:18:05 +0000",
+    "contenu": "Your agent says it's done, and the code compiles, but did it pick your technology? Did it use it correctly? Learn what Agent Experience (AX) is, how to measure it, and why the obvious fix isn't always the right one. The post What is Agent Experience (AX)? appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "ReviewBench: An open benchmark for AI code review",
+    "lien": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+    "date": "Mon, 05 Oct 2026 15:59:40 +0000",
+    "contenu": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics. The post ReviewBench: An open benchmark for AI code review appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Pod name dimension in AKS pod platform metrics",
+    "lien": "https://azure.microsoft.com/updates?id=570232",
+    "date": "Tue, 06 Oct 2026 22:37:54 Z",
+    "contenu": "Beginning September 30, 2027, support for the pod name dimension on the following Azure\nMonitor platform metrics is retiring, and these metrics are transitioning to aggregate pod counters:Number of pods by phase (kube_pod_status_phase)Number of pods in Re"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Azure App Service on Azure Stack Hub",
+    "lien": "https://azure.microsoft.com/updates?id=568178",
+    "date": "Tue, 06 Oct 2026 18:24:43 Z",
+    "contenu": "Azure App Service on Azure Stack Hub will be retired on September\n30, 2029. Starting September 30, 2026, new installations will\nno longer be supported, and no new product releases, features, or enhancements\nwill be made available. Existing supported deplo"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Support for Java 8, 11 and 17 will end on September 1, 2027",
+    "lien": "https://azure.microsoft.com/updates?id=568585",
+    "date": "Tue, 06 Oct 2026 18:21:59 Z",
+    "contenu": "On September 1, 2027 support for Java 8, 11 and 17 will end. Your\napps that are hosted on App Service will continue to run, but security updates\nwill no longer be available, and we’ll no longer provide customer service for Java\n8, 11 and 17.Required actio"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Always Encrypted with Intel SGX Enclaves",
+    "lien": "https://azure.microsoft.com/updates?id=569236",
+    "date": "Tue, 06 Oct 2026 16:42:33 Z",
+    "contenu": "Always Encrypted with Intel SGX enclaves in Azure SQL Database will retire on October 31, 2027 as support for SGX-enabled DC-series hardware is phased out. Customers should transition to Virtualization-Based Security (VBS) enclaves, a hardware-independent"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: AKS on bare metal now on Ubuntu",
+    "lien": "https://azure.microsoft.com/updates?id=573782",
+    "date": "Tue, 06 Oct 2026 15:44:06 Z",
+    "contenu": "Running Kubernetes on-premises often means adding a\nvirtualization layer, adapting to unfamiliar infrastructure, or giving up\ncontrol over the hardware and software your applications depend on. For AI\nworkloads, these tradeoffs can limit access to local d"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "CISO perspectives on managing vulnerability risks in the age of AI",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/06/ciso-perspectives-on-managing-vulnerability-risks-in-the-age-of-ai/",
+    "date": "Tue, 06 Oct 2026 16:00:00 +0000",
+    "contenu": "Learn how CISOs can mitigate cybersecurity risks and increase resilience in the age of AI-powered vulnerability management. The post CISO perspectives on managing vulnerability risks in the age of AI appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Build Azure canvases with the Canvas authoring plugin",
+    "lien": "https://devblogs.microsoft.com/blog/build-azure-canvases-with-canvas-authoring/",
+    "date": "Tue, 06 Oct 2026 18:30:00 +0000",
+    "contenu": "Learn how the Canvas authoring plugin helps you build Azure canvases with Microsoft Canvas Toolkit, from a read-only starter to a working app you can inspect, test, and adapt. The post Build Azure canvases with the Canvas authoring plugin appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Building Git infrastructure for agent-scale development",
+    "lien": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
+    "date": "Tue, 06 Oct 2026 20:57:56 +0000",
+    "contenu": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development. The post Building Git infrastructure for agent-scale development appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Anyscale on Azure",
+    "lien": "https://azure.microsoft.com/updates?id=573744",
+    "date": "Wed, 07 Oct 2026 17:06:00 Z",
+    "contenu": "Anyscale on Azure is now Generally Available. Anyscale on Azure is a managed platform for running distributed Python workloads on Ray. It deploys directly onto your Azure Kubernetes Service (AKS) cluster and integrates with the Azure services your team al"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Enabling the Bulk admin role for SQL Server on Linux",
+    "lien": "https://azure.microsoft.com/updates?id=573443",
+    "date": "Wed, 07 Oct 2026 16:57:04 Z",
+    "contenu": "Starting with SQL Server 2025 CU9 and SQL Server 2022 CU27, SQL Server on Linux supports the bulkadmin fixed server role and the ADMINISTER BULK OPERATIONS permission for performing bulk data import operations without requiring users to be members of the"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "3 lessons from frontier AI vulnerability research",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+    "date": "Wed, 07 Oct 2026 16:00:00 +0000",
+    "contenu": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel. The post 3 lessons from frontier AI vulnerability research appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "From Spec-First to Enterprise-Ready: Extending GitHub Spec Kit",
+    "lien": "https://devblogs.microsoft.com/blog/from-spec-first-to-enterprise-ready-extending-github-spec-kit/",
+    "date": "Wed, 07 Oct 2026 15:00:26 +0000",
+    "contenu": "How presets, extensions, bundles, workflows, and governed catalogs make Spec-Driven Development adaptable at scale This article continues Spec-Driven Development: A Spec-First Approach to AI-Native Engineering, which introduced the principles and lifecycle of SDD. Here, we focus on the next challenge: adapting that workflow to the standards, domains, tools, and governance needs of a large engineering […] The post From Spec-First to Enterprise-Ready: Extending GitHub Spec Kit appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Secret protection must scale with software",
+    "lien": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
+    "date": "Wed, 07 Oct 2026 17:45:34 +0000",
+    "contenu": "Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it. The post Secret protection must scale with software appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing new builds for 7 October 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/10/07/announcing-new-builds-for-7-october-2026/",
+    "date": "Wed, 07 Oct 2026 18:10:17 +0000",
+    "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels! Coming straight off the back of our Windows + Surface event, we have some exciting new features entering the Windows Inside The post Announcing new builds for 7 October 2026 appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Pre-order our most powerful Surface devices ever",
+    "lien": "https://blogs.windows.com/devices/2026/10/07/pre-order-our-most-powerful-surface-devices-ever/",
+    "date": "Wed, 07 Oct 2026 18:00:35 +0000",
+    "contenu": "For more than a decade, Surface has been shaped by the people pushing technology further. Creators rendering complex scenes. Developers building what doesn't exist yet. Designers moving between ideas, models, code, and content. Makers whose work dem The post Pre-order our most powerful Surface devices ever appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Microsoft Execution Containers: Policy-driven containment for AI agents",
+    "lien": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+    "date": "Wed, 07 Oct 2026 18:00:28 +0000",
+    "contenu": "Agents are unlocking enormous productivity gains for customers, but their ability to work across files, networks, and applications can introduce new security risks. This can leave customers feeling like they only have two choices: give agents unrestr The post Microsoft Execution Containers: Policy-driven containment for AI agents appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Building Windows for hybrid intelligence",
+    "lien": "https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/",
+    "date": "Wed, 07 Oct 2026 18:00:22 +0000",
+    "contenu": "Agents are creating a foundational shift in how people get things done, unlocking new levels of productivity and capability on the PC. As agents become part of everyday work, they also raise the bar for compute, security, a The post Building Windows for hybrid intelligence appeared first on Windows Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "From searching to doing: Building a faster, more streamlined Windows Search",
+    "lien": "https://blogs.windows.com/windows-insider/2026/10/07/from-searching-to-doing-building-a-faster-more-streamlined-windows-search/",
+    "date": "Wed, 07 Oct 2026 18:00:05 +0000",
+    "contenu": "Hello Windows Insiders, Search is one of the most familiar ways to get around a Windows PC. It is how you may open an app, find a file, change a setting, or simply look for information. As Insiders, you have also been clear about what you expect fro The post From searching to doing: Building a faster, more streamlined Windows Search appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Managed StandardV2 NAT Gateway for AKS",
+    "lien": "https://azure.microsoft.com/updates?id=574430",
+    "date": "Thu, 08 Oct 2026 22:51:01 Z",
+    "contenu": "AKS will now provision and manage a StandardV2 NAT Gateway\nfor clusters using an AKS-managed virtual network.StandardV2 is now the default managed NAT Gateway SKU for\nnew clusters in supported regions when using the managedNATGateway outbound\ntype. Standa"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Database for PostgreSQL flexible server in East US 3",
+    "lien": "https://azure.microsoft.com/updates?id=573691",
+    "date": "Thu, 08 Oct 2026 19:56:31 Z",
+    "contenu": "Now you can deploy Azure Database for PostgreSQL flexible server in the East US 3 Azure region.  Learn more."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Microsoft Dev Box will be retired on September 18, 2028",
+    "lien": "https://azure.microsoft.com/updates?id=567933",
+    "date": "Thu, 08 Oct 2026 18:23:25 Z",
+    "contenu": "Microsoft Dev Box will\nretire on September 18, 2028. Beginning on September 14, 2026,\nMicrosoft Dev Box will begin the closing-down process. After retirement,\nMicrosoft Dev Box will no longer be available. Microsoft Dev Box is currently in maintenance mod"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Retirement: Azure Deployment Environments will be retired on February 22, 2027",
+    "lien": "https://azure.microsoft.com/updates?id=567934",
+    "date": "Thu, 08 Oct 2026 18:20:34 Z",
+    "contenu": "Azure Deployment\nEnvironments will retire on February 22, 2027. Beginning on September\n14, 2026, Azure Deployment Environments will begin the closing-down\nprocess. After retirement, the service will no longer be available. To help avoid disruption, we rec"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Exceptions in WAF for Azure Application Gateway and Azure Front Door",
+    "lien": "https://azure.microsoft.com/updates?id=574343",
+    "date": "Thu, 08 Oct 2026 17:29:30 Z",
+    "contenu": "Announcing the general availability of exceptions\nfor Web Application Firewall on Azure Application Gateway and Azure Front Door.Azure Web\nApplication Firewall (WAF) helps protect your web applications from common\nthreats and attacks. In some cases, WAF m"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Microsoft Agent 365 integration with Azure API Management",
+    "lien": "https://azure.microsoft.com/updates?id=574204",
+    "date": "Thu, 08 Oct 2026 17:24:34 Z",
+    "contenu": "The integration between Microsoft Agent 365 and Azure API Management is now available in public preview, helping organizations connect centralized governance with runtime enforcement for MCP servers and tools.With this integration, organizations can:Disco"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Hong Kong",
+    "lien": "https://azure.microsoft.com/updates?id=571831",
+    "date": "Thu, 08 Oct 2026 14:17:44 Z",
+    "contenu": "Multiparty private offers give Microsoft partners a way to procure third-party cloud and AI solutions for customers through Marketplace. Software companies can expand into new markets by working with partners that bring established customer relationships,"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
+    "date": "Thu, 08 Oct 2026 20:44:28 +0000",
+    "contenu": "Prepare for post-quantum authentication by testing certificate ecosystems now. Learn how Microsoft’s PQC TLS Pilot Program helps advance future readiness. The post Post-quantum authentication: Why organizations should start testing certificate ecosystems now appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "Bringing CRM into the flow of work and agents into business process for sales and service teams",
+    "lien": "https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/",
+    "date": "Thu, 08 Oct 2026 15:10:00 +0000",
+    "contenu": "Explore new Dynamics 365 CRM skills and agentic capabilities that bring customer context and actions into the flow of work for sales and service teams. The post Bringing CRM into the flow of work and agents into business process for sales and service teams appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "Microsoft Dynamics 365 Blog",
+    "titre": "Bring Microsoft Dynamics 365 into the flow of work with 30 new CRM skills",
+    "lien": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/10/08/bring-microsoft-dynamics-365-into-the-flow-of-work-with-30-new-crm-skills/",
+    "date": "Thu, 08 Oct 2026 15:00:00 +0000",
+    "contenu": "Bring Dynamics 365 customer context, expertise, and actions into the flow of work with 30 new CRM skills for Microsoft Copilot and custom agents. The post Bring Microsoft Dynamics 365 into the flow of work with 30 new CRM skills appeared first on Microsoft Dynamics 365 Blog ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Introducing the Agent Experience (AX) Practitioner Playbook",
+    "lien": "https://devblogs.microsoft.com/blog/introducing-the-agent-experience-ax-practitioner-playbook/",
+    "date": "Fri, 09 Oct 2026 09:44:25 +0000",
+    "contenu": "AI coding agents now pick the SDK, the version, and the pattern for your developers. The AX Practitioner Playbook is our method for finding out whether they get your technology right, and for fixing the sources they rely on when they don't. The post Introducing the Agent Experience (AX) Practitioner Playbook appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "How one bug bounty researcher chooses the features they investigate",
+    "lien": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
+    "date": "Thu, 08 Oct 2026 17:02:52 +0000",
+    "contenu": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. The post How one bug bounty researcher chooses the features they investigate appeared first on The GitHub Blog ."
   }
 ]
