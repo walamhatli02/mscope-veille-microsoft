@@ -13,8 +13,6 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from scraper import lancer_collecte
-from agent import lancer_agent
 
 load_dotenv()
 
@@ -248,48 +246,6 @@ Réponse en français:""")
             yield response[i:i + chunk_size], docs_microsoft
 
     return run_rag
-
-# ============================================================
-# BACKGROUND TASKS
-# ============================================================
-def refresh_background():
-    try:
-        lancer_collecte()
-        lancer_agent()
-    except Exception:
-        pass
-
-def demarrer_refresh_periodique(interval_seconds=3600):
-    if "periodic_refresh_started" in st.session_state and st.session_state.periodic_refresh_started:
-        return
-    st.session_state.periodic_refresh_started = True
-    def boucle_periodique():
-        while True:
-            try:
-                refresh_background()
-            except Exception:
-                pass
-            time.sleep(interval_seconds)
-    th = threading.Thread(target=boucle_periodique, daemon=True)
-    th.start()
-
-def lancer_rapport_si_besoin():
-    if "rapport_agent_started" not in st.session_state:
-        st.session_state.rapport_agent_started = False
-    if st.session_state.rapport_agent_started:
-        return
-    st.session_state.rapport_agent_started = True
-    thread = threading.Thread(target=lambda: lancer_agent(force=True), daemon=True)
-    thread.start()
-
-if "auto_refresh_done" not in st.session_state:
-    st.session_state.auto_refresh_done = False
-if not st.session_state.auto_refresh_done:
-    demarrer_refresh_periodique(interval_seconds=600)
-    st.session_state.auto_refresh_done = True
-
-if not st.session_state.get("rapport_agent_started", False):
-    lancer_rapport_si_besoin()
 
 articles_bruts = charger_articles()
 articles = sorted(articles_bruts, key=lambda x: parse_date_article(x.get("date", "")), reverse=True)
@@ -558,8 +514,6 @@ elif st.session_state.current_tab == "Rapport Agent":
     st.markdown("<div style='padding:20px 32px;'>", unsafe_allow_html=True)
     rapport = charger_rapport()
     if not rapport:
-        if not st.session_state.get("rapport_agent_started", False):
-            lancer_rapport_si_besoin()
         st.markdown("""
         <div style="background:white;border:1px solid #e1dfdd;border-left:4px solid #ffb900;border-radius:8px;padding:24px 20px;margin:10px 0 18px;box-shadow:0 1px 3px rgba(0,0,0,0.04);">
           <div style="font-size:12px;font-weight:700;color:#605e5c;text-transform:uppercase;letter-spacing:0.7px;margin-bottom:8px;">Rapport Agent</div>

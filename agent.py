@@ -1,39 +1,23 @@
 import json
 import os
+import re
 import sys
+import time
 from dotenv import load_dotenv
-# Fix UnicodeEncodeError on Windows
-if sys.stdout.encoding != 'utf-8':
-    import io
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
-from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
+from groq_utils import SelecteurModele
 
 load_dotenv()
 
 # ============================================================
 # CONFIGURATION
 # ============================================================
-def get_groq_model():
-    preferred = os.getenv("GROQ_MODEL")
-    candidates = []
-    if preferred:
-        candidates.append(preferred)
-    candidates.extend([
-        "llama-3.3-70b-versatile",
-        "llama-3.1-8b-instant",
-    ])
-    for model in candidates:
-        if model:
-            return model
-    return "llama-3.3-70b-versatile"
-LLM_MODEL = get_groq_model()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 ARTICLES_PATH = "data/articles.json"
 ARTICLES_ENVOYES_PATH = "data/articles_envoyes.json"
 RAPPORT_PATH = "data/rapport_agent.json"
+SEUIL_SCORE = 6
+MAX_RAPPORT = 50          # nombre max d'articles gardés dans le rapport cumulé
+PAUSE_ENTRE_APPELS = 8    # secondes ; limite gratuite observée : 8000 tokens/min sur gpt-oss-20b
 
 # ============================================================
 # ÉTAPE 1 : Charger les articles non encore traités
@@ -62,7 +46,7 @@ def charger_nouveaux_articles(force=False):
 # ============================================================
 # ÉTAPE 2 : L'agent décide si l'article est important
 # ============================================================
-def evaluer_importance(article, llm):
+def evaluer_importance(article, selecteur):
     prompt = ChatPromptTemplate.from_template("""
 Tu es un agent IA spécialisé dans les technologies Microsoft pour une équipe commerciale qui vend des licences Microsoft.
 
@@ -94,42 +78,38 @@ Réponds UNIQUEMENT avec ce format JSON (sans texte avant ou après) :
 }}
 """)
 
-    chain = prompt | llm | StrOutputParser()
-
     contenu = (article.get("contenu") or "")
     contenu = " ".join(contenu.split())
     contenu = contenu[:1200]
 
-    try:
-        resultat = chain.invoke({
-            "titre": article["titre"],
-            "source": article["source"],
-            "contenu": contenu
-        })
-    except Exception:
-        return {
-            "important": False,
-            "score": 0,
-            "raison": "Erreur de génération ou contenu trop volumineux",
-            "resume": ""
-        }
+    # Les erreurs Groq (quota, réseau, aucun modèle) remontent : l'appelant ne marquera pas l'article.
+    resultat = selecteur.invoquer(prompt, {
+        "titre": article["titre"],
+        "source": article["source"],
+        "contenu": contenu
+    })
+    return normaliser_decision(resultat)
 
-    try:
-        resultat_clean = resultat.strip()
-        if "```" in resultat_clean:
-            resultat_clean = resultat_clean.split("```")[1]
-            if resultat_clean.startswith("json"):
-                resultat_clean = resultat_clean[4:]
-        decision = json.loads(resultat_clean)
-    except:
-        decision = {
-            "important": False,
-            "score": 0,
-            "raison": "Erreur d'analyse",
-            "resume": ""
-        }
 
-    return decision
+def normaliser_decision(texte):
+    """Extrait le JSON de la réponse et garantit les 4 clés. Lève ValueError si illisible."""
+    m = re.search(r"\{.*\}", texte or "", re.DOTALL)
+    if not m:
+        raise ValueError(f"pas de JSON dans la réponse : {(texte or '')[:80]!r}")
+    brut = json.loads(m.group(0))
+    try:
+        score = float(brut.get("score", 0))
+    except (TypeError, ValueError):
+        score = 0.0
+    important = brut.get("important", False)
+    if isinstance(important, str):
+        important = important.strip().lower() in ("true", "oui", "yes", "1")
+    return {
+        "important": bool(important),
+        "score": max(0, min(10, round(score))),
+        "raison": str(brut.get("raison", "")),
+        "resume": str(brut.get("resume", "")),
+    }
 
 # ============================================================
 # ÉTAPE 3 : Afficher le rapport dans le terminal
@@ -160,67 +140,99 @@ def afficher_rapport(articles_importants):
 # ÉTAPE 4 : Sauvegarder le rapport en JSON
 # ============================================================
 def sauvegarder_rapport(articles_importants):
+    """Fusionne avec le rapport existant (au lieu de l'écraser), dédoublonne par lien."""
     os.makedirs("data", exist_ok=True)
+    existant = []
+    if os.path.exists(RAPPORT_PATH):
+        try:
+            with open(RAPPORT_PATH, "r", encoding="utf-8") as f:
+                existant = json.load(f)
+        except (OSError, ValueError):
+            existant = []
+    par_lien = {item["article"]["lien"]: item for item in existant if isinstance(item, dict) and "article" in item}
+    for item in articles_importants:
+        par_lien[item["article"]["lien"]] = item
+    fusion = sorted(par_lien.values(), key=lambda it: it["decision"].get("score", 0), reverse=True)[:MAX_RAPPORT]
     with open(RAPPORT_PATH, "w", encoding="utf-8") as f:
-        json.dump(articles_importants, f, ensure_ascii=False, indent=2)
-    print(f"  💾 Rapport sauvegardé dans {RAPPORT_PATH}")
+        json.dump(fusion, f, ensure_ascii=False, indent=2)
+    print(f"  💾 Rapport sauvegardé dans {RAPPORT_PATH} ({len(fusion)} articles)")
 
-def sauvegarder_articles_traites(nouveaux, envoyes):
-    tous_envoyes = envoyes + nouveaux
+def sauvegarder_articles_traites(traites, envoyes):
+    """N'ajoute que les articles réellement analysés ; dédoublonne par lien."""
+    vus, tous_envoyes = set(), []
+    for a in envoyes + traites:
+        if a["lien"] not in vus:
+            vus.add(a["lien"])
+            tous_envoyes.append(a)
     with open(ARTICLES_ENVOYES_PATH, "w", encoding="utf-8") as f:
         json.dump(tous_envoyes, f, ensure_ascii=False, indent=2)
 
 # ============================================================
 # FONCTION PRINCIPALE
 # ============================================================
-def lancer_agent(force=False):
+def lancer_agent(force=False, limite=None):
     print("=" * 60)
     print("🤖 Démarrage de l'Agent IA de veille Microsoft")
     print("=" * 60)
 
     nouveaux_articles, envoyes = charger_nouveaux_articles(force=force)
 
+    if limite:
+        nouveaux_articles = nouveaux_articles[:limite]
+
     if not nouveaux_articles:
-        if force or not os.path.exists(RAPPORT_PATH):
+        if not os.path.exists(RAPPORT_PATH):
             sauvegarder_rapport([])
         print("✅ Aucun article à analyser.")
-        return
+        return {"analyses": 0, "importants": 0, "echecs": 0}
 
-    llm = ChatGroq(model=LLM_MODEL, api_key=GROQ_API_KEY, temperature=0.2, max_tokens=300)
+    selecteur = SelecteurModele("GROQ_MODEL_AGENT", max_tokens=800)
+    print(f"🧠 Modèle agent (1er candidat) : {selecteur.modele}")
 
-    articles_importants = []
+    articles_importants, traites, echecs = [], [], 0
     print("\n🔍 Analyse des articles en cours...\n")
 
     for i, article in enumerate(nouveaux_articles):
         print(f"  [{i+1}/{len(nouveaux_articles)}] {article['titre'][:60]}...")
         try:
-            decision = evaluer_importance(article, llm)
+            decision = evaluer_importance(article, selecteur)
+        except RuntimeError as e:          # plus aucun modèle utilisable : inutile de continuer
+            print(f"    → ❌ {e}")
+            echecs += len(nouveaux_articles) - i
+            break
         except Exception as e:
-            print(f"    → ⚠️ Erreur lors de l'analyse : {e}")
-            decision = {
-                "important": False,
-                "score": 0,
-                "raison": "Erreur d'analyse",
-                "resume": ""
-            }
+            print(f"    → ⚠️ Échec, l'article sera réanalysé au prochain run : {str(e)[:120]}")
+            echecs += 1
+            continue
 
+        traites.append(article)
         statut = "⭐ IMPORTANT" if decision["important"] else "⏭️  ignoré"
         print(f"    → {statut} (score: {decision['score']}/10) — {decision['raison'][:60]}")
 
-        if decision["important"] and decision["score"] >= 6:
-            articles_importants.append({
-                "article": article,
-                "decision": decision
-            })
+        if decision["important"] and decision["score"] >= SEUIL_SCORE:
+            articles_importants.append({"article": article, "decision": decision})
+        if i < len(nouveaux_articles) - 1:
+            time.sleep(PAUSE_ENTRE_APPELS)
 
     afficher_rapport(articles_importants)
     sauvegarder_rapport(articles_importants)
-    sauvegarder_articles_traites(nouveaux_articles, envoyes)
+    sauvegarder_articles_traites(traites, envoyes)
 
     print("=" * 60)
-    print("✅ Agent terminé !")
+    print(f"✅ Agent terminé : {len(traites)} analysés, {len(articles_importants)} importants, {echecs} échecs")
     print("=" * 60)
+    return {"analyses": len(traites), "importants": len(articles_importants), "echecs": echecs}
 
 
 if __name__ == "__main__":
-    lancer_agent()
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--force", action="store_true", help="réanalyser tous les articles")
+    parser.add_argument("--limite", type=int, default=None, help="nombre max d'articles à analyser")
+    args = parser.parse_args()
+    bilan = lancer_agent(force=args.force, limite=args.limite)
+    # Job rouge dans GitHub Actions si rien n'a pu être analysé (au lieu d'un faux succès en 1 s)
+    sys.exit(1 if bilan["echecs"] and not bilan["analyses"] else 0)
