@@ -1,15 +1,17 @@
 import feedparser
-import requests
 from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import datetime, timezone
 import json
 import os
 import sys
 
-if sys.stdout.encoding != 'utf-8':
-    import io
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+
+def date_iso(entree):
+    """Date de publication normalisée en ISO 8601 UTC (ex. 2026-11-25T15:00:00+00:00)."""
+    t = entree.get("published_parsed") or entree.get("updated_parsed")
+    if t:
+        return datetime(*t[:6], tzinfo=timezone.utc).isoformat()
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
 # ============================================================
 # TOUTES LES SOURCES RSS MICROSOFT
@@ -94,7 +96,7 @@ def collecter_articles(source, limite=10):
                 "source": source["nom"],
                 "titre": entree.get("title", "Sans titre"),
                 "lien": entree.get("link", ""),
-                "date": entree.get("published", str(datetime.now())),
+                "date": date_iso(entree),
                 "contenu": ""
             }
 
@@ -126,7 +128,11 @@ def sauvegarder_articles(articles, chemin="data/articles.json"):
             anciens = json.load(f)
 
     liens_existants = {a["lien"] for a in anciens}
-    nouveaux = [a for a in articles if a["lien"] not in liens_existants]
+    nouveaux = []
+    for a in articles:
+        if a["lien"] and a["lien"] not in liens_existants:
+            liens_existants.add(a["lien"])   # dédoublonne aussi à l'intérieur du run
+            nouveaux.append(a)
     tous = anciens + nouveaux
 
     with open(chemin, "w", encoding="utf-8") as f:
@@ -159,4 +165,7 @@ def lancer_collecte():
 
 
 if __name__ == "__main__":
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
     lancer_collecte()
