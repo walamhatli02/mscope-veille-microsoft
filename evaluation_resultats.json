@@ -1,0 +1,645 @@
+{
+  "recherche": {
+    "modele": "sentence-transformers/all-MiniLM-L6-v2",
+    "francais": {
+      "questions": 15,
+      "top1": 11,
+      "top4": 11,
+      "mrr": 0.75
+    },
+    "anglais": {
+      "questions": 15,
+      "top1": 14,
+      "top4": 15,
+      "mrr": 0.956
+    },
+    "detail": [
+      {
+        "article": "Support for Java 8, 11 and 17 in Azure Functions",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Cost controls for model and agent spending",
+        "rang_fr": 14,
+        "rang_en": 1
+      },
+      {
+        "article": "Sweden Central and Italy North",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Introducing Microsoft Copilot for legal",
+        "rang_fr": 1,
+        "rang_en": 3
+      },
+      {
+        "article": "Microsoft Copilot for finance",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Claude models in Microsoft Copilot into the EU Data Boundary",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Introducing Microsoft 365 G7",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Magic Quadrant™ for SIEM",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Microsoft 365 outage lures",
+        "rang_fr": null,
+        "rang_en": 1
+      },
+      {
+        "article": "30 new CRM skills",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Scheduling Operations Agent",
+        "rang_fr": 7,
+        "rang_en": 1
+      },
+      {
+        "article": "Cross-Platform Meeting Connect",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Teams Phone Agent",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Edge for Business becomes",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Maia 300",
+        "rang_fr": 25,
+        "rang_en": 1
+      }
+    ]
+  },
+  "recherche_multilingue": {
+    "modele": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "francais": {
+      "questions": 15,
+      "top1": 10,
+      "top4": 12,
+      "mrr": 0.75
+    },
+    "anglais": {
+      "questions": 15,
+      "top1": 12,
+      "top4": 12,
+      "mrr": 0.81
+    },
+    "detail": [
+      {
+        "article": "Support for Java 8, 11 and 17 in Azure Functions",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Cost controls for model and agent spending",
+        "rang_fr": 2,
+        "rang_en": 1
+      },
+      {
+        "article": "Sweden Central and Italy North",
+        "rang_fr": 2,
+        "rang_en": 1
+      },
+      {
+        "article": "Introducing Microsoft Copilot for legal",
+        "rang_fr": 1,
+        "rang_en": 16
+      },
+      {
+        "article": "Microsoft Copilot for finance",
+        "rang_fr": 22,
+        "rang_en": 12
+      },
+      {
+        "article": "Claude models in Microsoft Copilot into the EU Data Boundary",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Introducing Microsoft 365 G7",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Magic Quadrant™ for SIEM",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Microsoft 365 outage lures",
+        "rang_fr": 5,
+        "rang_en": 1
+      },
+      {
+        "article": "30 new CRM skills",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Scheduling Operations Agent",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Cross-Platform Meeting Connect",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Teams Phone Agent",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Edge for Business becomes",
+        "rang_fr": 1,
+        "rang_en": 1
+      },
+      {
+        "article": "Maia 300",
+        "rang_fr": null,
+        "rang_en": null
+      }
+    ]
+  },
+  "insobot": {
+    "modele": "openai/gpt-oss-20b",
+    "erreurs_api": 0,
+    "questions_articles": 15,
+    "article_attendu_transmis": 11,
+    "reponses_justes_quand_article_transmis": 11,
+    "refus_quand_article_transmis": 0,
+    "refus_quand_article_absent": 3,
+    "questions_insomea": 3,
+    "reponses_insomea_justes": 3,
+    "questions_hors_sujet": 5,
+    "refus_hors_sujet": 5,
+    "detail": [
+      {
+        "categorie": "article",
+        "question": "Quand se termine le support de Java 8, 11 et 17 dans Azure Functions ?",
+        "reponse": "Le support de Java 8, 11 et 17 dans Azure Functions prend fin le 1 septembre 2027.",
+        "refus": false,
+        "article_transmis": true,
+        "elements_attendus": true
+      },
+      {
+        "categorie": "article",
+        "question": "Comment limiter les dépenses des modèles et des agents dans Microsoft Foundry ?",
+        "reponse": "Je n'ai pas trouvé cette information dans la veille MsScope.",
+        "refus": true,
+        "article_transmis": false,
+        "elements_attendus": false
+      },
+      {
+        "categorie": "article",
+        "question": "Dans quelles nouvelles régions Power Pages est-il disponible ?",
+        "reponse": "Power Pages est désormais disponible dans les régions : **Sweden Central** et **Italy North**.",
+        "refus": false,
+        "article_transmis": true,
+        "elements_attendus": true
+      },
+      {
+        "categorie": "article",
+        "question": "Existe-t-il un Copilot pour les juristes ?",
+        "reponse": "Oui, Microsoft propose un **Copilot pour les juristes**. Il s’agit d’une solution d’IA intégrée à Microsoft 365 qui aide les professionnels du droit à automatiser la recherche de jurisprudence, à analyser des documents juridiques et à accélérer la rédaction de contrats. INSOMEA, partenaire cloud Microsoft, peut accompagner votre organisation dans la mise en place et la formation à ce Copilot juridique.",
+        "refus": false,
+        "article_transmis": true,
+        "elements_attendus": true
+      },
+      {
+        "categorie": "article",
+        "question": "Quelles sont les nouveautés de Copilot pour les équipes finance ?",
+        "reponse": "Les nouveautés de Copilot pour les équipes finance sont :\n\n1. **Microsoft Copilot for Finance** : un assistant dédié aux fonctions comptables, aux marchés de capitaux et aux tâches financières générales, conçu pour s’intégrer aux processus financiers existants.  \n2. **Copilot dans Excel** : des capacités d’IA avancées dans Excel, optimisées pour la finance de frontier, permettant d’automatiser l’analyse de données, la génération de rapports et la prise de décision.  \n\nCes outils visent à accélérer les flux de travail financiers et à améliorer la précision des analyses.",
+        "refus": false,
+        "article_transmis": true,
+        "elements_attendus": true
+      },
+      {
+        "categorie": "article",
+        "question": "Les modèles Claude dans Copilot respectent-ils la frontière des données de l'Union européenne ?",
+        "reponse": "Oui, Microsoft a annoncé que les modèles Claude intégrés à Microsoft Copilot seront désormais déployés dans la « EU Data Boundary », garantissant ainsi que les données restent dans l’Union européenne. Cette mesure assure une protection cohérente et conforme aux exigences de l’UE.",
+        "refus": false,
+        "article_transmis": true,
+        "elements_attendus": true
+      },
+      {
+        "categorie": "article",
+        "question": "Qu'est-ce que Microsoft 365 G7 pour les administrations publiques ?",
+        "reponse": "Microsoft 365 G7 est une offre destinée aux administrations publiques qui combine l’IA et le Copilot avec une gouvernance des agents, une sécurité renforcée et des outils de conformité. Elle permet aux agences gouvernementales de moderniser leurs opérations tout en garantissant la protection des données et le respect des réglementations.",
+        "refus": false,
+        "article_transmis": true,
+        "elements_attendus": true
+      },
+      {
+        "categorie": "article",
+        "question": "Microsoft est-il leader dans le Magic Quadrant de Gartner pour le SIEM ?",
+        "reponse": "Oui, Microsoft a été nommé Leader dans le Gartner® Magic Quadrant™ 2026 pour les solutions SIEM (Security Information and Event Management).",
+        "refus": false,
+        "article_transmis": true,
+        "elements_attendus": true
+      },
+      {
+        "categorie": "article",
+        "question": "Quelle campagne d'hameçonnage utilise de fausses pannes de Microsoft 365 ?",
+        "reponse": "Je n'ai pas trouvé cette information dans la veille MsScope.",
+        "refus": true,
+        "article_transmis": false,
+        "elements_attendus": false
+      },
+      {
+        "categorie": "article",
+        "question": "Combien de nouvelles compétences CRM de Dynamics 365 sont disponibles pour Copilot ?",
+        "reponse": "Il y a **30 nouvelles compétences CRM** disponibles pour Microsoft Copilot dans Dynamics 365.",
+        "refus": false,
+        "article_transmis": true,
+        "elements_attendus": true
+      },
+      {
+        "categorie": "article",
+        "question": "Quel agent aide à planifier les interventions dans Dynamics 365 Field Service ?",
+        "reponse": "Dans Dynamics 365 Field Service, l’agent qui aide à planifier les interventions est **l’outil Workforce Management (WEM) MCP**. Cet agent utilise l’IA pour optimiser la planification, la disponibilité et la répartition des techniciens.",
+        "refus": false,
+        "article_transmis": false,
+        "elements_attendus": false
+      },
+      {
+        "categorie": "article",
+        "question": "Peut-on rejoindre une réunion Zoom depuis une salle Teams Rooms ?",
+        "reponse": "Oui, depuis une salle Teams Rooms vous pouvez rejoindre une réunion Zoom grâce à la fonctionnalité **Cross‑Platform Meeting Connect** (Direct Guest Join). Cette solution permet aux salles Teams Rooms de se connecter aux réunions Zoom tout en conservant l’audio, la vidéo et l’affichage de la salle.",
+        "refus": false,
+        "article_transmis": true,
+        "elements_attendus": true
+      },
+      {
+        "categorie": "article",
+        "question": "Qu'est-ce que Teams Phone Agent ?",
+        "reponse": "Teams Phone Agent est un agent téléphonique alimenté par l’IA qui agit comme une réceptionniste virtuelle pour les appels entrants sur Microsoft Teams. Il répond aux demandes courantes, guide les appelants vers le service approprié et peut prendre des notes de conversation. Il est disponible en général availability et s’intègre directement dans le centre d’administration Teams, permettant aux organisations de gérer les pics d’appels et d’offrir un support 24 / 7.",
+        "refus": false,
+        "article_transmis": true,
+        "elements_attendus": true
+      },
+      {
+        "categorie": "article",
+        "question": "Quel est le navigateur d'entreprise le plus utilisé selon Microsoft ?",
+        "reponse": "Le navigateur d’entreprise le plus utilisé selon Microsoft est **Edge for Business**.",
+        "refus": false,
+        "article_transmis": true,
+        "elements_attendus": true
+      },
+      {
+        "categorie": "article",
+        "question": "Comment s'appelle la dernière puce conçue par Microsoft ?",
+        "reponse": "Je n'ai pas trouvé cette information dans la veille MsScope.",
+        "refus": true,
+        "article_transmis": false,
+        "elements_attendus": false
+      },
+      {
+        "categorie": "insomea",
+        "question": "Depuis quand INSOMEA est-elle partenaire de Microsoft ?",
+        "reponse": "Insomea est partenaire cloud de Microsoft depuis 2017.",
+        "refus": false,
+        "elements_attendus": true
+      },
+      {
+        "categorie": "insomea",
+        "question": "INSOMEA propose-t-elle des services de sécurité managés ?",
+        "reponse": "Oui, INSOMEA propose une offre de services de sécurité managés (MSSP, Managed Security Service Provider).",
+        "refus": false,
+        "elements_attendus": true
+      },
+      {
+        "categorie": "insomea",
+        "question": "Où se trouvent les bureaux principaux d'INSOMEA ?",
+        "reponse": "Les bureaux principaux d'INSOMEA se trouvent à Tunis, en Tunisie, et à Bahreïn.",
+        "refus": false,
+        "elements_attendus": true
+      },
+      {
+        "categorie": "hors_sujet",
+        "question": "Quel est le prix de Copilot en Tunisie ?",
+        "reponse": "Je n'ai pas trouvé cette information dans la veille MsScope.",
+        "refus": true
+      },
+      {
+        "categorie": "hors_sujet",
+        "question": "Quelle est la météo à Tunis demain ?",
+        "reponse": "Je n'ai pas trouvé cette information dans la veille MsScope.",
+        "refus": true
+      },
+      {
+        "categorie": "hors_sujet",
+        "question": "Qui a gagné la Coupe du monde de football 2022 ?",
+        "reponse": "Je n'ai pas trouvé cette information dans la veille MsScope.",
+        "refus": true
+      },
+      {
+        "categorie": "hors_sujet",
+        "question": "Quel est le chiffre d'affaires d'INSOMEA en 2025 ?",
+        "reponse": "Je n'ai pas trouvé cette information dans la veille MsScope.",
+        "refus": true
+      },
+      {
+        "categorie": "hors_sujet",
+        "question": "Combien coûte une licence Dynamics 365 Business Central en dinars ?",
+        "reponse": "Je n'ai pas trouvé cette information dans la veille MsScope.",
+        "refus": true
+      }
+    ]
+  },
+  "agent": {
+    "modele": "openai/gpt-oss-20b",
+    "articles": 20,
+    "analyses_completes": 20,
+    "accord_entre_deux_analyses": 17,
+    "ecart_moyen_score": 0.75,
+    "ecart_max_score": 4,
+    "articles_du_rapport_reanalyses": 10,
+    "toujours_importants_analyse_1": 7,
+    "ecart_moyen_avec_rapport": 1.1,
+    "detail": [
+      {
+        "titre": "[Launched] Generally Available: Azure Container Apps Sandboxes",
+        "deja_dans_rapport": true,
+        "score_rapport": 8,
+        "analyse_1": {
+          "important": true,
+          "score": 7
+        },
+        "analyse_2": {
+          "important": true,
+          "score": 8
+        }
+      },
+      {
+        "titre": "Copilot Cowork is now generally available",
+        "deja_dans_rapport": true,
+        "score_rapport": 8,
+        "analyse_1": {
+          "important": true,
+          "score": 8
+        },
+        "analyse_2": {
+          "important": true,
+          "score": 8
+        }
+      },
+      {
+        "titre": "[Launched] Generally Available: Luxembourg - Azure Extended Zones",
+        "deja_dans_rapport": true,
+        "score_rapport": 7,
+        "analyse_1": {
+          "important": true,
+          "score": 7
+        },
+        "analyse_2": {
+          "important": true,
+          "score": 7
+        }
+      },
+      {
+        "titre": "Building the system for AI at work",
+        "deja_dans_rapport": true,
+        "score_rapport": 7,
+        "analyse_1": {
+          "important": false,
+          "score": 3
+        },
+        "analyse_2": {
+          "important": true,
+          "score": 6
+        }
+      },
+      {
+        "titre": "[Launched] Generally Available: Azure Container Apps Express",
+        "deja_dans_rapport": true,
+        "score_rapport": 7,
+        "analyse_1": {
+          "important": true,
+          "score": 7
+        },
+        "analyse_2": {
+          "important": true,
+          "score": 7
+        }
+      },
+      {
+        "titre": "Work IQ: Business and workplace intelligence in the flow of work",
+        "deja_dans_rapport": true,
+        "score_rapport": 8,
+        "analyse_1": {
+          "important": true,
+          "score": 8
+        },
+        "analyse_2": {
+          "important": true,
+          "score": 8
+        }
+      },
+      {
+        "titre": "[In preview] Public Preview: Introducing a Guided Copilot Experience for Building Azure Apps in VS Code",
+        "deja_dans_rapport": true,
+        "score_rapport": 8,
+        "analyse_1": {
+          "important": true,
+          "score": 7
+        },
+        "analyse_2": {
+          "important": true,
+          "score": 8
+        }
+      },
+      {
+        "titre": "[In preview] Public Preview:  Major version upgrades (MVU) for Azure Database for PostgreSQL elastic clusters",
+        "deja_dans_rapport": true,
+        "score_rapport": 7,
+        "analyse_1": {
+          "important": false,
+          "score": 3
+        },
+        "analyse_2": {
+          "important": true,
+          "score": 7
+        }
+      },
+      {
+        "titre": "Announcing: Multiparty private offers in Microsoft Marketplace expands to Hong Kong",
+        "deja_dans_rapport": true,
+        "score_rapport": 7,
+        "analyse_1": {
+          "important": true,
+          "score": 7
+        },
+        "analyse_2": {
+          "important": true,
+          "score": 6
+        }
+      },
+      {
+        "titre": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
+        "deja_dans_rapport": true,
+        "score_rapport": 6,
+        "analyse_1": {
+          "important": false,
+          "score": 5
+        },
+        "analyse_2": {
+          "important": true,
+          "score": 7
+        }
+      },
+      {
+        "titre": "Autonomous AI Cyberattacks: Architecting Cyber Defense with Azure",
+        "deja_dans_rapport": false,
+        "score_rapport": null,
+        "analyse_1": {
+          "important": false,
+          "score": 2
+        },
+        "analyse_2": {
+          "important": false,
+          "score": 3
+        }
+      },
+      {
+        "titre": "Retirement: Transition to Entra ID (formerly known as Azure AD) to query data from Azure Monitor application insights by March 31, 2027",
+        "deja_dans_rapport": false,
+        "score_rapport": null,
+        "analyse_1": {
+          "important": false,
+          "score": 3
+        },
+        "analyse_2": {
+          "important": false,
+          "score": 3
+        }
+      },
+      {
+        "titre": "Serve customers with Queues app's collaborative calling for Microsoft Teams",
+        "deja_dans_rapport": false,
+        "score_rapport": null,
+        "analyse_1": {
+          "important": true,
+          "score": 7
+        },
+        "analyse_2": {
+          "important": true,
+          "score": 7
+        }
+      },
+      {
+        "titre": "[Launched] Generally Available: WAF Insights for Azure Front Door",
+        "deja_dans_rapport": false,
+        "score_rapport": null,
+        "analyse_1": {
+          "important": true,
+          "score": 7
+        },
+        "analyse_2": {
+          "important": true,
+          "score": 7
+        }
+      },
+      {
+        "titre": "Client-side threat detection: how Scareware blocker uncovered malicious notification abuse",
+        "deja_dans_rapport": false,
+        "score_rapport": null,
+        "analyse_1": {
+          "important": false,
+          "score": 2
+        },
+        "analyse_2": {
+          "important": false,
+          "score": 2
+        }
+      },
+      {
+        "titre": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
+        "deja_dans_rapport": false,
+        "score_rapport": null,
+        "analyse_1": {
+          "important": false,
+          "score": 2
+        },
+        "analyse_2": {
+          "important": false,
+          "score": 2
+        }
+      },
+      {
+        "titre": "[In preview] Public Preview: Multi-disk crash-consistent VM restore points for Premium SSD v2 and Ultra Disks on VMs with SCSI disk controller",
+        "deja_dans_rapport": false,
+        "score_rapport": null,
+        "analyse_1": {
+          "important": false,
+          "score": 3
+        },
+        "analyse_2": {
+          "important": false,
+          "score": 5
+        }
+      },
+      {
+        "titre": "[Launched] Generally Available: Azure Front Door mutual TLS authentication",
+        "deja_dans_rapport": false,
+        "score_rapport": null,
+        "analyse_1": {
+          "important": true,
+          "score": 6
+        },
+        "analyse_2": {
+          "important": true,
+          "score": 6
+        }
+      },
+      {
+        "titre": "From AI ambition to business impact",
+        "deja_dans_rapport": false,
+        "score_rapport": null,
+        "analyse_1": {
+          "important": false,
+          "score": 3
+        },
+        "analyse_2": {
+          "important": false,
+          "score": 3
+        }
+      },
+      {
+        "titre": "Introducing Microsoft Copilot for legal",
+        "deja_dans_rapport": false,
+        "score_rapport": null,
+        "analyse_1": {
+          "important": true,
+          "score": 8
+        },
+        "analyse_2": {
+          "important": true,
+          "score": 8
+        }
+      }
+    ]
+  }
+}
