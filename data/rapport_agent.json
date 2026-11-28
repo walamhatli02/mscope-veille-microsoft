@@ -33,6 +33,21 @@
   {
     "article": {
       "source": "Microsoft 365 Blog",
+      "titre": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+      "lien": "https://www.microsoft.com/en-us/microsoft-cloud/blog/us-government/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+      "date": "Tue, 15 Sep 2026 15:00:00 +0000",
+      "contenu": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely. The post Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead appeared first on Microsoft Copilot Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 9,
+      "raison": "Nouvelle licence Microsoft 365 G7 avec Copilot et IA, pertinent pour les ventes aux agences gouvernementales.",
+      "resume": "Microsoft 365 G7 est une nouvelle licence destinée aux agences gouvernementales, intégrant l'IA, Copilot, la gouvernance des agents, la sécurité et la conformité. Elle vise à moderniser les opérations tout en assurant la confiance et la protection des données."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft 365 Blog",
       "titre": "Copilot Cowork is now generally available",
       "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
       "date": "2026-06-16T15:00:00",
@@ -351,6 +366,21 @@
       "score": 8,
       "raison": "Nouvelle fonctionnalité majeure de Dynamics 365 Field Service qui optimise la planification et l’allocation des ressources, utile pour conseiller les clients.",
       "resume": "L’article présente le Scheduling Operations Agent, un outil qui permet aux équipes Field Service de Dynamics 365 d’automatiser la planification, d’optimiser les ressources et de lancer des optimisations récurrentes, améliorant ainsi l’efficacité opérationnelle."
+    }
+  },
+  {
+    "article": {
+      "source": "Microsoft Corporate Blog",
+      "titre": "Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work",
+      "lien": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+      "date": "Wed, 28 Oct 2026 16:51:35 +0000",
+      "contenu": "If you want to compete, you need to be multi-model. And if you want to take advantage of everything that different AI models have to offer, you need a great harness. But building one that works seamlessly across multiple models and surfaces is incredibly hard. You need to solve for performance, quality, and cost. And... The post Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work appeared first on The Official Microsoft Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 8,
+      "raison": "L’article présente une nouvelle fonctionnalité majeure liée à Copilot, un sujet très vendeur pour l’équipe commerciale.",
+      "resume": "Microsoft annonce le \"Copilot harness\", une plateforme permettant d’intégrer plusieurs modèles d’IA dans un même agent. Cela ouvre de nouvelles possibilités pour automatiser des tâches complexes et améliorer l’efficacité des solutions Microsoft 365, Azure et Power Platform."
     }
   },
   {
@@ -776,6 +806,66 @@
   },
   {
     "article": {
+      "source": "GitHub Blog",
+      "titre": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "lien": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+      "date": "Tue, 20 Oct 2026 16:05:03 +0000",
+      "contenu": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog ."
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "L’article met en avant l’utilisation de GitHub Copilot, une IA Microsoft, ce qui est très vendeur et peut aider l’équipe à conseiller les clients sur l’augmentation de productivité.",
+      "resume": "Trois développeurs Java partagent comment GitHub Copilot les aide à résoudre des problèmes, accélérer le développement et garder le contrôle humain. L’article illustre les bénéfices pratiques de l’IA dans le code, offrant des exemples concrets à présenter aux clients."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "Announcing: Choose Your Own Telephony (CYOT) for Microsoft Entra",
+      "lien": "https://azure.microsoft.com/updates?id=577273",
+      "date": "Wed, 21 Oct 2026 17:38:32 Z",
+      "contenu": "What and whyStarting October 30, 2026, Microsoft Entra ID will make the Choose Your Own Telephony Provider experience available. This feature enables organizations to use a supported third-party telecommunications provider for SMS and voice authentication"
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Nouvelle fonctionnalité majeure pour Microsoft Entra ID qui permet l’utilisation de fournisseurs de téléphonie tiers pour l’authentification SMS et voix, utile pour conseiller les clients sur la MFA.",
+      "resume": "À partir du 30 octobre 2026, Microsoft Entra ID introduit la fonction Choose Your Own Telephony (CYOT). Cette option permet aux organisations d’utiliser un fournisseur de téléphonie tiers pour les SMS et la voix afin de réaliser l’authentification. Cela offre une flexibilité supplémentaire pour la mise en œuvre de la MFA dans les solutions Microsoft."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[Launched] Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
+      "lien": "https://azure.microsoft.com/updates?id=578681",
+      "date": "Thu, 29 Oct 2026 17:09:49 Z",
+      "contenu": "Announcing the general\navailability of the HTTP DDoS ruleset for Azure Web Application Firewall (WAF)\non Azure Front Door Premium. HTTP-layer DDoS attacks remain a leading cause of\napplication downtime, and static controls such as IP filters and fixed rat"
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Nouvelle fonctionnalité de sécurité Azure Front Door Premium WAF, utile pour conseiller les clients sur la protection contre les attaques DDoS.",
+      "resume": "Azure annonce la disponibilité générale d'un jeu de règles HTTP DDoS pour le Web Application Firewall (WAF) d'Azure Front Door Premium. Cette amélioration renforce la protection contre les attaques de couche HTTP, un problème majeur de disponibilité des applications. L'équipe peut l'utiliser pour valoriser les offres Azure Front Door Premium auprès des clients soucieux de la sécurité."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[Launched] Generally Available: Azure MCP Server 3.0",
+      "lien": "https://azure.microsoft.com/updates?id=578662",
+      "date": "Thu, 29 Oct 2026 17:04:58 Z",
+      "contenu": "Azure MCP Server 3.0 is now generally available, expanding how AI agents and developer tools interact with Azure through the open Model Context Protocol (MCP).This release introduces new and expanded capabilities:Infrastructure as code: Azure Terraform to"
+    },
+    "decision": {
+      "important": true,
+      "score": 7,
+      "raison": "Nouvelle version d'un protocole d'IA (MCP) qui permet aux agents et outils de développement d'interagir plus efficacement avec Azure, ce qui peut être un argument de vente pour les clients intéressés par l'IA et le développement cloud.",
+      "resume": "Azure MCP Server 3.0 est désormais disponible en production. Il étend les interactions entre agents IA, outils de développement et Azure via le protocole open Model Context Protocol (MCP). La mise à jour introduit notamment des capacités d’infrastructure as code avec Azure Terraform, améliorant la gestion et l’automatisation des ressources cloud."
+    }
+  },
+  {
+    "article": {
       "source": "Microsoft 365 Blog",
       "titre": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
       "lien": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
@@ -909,6 +999,66 @@
       "score": 6,
       "raison": "Nouvelle fonctionnalité majeure de Power Platform (Power Pages) qui facilite la gouvernance et la gestion des sites, utile pour conseiller les clients sur la maintenance et la transition des sites.",
       "resume": "Microsoft introduit la possibilité de transférer la propriété d’un site Power Pages en mode self‑service. Cette amélioration simplifie la gouvernance des sites, permettant aux organisations de réaffecter rapidement la responsabilité d’un site lorsque les équipes ou les rôles changent, sans intervention manuelle."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[Launched] Generally Available: Item Level Recovery for Azure VMs with Premium SSDv2 and Ultra Disks in Azure Backup",
+      "lien": "https://azure.microsoft.com/updates?id=577963",
+      "date": "Fri, 23 Oct 2026 19:21:07 Z",
+      "contenu": "Azure Backup now supports Item-Level Recovery (ILR) for Azure virtual machines using Premium SSD v2 and Ultra disks with both 512 byte and 4KB logical sector sizes. You can now recover individual files and folders from your Azure VMs with Premium SSDv2 an"
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "Nouvelle fonctionnalité majeure d’Azure Backup (ILR) qui permet de récupérer des fichiers individuels sur les VM, utile pour conseiller les clients sur la protection des données.",
+      "resume": "Azure Backup a introduit la récupération au niveau des éléments (ILR) pour les machines virtuelles utilisant les disques Premium SSDv2 et Ultra. Cette mise à jour permet aux clients de restaurer rapidement des fichiers ou dossiers spécifiques sans restaurer l’ensemble de la VM, améliorant ainsi la flexibilité et la rapidité de récupération des données."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[Launched] Generally Available: Marketplace private offer enhancements",
+      "lien": "https://azure.microsoft.com/updates?id=576547",
+      "date": "Wed, 28 Oct 2026 16:23:43 Z",
+      "contenu": "Private offers through Microsoft Marketplace help you optimize your spending power with pricing and terms aligned to your organization’s needs, including flexible billing, custom contract lengths, and more. For eligible private offers, we are simplifying"
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "Nouvelle fonctionnalité Azure Marketplace qui peut aider à mieux vendre et conseiller les clients",
+      "resume": "Microsoft a lancé des améliorations pour les offres privées sur Azure Marketplace, permettant aux organisations d’optimiser leurs dépenses avec des tarifs, des conditions et des facturations flexibles. Ces changements simplifient la gestion des contrats privés et offrent plus de flexibilité aux clients."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[Launched] Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
+      "lien": "https://azure.microsoft.com/updates?id=578850",
+      "date": "Thu, 29 Oct 2026 21:19:52 Z",
+      "contenu": "Large OS Disk Encryption (LOSDE) is now generally available for Azure Confidential VM migration scenarios. Organizations can move larger, production-scale workloads into confidential computing with the OS disk fully protected, instead of being held back b"
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "Nouvelle fonctionnalité Azure (LOSDE) qui permet de migrer des charges de travail plus importantes vers des VM confidentielles, ce qui peut être un argument de vente pour les clients sensibles à la sécurité.",
+      "resume": "Large OS Disk Encryption (LOSDE) est désormais disponible en production pour les migrations vers des Azure Confidential VMs. Cette fonctionnalité protège entièrement le disque système, permettant aux organisations de déplacer des charges de travail de production plus volumineuses dans un environnement de calcul confidentiel."
+    }
+  },
+  {
+    "article": {
+      "source": "Azure Updates",
+      "titre": "[In preview] Public Preview: On-prem NAS share discovery and assessment are now available using Azure Migrate",
+      "lien": "https://azure.microsoft.com/updates?id=577975",
+      "date": "Mon, 02 Nov 2026 19:37:11 Z",
+      "contenu": "Azure\nMigrate now supports discovery and assessment for network-attached storage,\nallowing customers and partners to plan migrations of Dell PowerScale (OneFS)\nand NetApp ONTAP storage to Azure. The Azure Migrate appliance connects\ndirectly to your NAS cl"
+    },
+    "decision": {
+      "important": true,
+      "score": 6,
+      "raison": "Nouvelle fonctionnalité d'Azure Migrate qui permet la découverte et l'évaluation de NAS, utile pour conseiller les clients sur la migration vers Azure.",
+      "resume": "Azure Migrate a ajouté la prise en charge de la découverte et de l'évaluation des partages NAS, notamment pour Dell PowerScale (OneFS) et NetApp ONTAP. Cette amélioration facilite la planification des migrations vers Azure pour les clients utilisant ces solutions de stockage."
     }
   }
 ]

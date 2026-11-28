@@ -2577,5 +2577,285 @@
     "lien": "https://devblogs.microsoft.com/blog/can-a-local-git-remote-replace-github-in-your-agent-eval/",
     "date": "Tue, 20 Oct 2026 14:53:27 +0000",
     "contenu": "We swapped GitHub for a local git remote in our agent evals. Rebasing and pushing on request were unaffected, but the agent pushed on its own 11 points less often. Here's when a local remote is a safe shortcut, and when it isn't. The post Can a local git remote replace GitHub in your agent eval? appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+    "lien": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+    "date": "Tue, 20 Oct 2026 16:05:03 +0000",
+    "contenu": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: Choose Your Own Telephony (CYOT) for Microsoft Entra",
+    "lien": "https://azure.microsoft.com/updates?id=577273",
+    "date": "Wed, 21 Oct 2026 17:38:32 Z",
+    "contenu": "What and whyStarting October 30, 2026, Microsoft Entra ID will make the Choose Your Own Telephony Provider experience available. This feature enables organizations to use a supported third-party telecommunications provider for SMS and voice authentication"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Cosmos DB Safe Key Rotation",
+    "lien": "https://azure.microsoft.com/updates?id=576716",
+    "date": "Wed, 21 Oct 2026 17:13:16 Z",
+    "contenu": "Safe Key Rotation for Azure Cosmos DB is now generally available. You can view timestamp metadata showing when each account key was last used, helping you identify active keys before rotating or retiring credentials.This visibility helps reduce the risk o"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+    "date": "Wed, 21 Oct 2026 18:23:55 +0000",
+    "contenu": "Storm-0940 used ARTEX agentic AI to accelerate a ConnectWise supply chain compromise, enabling application credential abuse across Microsoft 365 environments. The post AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "The bridge to agent-scale Git infrastructure",
+    "lien": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+    "date": "Wed, 21 Oct 2026 16:00:00 +0000",
+    "contenu": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently. The post The bridge to agent-scale Git infrastructure appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: ABFS Vectored Read for Azure Data Lake Storage",
+    "lien": "https://azure.microsoft.com/updates?id=577618",
+    "date": "Thu, 22 Oct 2026 18:01:00 Z",
+    "contenu": "ABFS Vectored Read helps compatible analytics engines reduce request overhead for selective reads in Azure Data Lake Storage. By combining nearby file ranges into fewer storage requests and executing reads asynchronously, it can reduce network round trips"
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "How bug bounty sharpens one researcher’s security skills",
+    "lien": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
+    "date": "Thu, 22 Oct 2026 17:21:30 +0000",
+    "contenu": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one researcher’s security skills appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Item Level Recovery for Azure VMs with Premium SSDv2 and Ultra Disks in Azure Backup",
+    "lien": "https://azure.microsoft.com/updates?id=577963",
+    "date": "Fri, 23 Oct 2026 19:21:07 Z",
+    "contenu": "Azure Backup now supports Item-Level Recovery (ILR) for Azure virtual machines using Premium SSD v2 and Ultra disks with both 512 byte and 4KB logical sector sizes. You can now recover individual files and folders from your Azure VMs with Premium SSDv2 an"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
+    "date": "Fri, 23 Oct 2026 18:12:19 +0000",
+    "contenu": "Microsoft Threat Intelligence analyzes the LiteLLM 1.107.0 compromise, including Python startup hooks, credential theft, remote code loading, detections, and mitigations. The post Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing new builds for 23 October 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/10/23/announcing-new-builds-for-23-october-2026/",
+    "date": "Fri, 23 Oct 2026 17:05:25 +0000",
+    "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels. New builds this week Select your channel below to view its release notes: Beta: Announcing new builds for 23 October 2026 appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Network Watcher VNet flow logs filtering",
+    "lien": "https://azure.microsoft.com/updates?id=577782",
+    "date": "Mon, 26 Oct 2026 16:02:05 Z",
+    "contenu": "Azure Network Watcher VNet flow logs filtering is now generally available, enabling you to control which\nnetwork traffic flows are logged based on specific criteria such as IP\naddresses, ports, protocols, encryption state, flow state, and traffic directio"
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "PostgreSQL Like A Pro: Build, query, and troubleshoot without leaving VS Code",
+    "lien": "https://devblogs.microsoft.com/blog/postgresql-like-a-pro-vscode/",
+    "date": "Mon, 26 Oct 2026 15:05:12 +0000",
+    "contenu": "Build, query, and troubleshoot without leaving VS Code. The post PostgreSQL Like A Pro: Build, query, and troubleshoot without leaving VS Code appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Introducing a Voluntary Exit Offer",
+    "lien": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/",
+    "date": "Mon, 26 Oct 2026 15:33:56 +0000",
+    "contenu": "Amy Coleman, Executive Vice President and Chief People Officer, shared the below communication with Microsoft employees today. Today, we’re introducing a new Voluntary Exit Offer (VEO) to eligible employees within participating organizations. This offer gives eligible employees who may be considering a future outside the company a new choice to make that transition now with... The post Introducing a Voluntary Exit Offer appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Higher limit of Azure Blob Storage accounts per region per subscription",
+    "lien": "https://azure.microsoft.com/updates?id=578358",
+    "date": "Tue, 27 Oct 2026 21:16:52 Z",
+    "contenu": "Higher Azure Storage account resource quotas are now generally available, supporting up to 1,000 storage accounts with standard endpoints per region, per subscription, up from the default of 250. Manage more accounts in a single subscription, reducing the"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Cost management and tagging for Claude models in Microsoft Foundry",
+    "lien": "https://azure.microsoft.com/updates?id=577260",
+    "date": "Tue, 27 Oct 2026 17:19:43 Z",
+    "contenu": "Microsoft Foundry now brings Claude models into Azure Cost Management alongside the rest of your Foundry spend, generally available. Until now, Claude charges appeared under SaaS rather than under the Foundry resource used to deploy them, and Claude deplo"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure Front Door profile and route level WAF policies",
+    "lien": "https://azure.microsoft.com/updates?id=578153",
+    "date": "Tue, 27 Oct 2026 16:58:04 Z",
+    "contenu": "Announcing the general availability of profile and route\nlevel policies for Azure Web Application Firewall (WAF) on Azure Front Door\nPremium. WAF policies are no longer limited to individual domains: you can now\napply broad baseline protection across an e"
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "The platform approach to becoming Frontier",
+    "lien": "https://blogs.microsoft.com/blog/2026/10/27/the-platform-approach-to-becoming-frontier/",
+    "date": "Tue, 27 Oct 2026 16:01:38 +0000",
+    "contenu": "Last year at Ignite, we introduced the concept of Frontier Transformation and how it is different from any technology-led pursuit, because it requires us to focus on business outcomes first. It starts with a simple idea: technology was invented to serve humanity, not the other way around. There is no path where this notion of... The post The platform approach to becoming Frontier appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "The AI advantage your company can keep",
+    "lien": "https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/",
+    "date": "Tue, 27 Oct 2026 16:00:00 +0000",
+    "contenu": "New research across more than 200 enterprises looks at how shared knowledge can help companies coordinate their agents—and turn lessons from their work into an operational edge. The post The AI advantage your company can keep appeared first on Microsoft Copilot Blog ."
+  },
+  {
+    "source": "Microsoft 365 Blog",
+    "titre": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+    "lien": "https://www.microsoft.com/en-us/microsoft-cloud/blog/us-government/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+    "date": "Tue, 15 Sep 2026 15:00:00 +0000",
+    "contenu": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely. The post Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead appeared first on Microsoft Copilot Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "Announcing: Migrate Azure Container Apps logging destination from Log Analytics to Azure Monitor",
+    "lien": "https://azure.microsoft.com/updates?id=577689",
+    "date": "Wed, 28 Oct 2026 17:52:51 Z",
+    "contenu": "The Log Analytics logging destination for Azure Container Apps is now a legacy logging option. Existing environments configured with the Log Analytics logging destination will continue to function normally. However, we recommend planning a migration to th"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Cross Tenant Restore with Azure Backup",
+    "lien": "https://azure.microsoft.com/updates?id=577117",
+    "date": "Wed, 28 Oct 2026 17:09:30 Z",
+    "contenu": "Cross-Tenant Restore (CTR) helps organizations establish an independent recovery path by enabling Azure VM backups to be restored into a separate Azure tenant. It strengthens cyber resilience while using the existing backup copy, without requiring custome"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Marketplace private offer enhancements",
+    "lien": "https://azure.microsoft.com/updates?id=576547",
+    "date": "Wed, 28 Oct 2026 16:23:43 Z",
+    "contenu": "Private offers through Microsoft Marketplace help you optimize your spending power with pricing and terms aligned to your organization’s needs, including flexible billing, custom contract lengths, and more. For eligible private offers, we are simplifying"
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Publish Visual Studio Marketplace extensions securely with Trusted Publishing",
+    "lien": "https://devblogs.microsoft.com/blog/trusted-publishing-visual-studio-marketplace/",
+    "date": "Wed, 28 Oct 2026 16:59:00 +0000",
+    "contenu": "Publish Visual Studio Code and Visual Studio extensions from GitHub Actions or Azure Pipelines without storing a long-lived personal access token. The post Publish Visual Studio Marketplace extensions securely with Trusted Publishing appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Microsoft Corporate Blog",
+    "titre": "Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work",
+    "lien": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+    "date": "Wed, 28 Oct 2026 16:51:35 +0000",
+    "contenu": "If you want to compete, you need to be multi-model. And if you want to take advantage of everything that different AI models have to offer, you need a great harness. But building one that works seamlessly across multiple models and surfaces is incredibly hard. You need to solve for performance, quality, and cost. And... The post Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work appeared first on The Official Microsoft Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "GitHub Universe 2026: Evolving every layer of the stack",
+    "lien": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+    "date": "Wed, 28 Oct 2026 16:09:28 +0000",
+    "contenu": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world. The post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+    "lien": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+    "date": "Wed, 28 Oct 2026 16:07:40 +0000",
+    "contenu": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report. The post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Large OS Disk Encryption for Azure Confidential VM migrations",
+    "lien": "https://azure.microsoft.com/updates?id=578850",
+    "date": "Thu, 29 Oct 2026 21:19:52 Z",
+    "contenu": "Large OS Disk Encryption (LOSDE) is now generally available for Azure Confidential VM migration scenarios. Organizations can move larger, production-scale workloads into confidential computing with the OS disk fully protected, instead of being held back b"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: HTTP DDoS ruleset for Azure Front Door Premium WAF",
+    "lien": "https://azure.microsoft.com/updates?id=578681",
+    "date": "Thu, 29 Oct 2026 17:09:49 Z",
+    "contenu": "Announcing the general\navailability of the HTTP DDoS ruleset for Azure Web Application Firewall (WAF)\non Azure Front Door Premium. HTTP-layer DDoS attacks remain a leading cause of\napplication downtime, and static controls such as IP filters and fixed rat"
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[Launched] Generally Available: Azure MCP Server 3.0",
+    "lien": "https://azure.microsoft.com/updates?id=578662",
+    "date": "Thu, 29 Oct 2026 17:04:58 Z",
+    "contenu": "Azure MCP Server 3.0 is now generally available, expanding how AI agents and developer tools interact with Azure through the open Model Context Protocol (MCP).This release introduces new and expanded capabilities:Infrastructure as code: Azure Terraform to"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Tracking AI adoption in North Korean threat actor tradecraft",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
+    "date": "Thu, 29 Oct 2026 16:00:00 +0000",
+    "contenu": "As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we’ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks down how North Korean threat actors are utilizing AI across their operations, reflecting a broader trend of threat actors incorporating AI into their attack chains. The post Tracking AI adoption in North Korean threat actor tradecraft appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/",
+    "date": "Thu, 29 Oct 2026 16:00:00 +0000",
+    "contenu": "IDC has named Microsoft a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises. The post IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "The CISO’s evolving role: Protecting and defending in the agentic era",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
+    "date": "Wed, 28 Oct 2026 16:00:00 +0000",
+    "contenu": "As AI and agents reshape the enterprise, CISOs face two critical priorities: enabling innovation with the right identity and data guardrails, and modernizing defense to keep pace with AI-powered threats. Aarti Borkar shares how security leaders can approach both. The post The CISO’s evolving role: Protecting and defending in the agentic era appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Developer Blog",
+    "titre": "Does ‘eval’ in the workspace path change what your agent does?",
+    "lien": "https://devblogs.microsoft.com/blog/does-eval-in-the-workspace-path-change-what-your-agent-does/",
+    "date": "Fri, 30 Oct 2026 12:49:14 +0000",
+    "contenu": "Your eval might be telling the agent it’s a test before the agent reads a single instruction. Eval tools need a fresh folder for every run, and the easiest way to get one is a temp directory with a random name like /tmp/eval-7f3a2c. The agent sees that path on every turn, in the system prompt […] The post Does ‘eval’ in the workspace path change what your agent does? appeared first on Microsoft for Developers ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Edge is faster on Windows with Accelerated App Launches",
+    "lien": "https://blogs.windows.com/msedgedev/2026/10/29/edge-is-faster-on-windows-with-accelerated-app-launches/",
+    "date": "Thu, 29 Oct 2026 15:56:55 +0000",
+    "contenu": "We're excited to announce that Edge is the first browser to support accelerated app launches on Windows, delivering a faster and more consistent browser launch experience. With accelerated app launch, most Windows users will see a 15% launch The post Edge is faster on Windows with Accelerated App Launches appeared first on Windows Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: Support database-level managed identity (including FIC) in Create Database Scoped Credential T-SQL",
+    "lien": "https://azure.microsoft.com/updates?id=577491",
+    "date": "Fri, 30 Oct 2026 17:16:27 Z",
+    "contenu": "With database-level managed identity in Azure SQL Database, you can use a user-assigned managed identity for each database to query files in Azure Blob Storage and Azure Data Lake Storage Gen2 through external tables and OPENROWSET. You can authenticate t"
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+    "date": "Sat, 31 Oct 2026 01:02:57 +0000",
+    "contenu": "Microsoft analyzes a malicious Claude Code–branded extension, its persistent SSH backdoor, and guidance to detect and remediate it. The post Inside a malicious Claude Code-branded extension and its persistent SSH backdoor appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Microsoft Security Blog",
+    "titre": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+    "lien": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
+    "date": "Fri, 30 Oct 2026 16:11:44 +0000",
+    "contenu": "Teams support impersonation led to remote access, malicious runtime execution, and Certificate Services abuse through authentication relay and Kerberos. The post From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths appeared first on Microsoft Security Blog ."
+  },
+  {
+    "source": "Windows Blog",
+    "titre": "Announcing new builds for 30 October 2026",
+    "lien": "https://blogs.windows.com/windows-insider/2026/10/30/announcing-new-builds-for-30-october-2026/",
+    "date": "Fri, 30 Oct 2026 17:05:33 +0000",
+    "contenu": "Hello Windows Insiders, Today, we’re releasing new Windows 11 Insider Preview builds to the Beta and Experimental channels, as well as introducing a new commercial Feedback Hub policy for commercial customers. New builds this week The post Announcing new builds for 30 October 2026 appeared first on Windows Blog ."
+  },
+  {
+    "source": "GitHub Blog",
+    "titre": "Game Off 2026: The theme is SHIFT",
+    "lien": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+    "date": "Sun, 01 Nov 2026 21:36:00 +0000",
+    "contenu": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key. The post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog ."
+  },
+  {
+    "source": "Azure Updates",
+    "titre": "[In preview] Public Preview: On-prem NAS share discovery and assessment are now available using Azure Migrate",
+    "lien": "https://azure.microsoft.com/updates?id=577975",
+    "date": "Mon, 02 Nov 2026 19:37:11 Z",
+    "contenu": "Azure\nMigrate now supports discovery and assessment for network-attached storage,\nallowing customers and partners to plan migrations of Dell PowerScale (OneFS)\nand NetApp ONTAP storage to Azure. The Azure Migrate appliance connects\ndirectly to your NAS cl"
   }
 ]
