@@ -1,12 +1,13 @@
 INSOMEA — Informations complètes pour l'équipe commerciale
 
 === QUI EST INSOMEA ? ===
-INSOMEA est un Microsoft Cloud Gold Partner fondé en 2016, basé en Tunisie (Les Berges du Lac II, Tunis).
-INSOMEA opère depuis 6 bureaux en Tunisie et Bahreïn, et couvre la région MEA (Middle East & Africa).
-INSOMEA est Microsoft Cloud Partner depuis 2014.
-INSOMEA a remporté le Prix Partenaire Microsoft de l'Année : 2020 (Bahreïn), 2021, 2022 et 2023 (Tunisie).
-INSOMEA compte plus de 150 certifications Microsoft dans son équipe, dont 15+ Microsoft Certified Trainers (MCTs).
-INSOMEA est également MSSP (Managed Security Service Provider) depuis avril 2022.
+(Informations tirées du site officiel insomea.com ; fiche non relue par INSOMEA.)
+INSOMEA est une entreprise de services informatiques spécialisée dans les technologies Microsoft.
+INSOMEA a ses bureaux principaux en Tunisie (Tunis) et à Bahreïn, et des bureaux en Algérie, au Maroc, en France et en Côte d'Ivoire. Elle couvre la région MEA (Middle East & Africa).
+Selon son site officiel, INSOMEA est partenaire cloud de Microsoft depuis 2017.
+Selon son site officiel, INSOMEA a reçu le Prix du Partenaire Microsoft de l'année en 2020 (Bahreïn), puis en 2021 et 2022 (Tunisie).
+INSOMEA propose une offre de services de sécurité managés (MSSP, Managed Security Service Provider).
+INSOMEA dispose d'un centre de formation, l'INSOMEA Training Center, pour les formations et certifications Microsoft.
 
 === OFFRES ET SOLUTIONS INSOMEA ===
 
@@ -57,8 +58,7 @@ Quand proposer la cybersécurité :
 - Client en conformité réglementaire → Microsoft Purview / Compliance
 
 --- 4. DYNAMICS 365 ---
-INSOMEA est revendeur certifié Microsoft Dynamics 365.
-Solutions Dynamics 365 :
+Solutions Dynamics 365 (offre à confirmer avec l'équipe INSOMEA) :
 - Dynamics 365 Sales : CRM pour gérer les ventes et les clients
 - Dynamics 365 Customer Service : gestion du service client
 - Dynamics 365 Finance : gestion financière et comptabilité
@@ -73,7 +73,7 @@ Quand proposer Dynamics 365 :
 - Power BI : tableaux de bord et rapports analytiques
 - Power Apps : création d'applications métier sans code
 - Power Automate : automatisation des processus
-- Power Virtual Agents : chatbots d'entreprise
+- Microsoft Copilot Studio (anciennement Power Virtual Agents) : agents et chatbots d'entreprise
 
 Quand proposer Power Platform :
 - Client qui veut des rapports visuels → Power BI
@@ -81,7 +81,7 @@ Quand proposer Power Platform :
 - Client qui veut une app métier rapide → Power Apps
 
 --- 6. FORMATION MICROSOFT ---
-INSOMEA propose des formations Microsoft certifiées dispensées par des MCTs.
+INSOMEA propose des formations Microsoft via son centre de formation (INSOMEA Training Center).
 Formations disponibles :
 - Formations Microsoft 365 (utilisateurs et administrateurs)
 - Formations Azure (AZ-900, AZ-104, AZ-305...)
@@ -114,5 +114,6 @@ Besoin client → Solution INSOMEA recommandée :
 
 === CONTACT INSOMEA ===
 Site web : www.insomea.com
-Adresse : 04 Rue Des Îles De Rhodes, Les Berges du Lac II, Tunis, Tunisie
-Téléphone : +216 28 987 762
+E-mail : info@insomea.com
+Adresse en Tunisie (site officiel) : Immeuble Lac d'Or "Business Center", Bloc B, 3e étage, Les Berges du Lac, Tunis 1053
+Téléphone : voir le site www.insomea.com
